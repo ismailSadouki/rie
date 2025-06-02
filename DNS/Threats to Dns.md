@@ -1,0 +1,4 @@
+- Dns Tracking: whenever you're going to connect to somebody else's server you are getting information from them, but they are also getting information from you, basically when you go to your isp's dns server they are able to log your IP address and that domain name and they know that you've gone to that website.
+-  Dns Poisoning
+- Malicious Websites/Malware
+- Employees...

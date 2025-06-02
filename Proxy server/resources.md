@@ -1,0 +1,1 @@
+https://www.ibm.com/docs/en/i/7.2?topic=concepts-proxy-server-types

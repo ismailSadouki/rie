@@ -1,0 +1,2 @@
+A proxy chain uses two or more proxy servers to assets in server and protocol performance and network security, Proxy chaining is not a type of proxy, but a use of reverse and forward  proxy servers across multiple networks.
+proxy chaining allows requests from different protocols to be fulfilled in cases where, without chaining. such requests would not be possible or permitted.

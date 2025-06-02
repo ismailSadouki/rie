@@ -1,0 +1,2 @@
+when you visit a website, the browser adds a dot at the end (e.g example.com[.]),  but not visible to you, the dot is called the root domain, this server is the first place the recursive server sends query if doesn't have the answer cached and it will respond with the address of a TLD dns server. 
+the root server knows only the TLD dns servers addresses.

@@ -1,0 +1,6 @@
+- computer in the network that provide services to other computers in the network
+- server is computer in the network that has files into it that other people can get into it
+- web servers are just programs running in some computers 
+- software that serves web content
+- uses the HTTP protocol
+- static and dynamic content

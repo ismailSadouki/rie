@@ -1,0 +1,1 @@
+test the relationship between the prediction variables before performing logistic regression.

@@ -1,0 +1,10 @@
+{
+  "obsidian-imgur-plugin:imgur-resize-h-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ]
+}

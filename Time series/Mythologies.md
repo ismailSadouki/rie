@@ -1,0 +1,4 @@
+- **What Do We Mean by Non-Constant Variance in Transformations?**
+	In time series analysis, **non-constant variance** refers to situations where the **spread (variance) of the data changes over time**. This is also called **heteroscedasticity** (opposite of homoscedasticity, where variance is constant).
+- **stochastic trend** 
+	A **stochastic trend** is a trend in a time series that evolves unpredictably over time due to the influence of random shocks. It is **not deterministic** and cannot be described by a fixed mathematical function like a straight line or a polynomial. Instead, it follows a **random walk or a similar stochastic process**, meaning its future values depend on its past values plus some random noise.

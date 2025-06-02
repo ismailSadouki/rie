@@ -1,0 +1,4 @@
+The process of going to the top name domain and then going down each dub domain under that is called recursive resolving, Dns resolver is like someone who is reading a map for you, when you have a name like www.example.com and your computer want to connect to it, your computer doesn't understand names but it understand how to connect to ip_addresses, the recursive server takes DNS queries and make multiple requests to other servers starting with the root server, which means that the resolver query the tree to find your answer, and they have minimal information about the DNS tree, the only think they know is the root services.
+this process of going to the top name domain (root) and then going down each sub domain under that is called recursive resolving.
+
+traditionally your ISP will run the recursive resolver or maybe your internet gateway device .

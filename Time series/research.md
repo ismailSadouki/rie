@@ -1,0 +1,1 @@
+- The **Bass Diffusion Model**

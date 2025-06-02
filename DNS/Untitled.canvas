@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"type":"file","file":"DNS/What is Dns?.md","id":"8b2290106c0cc16a","x":40,"y":-2000,"width":580,"height":460},
+		{"type":"text","text":"How Dns Works?","id":"9e560024c33e98be","x":35,"y":-1440,"width":250,"height":60,"color":"5"},
+		{"type":"file","file":"DNS/How Dns works?/Dns zone.md","id":"a6736907b1f94300","x":680,"y":-1380,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/root server.md","id":"3d8724730e8441d6","x":-800,"y":-360,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/Dns record.md","id":"f73e51fa269402cd","x":-1640,"y":-980,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/Dns recursive resolver.md","id":"5a738bc4b4561e2b","x":-1000,"y":-980,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/TLD server.md","id":"cadd07393c7cfa32","x":-1400,"y":200,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/Authoritative server.md","id":"5387e6a44e9961b0","x":-720,"y":600,"width":400,"height":400},
+		{"type":"file","file":"DNS/How Dns works?/Dns reverse.md","id":"9a6d87b4e1322cd6","x":-165,"y":-980,"width":400,"height":400},
+		{"type":"link","url":"https://www.youtube.com/watch?v=uOfonONtIuk","id":"25a4fd03f05ac9b3","x":-2480,"y":-1540,"width":640,"height":360},
+		{"type":"text","text":"DNS security","id":"329d4d0150fcb24e","x":1200,"y":-1830,"width":250,"height":60},
+		{"type":"file","file":"DNS/Dns Security/DoT.md","id":"fe756ff381bf8786","x":1680,"y":-1580,"width":400,"height":400},
+		{"type":"file","file":"DNS/ISP's and DNS Collecting data.md","id":"f7a195fe792c30b7","x":1600,"y":-2280,"width":400,"height":400},
+		{"type":"file","file":"DNS/Threats to Dns.md","id":"bd4971146ec40c55","x":1200,"y":-1280,"width":400,"height":400},
+		{"type":"file","file":"DNS/Dns Cacheing.md","id":"e528cfa0aa22c76b","x":360,"y":560,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"36bbf8222230dfe3","fromNode":"9a6d87b4e1322cd6","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"d7fb86bcb8270707","fromNode":"f73e51fa269402cd","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"5cb40d38d71055ba","fromNode":"5a738bc4b4561e2b","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"72a2e92abbb72cae","fromNode":"a6736907b1f94300","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"da19764257f76583","fromNode":"9e560024c33e98be","fromSide":"top","toNode":"8b2290106c0cc16a","toSide":"bottom"},
+		{"id":"b1f394cceab0953c","fromNode":"25a4fd03f05ac9b3","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"4e1685a5204604c9","fromNode":"cadd07393c7cfa32","fromSide":"top","toNode":"3d8724730e8441d6","toSide":"bottom"},
+		{"id":"444fbe5d5701d8fc","fromNode":"3d8724730e8441d6","fromSide":"top","toNode":"5a738bc4b4561e2b","toSide":"bottom"},
+		{"id":"5275255143a7bd6b","fromNode":"5387e6a44e9961b0","fromSide":"top","toNode":"cadd07393c7cfa32","toSide":"bottom"},
+		{"id":"f015fe3a1c04d94d","fromNode":"329d4d0150fcb24e","fromSide":"top","toNode":"8b2290106c0cc16a","toSide":"bottom"},
+		{"id":"536c68d45d2a82e3","fromNode":"fe756ff381bf8786","fromSide":"top","toNode":"329d4d0150fcb24e","toSide":"bottom"},
+		{"id":"d109d03c037ba391","fromNode":"e528cfa0aa22c76b","fromSide":"top","toNode":"9e560024c33e98be","toSide":"bottom"},
+		{"id":"883e1fc4964cfadf","fromNode":"f7a195fe792c30b7","fromSide":"top","toNode":"329d4d0150fcb24e","toSide":"bottom"},
+		{"id":"fd8816ba26060585","fromNode":"bd4971146ec40c55","fromSide":"top","toNode":"329d4d0150fcb24e","toSide":"bottom"},
+		{"id":"f5d9dc4970fe28ff","fromNode":"e528cfa0aa22c76b","fromSide":"bottom","toNode":"5387e6a44e9961b0","toSide":"bottom"}
+	]
+}
