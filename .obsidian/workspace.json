@@ -106,26 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Time series/A Comparative Study of Time Series Forecasting Methods for Short Term Electric Energy Consumption Prediction in Smart Buildings.md",
+                "file": "Machine Learning/Feature enginireeing/Feature Selection/16 How to Use Feature Importance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Comparative Study of Time Series Forecasting Methods for Short Term Electric Energy Consumption Prediction in Smart Buildings"
-            }
-          },
-          {
-            "id": "b768503756090752",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "first/hi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hi"
+              "title": "16 How to Use Feature Importance"
             }
           },
           {
@@ -157,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -324,8 +310,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b768503756090752",
+  "active": "5b769c0562a7fea5",
   "lastOpenFiles": [
+    "Machine Learning/Feature enginireeing/Feature Selection/15 How to Use RFE for Feature Selection.md",
+    "Machine Learning/Feature enginireeing/Feature Selection/16 How to Use Feature Importance.md",
+    "Research/Time series/A Comparative Study of Time Series Forecasting Methods for Short Term Electric Energy Consumption Prediction in Smart Buildings.md",
+    "first/demographics/intro.md",
+    "first/hi.md",
     "first/web servers/Apache/config/access.log.md",
     "first/web servers/Apache/modules.md",
     "first/web servers/Apache/config",
@@ -351,14 +342,9 @@
     "first/note.md",
     "first/download later.md",
     "first/demographics/projects.md",
-    "first/demographics/intro.md",
     "first/demographics/Population growth and decline.md",
     "first/demographics",
     "first/cover letter.md",
-    "first/Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS/3.4 Forecasting.md",
-    "first/Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS/3.2 Diﬀerence Equations.md",
-    "first/Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS/3.1 ARMA Models.md",
-    "first/Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models/Introduction.md",
     "first/Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS",
     "first/Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models",
     "first/Time series/Time Series Analysis and Its Applications With R Examples",
