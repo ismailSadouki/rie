@@ -78,3 +78,11 @@ A **behavioral model** describes decision-making based on:
     - Cognitive capacity
         
 - Leads to **satisficing**: choosing an option that’s “good enough.”
+
+
+# Rule based models
+## Mimicry
+**Mimicry** is the act of **imitating or copying** the behavior, appearance, or strategies of another entity. The term is used in various domains, each with its own context and meaning: Mimicry may appear when:
+- A model **copies user behavior** (e.g., recommendation systems).
+    
+- **Synthetic data** mimics the distribution of real data.
