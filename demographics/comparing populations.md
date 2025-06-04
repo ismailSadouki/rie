@@ -21,3 +21,7 @@ whether the standardized rates should be used instead of the original crude rate
 Standardized rates provide comparisons, but do not substitute for the original
 rates.They are constructs that indicate the effects of compositional influences.
 They va ry according to the standard adopted.
+As artificial indices to aid comparisons,
+standardized rates are often presented in conjunction with the unstandardized
+rates. Also, standardization by age does not remove all confounding influences, al
+though age is usually the most important compositional influence on mortality
