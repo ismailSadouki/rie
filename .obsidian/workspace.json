@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/18 How to Scale Data With Outliers.md",
+                "file": "demographics/comparing populations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18 How to Scale Data With Outliers"
+              "title": "comparing populations"
             }
           },
           {
@@ -312,8 +312,17 @@
   },
   "active": "5b769c0562a7fea5",
   "lastOpenFiles": [
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/17 How to Scale Numerical Data.md",
+    "demographics/projects.md",
+    "demographics/comparing populations.md",
+    "Startup.md",
+    "demographics/Age and sex.md",
+    "Pasted image 20250603160521.png",
+    "Pasted image 20250603160349.png",
+    "demographics/Population growth and decline.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/19 How to Encode Categorical Data.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/18 How to Scale Data With Outliers.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/17 How to Scale Numerical Data.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Feature Selection/16 How to Use Feature Importance.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms.md",
@@ -336,15 +345,8 @@
     "first/population",
     "first/optimazation/PROBABILISTIC ML/Introduction.md",
     "first/optimazation/PROBABILISTIC ML/8.5 Constrained optimization.md",
-    "first/optimazation/PROBABILISTIC ML/8.4 Stochastic gradient descent.md",
-    "first/optimazation/PROBABILISTIC ML/8.3 Second-order methods.md",
-    "first/optimazation/PROBABILISTIC ML/8.2 First-order methods.md",
-    "first/optimazation/Untitled.md",
     "first/optimazation/PROBABILISTIC ML",
-    "first/optimazation/Line Search.md",
     "first/optimazation",
-    "first/note.md",
-    "first/download later.md",
     "first/demographics",
     "first/Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS",
     "first/Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models",
@@ -356,8 +358,6 @@
     "first/Pasted image 20250321201228.png",
     "first/Pasted image 20250321200416.png",
     "first/Pasted image 20250321195422.png",
-    "first/Pasted image 20250321185954.png",
-    "first/Pasted image 20250321185350.png",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
