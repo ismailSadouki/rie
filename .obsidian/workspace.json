@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "demographics/comparing populations.md",
+                "file": "Model thinking/Modeling ppl - thinking electrons.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "comparing populations"
+              "title": "Modeling ppl - thinking electrons"
             }
           },
           {
@@ -312,8 +312,9 @@
   },
   "active": "5b769c0562a7fea5",
   "lastOpenFiles": [
-    "demographics/projects.md",
     "demographics/comparing populations.md",
+    "Model thinking/Modeling ppl - thinking electrons.md",
+    "demographics/projects.md",
     "Startup.md",
     "demographics/Age and sex.md",
     "Pasted image 20250603160521.png",
@@ -344,7 +345,6 @@
     "first/population/introduction.md",
     "first/population",
     "first/optimazation/PROBABILISTIC ML/Introduction.md",
-    "first/optimazation/PROBABILISTIC ML/8.5 Constrained optimization.md",
     "first/optimazation/PROBABILISTIC ML",
     "first/optimazation",
     "first/demographics",

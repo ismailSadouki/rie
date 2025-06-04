@@ -51,3 +51,9 @@ The Lexis diagram assists in visualizing the differences between period analysis
 and cohort a nalysis. Period analysis entails working with data for a vertical cross-
 section on the diagram of Lexis. The cross-section consists of information for all
 age groups, or at least a selection of age groups, at the same date or year. The vertical lines on the diagram represent cross-sections at dates, while the shaded vertical band is a cross-section for the calendar year 2000. In contrast, cohort analysis uses data for one group - such as the year 2000 birth cohort, as depicted by the diagonal band. Clearly cohort analysis requires data on the same people over successive years and ages. The difficulty in assembling such data is the main obstacle to cohort analysis.
+
+# Period analysis
+Comparing the characteristics of populations at one or more points in time is the
+best-known means to studying differences and changes.
+
+# Cohort analysis
