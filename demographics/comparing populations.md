@@ -57,3 +57,22 @@ Comparing the characteristics of populations at one or more points in time is th
 best-known means to studying differences and changes.
 
 # Cohort analysis
+![](https://i.imgur.com/d2F6rEj.png)
+As noted earlier, the birth cohort, a group born in the same year or years, is the
+most frequently employed unit of cohort analysis. Comparing birth cohorts at the
+same age or stage of life helps to determine whether they have had experiences in common or whether new developments have occurred.
+
+# Synthetic cohorts
+ohorts based
+on period data are called synthetic, or fictitious cohorts, as distinct from real
+cohorts for which there is actual observed informa tion over some years.
+Only if behaviour remained consta nt through time would the age-specific figures match the experience of real cohorts.
+
+# 4.5 Conclusion
+'Have you standardized for age?' is a question asked of students and researchers
+who seem to have overlooked the influence of age structure variations on their
+findings.
+Standardization is a simple, yet powerful, method for removing confounding in-
+fluences. It has potential applications in the work of social scientists generally
+through revealing the effects of varied compositional influences and facilitating
+many kinds of comparisons.
