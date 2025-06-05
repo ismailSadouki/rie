@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model thinking/Modeling ppl - thinking electrons.md",
+                "file": "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modeling ppl - thinking electrons"
+              "title": "21 How to Change Numerical DataDistributions"
             }
           },
           {
@@ -312,15 +312,17 @@
   },
   "active": "5b769c0562a7fea5",
   "lastOpenFiles": [
-    "demographics/comparing populations.md",
-    "Model thinking/Modeling ppl - thinking electrons.md",
-    "demographics/projects.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
+    "Research/Building machines that learn and  think like people.md",
     "Startup.md",
+    "Model thinking/Modeling ppl - thinking electrons.md",
+    "demographics/comparing populations.md",
+    "demographics/projects.md",
     "demographics/Age and sex.md",
     "Pasted image 20250603160521.png",
     "Pasted image 20250603160349.png",
     "demographics/Population growth and decline.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/19 How to Encode Categorical Data.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/18 How to Scale Data With Outliers.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/17 How to Scale Numerical Data.md",
@@ -342,9 +344,7 @@
     "first/web servers/Routing.md",
     "first/web servers/Apache",
     "first/web servers",
-    "first/population/introduction.md",
     "first/population",
-    "first/optimazation/PROBABILISTIC ML/Introduction.md",
     "first/optimazation/PROBABILISTIC ML",
     "first/optimazation",
     "first/demographics",
