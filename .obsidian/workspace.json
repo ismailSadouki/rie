@@ -92,20 +92,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/macro economie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "macro economie"
-            }
-          },
-          {
-            "id": "5b769c0562a7fea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
                 "mode": "source",
                 "source": false
@@ -143,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -175,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ANN",
+                "query": "tag:#word",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -310,10 +296,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b769c0562a7fea5",
+  "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
+    "HOME/macro economie.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/YourNotePage.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/Untitled.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
     "Research/Building machines that learn and  think like people.md",
     "Startup.md",
@@ -339,9 +328,6 @@
     "first/web servers/Apache/config",
     "first/web servers/Apache/What is Apache web server.md",
     "first/web servers/questions.md",
-    "first/web servers/What is a server.md",
-    "first/web servers/What is  HTTP.md",
-    "first/web servers/Virtual Hosts.md",
     "first/web servers/Apache",
     "first/web servers",
     "first/population",
