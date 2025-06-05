@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
+                "file": "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21 How to Change Numerical DataDistributions"
+              "title": "22 How to Transform Numerical toCategorical Data"
             }
           },
           {
@@ -312,8 +312,9 @@
   },
   "active": "5b769c0562a7fea5",
   "lastOpenFiles": [
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/21 How to Change Numerical DataDistributions.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/20 How to Make Distributions MoreGaussian.md",
     "Research/Building machines that learn and  think like people.md",
     "Startup.md",
     "Model thinking/Modeling ppl - thinking electrons.md",
@@ -341,7 +342,6 @@
     "first/web servers/What is a server.md",
     "first/web servers/What is  HTTP.md",
     "first/web servers/Virtual Hosts.md",
-    "first/web servers/Routing.md",
     "first/web servers/Apache",
     "first/web servers",
     "first/population",
