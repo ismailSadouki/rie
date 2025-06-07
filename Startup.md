@@ -127,6 +127,7 @@ Most **small retailers & hanouts** struggle to restock efficiently. Build a **B2
 🔥 **Example:** A marketplace where hanouts can **restock beverages, snacks, and cleaning products** from wholesalers like Cevital or Ifri.
 
 
+---
 
 
 --------------------------------------------------------------
@@ -986,3 +987,13 @@ Use satellite imagery to detect unusual routes or patterns in deserts:
     
 - Night-time activity anomalies  
     Combine with statistical models to locate hotspots and recommend patrols.
+
+**9. AI-Enhanced Border Vegetation Growth for Natural Barriers**
+
+- Model how vegetation along borders changes over time (satellite NDVI).
+    
+- Optimize natural barriers to enhance security (dense thorny bushes, for example).
+    
+- Research: dynamic vegetation modeling and security.
+    
+- Startup: consulting for border security agencies.
