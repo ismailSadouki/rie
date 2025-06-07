@@ -997,3 +997,20 @@ Use satellite imagery to detect unusual routes or patterns in deserts:
 - Research: dynamic vegetation modeling and security.
     
 - Startup: consulting for border security agencies.
+
+
+
+
+
+
+
+
+
+
+------
+-------
+--------
+--------
+---------
+----------
+-----------

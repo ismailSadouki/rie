@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/Sattiliate data.md",
+                "file": "Startup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sattiliate data"
+              "title": "Startup"
             }
           },
           {
@@ -298,8 +298,8 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Startup.md",
     "HOME/Sattiliate data.md",
+    "Startup.md",
     "Projects/Time series project.md",
     "Model thinking/Tipping Points.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms/25 How to Transform the Target inRegression.md",
