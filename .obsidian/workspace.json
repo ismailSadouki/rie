@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/Untitled.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "3 Adaptive linear neurons and the convergence oflearning"
             }
           },
           {
@@ -296,10 +296,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c558c2eea3576d9",
+  "active": "6a6ec18a7d62dc27",
   "lastOpenFiles": [
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/2 Implementing a perceptron learning algorithm in Python.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/Untitled.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/1 Artificial neurons – a brief glimpse into the early historyof machine learning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch1 A roadmap for building machine learning systems.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
