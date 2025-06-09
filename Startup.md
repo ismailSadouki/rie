@@ -1511,3 +1511,285 @@ The optimization landscape changes over time due to shifting preferences or exte
     
 
 ---
+
+
+## ⚖️ **8. Causal Inference with Machine Learning**
+
+**Thesis Idea**:  
+_“Mathematical Foundations of Causal Discovery Algorithms”_
+
+🔍 What you'll do:
+
+- Study Pearl’s do-calculus and structural causal models.
+    
+- Explore algorithms like PC, FCI, and LiNGAM.
+    
+- Apply on real-world data to discover causal graphs.
+    
+
+📚 Math Topics:
+
+- Graph theory
+    
+- Probabilistic models
+    
+- Structural equations
+## 🔍 **11. Bayesian Machine Learning**
+
+**Thesis Idea**:  
+_“Probabilistic Inference and Model Uncertainty in Bayesian Neural Networks”_
+
+🔍 What you'll do:
+
+- Build Bayesian models (using priors and posteriors).
+    
+- Study variational inference and Markov Chain Monte Carlo (MCMC).
+    
+- Apply to classification with uncertainty quantification.
+    
+
+📚 Math Topics:
+
+- Bayesian inference
+    
+- Probabilistic programming
+    
+- Variational calculus
+    
+
+---
+
+## 🧬 Bonus: Data-Driven Dynamical Systems
+
+**Thesis Idea**:  
+_“Learning Nonlinear Dynamics with Koopman Operators and Deep Learning”_
+
+🔍 What you'll do:
+
+- Study dynamic systems from a linear operator perspective.
+    
+- Combine with neural networks for prediction.
+    
+- Apply to systems like weather, stock markets, or biological data.
+    
+
+📚 Math Topics:
+
+- Operator theory
+    
+- Dynamical systems
+    
+- Differential equations
+
+
+## 🔬 **13. Robust Statistical Methods for Machine Learning**
+
+**Thesis Idea:**  
+_“Development and Analysis of Robust Estimators under Adversarial Noise”_
+
+- Study classical estimators (mean, covariance) and their vulnerabilities.
+    
+- Derive robust versions resistant to outliers or adversarial data.
+    
+- Apply to ML algorithms and test performance on noisy datasets.
+    
+
+**Math topics:**  
+Robust statistics, influence functions, optimization under constraints.
+
+
+## ⚙️ **14. Stochastic Gradient Methods: Theory and Practice**
+
+**Thesis Idea:**  
+_“Convergence Rates and Variance Reduction Techniques in Stochastic Optimization”_
+
+- Analyze convergence of SGD, SVRG, SAGA, etc.
+    
+- Prove bounds on variance and step size conditions.
+    
+- Implement and compare on standard ML benchmarks.
+    
+
+**Math topics:**  
+Stochastic processes, convex/nonconvex optimization, probability theory.
+
+
+
+
+## 🔥 **23. Fractional Calculus in Machine Learning**
+
+**Thesis Idea:**  
+_“Applying Fractional Derivatives and Integrals for Modeling Memory Effects in Time Series Prediction”_
+
+- Explore fractional differential equations.
+    
+- Develop models capturing long-term dependencies.
+    
+- Apply to financial or climate data prediction.
+    
+
+**Math topics:**  
+Fractional calculus, differential equations, time series analysis.
+
+## 🧊 **26. Extreme Value Theory for Anomaly Detection**
+
+**Thesis Idea:**  
+_“Mathematical Foundations and Applications of EVT in Detecting Rare Events”_
+
+- Study distributions of maxima/minima.
+    
+- Apply EVT to detect anomalies in network traffic or finance.
+    
+- Prove theoretical guarantees.
+    
+
+**Math topics:**  
+Probability theory, statistics, extreme value distributions.
+
+
+## 🔄 **28. Learning with Noisy Labels: Theory and Algorithms**
+
+**Thesis Idea:**  
+_“Mathematical Modeling of Label Noise and Robust Learning Algorithms”_
+
+- Model types of noise (random, adversarial).
+    
+- Analyze effects on empirical risk minimization.
+    
+- Design and test noise-robust algorithms.
+    
+
+**Math topics:**  
+Statistical learning theory, optimization, probability.
+
+
+## 🌐 **31. Multi-Task Learning and Optimization Theory**
+
+**Thesis Idea:**  
+_“Mathematical Framework for Shared Representations and Task Conflicts”_
+
+- Study optimization problems with multiple objectives.
+    
+- Analyze trade-offs and convergence.
+    
+- Implement on multi-task datasets.
+    
+
+**Math topics:**  
+Multi-objective optimization, convex analysis, ML theory.
+
+---
+
+## 🧮 **36. Bayesian Nonparametrics in Machine Learning**
+
+**Thesis Idea:**  
+_“Mathematical Study of Dirichlet Processes and Gaussian Processes in Flexible Modeling”_
+
+- Understand stick-breaking construction and Chinese restaurant process.
+    
+- Apply to clustering and regression.
+    
+- Explore computational methods and convergence.
+    
+
+**Math topics:**  
+Measure theory, stochastic processes, Bayesian inference.
+
+
+## 📊 **45. Optimal Experimental Design in Machine Learning**
+
+**Thesis Idea:**  
+_“Mathematical Methods for Active Learning and Experimental Design”_
+
+- Study criteria like D-optimality and A-optimality.
+    
+- Develop algorithms for selecting data points to maximize learning.
+    
+- Apply to regression, classification, or reinforcement learning.
+    
+
+**Math topics:**  
+Statistics, convex optimization, experimental design theory.
+
+
+
+## ⚖️ **46. Mathematical Theory of Causal Inference in ML**
+
+**Thesis Idea:**  
+_“Graphical Models and Do-Calculus for Causal Discovery and Inference”_
+
+- Formalize causality using DAGs and structural equations.
+    
+- Explore identifiability and confounding.
+    
+- Apply to real-world datasets (e.g., epidemiology, economics).
+    
+
+**Math topics:**  
+Graph theory, probability, statistics.
+
+---
+
+## ⏳ **50. Continuous-Time Models for Machine Learning**
+
+**Thesis Idea:**  
+_“Neural ODEs: Theory, Stability, and Applications”_
+
+- Study neural networks modeled as differential equations.
+    
+- Prove existence, uniqueness, and stability of solutions.
+    
+- Implement on time series or physical data.
+    
+
+**Math topics:**  
+ODE theory, numerical methods, ML.
+## 🧩 **51. Game Theory and Multi-Agent Reinforcement Learning**
+
+**Thesis Idea:**  
+_“Mathematical Analysis of Equilibria and Convergence in Multi-Agent RL”_
+
+- Study Nash equilibria and learning dynamics.
+    
+- Analyze algorithms for cooperative and competitive settings.
+    
+- Apply to simulated environments.
+    
+
+**Math topics:**  
+Game theory, dynamical systems, stochastic approximation.
+
+---
+
+## 🧠 **53. Neural Tangent Kernel (NTK) Theory**
+
+**Thesis Idea:**  
+_“Mathematical Analysis of the Neural Tangent Kernel and its Implications for Deep Learning Generalization”_
+
+- Study infinite-width neural networks through NTK.
+    
+- Analyze training dynamics as kernel regression.
+    
+- Explore limitations and practical implications.
+    
+
+**Math topics:**  
+Functional analysis, kernel methods, PDEs.
+
+
+
+
+## 🔄 **58. Stochastic Differential Equations in Deep Learning Dynamics**
+
+**Thesis Idea:**  
+_“Modeling SGD as a Stochastic Process: Theory and Applications”_
+
+- Formulate SGD updates as SDEs.
+    
+- Analyze long-term behavior and noise-induced regularization.
+    
+- Link theory to training heuristics.
+    
+
+**Math topics:**  
+Stochastic calculus, differential equations, optimization.
