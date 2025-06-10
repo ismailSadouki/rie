@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Modeling class probabilities via logistic regression"
+              "title": "3. Maximum margin classification with support vectormachines"
             }
           },
           {
@@ -297,10 +297,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c558c2eea3576d9",
+  "active": "6a6ec18a7d62dc27",
   "lastOpenFiles": [
-    "Model thinking/economic growth.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
+    "Model thinking/economic growth.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
@@ -329,7 +330,6 @@
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
     "HOME/macro economie.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms/YourNotePage.md",
     "Pasted image 20250603160521.png",
     "Pasted image 20250603160349.png",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms",
