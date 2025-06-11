@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/6. K-nearest neighbors – a lazy learning algorithm.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/3 Selecting meaningful features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. K-nearest neighbors – a lazy learning algorithm"
+              "title": "3 Selecting meaningful features"
             }
           },
           {
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5026054382324
+    "width": 298.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -298,8 +299,13 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/5. Decision tree learning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/2 Handling categorical data.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/3 Selecting meaningful features.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/Understanding the scikit-learn estimator API.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/6. K-nearest neighbors – a lazy learning algorithm.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/Untitled.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/5. Decision tree learning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/1 Artificial neurons – a brief glimpse into the early historyof machine learning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/4. Solving nonlinear problems using a kernel SVM.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
@@ -312,7 +318,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/2 Implementing a perceptron learning algorithm in Python.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch1 A roadmap for building machine learning systems.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/Untitled.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
     "Machine Learning/Untitled.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Dimensionality Reduction/30 How to Perform SVD DimensionalityReduction.md",
@@ -325,9 +330,6 @@
     "Model thinking/Tipping Points.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms/25 How to Transform the Target inRegression.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms/24 How to Transform Numerical andCategorical Data.md",
-    "demographics/how to do a research.md",
-    "demographics/comparing populations.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms/26 How to Save and Load DataTransforms.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms",
     "Pasted image 20250603160521.png",
     "Pasted image 20250603160349.png",
@@ -335,7 +337,6 @@
     "first/web servers/Apache/config",
     "first/web servers/Apache",
     "first/web servers",
-    "first/population",
     "first/Pasted image 20250423230842.png",
     "first/Pasted image 20250408193702.png",
     "first/Pasted image 20250404092111.png",
