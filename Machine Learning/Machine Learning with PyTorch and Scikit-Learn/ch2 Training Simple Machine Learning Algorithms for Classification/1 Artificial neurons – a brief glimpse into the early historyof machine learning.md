@@ -6,6 +6,15 @@ McCulloch and Pitts described such a nerve cell as a simple logic gate with bina
 
 With his perceptron rule, Rosenblatt proposed an algorithm that would automatically learn the optimal weight coefficients that would then be multiplied with the input features in order to make the decision of whether a neuron fires (transmits a signal) or not. In the context of supervised learning and classification, such an algorithm could then be used to predict whether a new data point belongs to one class or the other.
 
+
+
+
+
+
+
+
+
+
 # The formal definition of an artificial neuron
 we can define a decision function, $𝜎(z)$, that takes a linear combination of certain input values, x, and a corresponding weight vector, w, where z is the so-called
 net input $$z = w_1x_1 + w_2x_2 + ... + w_mx_m
