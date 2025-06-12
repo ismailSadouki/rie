@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -296,7 +297,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
     "Pasted image 20250612131825.png",
     "Research/Time series/A Survey on Data Mining Techniques Applied to Electricity-Related Time Series Forecasting.md",
