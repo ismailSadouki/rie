@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Unsupervised dimensionality reduction via principalcomponent analysis"
+              "title": "2. Supervised data compression via linear discriminantanalysis"
             }
           },
           {
@@ -298,6 +298,9 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
+    "Research/Time series/A Survey on Data Mining Techniques Applied to Electricity-Related Time Series Forecasting.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
     "Proxy server/Forward proxy.md",
     "Proxy server/Reverse proxies.md",
     "Proxy server/Proxy chaining.md",
@@ -305,7 +308,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/1 Artificial neurons – a brief glimpse into the early historyof machine learning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch1 A roadmap for building machine learning systems.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
     "web servers/Apache/What is Apache web server.md",
     "web servers/Virtual Hosts.md",
     "web servers/What is  HTTP.md",
@@ -325,8 +327,6 @@
     "Model thinking/economic growth.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
-    "Startup.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/2 Implementing a perceptron learning algorithm in Python.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Dimensionality Reduction",
