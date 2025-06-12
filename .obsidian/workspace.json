@@ -296,8 +296,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c558c2eea3576d9",
+  "active": "6a6ec18a7d62dc27",
   "lastOpenFiles": [
+    "Pasted image 20250612131825.png",
     "Research/Time series/A Survey on Data Mining Techniques Applied to Electricity-Related Time Series Forecasting.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
@@ -325,7 +326,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
     "Model thinking/economic growth.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
