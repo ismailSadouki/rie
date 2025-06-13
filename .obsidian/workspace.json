@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Supervised data compression via linear discriminantanalysis"
+              "title": "3. Nonlinear dimensionality reduction and visualization"
             }
           },
           {
@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -299,17 +298,24 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/6. K-nearest neighbors – a lazy learning algorithm.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/5. Decision tree learning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/4. Solving nonlinear problems using a kernel SVM.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/1 Artificial neurons – a brief glimpse into the early historyof machine learning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/2 Implementing a perceptron learning algorithm in Python.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch1 A roadmap for building machine learning systems.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
     "Pasted image 20250612131825.png",
     "Research/Time series/A Survey on Data Mining Techniques Applied to Electricity-Related Time Series Forecasting.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
     "Proxy server/Forward proxy.md",
     "Proxy server/Reverse proxies.md",
     "Proxy server/Proxy chaining.md",
     "Proxy server/What is a Proxy server.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/1 Artificial neurons – a brief glimpse into the early historyof machine learning.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch1 A roadmap for building machine learning systems.md",
     "web servers/Apache/What is Apache web server.md",
     "web servers/Virtual Hosts.md",
     "web servers/What is  HTTP.md",
@@ -319,14 +325,8 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/2 Handling categorical data.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/Understanding the scikit-learn estimator API.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/6. K-nearest neighbors – a lazy learning algorithm.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/Untitled.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/5. Decision tree learning.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/4. Solving nonlinear problems using a kernel SVM.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
-    "Model thinking/economic growth.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
@@ -344,7 +344,6 @@
     "first/Pasted image 20250321203646.png",
     "first/Pasted image 20250321201228.png",
     "first/Pasted image 20250321200416.png",
-    "first/Pasted image 20250321195422.png",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
