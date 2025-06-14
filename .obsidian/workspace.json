@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -41,7 +41,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 3. Debugging algorithms with learning and validation curves"
+              "title": "Graph of 4. Fine-tuning machine learning models via grid search"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Debugging algorithms with learning and validation curves"
+              "title": "4. Fine-tuning machine learning models via grid search"
             }
           },
           {
@@ -297,10 +297,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c558c2eea3576d9",
+  "active": "6a6ec18a7d62dc27",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/1. Streamlining workflows with pipelines.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning",
@@ -326,7 +327,6 @@
     "web servers/What is  HTTP.md",
     "web servers/What is a server.md",
     "Proxy server/HTTP proxy (insecure).md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/3 Selecting meaningful features.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
