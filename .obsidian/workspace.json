@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models/9.1 Stationarity and differencing.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -41,7 +41,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 9.1 Stationarity and differencing"
+              "title": "Graph of 3. Debugging algorithms with learning and validation curves"
             }
           },
           {
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -296,7 +297,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
