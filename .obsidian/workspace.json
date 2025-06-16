@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/3. Bagging – building an ensemble of classifiers frombootstrap samples.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/4. Leveraging weak learners via adaptive boosting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Bagging – building an ensemble of classifiers frombootstrap samples"
+              "title": "4. Leveraging weak learners via adaptive boosting"
             }
           },
           {
@@ -299,8 +299,9 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/2. Combining classifiers via majority vote.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/3. Bagging – building an ensemble of classifiers frombootstrap samples.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/4. Leveraging weak learners via adaptive boosting.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/2. Combining classifiers via majority vote.md",
     "Pasted image 20250616152656.png",
     "Pasted image 20250616152222.png",
     "Pasted image 20250616152220.png",
@@ -337,7 +338,6 @@
     "Proxy server/Reverse proxies.md",
     "Proxy server/Proxy chaining.md",
     "Proxy server/What is a Proxy server.md",
-    "web servers/Apache/What is Apache web server.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
