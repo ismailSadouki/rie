@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/5. Looking at different performance evaluation metrics.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/2. Combining classifiers via majority vote.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Looking at different performance evaluation metrics"
+              "title": "2. Combining classifiers via majority vote"
             }
           },
           {
@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -299,8 +298,21 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
+    "Pasted image 20250616101250.png",
+    "Pasted image 20250616100917.png",
+    "Pasted image 20250616100517.png",
+    "Pasted image 20250616100405.png",
+    "Pasted image 20250616100303.png",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/1. Learning with ensembles.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/2. Combining classifiers via majority vote.md",
+    "Pasted image 20250616100110.png",
+    "Pasted image 20250616095806.png",
+    "Pasted image 20250616095716.png",
+    "Pasted image 20250616095502.png",
+    "Pasted image 20250616095404.png",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/5. Looking at different performance evaluation metrics.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/chLooking at different performance evaluation metrics",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
@@ -325,9 +337,6 @@
     "Proxy server/Proxy chaining.md",
     "Proxy server/What is a Proxy server.md",
     "web servers/Apache/What is Apache web server.md",
-    "web servers/Virtual Hosts.md",
-    "web servers/What is  HTTP.md",
-    "web servers/What is a server.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
@@ -335,16 +344,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Dimensionality Reduction",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Advanced Transforms",
-    "Pasted image 20250603160521.png",
-    "Pasted image 20250603160349.png",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Transforms",
-    "first/Pasted image 20250423230842.png",
-    "first/Pasted image 20250408193702.png",
-    "first/Pasted image 20250404092111.png",
-    "first/Pasted image 20250323225810.png",
-    "first/Pasted image 20250321203646.png",
-    "first/Pasted image 20250321201228.png",
-    "first/Pasted image 20250321200416.png",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
