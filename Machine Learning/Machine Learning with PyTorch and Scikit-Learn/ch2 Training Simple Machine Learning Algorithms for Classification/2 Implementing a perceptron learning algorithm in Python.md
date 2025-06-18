@@ -1,9 +1,5 @@
 # OOP aproache
-We will take an object-oriented approach to defining the perceptron interface as a Python class, which
-will allow us to initialize new Perceptron objects that can learn from data via a fit method and make
-predictions via a separate predict method. As a convention, we append an underscore (_) to attributes
-that are not created upon the initialization of the object, but we do this by calling the object’s other
-methods, for example, self.w_.
+We will take an object-oriented approach to defining the perceptron interface as a Python class, which will allow us to initialize new Perceptron objects that can learn from data via a fit method and make predictions via a separate predict method. As a convention, we append an underscore (_) to attributes that are not created upon the initialization of the object, but we do this by calling the object’s other methods, for example, self.w_.
 
 
 ```

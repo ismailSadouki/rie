@@ -41,7 +41,7 @@ the simultaneous update of the bias unit and each weight, wj, in the weight vect
 ![](https://i.imgur.com/Seadnxf.png)
 The update values (“deltas”) are computed as follows:
 ![](https://i.imgur.com/HjHhnTs.png)
-Note that unlike the bias unit, each weight, wj, corresponds to a feature, xj, in the dataset, which is involved in determining the update value,, Δ𝑤𝑗, defined above. Furthermore, 𝜂 is the learning rate
+Note that unlike the bias unit, each weight, wj, corresponds to a feature, xj, in the dataset, which is involved in determining the update value, $Δ𝑤_𝑗$, defined above. Furthermore, 𝜂 is the learning rate
 
 
 how beautifully simple this learning rule really is.
