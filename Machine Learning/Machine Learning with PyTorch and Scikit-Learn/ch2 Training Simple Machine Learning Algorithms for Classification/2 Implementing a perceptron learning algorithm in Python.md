@@ -29,7 +29,7 @@ class Perceptron:
     def predict(self, X):
         return np.where(self.net_input(x)>=0.0,1,0)
 ```
-Using this perceptron implementation, we can now initialize new Perceptron objects with a given learning rate, eta (𝜂𝜂), and the number of epochs, n_iter (passes over the training dataset).
+Using this perceptron implementation, we can now initialize new Perceptron objects with a given learning rate, eta (𝜂), and the number of epochs, n_iter (passes over the training dataset).
 # Training a perceptron model on the Iris dataset
 Note that we will also only consider two flower classes, setosa and versicolor, from the Iris dataset for practical reasons—remember, the perceptron is a binary classifier. However, the perceptron algorithm can be extended to multi-class classification—for example, <mark>the one-versus-all (OvA)</mark> technique.
 ![](https://i.imgur.com/YxeeBAa.png)
@@ -54,3 +54,4 @@ Note that the number of misclassification errors and the number of updates is th
 As we can see in Figure 2.7, our perceptron converged after the sixth epoch and should now be able to classify the training examples perfectly.
 ![](https://i.imgur.com/r9yjWMI.png)
 ![](https://i.imgur.com/3YViS48.png)
+
