@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/4. Working with bigger data – online algorithms and out-of-core learning.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Working with bigger data – online algorithms and out-of-core learning"
+              "title": "Topic modeling with latent Dirichlet allocation"
             }
           },
           {
@@ -298,8 +298,9 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "odoo/first.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/4. Working with bigger data – online algorithms and out-of-core learning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
+    "odoo/first.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/3. Training a logistic regression model for documentclassification.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/2. Introducing the bag-of-words model.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
@@ -335,7 +336,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/1. Streamlining workflows with pipelines.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/chLooking at different performance evaluation metrics",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning",
