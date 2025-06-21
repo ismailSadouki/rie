@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic modeling with latent Dirichlet allocation"
+              "title": "2. Exploring the Ames Housing dataset"
             }
           },
           {
@@ -298,8 +298,11 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/4. Working with bigger data – online algorithms and out-of-core learning.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/Introcution linear regression.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/4. Working with bigger data – online algorithms and out-of-core learning.md",
     "odoo/first.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/3. Training a logistic regression model for documentclassification.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/2. Introducing the bag-of-words model.md",
@@ -334,8 +337,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/2. Using k-fold cross-validation to assess model performance.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/1. Streamlining workflows with pipelines.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/chLooking at different performance evaluation metrics",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning",
@@ -343,7 +344,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
