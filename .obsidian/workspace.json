@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Implementing an ordinary least squares linearregression model"
+              "title": "5. Turning a linear regression model into a curve –polynomial regression"
             }
           },
           {
@@ -298,8 +298,11 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/4. Fitting a robust regression model using RANSAC.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
+    "Pasted image 20250621112056.png",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/Introcution linear regression.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis",
@@ -333,10 +336,7 @@
     "Pasted image 20250617111114.png",
     "Pasted image 20250617110742.png",
     "Pasted image 20250617110607.png",
-    "Pasted image 20250617110332.png",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/4. Leveraging weak learners via adaptive boosting.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/3. Debugging algorithms with learning and validation curves.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/chLooking at different performance evaluation metrics",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning",
