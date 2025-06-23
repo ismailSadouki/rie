@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/1. Intro.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/4. Exploration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Intro"
+              "title": "4. Exploration"
             }
           },
           {
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -298,8 +299,11 @@
   },
   "active": "4c558c2eea3576d9",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/Introduction.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/3. Preprocessing.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/4. Exploration.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/2. Splitting.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/1. Intro.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/Introduction.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models",
@@ -325,9 +329,6 @@
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee/Data Cleaning/10. How to Use Iterative Imputation.md",
     "Machine Learning/Hand in ml book/project checklist.md",
     "Machine Learning/Hand in ml book/7- Dimensionality Reduction.md",
-    "Machine Learning/Introduction to Machine Learning with Python/3. Representing Data and Engineering Features.md",
-    "Machine Learning/Introduction to Machine Learning with Python/5. Algorithm Chains and Pipelines.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/2 Implementing a perceptron learning algorithm in Python.md",
     "odoo",
     "Pasted image 20250618151049.png",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis",
