@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/6. Model Optimization and Tuning.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/7. Comparing Models Using the Training Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Model Optimization and Tuning"
+              "title": "7. Comparing Models Using the Training Set"
             }
           },
           {
@@ -312,8 +312,10 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/8. Feature Engineering without Overfitting.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/7. Comparing Models Using the Training Set.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/6. Model Optimization and Tuning.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/4. Resampling.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/3. Data Splitting.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/2. Measuring Performance.md",
@@ -337,8 +339,6 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/4. Exploration.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/3. Preprocessing.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/2. Splitting.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/1. Intro.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/Introduction.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models",
     "Pasted image 20250621112056.png",
