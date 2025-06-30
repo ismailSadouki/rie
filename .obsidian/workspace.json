@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Visualizations for Numeric Data Exploring TrainRidership Data"
+              "title": "3. Visualizations for Categorical Data Exploring theOkCupid Data"
             }
           },
           {
@@ -312,8 +312,9 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/Untitled",
@@ -340,7 +341,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/2 Handling categorical data.md",
     "Research/Time series/FORECASTING MONTHLY ELECTRIC ENERGY CONSUMPTION IN EASTERN SAUDI ARABIA USING UNIVARIATE TIME-SERIES ANALYSIS.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/Bias.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/4. Exploration.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models",
     "Pasted image 20250621112056.png",
