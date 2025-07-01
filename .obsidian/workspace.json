@@ -87,20 +87,6 @@
             }
           },
           {
-            "id": "c19d48af1ea01ff9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sheet sheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sheet sheet"
-            }
-          },
-          {
             "id": "7a4e83f9a54e1ef5",
             "type": "leaf",
             "state": {
@@ -143,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -291,6 +277,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "7dace58eeeb0cc29",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 5
@@ -307,13 +303,30 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/5. Predictive Modeling across Sets.md",
+    "sheet sheet.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations",
@@ -325,22 +338,7 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch2 Training Simple Machine Learning Algorithms for Classification/3 Adaptive linear neurons and the convergence oflearning.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/8. Feature Engineering without Overfitting.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/7. Comparing Models Using the Training Set.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/6. Model Optimization and Tuning.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/4. Resampling.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/3. Data Splitting.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/2. Measuring Performance.md",
-    "sheet sheet.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/1. Illustrative Example OkCupid Profile Data.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/5. Predictive Modeling across Sets.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/3 Selecting meaningful features.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/Understanding the scikit-learn estimator API.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch4 Building Good Training Datasets – Data Preprocessing/2 Handling categorical data.md",
-    "Research/Time series/FORECASTING MONTHLY ELECTRIC ENERGY CONSUMPTION IN EASTERN SAUDI ARABIA USING UNIVARIATE TIME-SERIES ANALYSIS.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke/Bias.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/1. Illustrative Example Predicting Risk of Ischemic Stroke",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models",
     "Pasted image 20250621112056.png",
@@ -357,7 +355,6 @@
     "Pasted image 20250617110742.png",
     "Pasted image 20250617110607.png",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/chLooking at different performance evaluation metrics",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
