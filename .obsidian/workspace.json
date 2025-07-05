@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
+                "file": "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning"
+              "title": "Toward Integrating Feature SelectionAlgorithms for Classification and Clustering"
             }
           },
           {
@@ -309,8 +309,10 @@
   },
   "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "Startup.md",
+    "Pasted image 20250705164245.png",
     "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
+    "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
+    "Startup.md",
     "Research/ML",
     "Time series/research.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
@@ -336,8 +338,6 @@
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Simplify.md",
     "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/Untitled",
