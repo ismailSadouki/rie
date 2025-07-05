@@ -135,3 +135,4 @@ is less than the allowable error rate for a given task).
 ## 2.4 Result Validation
 
 # 3 A CATEGORIZING FRAMEWORK FOR F EATURES ELECTION ALGORITHMS
+we now introduce a categorizing framework that groups many existing feature selection algorithms into distinct categories, and summarize individual algorithms based on this framework.
