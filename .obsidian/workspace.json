@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/6. Creating Features from Text Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Supervised Encoding Methods"
+              "title": "6. Creating Features from Text Data"
             }
           },
           {
@@ -309,13 +309,15 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/6. Creating Features from Text Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
     "Pasted image 20250705164245.png",
     "Startup.md",
     "Research/ML",
     "Time series/research.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/2. Modeling class probabilities via logistic regression.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/1 Choosing a classification algorithm.md",
@@ -337,7 +339,6 @@
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
     "copilot-custom-prompts",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/Untitled",
