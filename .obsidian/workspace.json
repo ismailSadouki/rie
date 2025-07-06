@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
+                "file": "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning"
+              "title": "Toward Integrating Feature SelectionAlgorithms for Classification and Clustering"
             }
           },
           {
@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -307,7 +307,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
