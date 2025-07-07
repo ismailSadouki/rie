@@ -136,3 +136,144 @@ is less than the allowable error rate for a given task).
 
 # 3 A CATEGORIZING FRAMEWORK FOR F EATURES ELECTION ALGORITHMS
 we now introduce a categorizing framework that groups many existing feature selection algorithms into distinct categories, and summarize individual algorithms based on this framework.
+
+### 3.1 A Categorizing Framework
+In order to better understand the inner
+instrument of each algorithm and the commonalities and
+differences among them, we develop a three-dimensional
+categorizing framework (shown in Table 1) based on the
+previous discussions.
+![](https://i.imgur.com/ozpLXD8.png)
+The categorizing framework serves three
+roles. First, it reveals relationships among different algo-
+rithms: Algorithms in the same block (category) are most
+similar to each other (i.e., designed with similar search
+strategies and evaluation criteria, and for the same type of
+data mining tasks). Second, it enables us to focus our
+selection of feature selection algorithms for a given task on a
+relatively small number of algorithms out of the whole
+body. 
+
+For example, knowing that feature selection is
+performed for classification, predicative accuracy of a
+classifier is suitable to be the evaluation criterion, and
+complete search is not suitable for the limited time allowed,
+we can conveniently limit our choices to two groups of
+algorithms in Table 1: one is defined by Classification,
+Wrapper, and Sequential; the other is by Classification,
+Wrapper, and Random. Both groups have more than one
+algorithm available. 
+
+Third, the framework also reveals
+what are missing in the current collection of feature
+selection algorithms.
+
+
+## 3.2 Filter Algorithm
+![](https://i.imgur.com/EMbeG9c.png)
+## 3.3 Wrapper Algorithm
+A generalized wrapper algorithm (shown in Table 3) is very
+similar to the generalized filter algorithm except that it
+utilizes a predefined mining algorithm A instead of an
+independent measure M for subset evaluation.
+![](https://i.imgur.com/XbKDUwq.png)
+different
+mining algorithms will produce different feature selection
+results. Varying the search strategies via the function
+generate(D) and mining algorithms (A) can result in
+different wrapper algorithms. Since mining algorithms are
+used to control the selection of feature subsets, the wrapper
+model tends to give superior performance as feature subsets
+found are better suited to the predetermined mining
+algorithm
+## 3.4 Hybrid Algorithm
+![](https://i.imgur.com/WQ8YawE.png)
+the hybrid model is recently proposed to handle large data sets  A typical hybrid algorithm (shown in Table 4) makes
+use of both an independent measure and a mining
+algorithm to evaluate feature subsetss: It uses the
+independent measure to decide the best subsets for a
+given cardinality and uses the mining algorithm to select
+the final best subset among the best subsets across different cardinalities.
+
+# 4 TOWARD AN I NTEGRATED S YSTEM FOR I NTELLIGENT FEATURE S ELECTION
+In this section, we present an integrated approach to intelligent feature
+selection:
+## 4.1 A Unifying Platform
+At the top, knowledge and data about feature selection are
+two key determining factors. Currently, the knowledge
+factor covers Purpose of feature selection, Time concern,
+expected Output Type, and M/N Ratio—the ratio between the
+expected number of selected features M and the total
+number of original features N. The data factor covers Class
+Information, Feature Type, Quality  of data, and N/I Ratio—the
+ratio between the number of features N and the number of
+instances I. Each dimension is discussed below.
+
+For general purpose of redundancy and/or irrele-
+vancy removal, algorithms in the filter model are good
+choices as they are unbiased and fast. To enhance the
+mining performance, algorithms in the wrapper model
+should be preferred than those in the filter model as they
+are better suited to the mining algorithms, Sometimes, algorithms in the hybrid model are needed to serve more complicated purposes.
+
+ When time is not a critical issue, algorithms with
+complete search are recommended to achieve higher
+optimality of results; otherwise, algorithms with sequential
+search or random search should be selected for fast results.
+
+The output type of feature selection can sometimes be
+known a priori. This aspect divides feature selection
+algorithms into two groups: ranked list and minimum
+subset. The real difference between the two is about the
+order among the selected features. There is no order among
+the features in a selected subset. One cannot easily remove
+any more feature from the subset, but one can do so for a
+ranked list by removing the least important one. Back to the
+previous example, among WSFG, WSBG, and LVW, if we
+expect to get a ranked list as the result, LVW returning a
+minimum subset will be eliminated from the final choice.
+
+The M=N ratio is also very useful in determining a
+proper search strategy. If the number of relevant features
+(M) is expected to be small, a forward complete search
+strategy can be afforded; if the number of irrelevant features
+(N  M) is small, a backward complete search strategy can
+be adopted even in time critical situations. If we have the
+prior knowledge that the number of irrelevant features is
+significantly larger than the number of relevant ones, WSFG
+using sequential forward search is considered a better
+choice than WSBG using sequential backward search.
+
+The quality of data is about whether data contains missing
+values or noisy data. Different feature selection algorithms
+require different levels of data quality to perform well. Some
+applications require more preprocessing such as value
+discretization and missing value treatment, while
+others are less stringent in this regard.
+![](https://i.imgur.com/2zDs8D3.png)
+## 4.2 Toward an Integrated System
+![](https://i.imgur.com/u2v3jDp.png)
+We focus on feature selection algorithms using the
+consistency evaluation criterion. The four representative
+algorithms employ different search strategies: Focus—for-
+ward exhaustive search, ABB—backward complete search,
+QBB—random search plus ABB, and SetCover—sequential
+search. Both theoretical analysis and experimental results
+suggest that each algorithm has its own strengthes and
+weaknesses concerning speed and optimality of results.
+To guide the selection of a suitable algorithm among the
+four, the number of relevant features M is estimated as M' or M''.
+where M' is an estimate of M by
+SetCover, and M'' an estimate of M by QBB. With this
+system, Focus or ABB is recommended when either M0 or
+N - M' is small because they guarantee the optimal
+selected subset. However, the two could take an impratical
+long time to converge when the two conditions are not true.
+
+Therefore, either SetCover or QBB will be used based on the
+comparison of M' and M''. The two algorithms do not
+guarantee optimal subsets, but they are efficient in generat-
+ing near optimal subsets.
+
+
+# 5 REAL-WORLD APPLICATIONS OF FEATURE SELECTION
