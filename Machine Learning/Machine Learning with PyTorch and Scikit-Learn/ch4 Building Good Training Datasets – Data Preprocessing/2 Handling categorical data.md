@@ -14,4 +14,4 @@ between features, for example, XL = L + 1 = M + 2:
 
 
 
-Other, more advanced methods for feature scaling are available from scikit-learn, such as RobustScaler. RobustScaler is especially helpful and recommended if we are working with small datasets that contain many outliers. Similarly, if the machine learning algorithm applied to this dataset is prone to overfitting, RobustScaler can be a good choice.
+Other, more advanced methods for feature scaling are available from scikit-learn, such as RobustScaler.<mark> RobustScaler is especially helpful and recommended if we are working with small datasets that contain many outliers. Similarly, if the machine learning algorithm applied to this dataset is prone to overfitting, RobustScaler can be a good choice</mark>.
