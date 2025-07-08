@@ -33,7 +33,7 @@ For regularized models in scikit-learn that support L1 regularization, we can si
 ...solver='liblinear',
 ...multi_class='ovr')
 ```
-Note that we also need to select a different optimization algorithm (for example, solver='liblinear'), since 'lbfgs' currently does not support L1-regularized loss optimization.
+<mark>Note that we also need to select a different optimization algorithm (for example, solver='liblinear'), since 'lbfgs' currently does not support L1-regularized loss optimization</mark>.
 As a result of L1 regularization, which, as mentioned, serves as a method for feature selection, we just trained a model that is robust to the potentially irrelevant features in this dataset.
 Strictly speaking, though, the weight vectors from the previous example are not necessarily sparse because they contain more non-zero than zero entries. However, we could enforce sparsity (more zero entries) by further increasing the regularization strength—that is, choosing lower values for the C parameter.
 ![](https://i.imgur.com/6FNNzO7.png)
