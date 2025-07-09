@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 1_Many Transformations"
+              "title": "3. Many_many Transformations"
             }
           },
           {
@@ -309,8 +309,9 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/1. 1_1 Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/1. 1_1 Transformations.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/3. Nonlinear dimensionality reduction and visualization.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/2. Supervised data compression via linear discriminantanalysis.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch5 Compressing Data via Dimensionality Reduction/1. Unsupervised dimensionality reduction via principalcomponent analysis.md",
@@ -335,7 +336,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/5. Decision tree learning.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/4. Solving nonlinear problems using a kernel SVM.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch 3 A Tour of Machine Learning Classifiers Using Scikit-Learn/3. Maximum margin classification with support vectormachines.md",
-    "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "Pasted image 20250705164245.png",
     "Research/ML",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/Untitled",
