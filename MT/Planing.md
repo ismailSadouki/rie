@@ -6,10 +6,13 @@
 	- Variational Inference
 4. [[Dynamical Systems]]
 	- _Henon map_, _tent map_, _noisy oscillators_
-5. [[ablation study]]
+5. [[Uncertainty Quantification (UQ)]]
+	- uncertainty analysis
+6. [[ablation study]]
 
 
 
 Help you define the **exact research question** that makes your project original
 قدمت على ISFA Lyon و Poly Montréal
 bayesian nn for cobweb models, is there any researchers about that?
+**Latent Informal Economy (Top ENSSEA)**=> what makes it batter?
