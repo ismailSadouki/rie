@@ -1,0 +1,4 @@
+- _"Bayesian Methods for Hackers"_ (book)
+- [Gal & Ghahramani (2016)](https://arxiv.org/abs/1506.02142): _Dropout as a Bayesian Approximation_
+- _Bayesian Neural Networks with Variational Inference_
+- _Modeling Uncertainty in Deep Learning for Time Series_
