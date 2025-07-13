@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -336,8 +336,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "06d841aeae479dc0",
   "lastOpenFiles": [
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Pasted image 20250713110617.png",
     "MT/Idea.md",
     "MT/Planing.md",
@@ -348,7 +349,6 @@
     "Graph View.md",
     "MT/resources.md",
     "MT",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Research/Time series/A Survey on Data Mining Techniques Applied to Electricity-Related Time Series Forecasting.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/5. Looking at different performance evaluation metrics.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch6 Learning Best Practices for Model Evaluation and Hyperparameter Tuning/4. Fine-tuning machine learning models via grid search.md",
@@ -383,7 +383,6 @@
     "Pasted image 20250617151452.png",
     "Pasted image 20250617151426.png",
     "Pasted image 20250617111114.png",
-    "Pasted image 20250617110742.png",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",
