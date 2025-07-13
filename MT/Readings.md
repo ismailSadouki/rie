@@ -2,3 +2,6 @@
 - [Gal & Ghahramani (2016)](https://arxiv.org/abs/1506.02142): _Dropout as a Bayesian Approximation_
 - _Bayesian Neural Networks with Variational Inference_
 - _Modeling Uncertainty in Deep Learning for Time Series_
+- Neural networks for solving difference equations Applied Mathematics and Computation, 2005
+- Solving Difference and Differential Equations with Neural Networks: A Unified Approach
+- Actively learning dynamical systems using Bayesian neural networks. - Published: 27 October 2023

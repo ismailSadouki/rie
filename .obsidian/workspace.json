@@ -156,8 +156,7 @@
               "title": "Idea"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -335,11 +334,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "9be7d07a8b3871b9",
+  "active": "c3906e92c7d17b42",
   "lastOpenFiles": [
     "MT/Planing.md",
-    "MT/Idea.md",
     "MT/Readings.md",
+    "MT/Idea.md",
     "MT/ds.md",
     "MT/ml.md",
     "HOME/macro economie.md",
