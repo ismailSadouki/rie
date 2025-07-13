@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/5. Gradient boosting – training an ensemble based on lossgradients.md",
+                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Gradient boosting – training an ensemble based on lossgradients"
+              "title": "3. Implementing an ordinary least squares linearregression model"
             }
           },
           {
@@ -337,9 +337,6 @@
   },
   "active": "06d841aeae479dc0",
   "lastOpenFiles": [
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/4. Fitting a robust regression model using RANSAC.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/Introcution linear regression.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
@@ -348,6 +345,9 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/2. Introducing the bag-of-words model.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/1. Preparing the IMDb movie review data for textprocessing.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/5. Gradient boosting – training an ensemble based on lossgradients.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/4. Fitting a robust regression model using RANSAC.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/4. Leveraging weak learners via adaptive boosting.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/3. Bagging – building an ensemble of classifiers frombootstrap samples.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/2. Combining classifiers via majority vote.md",
