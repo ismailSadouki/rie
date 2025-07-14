@@ -5,6 +5,9 @@
 3. [[Mastering Bayesian ML]]
 4. [[Dynamical Systems]]
 	- _Henon map_, _tent map_, _noisy oscillators_
+	- Predator-Prey
+	- Chaotic Time Series
+	- Dense layers
 5. [[Metaheuristic Optimization]]
 	- [[Genetic Algorithms]]
 6. [[Simulation]]

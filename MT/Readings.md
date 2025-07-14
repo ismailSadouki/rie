@@ -8,3 +8,11 @@
 - Bayesian Approximation with Dropout
 - Learning Chaotic Systems with NNs
 - “Dropout as a Bayesian Approximation: Gal & Ghahramani (2016)”
+- Hands‑on Bayesian Neural Networks – A Tutorial for Deep Learning
+- A Primer on Bayesian Neural Networks: Review and Debates
+- Bayesian Neural Networks via MCMC: a Python‑based tutorial
+- Genetic Algorithm: A Tutorial Review
+- Learning dynamic Bayesian networks: https://mlg.eng.cam.ac.uk/pub/pdf/Gha97a.pdf?utm_source=chatgpt.com
+- Artificial Neural Networks Optimization using Genetic Algorithm with Python - https://www.kdnuggets.com/2019/03/artificial-neural-networks-optimization-genetic-algorithm-python.html?utm_source=chatgpt.com
+- Control of Complex Systems Using Bayesian Networks and Genetic Algorithm - https://arxiv.org/pdf/0705.1214
+- Comparative Analysis of Physics-Guided Bayesian Neural Networks for Uncertainty Quantification in Dynamic Systems - https://www.mdpi.com/2571-9394/7/1/9?utm_source=chatgpt.com
