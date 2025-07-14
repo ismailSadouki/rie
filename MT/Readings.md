@@ -16,3 +16,12 @@
 - Artificial Neural Networks Optimization using Genetic Algorithm with Python - https://www.kdnuggets.com/2019/03/artificial-neural-networks-optimization-genetic-algorithm-python.html?utm_source=chatgpt.com
 - Control of Complex Systems Using Bayesian Networks and Genetic Algorithm - https://arxiv.org/pdf/0705.1214
 - Comparative Analysis of Physics-Guided Bayesian Neural Networks for Uncertainty Quantification in Dynamic Systems - https://www.mdpi.com/2571-9394/7/1/9?utm_source=chatgpt.com
+- Differential Bayesian Neural Nets - https://arxiv.org/pdf/1912.00796
+- Learning and Policy Search in Stochastic Dynamical Systems with BNNs - https://arxiv.org/pdf/1605.07127
+- Probabilistic solution of chaotic dynamical system inverse problems using BANNs - https://arxiv.org/pdf/2005.13028
+- Efficient Bayesian inference for large chaotic dynamical systems - https://gmd.copernicus.org/articles/14/4319/2021/
+- Ensembling geophysical models with Bayesian Neural
+Networks - https://arxiv.org/pdf/2010.03561
+- Artificial neural networks for approximating the solutions to nonlinear ordinary differential equations - https://tamucc-ir.tdl.org/items/02ee79b8-33f4-48e7-810d-3d0a98909b8c?utm_source=chatgpt.com
+- Master Thesis: Bayesian Convolutional Neural Networks - https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN?utm_source=chatgpt.com
+- System identification using Bayesian neural networks with nonparametric noise models - https://ar5iv.labs.arxiv.org/html/2104.12119

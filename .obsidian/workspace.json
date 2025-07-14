@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -350,10 +350,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bd319a05e2a484ed",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "MT/Planing.md",
     "MT/Readings.md",
+    "MT/Planing.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "MT/books.md",
