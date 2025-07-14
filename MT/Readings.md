@@ -5,3 +5,6 @@
 - Neural networks for solving difference equations Applied Mathematics and Computation, 2005
 - Solving Difference and Differential Equations with Neural Networks: A Unified Approach
 - Actively learning dynamical systems using Bayesian neural networks. - Published: 27 October 2023
+- Bayesian Approximation with Dropout
+- Learning Chaotic Systems with NNs
+- “Dropout as a Bayesian Approximation: Gal & Ghahramani (2016)”
