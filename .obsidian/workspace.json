@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Many_many Transformations"
+              "title": "intro"
             }
           },
           {
@@ -295,6 +295,9 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "MT/Networking.md",
     "MT/Planing.md",
@@ -304,7 +307,6 @@
     "MT/Mastering Bayesian ML.md",
     "MT/books.md",
     "Deep Learning",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Resourse of learning/Books.md",
     "MT/ds.md",
     "MT/Research papers.md",
@@ -322,7 +324,6 @@
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/1. Preparing the IMDb movie review data for textprocessing.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/5. Gradient boosting – training an ensemble based on lossgradients.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/4. Leveraging weak learners via adaptive boosting.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/ch7 Combining Different Models for Ensemble Learning/3. Bagging – building an ensemble of classifiers frombootstrap samples.md",
     "Pasted image 20250713110617.png",
     "MT",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors",
@@ -332,7 +333,6 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor",
     "copilot-custom-prompts",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/Untitled",
     "Pasted image 20250621112056.png",
     "Pasted image 20250618151049.png",
     "Pasted image 20250617151726.png",
