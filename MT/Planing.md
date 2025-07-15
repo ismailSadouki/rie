@@ -18,6 +18,7 @@
 9. [[Probabilistic Programming]]
 10. [[MT/books|books]] 
 11. [[Chaos theory]]
+12. [[Networking]]
 
 
 ### ⚙️ **Methodology:**

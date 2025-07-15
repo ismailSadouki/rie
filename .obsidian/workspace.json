@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MT/Planing.md",
+                "file": "MT/Networking.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:MT  ",
@@ -41,7 +41,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Planing"
+              "title": "Graph of Networking"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MT/Planing.md",
+                "file": "MT/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planing"
+              "title": "Networking"
             }
           },
           {
@@ -295,9 +295,10 @@
   },
   "active": "fa74bf9512406fd6",
   "lastOpenFiles": [
+    "MT/Planing.md",
+    "MT/Networking.md",
     "Deep Learning/Planning.md",
     "Deep Learning/Deep Learning Specialization",
-    "MT/Planing.md",
     "MT/Readings.md",
     "MT/Mastering Bayesian ML.md",
     "MT/books.md",
