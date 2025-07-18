@@ -77,3 +77,34 @@ If you're competitive, reading a few high-impact papers gives an edge:
 - Kaggle-level practical tuning → Abhishek Thakur + Optuna
     
 - Research + scaling → Tan’s 2024 book + Ray Tune
+
+
+
+**SOTA trends**: read them
+NeurIPS and ICLR competition papers: https://neurips.cc/virtual/2024/papers.html?filter=titles
+
+**Resource**: Read 50+ Kaggle Grandmaster discussions. It’s like a war journal.
+
+
+## 🧨 5. **Master Ensembling & Blending**
+
+Dangerous competitors know how to combine weak models into a killer solution.
+
+- Learn:
+    
+    - Simple averaging
+        
+    - Rank averaging
+        
+    - Correlation-based model selection
+        
+    - Stacking (with meta-models)
+        
+    - Blending public/private LB strategies
+        
+
+**Golden rule**: Avoid models that correlate too much.
+
+https://sgfin.github.io/files/cheatsheets/cs229_2018_cheatsheet.pdf
+
+https://sebastianraschka.com/blog/2021/dl-course.html
