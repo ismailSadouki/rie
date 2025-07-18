@@ -25,3 +25,7 @@ Networks - https://arxiv.org/pdf/2010.03561
 - Artificial neural networks for approximating the solutions to nonlinear ordinary differential equations - https://tamucc-ir.tdl.org/items/02ee79b8-33f4-48e7-810d-3d0a98909b8c?utm_source=chatgpt.com
 - Master Thesis: Bayesian Convolutional Neural Networks - https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN?utm_source=chatgpt.com
 - System identification using Bayesian neural networks with nonparametric noise models - https://ar5iv.labs.arxiv.org/html/2104.12119
+- A Comprehensive guide to Bayesian Convolutional Neural
+Network with Variational Inference: https://arxiv.org/pdf/1901.02731
+- Weight Uncertainty in Neural Networks: https://arxiv.org/pdf/1505.05424
+- An Introduction to Neural Network Methods for Differential Equations: https://sci-hub.ru/https://doi.org/10.1007/978-94-017-9816-7

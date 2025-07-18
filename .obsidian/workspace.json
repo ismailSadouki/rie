@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Competative ML.md",
+                "file": "MT/Readings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Competative ML"
+              "title": "Readings"
             }
           },
           {
@@ -295,13 +295,18 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "MT/Research papers.md",
+    "MT/Idea.md",
+    "MT/resources.md",
+    "MT/ml.md",
+    "MT/ds.md",
+    "Machine Learning/Competative ML.md",
     "Deep Learning/Planning.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
     "Deep Learning/Deep Learning Specialization/Vectorization.md",
-    "Machine Learning/Competative ML.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
@@ -314,16 +319,11 @@
     "MT/books.md",
     "Deep Learning",
     "Resourse of learning/Books.md",
-    "MT/ds.md",
-    "MT/Research papers.md",
-    "MT/Idea.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
     "HOME/macro economie.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/4. Fitting a robust regression model using RANSAC.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/Introcution linear regression.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/8. Applying Machine Learning to Sentiment Analysis/Topic modeling with latent Dirichlet allocation.md",
     "Pasted image 20250713110617.png",
     "MT",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors",
