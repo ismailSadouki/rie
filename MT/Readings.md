@@ -29,3 +29,8 @@ Networks - https://arxiv.org/pdf/2010.03561
 Network with Variational Inference: https://arxiv.org/pdf/1901.02731
 - Weight Uncertainty in Neural Networks: https://arxiv.org/pdf/1505.05424
 - An Introduction to Neural Network Methods for Differential Equations: https://sci-hub.ru/https://doi.org/10.1007/978-94-017-9816-7
+- System identification using Bayesian neural networks
+with nonparametric noise models (logistic map): https://arxiv.org/pdf/2104.12119
+- LEARNING AND POLICY SEARCH IN STOCHASTIC
+DYNAMICAL SYSTEMS WITH BAYESIAN
+NEURAL NETWORKS : https://arxiv.org/pdf/1605.07127

@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MT/Readings.md",
+                "file": "Startup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readings"
+              "title": "Startup"
             }
           },
           {
@@ -295,6 +295,7 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "MT/Readings.md",
     "MT/Research papers.md",
     "MT/Idea.md",
     "MT/resources.md",
@@ -314,7 +315,6 @@
     "MT/Networking.md",
     "MT/Planing.md",
     "Deep Learning/Deep Learning Specialization",
-    "MT/Readings.md",
     "MT/Mastering Bayesian ML.md",
     "MT/books.md",
     "Deep Learning",
