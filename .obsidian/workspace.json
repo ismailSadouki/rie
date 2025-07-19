@@ -106,16 +106,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Planning.md",
+                "file": "MT/Readings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planning"
+              "title": "Readings"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -293,8 +293,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7a4e83f9a54e1ef5",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "MT/Planing.md",
+    "Deep Learning/Planning.md",
+    "Startup.md",
     "MT/Readings.md",
     "MT/Research papers.md",
     "MT/Idea.md",
@@ -302,7 +305,6 @@
     "MT/ml.md",
     "MT/ds.md",
     "Machine Learning/Competative ML.md",
-    "Deep Learning/Planning.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
@@ -313,7 +315,6 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "MT/Networking.md",
-    "MT/Planing.md",
     "Deep Learning/Deep Learning Specialization",
     "MT/Mastering Bayesian ML.md",
     "MT/books.md",
@@ -323,7 +324,6 @@
     "HOME/macro economie.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/4. Fitting a robust regression model using RANSAC.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/3. Implementing an ordinary least squares linearregression model.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/2. Exploring the Ames Housing dataset.md",
     "Pasted image 20250713110617.png",
     "MT",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors",

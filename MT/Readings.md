@@ -3,10 +3,7 @@
 - _Bayesian Neural Networks with Variational Inference_
 - _Modeling Uncertainty in Deep Learning for Time Series_
 - Neural networks for solving difference equations Applied Mathematics and Computation, 2005
-- Solving Difference and Differential Equations with Neural Networks: A Unified Approach
-- Actively learning dynamical systems using Bayesian neural networks. - Published: 27 October 2023
 - Bayesian Approximation with Dropout
-- Learning Chaotic Systems with NNs
 - “Dropout as a Bayesian Approximation: Gal & Ghahramani (2016)”
 - Hands‑on Bayesian Neural Networks – A Tutorial for Deep Learning
 - A Primer on Bayesian Neural Networks: Review and Debates
@@ -34,3 +31,11 @@ with nonparametric noise models (logistic map): https://arxiv.org/pdf/2104.12119
 - LEARNING AND POLICY SEARCH IN STOCHASTIC
 DYNAMICAL SYSTEMS WITH BAYESIAN
 NEURAL NETWORKS : https://arxiv.org/pdf/1605.07127
+- Neural network as a function approximator and its application in
+solving differential equations: https://link.springer.com/article/10.1007/s10483-019-2429-8  ✅✅✅
+- Neural networks in solving differential equations: https://iopscience.iop.org/article/10.1088/1742-6596/2308/1/012008/pdf ✅✅✅✅✅✅
+- Optimization of Bayesian Neural Networks using hybrid PSO and fuzzy
+logic approach for time series forecasting: https://link.springer.com/article/10.1007/s44163-025-00322-9?utm_source=chatgpt.com
+- DEEP LEARNING OF CHAOTIC SYSTEMS FROM
+PARTIALLY-OBSERVED DATA: https://arxiv.org/pdf/2205.08384
+- Uncertainty-Aware Parking Prediction Using Bayesian Neural Networks https://www.mdpi.com/1424-8220/25/11/3463
