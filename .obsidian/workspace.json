@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MT/Readings.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readings"
+              "title": "4. Approaches when Complete Enumeration Is Practically Impossible"
             }
           }
         ],
@@ -295,10 +295,10 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "MT/Readings.md",
     "MT/Planing.md",
     "Deep Learning/Planning.md",
     "Startup.md",
-    "MT/Readings.md",
     "MT/Research papers.md",
     "MT/Idea.md",
     "MT/resources.md",
