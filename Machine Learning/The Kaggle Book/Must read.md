@@ -1,1 +1,2 @@
 - François Chollet also hosted his own competition on Kaggle: https://www.kaggle.com/c/abstraction-and-reasoning-challenge
+- Getting interviews in magazines: https://www.wired.com/story/solve-these-tough-data-problems-and-watch-job-offers-roll-in/

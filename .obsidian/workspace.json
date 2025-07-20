@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/Must read.md",
+                "file": "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Must read"
+              "title": "Introducing Kaggle"
             }
           }
         ],
@@ -296,6 +296,7 @@
   "active": "368d99643999d99a",
   "lastOpenFiles": [
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/The rise of data science competition platforms.md",
+    "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",
     "Machine Learning/The Kaggle Book/Must read.md",
     "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions",
@@ -325,7 +326,6 @@
     "MT/books.md",
     "Deep Learning",
     "Resourse of learning/Books.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
     "Pasted image 20250713110617.png",
     "MT",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors",
