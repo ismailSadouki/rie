@@ -1,0 +1,1 @@
+- François Chollet has provided the most useful and insightful perspective on how to win a Kaggle competition in an answer of his on the Quora website: https://www.quora.com/Why-has-Keras-been-so-successful-lately-at-Kaggle-competitions
