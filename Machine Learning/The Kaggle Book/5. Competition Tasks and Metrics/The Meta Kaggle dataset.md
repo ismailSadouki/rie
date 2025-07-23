@@ -37,3 +37,16 @@ what you care the most about when using RMSLE is the scale of your predictions w
 you can easily work with it since many algorithms can directly use it as an objective function;
 otherwise, you can optimize for it indirectly by just training on the square root of your target and then squaring the predictions.
 In terms of downside, using MAE as an objective function results in much slower convergence, since you are actually optimizing for predicting the median of the target (also called the L1 norm), instead of the mean (also called the L2 norm), as occurs by MSE minimization. This results in more complex computations for the optimizer, so the training time can even grow exponentially based on your number of training cases (see, for instance, this Stack Overflow question: https://stackoverflow.com/questions/57243267/why-is-training-a-random-forest-regressor-with-mae-criterion-so-slow-compared-to).
+
+Notable recent competitions that used MAE as an evaluation metric are:
+• LANL Earthquake Prediction: https://www.kaggle.com/c/LANL-Earthquake-Prediction
+• How Much Did It Rain? II: https://www.kaggle.com/c/how-much-did-it-rain-ii
+
+
+
+Having mentioned the ASHRAE competition earlier, we should also mention that regression evaluation measures are quite relevant to forecasting competitions. For instance, the M5 forecasting competition was held recently (https://mofc.unic.ac.cy/m5-competition/) and data from all the other M competitions is available too. If you are interested in forecasting competitions, of which there are a few on Kaggle, please see https://robjhyndman.com/hyndsight/forecasting-competitions/ for an overview about M competitions and how valuable Kaggle is for obtaining better practical and theoretical results from such competitions.
+
+
+Essentially, forecasting competitions do not require a very different evaluation to regression competitions. When dealing with forecasting tasks, it is true that you can get some unusual evaluation metrics such as the Weighted Root Mean Squared Scaled Error (https://www.kaggle.com/c/m5-forecasting-accuracy/overview/evaluation) or the symmetric mean absolute percentage error, better known as sMAPE (https://www.kaggle.com/c/demand-forecasting-kernels-only/overview/evaluation). However, in the end they are just variations of the usual RMSE or MAE that you can handle using the right target transformations.
+
+# Metrics for classification (label prediction and probability)
