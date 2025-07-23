@@ -29,3 +29,11 @@ merchant-category-recommendation
 
 
 ## Root mean squared log error (RMSLE)
+what you care the most about when using RMSLE is the scale of your predictions with respect to the scale of the ground truth. As with RMSE, machine learning algorithms for regression can better optimize for RMSLE if you apply a logarithmic transformation to the target before fitting it (and then reverse the effect using the exponential function).
+![](https://i.imgur.com/p3sEdA0.png)
+
+
+## Mean absolute error (MAE)
+you can easily work with it since many algorithms can directly use it as an objective function;
+otherwise, you can optimize for it indirectly by just training on the square root of your target and then squaring the predictions.
+In terms of downside, using MAE as an objective function results in much slower convergence, since you are actually optimizing for predicting the median of the target (also called the L1 norm), instead of the mean (also called the L2 norm), as occurs by MSE minimization. This results in more complex computations for the optimizer, so the training time can even grow exponentially based on your number of training cases (see, for instance, this Stack Overflow question: https://stackoverflow.com/questions/57243267/why-is-training-a-random-forest-regressor-with-mae-criterion-so-slow-compared-to).
