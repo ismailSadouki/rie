@@ -12,3 +12,20 @@ The Meta Kaggle dataset (https://www.kaggle.com/kaggle/meta-kaggle) is a collect
 
 ## Mean squared error (MSE) and R squared
 ![](https://i.imgur.com/oEhx12f.png)
+
+MSE is a great instrument for comparing regression models applied to the same problem. The bad news is that the MSE is seldom used in Kaggle competitions, since RMSE is preferred. In fact, by taking the root of MSE, its value will resemble the original scale of your target and it will be easier at a glance to figure out if your model is doing a good job or not. In addition, if you are con- sidering the same regression model across different data problems (for instance, across various datasets or data competitions), R squared is better because it is perfectly correlated with MSE
+
+## Root mean squared error (RMSE)
+you should always pay attention to outliers; they can affect your model performance a lot, no matter whether you are evaluating based on MSE or RMSE.
+
+Consequently, depending on the problem, you can get a better fit with an algorithm using MSE as an objective function by first applying the square root to your target (if possible, because it requires positive values), then squaring the results. Functions such as the TransformedTargetRegressor in Scikit-learn help you to appropriately transform your regression target in order to get better-fit- ting results with respect to your evaluation metric.
+
+Recent competitions where RMSE has been used include:
+• Avito Demand Prediction Challenge: https://www.kaggle.com/c/avito-demand-prediction
+• Google Analytics Customer Revenue Prediction: https://www.kaggle.com/c/ga-
+customer-revenue-prediction
+• Elo Merchant Category Recommendation https://www.kaggle.com/c/elo-
+merchant-category-recommendation
+
+
+## Root mean squared log error (RMSLE)
