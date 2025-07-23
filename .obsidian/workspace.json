@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/Must read.md",
+                "file": "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Must read"
+              "title": "The Meta Kaggle dataset"
             }
           }
         ],
@@ -295,8 +295,8 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Untitled.md",
     "Machine Learning/The Kaggle Book/Must read.md",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",

@@ -8,3 +8,5 @@
 - A rather infamous series of competitions were the ones sponsored by Santander. Of the three instances when the company organized a Kaggle contest, two involved data leakage: https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/61172. What happens next varies per competition: there have been instances when Kaggle decided to reset
 the competition with new or cleaned up data, but also when they allowed it to continue (because they perceived the impact as minimal). An example of handling such a situation can be found in the Predicting Red Hat Business Value competition: https://www.kaggle.com/c/predicting-red-hat-business-value/discussion/23788.
 - Leaf Classification (https://www.kaggle.com/c/leaf-classification)
+- Greek Media Monitoring Multilabel Classification (WISE 2014) (https://www.kaggle.com/c/wise-2014
+
