@@ -9,3 +9,6 @@ The Meta Kaggle dataset (https://www.kaggle.com/kaggle/meta-kaggle) is a collect
 
 
 # Metrics for regression (standard and ordinal)
+
+## Mean squared error (MSE) and R squared
+![](https://i.imgur.com/oEhx12f.png)

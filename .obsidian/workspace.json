@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -293,7 +294,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
     "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/Must read.md",
