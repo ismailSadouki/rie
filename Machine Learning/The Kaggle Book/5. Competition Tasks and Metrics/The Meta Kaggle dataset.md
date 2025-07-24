@@ -50,3 +50,11 @@ Having mentioned the ASHRAE competition earlier, we should also mention that reg
 Essentially, forecasting competitions do not require a very different evaluation to regression competitions. When dealing with forecasting tasks, it is true that you can get some unusual evaluation metrics such as the Weighted Root Mean Squared Scaled Error (https://www.kaggle.com/c/m5-forecasting-accuracy/overview/evaluation) or the symmetric mean absolute percentage error, better known as sMAPE (https://www.kaggle.com/c/demand-forecasting-kernels-only/overview/evaluation). However, in the end they are just variations of the usual RMSE or MAE that you can handle using the right target transformations.
 
 # Metrics for classification (label prediction and probability)
+
+## Accuracy
+it can be calculated as the ratio between the number of correct numbers divided by the number of answers:
+![](https://i.imgur.com/kKZz9ls.png)
+
+This metric has been used, for instance, in Cassava Leaf Disease Classification
+(https://www.kaggle.com/c/cassava-leaf-disease-classification) and Text Normalization Challenge - English Language (https://www.kaggle.com/c/text-normalization-challenge-english-language), where you scored a correct prediction only if your predicted text matched the actual string.
+
