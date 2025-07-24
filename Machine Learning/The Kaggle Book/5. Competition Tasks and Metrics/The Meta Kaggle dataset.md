@@ -89,3 +89,16 @@ In spite of its complexity, the formula can be reformulated and simplified, as d
 ![](https://i.imgur.com/rppB4D6.png)
 The reformulation helps to clarify, in a more intelligible form than the original, that you can get higher performance from improving both positive and negative class precision, but that’s not enough: you also have to have positive and negative predictions in proportion to the ground truth, or your submission will be greatly penalized.
 
+## Metrics for multi-class classification
+When moving to multi-class classification, you simply use the binary classification metrics that we have just seen, applied to each class, and then you summarize them using some of the averaging strategies that are commonly used for multi-class situations.
+For instance, if you want to evaluate your solution based on the F1 score, you have three possible averaging choices:
+<mark>raje3</mark>
+Common multi-class metrics that you may encounter in Kaggle competitions are:
+•Multiclass accuracy (weighted): Bengali.AI Handwritten Grapheme Classification (https://www.kaggle.com/c/bengaliai-cv19)
+•Multiclass log loss (MeanColumnwiseLogLoss): Mechanisms of Action (MoA) Prediction (https://www.kaggle.com/c/lish-moa/)
+•Macro-F1 and Micro-F1 (NQMicroF1): University of Liverpool - Ion Switching (https://www.kaggle.com/c/liverpool-ion-switching), Human Protein Atlas Image Classification
+(https://www.kaggle.com/c/human-protein-atlas-image-classification/), Ten-
+sorFlow 2.0 Question Answering (https://www.kaggle.com/c/tensorflow2-question-answering)
+- Mean-F1: Shopee - Price Match Guarantee (https://www.kaggle.com/c/shopee-product-matching/). Here, the F1 score is calculated for every predicted row, then averaged, whereas the Macro-F1 score is defined as the mean of class-wise/label-wise F1 scores.
+
+# Metrics for object detection problems

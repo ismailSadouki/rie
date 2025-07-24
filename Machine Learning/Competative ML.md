@@ -108,3 +108,5 @@ Dangerous competitors know how to combine weak models into a killer solution.
 https://sgfin.github.io/files/cheatsheets/cs229_2018_cheatsheet.pdf
 
 https://sebastianraschka.com/blog/2021/dl-course.html
+
+- learn post-processing tricks.
