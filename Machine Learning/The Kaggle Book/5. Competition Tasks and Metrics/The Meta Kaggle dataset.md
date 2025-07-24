@@ -80,3 +80,12 @@ AUC has recently been used for quite a lot of different competitions. We suggest
 You can read a detailed treatise in the following paper: Su, W., Yuan, Y., and Zhu, M. A relationship between the average precision and the area under the ROC curve. Proceedings of the 2015 International Conference on The Theory of Information Retrieval. 2015.
 
 ## Matthews correlation coefficient (MCC)
+which made its appearance in VSB Power Line Fault Detection (https://www.kaggle.com/c/vsb-power-line-fault-detection) and Bosch Production Line Performance (https://www.kaggle.com/c/bosch-production-line-performance).
+![](https://i.imgur.com/jOX3CZ0.png)
+
+Behaving as a correlation coefficient, in other words, ranging from +1 (perfect prediction) to -1 (inverse prediction), this metric can be considered a measure of the quality of the classification even when the classes are quite imbalanced.
+
+In spite of its complexity, the formula can be reformulated and simplified, as demonstrated by Neuron Engineer (https://www.kaggle.com/ratthachat) in his Notebook: www.kaggle.com/ratthachat/demythifying-matthew-correlation-coefficients-mcc.
+![](https://i.imgur.com/rppB4D6.png)
+The reformulation helps to clarify, in a more intelligible form than the original, that you can get higher performance from improving both positive and negative class precision, but that’s not enough: you also have to have positive and negative predictions in proportion to the ground truth, or your submission will be greatly penalized.
+
