@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
+                "file": "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizing evaluation metrics"
+              "title": "Post-processing your predictions"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
     "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/Must read.md",
     "Pasted image 20250723110838.png",
@@ -328,7 +329,6 @@
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "MT/Networking.md",
     "Deep Learning/Deep Learning Specialization",
-    "MT/Mastering Bayesian ML.md",
     "Deep Learning",
     "Pasted image 20250713110617.png",
     "MT",
