@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
+                "file": "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Meta Kaggle dataset"
+              "title": "Optimizing evaluation metrics"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
+    "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/Must read.md",
     "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",

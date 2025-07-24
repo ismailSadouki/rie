@@ -102,3 +102,13 @@ sorFlow 2.0 Question Answering (https://www.kaggle.com/c/tensorflow2-question-an
 - Mean-F1: Shopee - Price Match Guarantee (https://www.kaggle.com/c/shopee-product-matching/). Here, the F1 score is calculated for every predicted row, then averaged, whereas the Macro-F1 score is defined as the mean of class-wise/label-wise F1 scores.
 
 # Metrics for object detection problems
+## Intersection over union (IoU)
+The intersection over union (IoU) is also known as the Jaccard index. When used in segmentation problems, using IoU implies that you have two images to compare: one is your prediction and the other is the mask revealing the ground truth, which is usually a binary matrix where the value 1 stands for the ground truth and 0 otherwise. In the case of multiple objects, you have multiple masks, each one labeled with the class of the object. 
+
+<mark>
+- ...
+- Metrics for multi-label classification and recommendation problems
+- MAP@{K}
+</mark>
+
+
