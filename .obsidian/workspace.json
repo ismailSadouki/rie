@@ -172,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -296,9 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/Must read.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
+    "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",
@@ -342,7 +341,6 @@
     "Pasted image 20250617151525.png",
     "Pasted image 20250617151452.png",
     "Pasted image 20250617151426.png",
-    "Pasted image 20250617111114.png",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
     "Untitled.canvas",

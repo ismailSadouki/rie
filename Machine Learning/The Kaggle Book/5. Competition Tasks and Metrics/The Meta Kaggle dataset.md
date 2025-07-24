@@ -58,3 +58,25 @@ it can be calculated as the ratio between the number of correct numbers divided 
 This metric has been used, for instance, in Cassava Leaf Disease Classification
 (https://www.kaggle.com/c/cassava-leaf-disease-classification) and Text Normalization Challenge - English Language (https://www.kaggle.com/c/text-normalization-challenge-english-language), where you scored a correct prediction only if your predicted text matched the actual string.
 
+
+# Log loss and ROC-AUC
+also known as cross-entropy in deep learning models.
+log loss is the difference between the predicted probability and the ground truth probability:
+![](https://i.imgur.com/oKX4wNm.png)
+if a competition uses the log loss, it is implied that the objective is to estimate as correctly as possible the probability of an example being of a positive class.
+We suggest you have a look, for instance, at the recent Deepfake Detection Challenge (https://www. kaggle.com/c/deepfake-detection-challenge) or at the older Quora Question Pairs (https://www.kaggle.com/c/quora-question-pairs).
+
+
+**The ROC curve** evaluate the performance of a binary classifier and to compare multiple classifiers.The ROC curve consists of the true positive rate (the recall) plotted against the false positive rate
+(the ratio of negative instances that are incorrectly classified as positive ones). It is equivalent to one minus the true negative rate (the ratio of negative examples that are correctly classified). 
+If you are comparing different classifiers, and you are using the area under the curve (AUC), the classifier with the higher area is the more performant one.
+
+If the classes are balanced, or not too imbalanced, increases in the AUC are proportional to the effectiveness of the trained model and they can be intuitively thought of as the ability of the model to output higher probabilities for true positives. We also think of it as the ability to order the examples more properly from positive to negative. However, when the positive class is rare, the AUC starts high and its increments may mean very little in terms of predicting the rare class better. As we mentioned before, in such a case, average precision is a more helpful metric.
+AUC has recently been used for quite a lot of different competitions. We suggest you have a look at these three:
+- IEEE-CIS Fraud Detection: https://www.kaggle.com/c/ieee-fraud-detection
+- Riiid Answer Correctness Prediction: https://www.kaggle.com/c/riiid-test-answer-prediction
+- Jigsaw Multilingual Toxic Comment Classification: https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification/
+
+You can read a detailed treatise in the following paper: Su, W., Yuan, Y., and Zhu, M. A relationship between the average precision and the area under the ROC curve. Proceedings of the 2015 International Conference on The Theory of Information Retrieval. 2015.
+
+## Matthews correlation coefficient (MCC)

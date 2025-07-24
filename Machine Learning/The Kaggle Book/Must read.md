@@ -10,3 +10,4 @@ the competition with new or cleaned up data, but also when they allowed it to co
 - Leaf Classification (https://www.kaggle.com/c/leaf-classification)
 - Greek Media Monitoring Multilabel Classification (WISE 2014) (https://www.kaggle.com/c/wise-2014
 
+- Quora Insincere Questions Classification competition (https://www.kaggle.com/c/quora-insincere-questions-classification)
