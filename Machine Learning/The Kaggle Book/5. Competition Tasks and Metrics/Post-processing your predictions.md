@@ -19,3 +19,12 @@ out a few examples here:
 Unfortunately, post-processing is often very dependent on the metric you are using (understand-ing the metric is imperative for devising any good post-processing) and often also data-specific,for instance, in the case of time series data and leakages. Hence, it is very difficult to generalize any procedure for figuring out the right post-processing for any competition. Nevertheless, always be aware of this possibility and be on the lookout in a competition for any hint that post-processing results is favorable. You can always get hints about post-processing from previous competitions that have been similar, and by forum discussion – eventually, someone will raise the topic.
 
 # Predicted probability and its adjustment
+evaluating or optimizing for the log loss may not prove enough. The main problems to be on the lookout for when striving to achieve correct probabilistic predictions with your model are:
+•Models that do not return a truly probabilistic estimate
+•Unbalanced distribution of classes in your problem
+•Different class distribution between your training data and your test data (on both public and private leaderboards)
+
+The first point alone provides reason to check and verify the quality of classification predictions in terms of modeled uncertainty. In fact, even if many algorithms are provided in the Scikit-learn package together with a predict_proba method, this is a very weak assurance that they will return a true probability.
+
+Let’s take, for instance, decision trees, which are the basis of many effective methods to model tabular data. The probability outputted by a classification decision tree (https://scikit-learn. org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) is based on terminal leaves; that is, it depends on the distribution of classes on the leaf that contains the case to be predicted. If the tree is fully grown, it is highly likely that the case is in a small leaf with very few other cases, so the predicted probability will be very high. If you change parameters such as max_depth, max_leaf_nodes, or min_samples_leaf, the resulting probability will drastically change from higher values to lower ones depending on the growth of the tree.
+
