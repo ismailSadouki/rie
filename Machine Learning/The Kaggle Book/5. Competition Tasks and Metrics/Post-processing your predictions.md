@@ -28,3 +28,88 @@ The first point alone provides reason to check and verify the quality of classif
 
 Let’s take, for instance, decision trees, which are the basis of many effective methods to model tabular data. The probability outputted by a classification decision tree (https://scikit-learn. org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) is based on terminal leaves; that is, it depends on the distribution of classes on the leaf that contains the case to be predicted. If the tree is fully grown, it is highly likely that the case is in a small leaf with very few other cases, so the predicted probability will be very high. If you change parameters such as max_depth, max_leaf_nodes, or min_samples_leaf, the resulting probability will drastically change from higher values to lower ones depending on the growth of the tree.
 
+Decision trees are the most common base model for ensembles such as bagging models and random forests, as well as boosted models such as gradient boosting (with its high-performing implementations XGBoost, LightGBM, and CatBoost). But, for the same reasons – probability estimates that are not truly based on solid probabilistic estimations – the problem affects many other commonly used models, such as support-vector machines and k-nearest neighbors. Such aspects were mostly unknown to Kagglers until the Otto Group Product Classification Challenge (https://www.kaggle.com/c/otto-group-product-classification-challenge/overview/), when it was raised by Christophe Bourguignat and others during the competition (see https:// www.kaggle.com/cbourguignat/why-calibration-works), and easily solved at the time using the calibration functions that had recently been added to Scikit-learn.
+
+Aside from the model you will be using, the presence of imbalance between classes in your problem may also result in models that are not at all reliable. Hence, a good approach in the case of unbal-anced classification problems is to rebalance the classes using undersampling or oversampling strategies, or different custom weights for each class to be applied when the loss is computed by the algorithm. All these strategies may render your model more performant; however, they will surely distort the probability estimates and you may have to adjust them in order to obtain an even better model score on the leaderboard.
+> [!note] ### 📈 What to Do (Leaderboard Tricks):
+ To get the best **score on a competition leaderboard**, you may need to:
+ > - **Adjust the predicted probabilities afterward** (called **post-processing**).
+ > - Use **calibration techniques** (like Platt scaling, isotonic regression).
+ > - Tune thresholds on your validation set for classification decision boundaries.
+
+### ✅ 1. **Adjust the Predicted Probabilities (Post-processing)**
+
+- Models often output **probabilities** (e.g., 0.7 chance this is class 1).
+    
+- You can tweak those values before submitting:
+    
+    - Multiply them by a factor.
+        
+    - Shift them up/down.
+        
+    - Apply a logit or softmax transform.
+        
+
+📌 **Why?** Because sometimes the model is right, but the _raw probability values_ are not optimal for the competition metric (e.g., LogLoss or AUC).
+
+### ✅ 2. **Use Calibration Techniques**
+
+Sometimes, the predicted probabilities are not well-calibrated, meaning they don’t reflect true likelihoods.
+
+Two common calibration methods:
+
+- **Platt Scaling**: Fits a logistic regression model on your model’s output.
+    
+- **Isotonic Regression**: A non-parametric model that fits a flexible curve to calibrate the probabilities.
+    
+
+📌 **Use this when?** Your model outputs probabilities, and your competition metric is sensitive to **probability accuracy**, like LogLoss or Brier score.
+ 
+ 
+ ### ✅ 3. **Tune Thresholds for Classification**
+
+Most classifiers output probabilities, but at some point you must decide:
+
+> When do I classify this as class 1?
+
+- The usual threshold is **0.5**.
+    
+- But you can **tune it** on your validation set. For example:
+    
+    - If class 1 is rare, use 0.2 or 0.3.
+        
+    - You can even tune different thresholds for different subgroups.
+        
+
+📌 **Why?** To **maximize your competition metric** (e.g., F1 score, accuracy, precision-recall).
+
+## 🧠 How to Learn This Skill
+
+These tricks are not taught much in regular ML courses. Here's a good path:
+
+### 📚 Read:
+
+1. **Kaggle Discussion Sections**: Search for “post-processing”, “calibration”, “threshold tuning”.
+    
+2. **Kaggle Learn** → “Model Performance Metrics” + “Feature Engineering” + “Intro to ML”.
+    
+3. Research papers / blogs on:
+    
+    - Platt Scaling
+        
+    - Isotonic Regression
+        
+    - Threshold tuning
+
+---
+
+Finally, a third point of concern is related to how the test set is distributed. This kind of information is usually concealed, but there are often ways to estimate it and figure it out (for instance, by trial and error based on the public leaderboard results)
+
+For instance, this happened in the iMaterialist Furniture Challenge (https://www.kaggle.com/c/imaterialist-challenge-furniture-2018/) and the more popular Quora Question Pairs (https://www.kaggle.com/c/quora-question-pairs). Both competitions gave rise to various discussions on how to post-process in order to adjust probabilities to test expectations (see https://swarbrickjones.wordpress.com/2017/03/28/cross-entropy-and-training-test-class-imbalance/ and https://www.kaggle.com/dowakin/probability-calibration-0-005-to-lb for more details on the method used). From a general point of view, assuming that you do not have an idea of the test distribution of classes to be predicted, it is still very beneficial to correctly predict probability based on the priors you get from the training data (and until you get evidence to the contrary, that is the probability distribution that your model should mimic). In fact, it will be much easier to correct your predicted probabilities if your predicted probability distribution matches those in the training set.
+
+The solution, when your predicted probabilities are misaligned with the training distribution of the target, is to use the calibration function provided by Scikit-learn, CalibratedClassifierCV:
+```
+sklearn.calibration.CalibratedClassifierCV(base_estimator=None, *,
+method='sigmoid', cv=None, n_jobs=None, ensemble=True)
+```
+The purpose of the calibration function is to apply a post-processing function to your predicted probabilities in order to make them adhere more closely to the empirical probabilities seen in the ground truth. Provided that your model is a Scikit-learn model or behaves similarly to one, the function will act as a wrapper for your model and directly pipe its predictions into a post-processing function. You have the choice between using two methods for post-processing. The first is the sigmoid method (also called Plat’s scaling), which is nothing more than a logistic regression. The second is the isotonic regression, which is a non-parametric regression; beware that it tends to overfit if there are few examples.
