@@ -110,3 +110,25 @@ https://sgfin.github.io/files/cheatsheets/cs229_2018_cheatsheet.pdf
 https://sebastianraschka.com/blog/2021/dl-course.html
 
 - learn post-processing tricks.
+#### 🔹 **Best resources That Include Post-Processing Tricks**
+1. **"Winning Kaggle Competitions" – by Abhishek Thakur**
+2. **"Machine Learning Yearning" – by Andrew Ng (free online)**
+**Zachary Mayers’ solution:** [Kaggle discussion – Don’t Overfit II](https://www.kaggle.com/c/dont-overfit-ii/discussion/91766)
+- **Blog post:** "How to Win a Data Science Competition" (Coursera – HSE) Includes a full section on post-processing and leaderboard manipulation (in a legal way).
+- **Kaggle Learn: Model Explainability + Evaluation**
+ Learn how to read ROC/AUC, and choose thresholds.
+ Here are the _specific terms_ to search for:
+
+- Threshold tuning (Youden’s J, maximizing F1, etc.)
+    
+- Probability calibration (Platt scaling, isotonic regression)
+    
+- Ensembling tricks (rank averaging, stacking)
+    
+- Target leakage detection
+    
+- Adversarial validation
+    
+- Post-processing pipelines
+    
+- Leaderboard probing (only for learning ethics, not cheating!)
