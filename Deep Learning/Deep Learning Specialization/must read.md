@@ -1,0 +1,6 @@
+- *A readable recent paper which demonstrates the benefits of variable learning rates in attacking MNIST is https://arxiv.org/pdf/1003.0358
+- [Practical Bayesian optimization of machine learning algorithms](http://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf), by Jasper Snoek, Hugo Larochelle, and Ryan Adams.
+- [Random search for hyper-parameter optimization](http://dl.acm.org/citation.cfm?id=2188395), by James Bergstra and Yoshua Bengio (2012).
+- [Practical recommendations for gradient-based training of deep architectures](http://arxiv.org/abs/1206.5533), by Yoshua Bengio (2012).
+- [Efficient BackProp](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf), by Yann LeCun, Léon Bottou, Genevieve Orr and Klaus-Robert Müller (1998)
+- [Neural Networks: Tricks of the Trade](http://www.springer.com/computer/theoretical+computer+science/book/978-3-642-35288-1), edited by Grégoire Montavon, Geneviève Orr, and Klaus-Robert Müller.
