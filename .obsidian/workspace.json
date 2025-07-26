@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
+                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. The importance of validation in competitions"
+              "title": "3. Trying different splitting strategies"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
     "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
@@ -327,7 +328,6 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
     "Deep Learning/Deep Learning Specialization/Vectorization.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
     "Deep Learning/Deep Learning Specialization",
     "Deep Learning",
