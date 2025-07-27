@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/4..md",
+                "file": "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4."
+              "title": "optimization Algorithms"
             }
           }
         ],
@@ -295,8 +295,8 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4..md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
     "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled",

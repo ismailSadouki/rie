@@ -7,3 +7,7 @@ in practice the mini-batche size is a **hyperparameter**.
 # exponentially weighted averages
 ![](https://i.imgur.com/i5EX0sO.png)
 ![](https://i.imgur.com/c1gArfp.png)
+
+
+# Learning Rate Decay
+![](https://i.imgur.com/gRE1lG3.png)
