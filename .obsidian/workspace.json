@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/must read.md",
+                "file": "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "must read"
+              "title": "1. Defining Quantitative Finance"
             }
           }
         ],
@@ -295,8 +295,15 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
+    "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
+    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
+    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled",
+    "Quant/Quant Finance for dummies",
+    "Quant/Untitled.md",
+    "Quant",
+    "Deep Learning/Deep Learning Specialization/Untitled.md",
     "Deep Learning/Deep Learning Specialization/must read.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
     "Machine Learning/Competative ML.md",
@@ -324,16 +331,9 @@
     "MT/Idea.md",
     "MT/resources.md",
     "MT/ml.md",
-    "MT/ds.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
-    "Deep Learning/Deep Learning Specialization/Vectorization.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
     "Deep Learning/Deep Learning Specialization",
-    "Deep Learning",
     "Pasted image 20250713110617.png",
-    "MT",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors",
     "Pasted image 20250705164245.png",
     "Pasted image 20250621112056.png",
     "Pasted image 20250618151049.png",
