@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
+                "file": "Deep Learning/Deep Learning Specialization/Tuning Process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "optimization Algorithms"
+              "title": "Tuning Process"
             }
           }
         ],
@@ -295,15 +295,15 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
-    "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled",
     "Quant/Quant Finance for dummies",
     "Quant/Untitled.md",
     "Quant",
-    "Deep Learning/Deep Learning Specialization/Untitled.md",
+    "Deep Learning/Deep Learning Specialization/Tuning Process.md",
     "Deep Learning/Deep Learning Specialization/must read.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
