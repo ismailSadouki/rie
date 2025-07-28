@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
+                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Using adversarial validation"
+              "title": "6. Handling leakage"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/Must read.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
     "Deep Learning/Planning.md",
@@ -330,7 +331,6 @@
     "MT/Planing.md",
     "Startup.md",
     "MT/Research papers.md",
-    "MT/Idea.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects",
     "Deep Learning/Deep Learning Specialization",
     "Pasted image 20250713110617.png",
