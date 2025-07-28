@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
+                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Defining Quantitative Finance"
+              "title": "4. Tuning your model validation system"
             }
           }
         ],
@@ -295,12 +295,12 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
     "Deep Learning/Planning.md",
     "Deep Learning/Deep Learning Specialization/Tuning Process.md",
     "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
-    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled",
     "Quant/Quant Finance for dummies",
     "Quant/Untitled.md",
