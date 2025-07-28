@@ -11,3 +11,6 @@ the competition with new or cleaned up data, but also when they allowed it to co
 - Greek Media Monitoring Multilabel Classification (WISE 2014) (https://www.kaggle.com/c/wise-2014
 
 - Quora Insincere Questions Classification competition (https://www.kaggle.com/c/quora-insincere-questions-classification)
+
+
+-  in the paper Climbing the Kaggle Leaderboard by Exploiting the Log-Loss Oracle (https://export.arxiv.org/pdf/1707.01825), Jacob explains how to get fourth position in a competition without even downloading the training data.
