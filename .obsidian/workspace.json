@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
+                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Handling leakage"
+              "title": "Untitled"
             }
           }
         ],
@@ -295,6 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/Untitled.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/2. Understanding Probabilityand Statistics.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
@@ -303,7 +306,6 @@
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/1. Modeling complex functions with artificial neuralnetworks.md",
     "Pasted image 20250728155117.png",
     "Pasted image 20250728155105.png",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
@@ -333,8 +335,6 @@
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/The rise of data science competition platforms.md",
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/5. Other Potentially Useful Tools.md",
-    "Machine Learning/The Kaggle Book",
     "Pasted image 20250713110617.png",
     "Pasted image 20250705164245.png",
     "Pasted image 20250621112056.png",
