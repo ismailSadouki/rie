@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/Untitled.md",
+                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/The Tabular Playground Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "The Tabular Playground Series"
             }
           }
         ],
@@ -293,10 +293,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "6a6ec18a7d62dc27",
   "lastOpenFiles": [
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/Untitled.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/The Tabular Playground Series.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/2. Understanding Probabilityand Statistics.md",
