@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/3. Training an artificial neural network.md",
+                "file": "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Training an artificial neural network"
+              "title": "3. Taking a Look atRandom Behaviours"
             }
           }
         ],
@@ -293,8 +293,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/1. PyTorch and training performance.md",
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/3. Training an artificial neural network.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/1. The Tabular Playground Series.md",
@@ -303,7 +306,6 @@
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/2. Understanding Probabilityand Statistics.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/1. Defining Quantitative Finance.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/3. Training an artificial neural network.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/2. Classifying handwritten digits.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/1. Modeling complex functions with artificial neuralnetworks.md",
     "Pasted image 20250728155117.png",
@@ -332,9 +334,7 @@
     "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
-    "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",
     "Machine Learning/The Kaggle Book/Organizing Data with Datasets",
-    "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions",
     "Pasted image 20250713110617.png",
     "Pasted image 20250705164245.png",
     "Pasted image 20250621112056.png",
