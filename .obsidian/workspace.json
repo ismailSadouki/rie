@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
+                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/5. Denoising with autoencoders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Pseudo-labeling"
+              "title": "5. Denoising with autoencoders"
             }
           }
         ],
@@ -295,8 +295,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/5. Denoising with autoencoders.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
@@ -330,7 +331,6 @@
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
     "Machine Learning/Competative ML.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
     "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
