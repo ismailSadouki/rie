@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
+                "file": "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Building input pipelines in PyTorch"
+              "title": "Untitled"
             }
           }
         ],
@@ -295,8 +295,10 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
+    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/1. Basic optimization techniques.md",
+    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/Untitled.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/6. Neural networks for tabular competitions.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/5. Denoising with autoencoders.md",
@@ -329,8 +331,6 @@
     "Quant/Quant Finance for dummies",
     "Quant/Untitled.md",
     "Quant",
-    "Deep Learning/Deep Learning Specialization/must read.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation",
     "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics",
