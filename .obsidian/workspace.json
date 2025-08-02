@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/2. Key parameters and how to use them.md",
+                "file": "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Key parameters and how to use them"
+              "title": "3. Bayesian optimization"
             }
           }
         ],
@@ -293,10 +293,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/1. Basic optimization techniques.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/2. Key parameters and how to use them.md",
+    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
+    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/1. Basic optimization techniques.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/6. Neural networks for tabular competitions.md",
@@ -329,7 +330,6 @@
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled",
     "Quant/Quant Finance for dummies",
-    "Quant/Untitled.md",
     "Quant",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation",
     "Pasted image 20250723110838.png",
