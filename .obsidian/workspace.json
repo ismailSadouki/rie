@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
+                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/3. Simplifying implementations of common architecturesvia the torch.nn module.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Computing gradients via automatic differentiation"
+              "title": "3. Simplifying implementations of common architecturesvia the torch.nn module"
             }
           }
         ],
@@ -295,6 +295,8 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
+    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/3. Simplifying implementations of common architecturesvia the torch.nn module.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/1. Averaging models into an ensemble.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
@@ -307,7 +309,6 @@
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/4. Moving Up a Gear.md",
     "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/1. PyTorch’s computation graphs.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/5. Choosing activation functions for multilayer neuralnetworks.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch",
@@ -326,7 +327,6 @@
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/1. The Tabular Playground Series.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions",
     "Pasted image 20250728155117.png",
     "Pasted image 20250728155105.png",
