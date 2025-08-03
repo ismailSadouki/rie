@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
+                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Blending models using a meta-model"
+              "title": "2. Computing gradients via automatic differentiation"
             }
           }
         ],
@@ -293,10 +293,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/1. Averaging models into an ensemble.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
+    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/1. Averaging models into an ensemble.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/2. Sharing in Profits and Growth.md",
