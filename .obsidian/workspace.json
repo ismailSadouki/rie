@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options/1. Examining a Variety of Options.md",
+                "file": "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/3. Stacking models together.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Examining a Variety of Options"
+              "title": "3. Stacking models together"
             }
           }
         ],
@@ -295,14 +295,15 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/4. Swapping between Fixedand Floating Rates.md",
+    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
+    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/3. Stacking models together.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options/1. Examining a Variety of Options.md",
+    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/4. Swapping between Fixedand Floating Rates.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/3. Defining Bonds and Bond Jargon.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/2. Sharing in Profits and Growth.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/3. Simplifying implementations of common architecturesvia the torch.nn module.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/1. Averaging models into an ensemble.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
@@ -326,7 +327,6 @@
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/6. Neural networks for tabular competitions.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/5. Denoising with autoencoders.md",
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions",
     "Pasted image 20250728155117.png",
