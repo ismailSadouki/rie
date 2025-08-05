@@ -106,16 +106,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/Higher-level PyTorch APIs a short introduction toPyTorchLightning.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Higher-level PyTorch APIs a short introduction toPyTorchLightning"
+              "title": "5. Tuning Parameters and Overfitting"
+            }
+          },
+          {
+            "id": "44b25d68ea9d7a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ML Stratigy"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -293,39 +307,39 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/5. Project two – classifying MNIST handwritten digits.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/Higher-level PyTorch APIs a short introduction toPyTorchLightning.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/4. Project one – predicting the fuel efficiency of a car.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/3. Simplifying implementations of common architecturesvia the torch.nn module.md",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/5. Creating complex stacking and blending solutions.md",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/3. Stacking models together.md",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/2. Blending models using a meta-model.md",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options/1. Examining a Variety of Options.md",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/4. Swapping between Fixedand Floating Rates.md",
+    "Deep Learning/Deep Learning Specialization/must read.md",
+    "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/8. Feature Engineering without Overfitting.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/7. Comparing Models Using the Training Set.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/6. Model Optimization and Tuning.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/4. Resampling.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/3. Data Splitting.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/2. Measuring Performance.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/1. 1_1 Transformations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/introduction.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/8. summary.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/7. Factors versus Dummy Variables in Tree-BasedModels.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/6. Creating Features from Text Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/3. Approaches for Novel Categories.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/2. Encoding Predictors with Many Categories.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/1. Creating Dummy Variables for UnorderedCategories.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/4. Postmodeling Exploratory Visualizations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/1. Illustrative Example OkCupid Profile Data.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/3. Defining Bonds and Bond Jargon.md",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/2. Sharing in Profits and Growth.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/2. Computing gradients via automatic differentiation.md",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions/1. Averaging models into an ensemble.md",
-    "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization/3. Bayesian optimization.md",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds/1. Explaining Interest.md",
-    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/5. Reverting to the Mean.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/Untitled.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments",
-    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/4. Moving Up a Gear.md",
-    "Quant/Quant Finance for dummies/1. Quantitative Finance Unveiled/3. Taking a Look atRandom Behaviours.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch/1. PyTorch’s computation graphs.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/5. Choosing activation functions for multilayer neuralnetworks.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/13. Going Deeper – The Mechanics of PyTorch",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/4. Building an NN model in PyTorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/1. PyTorch and training performance.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/3. Training an artificial neural network.md",
     "Machine Learning/The Kaggle Book/8. Hyperparameter Optimization",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions",
