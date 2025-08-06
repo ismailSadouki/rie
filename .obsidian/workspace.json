@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -307,10 +307,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44b25d68ea9d7a7c",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Deep Learning/Deep Learning Specialization/must read.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
+    "Deep Learning/Deep Learning Specialization/must read.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/5. Tuning Parameters and Overfitting.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/8. Feature Engineering without Overfitting.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/7. Comparing Models Using the Training Set.md",
