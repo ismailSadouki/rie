@@ -53,3 +53,12 @@ step the blue boxby 2 steps
 ![](https://i.imgur.com/LTtzVe0.png)
 
 ![](https://i.imgur.com/ZiKuwg0.png)
+
+---
+# Convolutions Over Volume
+![](https://i.imgur.com/Rha5Cu0.png)
+![](https://i.imgur.com/KbLMnRQ.png)
+Example of filter that detects edges only in the red channel 
+![](https://i.imgur.com/4lzm3uY.png)
+or for all color channels
+![](https://i.imgur.com/njmnBwu.png)
