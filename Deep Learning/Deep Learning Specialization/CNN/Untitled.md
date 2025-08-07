@@ -62,3 +62,6 @@ Example of filter that detects edges only in the red channel
 ![](https://i.imgur.com/4lzm3uY.png)
 or for all color channels
 ![](https://i.imgur.com/njmnBwu.png)
+For applying **Multiple Filters**:
+![](https://i.imgur.com/MGJvctP.png)
+![](https://i.imgur.com/Xw11Ygg.png)
