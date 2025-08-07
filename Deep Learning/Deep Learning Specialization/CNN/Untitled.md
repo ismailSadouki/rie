@@ -38,3 +38,18 @@ The downside of the prev method is that every time u apply this method ur image 
 We solve this by **Padding**. 
 ![](https://i.imgur.com/Ow1BBlP.png)
 so now instead of 6,6 image u have 8,8 image and by applying the filter u will get 6,6 matrix again. 
+
+#### Valid and Same convolutions
+![](https://i.imgur.com/VhZfgUX.png)
+
+---
+# Strided Convolutions
+![](https://i.imgur.com/5ylpheZ.png)
+step the blue boxby 2 steps
+![](https://i.imgur.com/0GpnqCn.png)
+
+![](https://i.imgur.com/DIcH0oX.png)
+
+![](https://i.imgur.com/LTtzVe0.png)
+
+![](https://i.imgur.com/ZiKuwg0.png)
