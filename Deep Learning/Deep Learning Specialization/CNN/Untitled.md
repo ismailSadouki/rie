@@ -31,3 +31,10 @@ u can also treat those numbers as learning params using backprob
 
 ---
 # Padding
+Note:
+if u have n,n image matrix and the filter is f,f matrix then the output will be n-f+1, n-f+1 matrix
+
+The downside of the prev method is that every time u apply this method ur image shrinks in every time. and the second downside is that some pixels are used only ones while others or used many times so ur dropping a lot of information.
+We solve this by **Padding**. 
+![](https://i.imgur.com/Ow1BBlP.png)
+so now instead of 6,6 image u have 8,8 image and by applying the filter u will get 6,6 matrix again. 
