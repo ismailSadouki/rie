@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/4. Postmodeling Exploratory Visualizations.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/2. Encoding Predictors with Many Categories.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Postmodeling Exploratory Visualizations"
+              "title": "2. Encoding Predictors with Many Categories"
             }
           },
           {
@@ -309,8 +309,16 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/1. Creating Dummy Variables for Unordered Categories.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/8. summary.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/7. Factors versus Dummy Variables in Tree-BasedModels.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/6. Creating Features from Text Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/3. Approaches for Novel Categories.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/2. Encoding Predictors with Many Categories.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/4. Postmodeling Exploratory Visualizations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
@@ -326,14 +334,6 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/1. 1_1 Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/introduction.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/8. summary.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/7. Factors versus Dummy Variables in Tree-BasedModels.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/6. Creating Features from Text Data.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/3. Approaches for Novel Categories.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/2. Encoding Predictors with Many Categories.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/1. Creating Dummy Variables for UnorderedCategories.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/2. A Review of the Predictive Modeling Process/1. Illustrative Example OkCupid Profile Data.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
