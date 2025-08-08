@@ -72,3 +72,5 @@ For applying **Multiple Filters**:
 ![](https://i.imgur.com/kPcvPXG.png)
 
 ![](https://i.imgur.com/RmKZEmm.png)
+
+![](https://i.imgur.com/ifmvoLe.png)
