@@ -79,3 +79,14 @@ For applying **Multiple Filters**:
 
 
 ![](https://i.imgur.com/CJICflx.png)
+
+
+---
+# Pooling Layers
+![](https://i.imgur.com/AuD5P6R.png)
+other example
+![](https://i.imgur.com/7NFUntb.png)
+#### AVG Pooling
+![](https://i.imgur.com/G3pxEvc.png)
+but u will max pooling used much more in nn then avg pooling
+![](https://i.imgur.com/7SAb08T.png)
