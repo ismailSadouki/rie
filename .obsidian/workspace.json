@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -307,12 +307,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44b25d68ea9d7a7c",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "Startup.md",
     "Deep Learning/Planning.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Deep Learning/Deep Learning Specialization/CNN/1. Fondations.md",
-    "Startup.md",
     "Pasted image 20250807203936.png",
     "Pasted image 20250807203818.png",
     "Pasted image 20250807203118.png",
