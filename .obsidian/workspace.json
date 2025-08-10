@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 1_Many Transformations"
+              "title": "intro"
             }
           },
           {
@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -307,8 +307,15 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/Introduction.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/5. Other Potentially Useful Tools.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/3. Many_many Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/2. 1_Many Transformations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/5. Engineering Numeric Predictors/introduction.md",
@@ -328,18 +335,11 @@
     "Pasted image 20250807203118.png",
     "Pasted image 20250807203103.png",
     "Deep Learning/Deep Learning Specialization/CNN",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/5. Other Potentially Useful Tools.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/intro.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/4. Supervised Encoding Methods.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/4. Postmodeling Exploratory Visualizations.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/3. Visualizations for Categorical Data Exploring theOkCupid Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/2. Visualizations for Numeric Data Exploring TrainRidership Data.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/3. Exploratory Visualizations/1. Introduction to the Chicago Train Ridership Data.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds",
