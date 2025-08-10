@@ -2110,3 +2110,52 @@ A **Luxury Food Dynamic Pricing Engine** powered by machine learning that integr
 - ML forecasting demand using 22 variables  
     **MRR:** €59/month  
     **Validation:** 82% still use guesswork
+
+
+**Hyperlocal ABM Sales Orchestration for Manufacturers**
+
+- **Problem**: 68% of EU manufacturers fail at targeted sales outreach due to fragmented intent data 1.
+    
+- **Solution**: AI tool scraping **regional job boards** (e.g., Pole-Emploi.fr), **public procurement portals**, and **equipment lease databases** to identify real-time expansion signals (e.g., factory upgrades).
+    
+- **Monetization**: €1,500/month for 50 intent-based leads in niche industries (e.g., Breton dairy processors).
+    
+- **EU Edge**: Integrates with Dealfront’s database of 56M+ EU companies 1
+
+- **Process Optimization OS for North African Textile Exporters**
+    
+    - **Problem**: Tunisian/Moroccan factories waste 22% resources due to inefficient workflows.
+        
+    - **Solution**: R Shiny app using **linear programming** to optimize dyeing/cutting schedules + real-time OEE dashboards.
+        
+    - **Distribution**: Partner with Algerian textile associations (e.g., CATEB). Freemium → €15/user/month.
+**AI-Powered Carbon Accounting for SMEs**
+
+- **Problem**: 89% of French SMEs struggle with EU CSRD compliance (reporting emissions by 2026) 13.
+    
+- **Solution**: No-code SaaS using ML to auto-calculate Scope 1-3 emissions from invoices/ERP data. Integrates with French systems like Cegid or Sage.
+    
+- **Your Edge**: Survival analysis for supply chain risk prediction (e.g., "Supplier X has 80% failure risk by 2026").
+    
+- **Monetization**: €99/month + €5K/year for audit-ready reports.
+    
+- **Validation**: Sylvera (carbon tracking, €88.6M funding) and Sopht (GreenOps platform) show demand 1
+- **Problem**: 89% of French SMEs face 2026 CSRD compliance deadlines with manual emissions tracking, risking fines up to €10M 49.
+    
+- **Solution**: No-code SaaS using ML to auto-calculate Scope 1-3 emissions from invoices/ERP data. Integrates French systems like Cegid/Sage and applies _survival analysis_ to predict supplier ESG failure risks.
+    
+- **Your Edge**: Python/R pipelines for small-sample reliability (critical for niche manufacturers).
+    
+- **Monetization**: €99/month base + €5K/year for audit-ready reports. _Pre-sell tactic_: Target 50 SMBs via LinkedIn InMail: “Pay €79/mo for automated CSRD reports?” 49.
+    
+- **TAM**: €1.2B+ by 2027 (France’s carbon software gap)
+
+- **Automated CSRD Compliance Reporter**
+    
+    - **Problem**: 89% of French SMEs face 2026 EU sustainability reporting deadlines; manual processes risk €10M fines 27.
+        
+    - **Solution**: R Shiny app scraping invoices/ERP data to auto-generate audit-ready Scope 1-3 emissions reports with **dynamic systems modeling** for supply chain risk.
+        
+    - **EU Leverage**: Integrate French carbon calculators like ABC (Agency for Biodiversity & Climate).
+        
+    - **Revenue Model**: €99/month SaaS + €5K/year premium audit support 7.

@@ -4,3 +4,4 @@
 - [Practical recommendations for gradient-based training of deep architectures](http://arxiv.org/abs/1206.5533), by Yoshua Bengio (2012).
 - [Efficient BackProp](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf), by Yann LeCun, Léon Bottou, Genevieve Orr and Klaus-Robert Müller (1998)
 - [Neural Networks: Tricks of the Trade](http://www.springer.com/computer/theoretical+computer+science/book/978-3-642-35288-1), edited by Grégoire Montavon, Geneviève Orr, and Klaus-Robert Müller.
+- ![](https://i.imgur.com/wsf9qHP.png)
