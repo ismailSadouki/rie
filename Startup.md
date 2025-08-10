@@ -1998,7 +1998,6 @@ A **Luxury Food Dynamic Pricing Engine** powered by machine learning that integr
         **MRR:** €49/contract or €499/month unlimited
 
 
-
 ### **2. Automated "Google Review Response" for SMEs**
 <mark>This is a very good idea</mark>
 **Validation:**
@@ -2072,3 +2071,42 @@ A **Luxury Food Dynamic Pricing Engine** powered by machine learning that integr
 - GPT-4 fine-tuned on French politeness norms  
     **MRR:** €29/month (€350 ARR)  
     **Validation:** 140% YoY growth in reputation management tools
+
+
+### 1. **AI-Powered "Construction Permit" Accelerator**
+
+**Problem:** 68% of French construction projects delayed by permit approvals (avg. 4 months)  
+**Solution:**
+
+- NLP system that auto-completes permit applications
+    
+- Integrates with municipal portals  
+    **MRR:** €1,500/project (€45K/month at 30 projects)  
+    **Secret Sauce:** Trained on 10K+ approved Paris permits
+
+### **3. AI "Invoice Fraud" Detector (SME Crisis)**
+
+**Problem:** 29% of French SMEs experience invoice fraud (€4B/year losses)  
+**Solution:**
+
+- Anomaly detection on vendor payment patterns  
+    **MRR:** €2/invoice screened  
+    **Proof:** Soldo (UK) processes 1M+ invoices/month
+
+### **4. Automated "Carbon Accounting" for SMEs (EU Law)**
+
+**Problem:** New CSRD law requires carbon reporting for 50K+ EU companies  
+**Solution:**
+
+- Auto-imports utility bills + calculates emissions  
+    **MRR:** €299/month  
+    **Proof:** Sweep raised €28M for enterprise version
+
+### 7. **Predictive "Bakery Yield" Optimizer**
+
+**Problem:** Bakeries waste 14% of daily production  
+**Solution:**
+
+- ML forecasting demand using 22 variables  
+    **MRR:** €59/month  
+    **Validation:** 82% still use guesswork
