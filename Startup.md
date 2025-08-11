@@ -2159,3 +2159,27 @@ A **Luxury Food Dynamic Pricing Engine** powered by machine learning that integr
     - **EU Leverage**: Integrate French carbon calculators like ABC (Agency for Biodiversity & Climate).
         
     - **Revenue Model**: €99/month SaaS + €5K/year premium audit support 7.
+
+
+**AI-Driven Carbon Accounting for SMEs**
+
+- **Problem**: 89% of French SMEs face 2026 EU CSRD deadlines with manual emissions tracking, risking €10M fines 17.
+    
+- **Solution**: No-code SaaS using ML to auto-calculate Scope 1-3 emissions from invoices/ERP data. Applies **dynamic systems modeling** for supply chain risk prediction (e.g., "Supplier X has 80% ESG failure risk by 2026").
+    
+- **Stack**: R Shiny + FastAPI + Plotly Dash.
+    
+- **Revenue**: €99/month base + €5K/year for audit-ready reports.
+    
+- **Traction**: Sylvera (carbon tracking, €88.6M funding) shows demand
+💡 **My take:** If you launch this in 2025, you could position yourself as _the_ compliance helper for French SMEs before CSRD panic hits. If you wait until 2026, you’ll be fighting a red ocean.
+
+- **Automated CSRD Report Generator for SMEs**
+    
+    - **Problem**: 89% of French SMEs lack tools for 2026 EU sustainability deadlines, risking €10M fines 211.
+        
+    - **Solution**: R Shiny app scraping invoices/ERP data to auto-generate audit-ready Scope 1-3 emissions reports with **dynamic systems modeling** for supply chain risk.
+        
+    - **EU Leverage**: Integrate ABC (Agency for Biodiversity & Climate) carbon calculators.
+        
+    - **Revenue**: €99/month SaaS + €5K/year premium audit support 2.
