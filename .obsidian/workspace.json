@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/1. Understanding the Nature and Severity of MissingInformation.md",
+                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/2. Models that Are Resistant to Missing Values.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Understanding the Nature and Severity of MissingInformation"
+              "title": "2. Models that Are Resistant to Missing Values"
             }
           },
           {
@@ -310,8 +310,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/5. Other Potentially Useful Tools.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/1. Understanding the Nature and Severity of MissingInformation.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/2. Models that Are Resistant to Missing Values.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/5. Other Potentially Useful Tools.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
@@ -342,7 +343,6 @@
     "Pasted image 20250807203118.png",
     "Pasted image 20250807203103.png",
     "Deep Learning/Deep Learning Specialization/CNN",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/4. Encoding Categorical Predictor/5. Encodings for Ordered Data.md",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds",
