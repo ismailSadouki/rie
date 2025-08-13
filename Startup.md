@@ -2566,3 +2566,12 @@ _(Optimized for €500 Budget | Save to Notes)_
 - **Idea:** Based on country & industry, automatically generate a checklist of required compliance tasks (e.g., GDPR, safety inspections).
     
 - **Why it works:** SMEs don’t want to pay lawyers just to know “what they must do.”
+
+
+# SME Inventory Forecasting
+
+Idea: Tool for small retail shops to forecast stock needs based on sales history and seasonality.
+
+Why it works: Many SMEs still guess inventory levels and lose money due to overstock or shortages.
+
+This idea is better than your Google Review Response (45%) due to clearer ROI and market fit but less certain than GDPR or tax tools (85%+) due to optional adoption.
