@@ -22,10 +22,8 @@ Consequently, depending on the problem, you can get a better fit with an algorit
 
 Recent competitions where RMSE has been used include:
 • Avito Demand Prediction Challenge: https://www.kaggle.com/c/avito-demand-prediction
-• Google Analytics Customer Revenue Prediction: https://www.kaggle.com/c/ga-
-customer-revenue-prediction
-• Elo Merchant Category Recommendation https://www.kaggle.com/c/elo-
-merchant-category-recommendation
+• Google Analytics Customer Revenue Prediction: https://www.kaggle.com/c/ga-customer-revenue-prediction
+• Elo Merchant Category Recommendation https://www.kaggle.com/c/elo-merchant-category-recommendation
 
 
 ## Root mean squared log error (RMSLE)
