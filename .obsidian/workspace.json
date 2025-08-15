@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -335,10 +336,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "30de3f4961d03820",
   "lastOpenFiles": [
-    "Machine Learning/HPO/1. Introduction to Hyperparameters/4. Distribution of Possible  HyperparameterValues.md",
+    "Startup.md",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/1. Changing Hyperparameters.md",
+    "Machine Learning/HPO/1. Introduction to Hyperparameters/4. Distribution of Possible  HyperparameterValues.md",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
     "Machine Learning/HPO/1. Introduction to Hyperparameters/3. Algorithms and Their Hyperparameters.md",
     "Pasted image 20250815115059.png",
@@ -349,7 +351,6 @@
     "Deep Learning/Planning.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
-    "Startup.md",
     "MT/Networking.md",
     "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
