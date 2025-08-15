@@ -24,3 +24,28 @@ Gradient Issues in RNNs
 - In contrast, vanishing gradients are more challenging to address and will be explored in subsequent videos.
 
 # Gated Recurrent Unit (GRU)
+hidden rnn unit is like this
+![](https://i.imgur.com/sxirn4P.png)
+![](https://i.imgur.com/QJ6h1is.png)
+![](https://i.imgur.com/c2wFui1.png)
+
+![](https://i.imgur.com/q28VdbD.png)
+
+![](https://i.imgur.com/qYWjNMP.png)
+GRU designed to improve the handling of long-range dependencies and mitigate vanishing gradient issues.
+Understanding GRUs
+
+- GRUs introduce a memory cell (C) that retains information, allowing the model to remember important details, such as whether a subject is singular or plural.
+- The output activation (a) is equal to the memory cell value (C), simplifying the relationship between the two.
+Key Components of GRUs
+
+- The GRU uses a candidate value (C~) for updating the memory cell, computed through a tanh activation function.
+- An update gate (Γu) determines when to update the memory cell, allowing the model to maintain or change its memory based on the input.
+Implementation and Functionality
+
+- The GRU can handle multiple dimensions in its memory cell, allowing selective updates to different bits of information.
+- The design of GRUs has been refined through research, making them effective for various applications, including natural language processing.
+
+Overall, GRUs are a robust solution for capturing long-range dependencies in sequence data, paving the way for more effective RNN architectures.
+
+---
