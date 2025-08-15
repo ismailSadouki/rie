@@ -49,3 +49,26 @@ Implementation and Functionality
 Overall, GRUs are a robust solution for capturing long-range dependencies in sequence data, paving the way for more effective RNN architectures.
 
 ---
+
+# LSTM
+![](https://i.imgur.com/SsCFsCE.png)
+![](https://i.imgur.com/w6nIB9A.png)
+![](https://i.imgur.com/yIe7EQG.png)
+advanced components used in sequence modeling, particularly in comparison to Gated Recurrent Units (GRUs).
+LSTM Overview
+
+- LSTMs are designed to learn long-range dependencies in sequences, making them more powerful than GRUs.
+- They consist of three gates: the update gate, the forget gate, and the output gate, which manage the flow of information.
+Key Equations and Structure
+
+- The equations governing LSTMs differ from GRUs, with separate gates controlling updates and forget operations.
+- The memory cell can retain old values while incorporating new information, allowing for better memory retention over time.
+
+Applications and Variations
+
+- LSTMs can be enhanced with peephole connections, where gate values depend on the previous memory cell value.
+- While LSTMs are generally more powerful, GRUs are simpler and may be preferred for larger models due to faster computation.
+
+
+---
+# Bidirectional RNN
