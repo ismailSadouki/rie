@@ -132,3 +132,14 @@ https://sebastianraschka.com/blog/2021/dl-course.html
 - Post-processing pipelines
     
 - Leaderboard probing (only for learning ethics, not cheating!)
+
+
+
+## Read
+PRACTICAL BAYESIAN OPTIMIZATION OF MACHINE LEARNING: https://arxiv.org/pdf/1206.2944
+Bayesian Optimization is Superior to Random Search for
+Machine Learning Hyperparameter Tuning: Analysis of the Black-Box Optimization Challenge 2020: https://arxiv.org/pdf/2104.10201
+
+- Automatic Hyperparameter Tuning of Machine Learning Models under Time Constraints https://ieeexplore.ieee.org/document/8622384
+- Hyper-Parameter Optimization: A Review of Algorithms
+and Applications: https://arxiv.org/pdf/2003.05689
