@@ -1,4 +1,65 @@
 Post-processing tuning implies that your predictions are transformed, by means of a function, into something else in order to present a better evaluation. After building your custom loss or optimizing for your evaluation metric, you can also improve your results by leveraging the characteristics of your evaluation metric using a specific function applied to your predictions.
+
+> [!note] What is Post-Processing Tuning?
+> Normally, after you train your ML model, you **get predictions** (e.g., class probabilities, regression outputs). Post-processing tuning means you **don’t just submit these raw predictions** — instead, you transform them with some **function** before submission to better align with the evaluation metric used in the competition.
+> 👉 The key idea:  
+Even if your model is already good, **you can squeeze extra performance** by 
+massaging the predictions to match the evaluation metric’s quirks.
+> ### 🔹 Why is this needed?
+>
+>- Different competitions use different evaluation metrics (AUC, Log Loss, RMSE, F1, etc.).
+  >  
+>- Your model might optimize one thing (like cross-entropy) but the leaderboard >is ranked on another (like F1).
+  >  
+>- Post-processing tuning adjusts predictions to **better fit the leaderboard metric**.
+> 🔹 Examples
+>
+ ![](https://i.imgur.com/SpEnlbU.png)
+>![](https://i.imgur.com/fPAay1C.png)
+>✅ **In short:**  
+Post-processing tuning = taking raw model outputs and **massaging them with a clever function** to better exploit the evaluation metric. It’s not about making the model smarter, but about **wrapping predictions smarter**.
+
+---
+
+Above in example 2
+#### What does “overconfident” mean?
+When a model outputs probabilities, those numbers are supposed to reflect **how sure it is** about its prediction.
+
+- A **well-calibrated** model:
+    
+    - If it predicts **0.8 (80%)** probability of “dog”, then out of 100 such cases, ~80 should actually be dogs.
+        
+- An **overconfident** model:
+    
+    - It outputs **extremely high probabilities** (like 0.99) even when it’s wrong more often than that.
+        
+    - Example:
+        
+        - Predicts `0.99` for "cat", but only **70%** of those are truly cats.
+            
+        - The confidence (99%) is much higher than reality (70%).
+So “overconfident” = the model **believes too strongly in its predictions**, even when it makes mistakes.
+### 🔹 Why is this a problem?
+
+- **Log Loss / Cross-Entropy** punishes overconfident wrong predictions very heavily.
+    
+    - Predict `0.99` for wrong class → huge penalty.
+        
+- It reduces **trustworthiness** (like in medicine or finance, where probabilities matter).
+    
+- In competitions, overconfident models often perform worse on metrics that care about probability calibration.
+#### 🔹 How Post-Processing Fixes It
+![](https://i.imgur.com/bGc9DYD.png)
+✅ In short:
+
+- **Overconfident model** = predicts probabilities that are too close to 0 or 1, even when it’s not that accurate.
+    
+- **Post-processing calibration** makes predictions more realistic and often improves leaderboard scores.
+
+---
+
+
+
 Let’s take the Quadratic Weighted Kappa, for instance. We mentioned previously that this metric is useful when you have to deal with the prediction of an ordinal value. To recap, the original Kappa coefficient is a chance-adjusted index of agreement between the algorithm and the ground truth. It is a kind of accuracy measurement corrected by the probability that the match between the prediction and the ground truth is due to a fortunate chance.
 Here is the original version of the Kappa coefficient, as seen before:
 ![](https://i.imgur.com/7j9XjsO.png)
