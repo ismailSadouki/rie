@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/1. Changing Hyperparameters.md",
+                "file": "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/3. andom Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Changing Hyperparameters"
+              "title": "3. andom Search"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -335,16 +335,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44b25d68ea9d7a7c",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
+    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/2. Grid Search.md",
+    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/3. andom Search.md",
+    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/1. Changing Hyperparameters.md",
+    "Machine Learning/HPO/1. Introduction to Hyperparameters/4. Distribution of Possible  HyperparameterValues.md",
+    "Startup.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
     "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
-    "Startup.md",
-    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/1. Changing Hyperparameters.md",
     "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
-    "Machine Learning/HPO/1. Introduction to Hyperparameters/4. Distribution of Possible  HyperparameterValues.md",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
     "Machine Learning/HPO/1. Introduction to Hyperparameters/3. Algorithms and Their Hyperparameters.md",
     "Pasted image 20250815115059.png",
@@ -365,10 +368,7 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/4. Approaches when Complete Enumeration Is Practically Impossible.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/3. The Brute-Force Approach to IdentifyingPredictive Interactions.md",
     "Deep Learning/Deep Learning Specialization/CNN/2. Case Stadies.md",
-    "Deep Learning/Deep Learning Specialization/CNN/3. Object Detection.md",
     "Pasted image 20250811185335.png",
-    "Deep Learning/Deep Learning Specialization/must read.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
     "Pasted image 20250807203936.png",
     "Pasted image 20250807203818.png",
     "Pasted image 20250807203118.png",
