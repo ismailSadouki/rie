@@ -62,7 +62,7 @@ also known as cross-entropy in deep learning models.
 log loss is the difference between the predicted probability and the ground truth probability:
 ![](https://i.imgur.com/oKX4wNm.png)
 if a competition uses the log loss, it is implied that the objective is to estimate as correctly as possible the probability of an example being of a positive class.
-We suggest you have a look, for instance, at the recent Deepfake Detection Challenge (https://www. kaggle.com/c/deepfake-detection-challenge) or at the older Quora Question Pairs (https://www.kaggle.com/c/quora-question-pairs).
+We suggest you have a look, for instance, at the recent Deepfake Detection Challenge (https://www.kaggle.com/c/deepfake-detection-challenge) or at the older Quora Question Pairs (https://www.kaggle.com/c/quora-question-pairs).
 
 
 **The ROC curve** evaluate the performance of a binary classifier and to compare multiple classifiers.The ROC curve consists of the true positive rate (the recall) plotted against the false positive rate
