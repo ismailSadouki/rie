@@ -3,6 +3,12 @@
 calculations
 ![](https://i.imgur.com/xsNgrz6.png)
 ![](https://i.imgur.com/agjhHCq.png)
+
+#### From MIT
+our forward pass
+![](https://i.imgur.com/By2utWi.png)
+
+
 # Backpropagation Through Time
 ![](https://i.imgur.com/84ryeOt.png)
 
@@ -72,3 +78,15 @@ Applications and Variations
 
 ---
 # Bidirectional RNN
+![](https://i.imgur.com/9cQ6pB8.png)
+Bidirectional RNN
+
+- A BRNN allows information to flow from both past and future inputs, enhancing the model's ability to make predictions based on the entire sequence.
+- This is particularly useful in tasks like named entity recognition, where context from both directions is necessary to determine the meaning of words.
+Applications and Limitations
+
+- BRNNs are effective for many natural language processing tasks, especially when the entire input sequence is available.
+- However, they require the complete sequence before making predictions, which can be a limitation in real-time applications like speech recognition.
+---
+# Deep RNNs
+![](https://i.imgur.com/vxkGXpm.png)
