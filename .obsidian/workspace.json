@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/HPO/4. Bayesian Optimization/2.  Sequential Model-Based GlobalOptimization.md",
+                "file": "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.  Sequential Model-Based GlobalOptimization"
+              "title": "4.  Hyperopt"
             }
           },
           {
@@ -337,8 +337,10 @@
   },
   "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "Machine Learning/HPO/4. Bayesian Optimization/1. intro.md",
+    "Machine Learning/HPO/4. Bayesian Optimization/3. Tree-Structured Parzen Estimator.md",
+    "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
     "Machine Learning/HPO/4. Bayesian Optimization/2.  Sequential Model-Based GlobalOptimization.md",
+    "Machine Learning/HPO/4. Bayesian Optimization/1. intro.md",
     "Machine Learning/Competative ML.md",
     "Machine Learning/HPO/3. Solving Time and Memory Constraints/2.  Distributing Deep Learning Models.md",
     "Machine Learning/HPO/4. Bayesian Optimization",
@@ -367,8 +369,6 @@
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "MT/Networking.md",
     "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/The rise of data science competition platforms.md",
-    "Machine Learning/The Kaggle Book/Introducing Kaggle and Other Data Science Competitions/Introducing Kaggle.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/2. Models that Are Resistant to Missing Values.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
