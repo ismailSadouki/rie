@@ -21,7 +21,7 @@ Post-processing tuning = taking raw model outputs and **massaging them with a cl
 
 ---
 
-Above in example 2
+<mark>Above in example 2</mark>
 #### What does “overconfident” mean?
 When a model outputs probabilities, those numbers are supposed to reflect **how sure it is** about its prediction.
 
@@ -65,7 +65,7 @@ Here is the original version of the Kappa coefficient, as seen before:
 ![](https://i.imgur.com/7j9XjsO.png)
 The matrix pp contains the penalizations to weight errors differently, which is very useful for ordinal predictions since this matrix can penalize much more when the predictions deviate further from the ground truths. Using the quadratic form, that is, squaring the resulting k, makes the penalization even more severe. However, optimizing for such a metric is really not easy, since it is very difficult to implement it as a cost function. Post-processing can help you.
 
-An example can be found in the PetFinder.my Adoption Prediction competition (https://www.kaggle.com/c/petfinder-adoption-prediction). In this competition, given that the results could have 5 possible ratings (0, 1, 2, 3, or 4), you could deal with them either using a classification or a regression. If you used a regression, a post-processing transformation of the regression output could improve the model’s performance against the Quadratic Weighted Kappa metric, outper-forming the results you could get from a classification directly outputting discrete predictions.
+An example can be found in the PetFinder.my Adoption Prediction competition (https://www.kaggle.com/c/petfinder-adoption-prediction). In this competition, given that the results could have 5 possible ratings (0, 1, 2, 3, or 4), you could deal with them either using a classification or a regression. If you used a regression, a post-processing transformation of the regression output could improve the model’s performance against the Quadratic Weighted Kappa metric, outperforming the results you could get from a classification directly outputting discrete predictions.
 
 
 In the case of the PetFinder competition, the post-processing consisted of an optimization process that started by transforming the regression results into integers, first using the boundaries [0.5,1.5, 2.5, 3.5] as thresholds and, by an iterative fine-tuning, finding a better set of boundaries that maximized the performance. The fine-tuning of the boundaries required the computations of an optimizer such as SciPy’s optimize.minimize, which is based on the Nelder-Mead algorithm. The boundaries found by the optimizer were validated by a cross-validation scheme. You can read more details about this post-processing directly from the post made by Abhishek Thakur during the competition: https://www.kaggle.com/c/petfinder-adoption-prediction/discussion/76107.
