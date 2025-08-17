@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/HPO/4. Bayesian Optimization/6. Hyperas.md",
+                "file": "Machine Learning/HPO/5. Optuna and AutoML/2.  Automated Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Hyperas"
+              "title": "2.  Automated Machine Learning"
             }
           },
           {
@@ -335,11 +335,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
+    "Machine Learning/HPO/5. Optuna and AutoML/1. Optuna.md",
+    "Machine Learning/HPO/5. Optuna and AutoML/2.  Automated Machine Learning.md",
+    "Machine Learning/HPO/4. Bayesian Optimization/6. Hyperas.md",
     "Machine Learning/HPO/5. Optuna and AutoML",
     "Machine Learning/HPO/4. Bayesian Optimization/5. Hyperopt-Sklearn.md",
-    "Machine Learning/HPO/4. Bayesian Optimization/6. Hyperas.md",
     "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
     "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
@@ -368,7 +370,6 @@
     "Machine Learning/HPO",
     "Deep Learning/Deep Learning Specialization/Tuning Process.md",
     "Deep Learning/Planning.md",
-    "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
@@ -378,7 +379,6 @@
     "Deep Learning/Deep Learning Specialization/CNN",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
     "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
-    "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/4. Sizing Up Interest Rates, Shares and Bonds",
     "Pasted image 20250728155117.png",
     "Pasted image 20250728155105.png",
     "Pasted image 20250723110838.png",
