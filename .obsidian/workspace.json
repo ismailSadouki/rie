@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
+                "file": "Machine Learning/Tricks/Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Deletion of Data"
+              "title": "Encoding"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -335,17 +335,23 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/HPO/5. Optuna and AutoML/1. Optuna.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/1. Understanding the Nature and Severity of MissingInformation.md",
+    "Machine Learning/Tricks/Encoding.md",
+    "Machine Learning/Tricks",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
     "Machine Learning/HPO/5. Optuna and AutoML/2.  Automated Machine Learning.md",
+    "Machine Learning/HPO/5. Optuna and AutoML/1. Optuna.md",
     "Machine Learning/HPO/4. Bayesian Optimization/6. Hyperas.md",
     "Machine Learning/HPO/5. Optuna and AutoML",
     "Machine Learning/HPO/4. Bayesian Optimization/5. Hyperopt-Sklearn.md",
     "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
     "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
     "Machine Learning/HPO/4. Bayesian Optimization/3. Tree-Structured Parzen Estimator.md",
     "Machine Learning/HPO/4. Bayesian Optimization/2.  Sequential Model-Based GlobalOptimization.md",
     "Machine Learning/HPO/4. Bayesian Optimization/1. intro.md",
@@ -360,16 +366,11 @@
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/1. Changing Hyperparameters.md",
     "Machine Learning/HPO/1. Introduction to Hyperparameters/4. Distribution of Possible  HyperparameterValues.md",
     "Startup.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
-    "Machine Learning/HPO/1. Introduction to Hyperparameters/3. Algorithms and Their Hyperparameters.md",
     "Pasted image 20250815115059.png",
     "Machine Learning/HPO/1. Introduction to Hyperparameters",
     "Machine Learning/HPO",
-    "Deep Learning/Deep Learning Specialization/Tuning Process.md",
-    "Deep Learning/Planning.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
@@ -378,7 +379,6 @@
     "Pasted image 20250807203103.png",
     "Deep Learning/Deep Learning Specialization/CNN",
     "Quant/Quant Finance for dummies/2. Tackling Financial Instruments/5. Exploring Options",
-    "Machine Learning/The Kaggle Book/9. Ensembling with Blending and Stacking Solutions",
     "Pasted image 20250728155117.png",
     "Pasted image 20250728155105.png",
     "Pasted image 20250723110838.png",
