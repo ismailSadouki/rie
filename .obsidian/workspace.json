@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AutoML/1. HPO/4. Multi-fidelity Optimization.md",
+                "file": "Machine Learning/AutoML/1. HPO/5. Applications to AutoML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Multi-fidelity Optimization"
+              "title": "5. Applications to AutoML"
             }
           },
           {
@@ -148,16 +148,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
+                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RNN"
+              "title": "1.RNN"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -335,12 +335,15 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "516ffee5d8d43e3b",
   "lastOpenFiles": [
-    "Machine Learning/AutoML/1. HPO/3. Blackbox Hyperparameter Optimization.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling",
+    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
+    "Machine Learning/AutoML/1. HPO/5. Applications to AutoML.md",
     "Machine Learning/AutoML/1. HPO/4. Multi-fidelity Optimization.md",
-    "Machine Learning/AutoML/1. HPO/1. Introduction.md",
+    "Machine Learning/AutoML/1. HPO/3. Blackbox Hyperparameter Optimization.md",
     "Machine Learning/AutoML/1. HPO/2. Problem Statement.md",
+    "Machine Learning/AutoML/1. HPO/1. Introduction.md",
     "Machine Learning/HPO/5. Optuna and AutoML/2.  Automated Machine Learning.md",
     "Machine Learning/AutoML/1. HPO",
     "Machine Learning/AutoML/Untitled.md",
@@ -357,8 +360,7 @@
     "Machine Learning/HPO/5. Optuna and AutoML",
     "Machine Learning/HPO/4. Bayesian Optimization/5. Hyperopt-Sklearn.md",
     "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
-    "Deep Learning/Deep Learning Specialization/CNN/RNN.md",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
     "Machine Learning/HPO/4. Bayesian Optimization/3. Tree-Structured Parzen Estimator.md",
     "Machine Learning/HPO/4. Bayesian Optimization/2.  Sequential Model-Based GlobalOptimization.md",
     "Machine Learning/HPO/4. Bayesian Optimization/1. intro.md",
@@ -366,9 +368,7 @@
     "Machine Learning/HPO/3. Solving Time and Memory Constraints/2.  Distributing Deep Learning Models.md",
     "Machine Learning/HPO/4. Bayesian Optimization",
     "Machine Learning/HPO/3. Solving Time and Memory Constraints/1. Dask.md",
-    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/4.  Parallel Hyperparameter Optimization.md",
     "Machine Learning/HPO/3. Solving Time and Memory Constraints",
-    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn/3. Random Search.md",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
     "Pasted image 20250815115059.png",
     "Machine Learning/HPO/1. Introduction to Hyperparameters",
