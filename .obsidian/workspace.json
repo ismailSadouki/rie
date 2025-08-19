@@ -148,16 +148,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
+                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.RNN"
+              "title": "2. NLP"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -325,6 +325,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -335,8 +336,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
+    "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
     "Machine Learning/AutoML/1. HPO/5. Applications to AutoML.md",
@@ -360,7 +363,6 @@
     "Machine Learning/HPO/5. Optuna and AutoML",
     "Machine Learning/HPO/4. Bayesian Optimization/5. Hyperopt-Sklearn.md",
     "Machine Learning/HPO/4. Bayesian Optimization/4.  Hyperopt.md",
-    "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
     "Machine Learning/HPO/4. Bayesian Optimization/3. Tree-Structured Parzen Estimator.md",
     "Machine Learning/HPO/4. Bayesian Optimization/2.  Sequential Model-Based GlobalOptimization.md",
     "Machine Learning/HPO/4. Bayesian Optimization/1. intro.md",
@@ -373,7 +375,6 @@
     "Pasted image 20250815115059.png",
     "Machine Learning/HPO/1. Introduction to Hyperparameters",
     "Machine Learning/HPO",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
     "Pasted image 20250807203818.png",
