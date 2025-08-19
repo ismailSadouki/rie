@@ -148,16 +148,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
+                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. NLP"
+              "title": "3. Sequence Models and Attention Mechanism"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -336,10 +336,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "Machine Learning/AutoML/3. Neural Architecture Search/1. Introduction.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Machine Learning/AutoML/3. Neural Architecture Search/2. Search Space.md",
+    "Machine Learning/AutoML/3. Neural Architecture Search/1. Introduction.md",
     "Pasted image 20250819125213.png",
     "Machine Learning/AutoML/2. Meta-Learning/4. Learning from Prior Models.md",
     "Machine Learning/AutoML/3. Neural Architecture Search",
@@ -349,7 +351,6 @@
     "Machine Learning/AutoML/1. HPO/6. Open Problems and Future Research Directions.md",
     "Machine Learning/AutoML/2. Meta-Learning",
     "Machine Learning/AutoML/1. HPO/5. Applications to AutoML.md",
-    "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
@@ -371,7 +372,6 @@
     "Machine Learning/HPO/5. Optuna and AutoML/1. Optuna.md",
     "Machine Learning/HPO/4. Bayesian Optimization/6. Hyperas.md",
     "Machine Learning/HPO/5. Optuna and AutoML",
-    "Machine Learning/HPO/4. Bayesian Optimization/5. Hyperopt-Sklearn.md",
     "Machine Learning/HPO/4. Bayesian Optimization",
     "Machine Learning/HPO/3. Solving Time and Memory Constraints",
     "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
