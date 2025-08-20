@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AutoML/3. Neural Architecture Search/2. Search Space.md",
+                "file": "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA/1. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Search Space"
+              "title": "1. Introduction"
             }
           },
           {
@@ -338,10 +338,15 @@
   },
   "active": "500db2d487d64bd2",
   "lastOpenFiles": [
+    "Machine Learning/AutoML/3. Neural Architecture Search/4. Performance Estimation Strategy.md",
+    "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA/1. Introduction.md",
+    "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA",
+    "Machine Learning/AutoML/Untitled.md",
+    "Machine Learning/AutoML/3. Neural Architecture Search/3. Search Strategy.md",
+    "Machine Learning/AutoML/3. Neural Architecture Search/2. Search Space.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Pasted image 20250819220327.png",
     "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
-    "Machine Learning/AutoML/3. Neural Architecture Search/2. Search Space.md",
     "Machine Learning/AutoML/3. Neural Architecture Search/1. Introduction.md",
     "Pasted image 20250819125213.png",
     "Machine Learning/AutoML/2. Meta-Learning/4. Learning from Prior Models.md",
@@ -361,7 +366,6 @@
     "Machine Learning/AutoML/1. HPO/1. Introduction.md",
     "Machine Learning/HPO/5. Optuna and AutoML/2.  Automated Machine Learning.md",
     "Machine Learning/AutoML/1. HPO",
-    "Machine Learning/AutoML/Untitled.md",
     "Machine Learning/AutoML",
     "Machine Learning/Tricks/Encoding.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/1. Understanding the Nature and Severity of MissingInformation.md",
@@ -369,12 +373,9 @@
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/3. Deletion of Data.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/2. Practical Considerations.md",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/6. Detecting Interaction Effects/1. Guiding Principles in the Search for Interactions.md",
-    "Machine Learning/HPO/5. Optuna and AutoML/1. Optuna.md",
     "Machine Learning/HPO/5. Optuna and AutoML",
     "Machine Learning/HPO/4. Bayesian Optimization",
     "Machine Learning/HPO/3. Solving Time and Memory Constraints",
-    "Machine Learning/HPO/2. Hyperparameter Optimization Using Scikit-Learn",
     "Pasted image 20250815115059.png",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
