@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AutoML/5. Hyperopt Sklearn/5. Experiments.md",
+                "file": "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/1. Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Experiments"
+              "title": "1. Introduction"
             }
           },
           {
@@ -338,8 +338,11 @@
   },
   "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "Machine Learning/AutoML/5. Hyperopt Sklearn/4. Example Usage.md",
+    "Machine Learning/AutoML/5. Hyperopt Sklearn/6. Discussion and Future Work.md",
+    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/1. Introduction.md",
+    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/5. Experiments.md",
+    "Machine Learning/AutoML/5. Hyperopt Sklearn/4. Example Usage.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/3. Scikit-Learn Model Selection as a Search Problem.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/2. Background Hyperopt for Optimization.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/1. Introduction.md",
@@ -369,13 +372,10 @@
     "Machine Learning/AutoML/1. HPO/5. Applications to AutoML.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/1.RNN.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
-    "Machine Learning/AutoML/1. HPO/4. Multi-fidelity Optimization.md",
     "Machine Learning/AutoML/1. HPO",
     "Machine Learning/AutoML",
     "Machine Learning/Tricks",
     "Machine Learning/HPO/5. Optuna and AutoML",
-    "Machine Learning/HPO/4. Bayesian Optimization",
     "Pasted image 20250815115059.png",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
