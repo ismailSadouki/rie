@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -336,11 +336,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
+    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Pasted image 20250819220327.png",
     "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
-    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Machine Learning/AutoML/3. Neural Architecture Search/2. Search Space.md",
     "Machine Learning/AutoML/3. Neural Architecture Search/1. Introduction.md",
     "Pasted image 20250819125213.png",
@@ -383,7 +383,6 @@
     "Pasted image 20250807203103.png",
     "Pasted image 20250728155117.png",
     "Pasted image 20250728155105.png",
-    "Pasted image 20250723110838.png",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
