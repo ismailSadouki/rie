@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/4. Transformer Network.md",
+                "file": "Machine Learning/Tricks/Features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Transformer Network"
+              "title": "Features"
             }
           },
           {
@@ -336,10 +336,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/4. Transformer Network.md",
+    "Machine Learning/Tricks/Features.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
     "Deep Learning/Deep Learning Specialization/CNN/3. Object Detection.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/1. Introduction.md",
@@ -369,7 +370,6 @@
     "Machine Learning/AutoML/2. Meta-Learning/3. Learning from Task Properties.md",
     "Machine Learning/AutoML/2. Meta-Learning/2. Learning from Model Evaluations.md",
     "Machine Learning/AutoML/2. Meta-Learning/1. Introduction.md",
-    "Machine Learning/AutoML/1. HPO/6. Open Problems and Future Research Directions.md",
     "Machine Learning/AutoML/2. Meta-Learning",
     "Deep Learning/Deep Learning Specialization/Seq modeling",
     "Machine Learning/AutoML/1. HPO",
