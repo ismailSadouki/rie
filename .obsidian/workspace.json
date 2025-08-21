@@ -336,8 +336,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "516ffee5d8d43e3b",
   "lastOpenFiles": [
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/4. Experiments.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/5. Conclusion.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/3. Auto-Net 2.0.md",
@@ -366,7 +367,6 @@
     "Machine Learning/AutoML/5. Hyperopt Sklearn/1. Introduction.md",
     "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA/5. Experimental Evaluation.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn",
-    "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA/4. Auto-WEKA.md",
     "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
