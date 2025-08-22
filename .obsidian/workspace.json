@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -336,11 +336,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "fa74bf9512406fd6",
   "lastOpenFiles": [
+    "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/5. Conclusion.md",
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/4. Experiments.md",
-    "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/5. Conclusion.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/3. Auto-Net 2.0.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/2. Auto-Net 1.0.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/1. Introduction.md",
@@ -375,7 +375,6 @@
     "Deep Learning/Deep Learning Specialization/Seq modeling",
     "Machine Learning/AutoML/1. HPO",
     "Machine Learning/AutoML",
-    "Machine Learning/Tricks",
     "Pasted image 20250815115059.png",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
