@@ -80,3 +80,18 @@ Note that when doing PCA on this data, you will see that oil & gas are close to 
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/KCcN5Mx5TyenDeTMeY8ncA_4656f0cf7d3046178d4a112bd4ce8c79_Screen-Shot-2021-02-11-at-2.40.05-PM.png?expiry=1756080000000&hmac=kUVM5yH-u-3fyh2v5E1RP5NDX89G82G6kZYhyXnq2LA)
 
 Those are the results of plotting a couple of vectors in two dimensions. Note that words with similar part of speech (POS) tags are next to one another. This is because many of the training algorithms learn words by identifying the neighboring words. Thus, words with similar POS tags tend to be found in similar locations. An interesting insight is that synonyms and antonyms tend to be found next to each other in the plot. Why is that the case?
+
+# PCA algorithm
+PCA is commonly used to reduce the dimension of your data. Intuitively the model collapses the data across principal components. You can think of the first principal component (in a 2D dataset) as the line where there is the most amount of variance. You can then collapse the data points on that line. Hence you went from 2D to 1D. You can generalize this intuition to several dimensions.
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/UdWbHcSXS6KVmx3ElxuiXA_0168200d6c6d44c087d7b4aa85f012a5_Screen-Shot-2021-02-11-at-2.56.13-PM.png?expiry=1756080000000&hmac=cudB1ACoC_18sAeQfNzeXwEYH6UrgpT0OtmdC2cOJ4g)
+
+**Eigenvector**: the resulting vectors, also known as the uncorrelated features of your data
+
+**Eigenvalue:** the amount of information retained by each new feature. You can think of it as the variance in the eigenvector.
+
+Also each **eigenvalue** has a corresponding eigenvector. The eigenvalue tells you how much variance there is in the eigenvector. Here are the steps required to compute PCA:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/mpG2XIYMRr6RtlyGDKa-6A_87b42715700f4aada1015e4e5d66ca4d_Screen-Shot-2021-02-11-at-3.26.11-PM.png?expiry=1756080000000&hmac=fqpKSeWwmOujjqJ3CPIfOfHk_sfZL_LikWZ2Bfn8qB0)
+
+![](https://i.imgur.com/NfXbvFz.png)
