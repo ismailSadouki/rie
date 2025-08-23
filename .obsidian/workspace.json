@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP specialization/1. Classification and vector spaces/week 1.md",
+                "file": "NLP/NLP specialization/1. Classification and vector spaces/vector spaces models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "week 1"
+              "title": "vector spaces models"
             }
           }
         ],
@@ -338,8 +338,9 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "NLP/NLP specialization/1. Classification and vector spaces/week 1.md",
+    "NLP/NLP specialization/1. Classification and vector spaces/vector spaces models.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "NLP/NLP specialization/1. Classification and vector spaces",
     "NLP/NLP specialization",
     "NLP",
@@ -371,7 +372,6 @@
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/6. Evaluation of the Proposed AutoML Improvements.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/5. Comparing Auto-sklearn to Auto-WEKAand HYPEROPT-SKLEARN.md",
-    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/4. A Practical Automated Machine Learning System.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning",
     "Machine Learning/AutoML/5. Hyperopt Sklearn",
     "Pasted image 20250819220327.png",

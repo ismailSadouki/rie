@@ -88,3 +88,30 @@ To train your naïve Bayes classifier, you have to perform the following steps:
 ![](https://i.imgur.com/62Xw3wu.png)
 ![](https://i.imgur.com/ilriCJT.png)
 # Testing Naïve Bayes
+![](https://i.imgur.com/ppKiRL0.png)
+# Naïve Bayes Assumptions
+Naïve Bayes makes the independence assumption and is affected by the word frequencies in the corpus. For example, if you had the following![](https://i.imgur.com/sMz3U7b.png)
+In the first image, you can see the word sunny and hot tend to depend on each other and are correlated to a certain extent with the word "desert". Naive Bayes assumes independence throughout. Furthermore, if you were to fill in the sentence on the right, this naive model will assign equal weight to the words "spring, summer, fall, winter".![](https://i.imgur.com/1DyPJrQ.png)
+On Twitter, there are usually more positive tweets than negative ones. However, some "clean" datasets you may find are artificially balanced to have to the same amount of positive and negative tweets. Just keep in mind, that in the real world, the data could be much noisier.
+
+# Error Analysis
+# Error Analysis
+
+There are several mistakes that could cause you to misclassify an example or a tweet. For example,
+
+- Removing punctuation
+    
+
+- Removing words
+    
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/giZyxTjMTEymcsU4zKxMAQ_6274170aa628466d97f59327c65636b4_Screen-Shot-2020-09-16-at-11.01.13-AM.png?expiry=1756080000000&hmac=DbQohAr8vdhAEBy_LLnCQvOL2YWMtpaRVhJqzTSNS-M)
+- Word order
+    
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/h9jdVmMSQmiY3VZjEuJoMQ_bd211df163ad42189f92d9b902c7e5e6_Screen-Shot-2020-09-16-at-10.50.55-AM.png?expiry=1756080000000&hmac=XnPn5YYKrEH-VbbNaLUx4xrUqniIgW8tcb4BwHhkLJI)
+
+- Adversarial attacks
+    
+
+These include sarcasm, irony, euphemisms.
