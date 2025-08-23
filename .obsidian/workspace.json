@@ -148,16 +148,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
+                "file": "NLP/NLP specialization/1. Classification and vector spaces/week 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Sequence Models and Attention Mechanism"
+              "title": "week 1"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -336,10 +336,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/1. Introdution.md",
+    "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
+    "NLP/NLP specialization/1. Classification and vector spaces/week 1.md",
+    "NLP/NLP specialization/1. Classification and vector spaces",
+    "NLP/NLP specialization",
+    "NLP",
+    "Deep Learning/Untitled",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/1. Introdution.md",
     "Machine Learning/AutoML/9. The Automatic Statistician/5. Conclusion.md",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018",
     "Machine Learning/AutoML/9. The Automatic Statistician/4. Other Automatic Statistician Systems.md",
@@ -366,16 +372,10 @@
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/6. Evaluation of the Proposed AutoML Improvements.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/5. Comparing Auto-sklearn to Auto-WEKAand HYPEROPT-SKLEARN.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/4. A Practical Automated Machine Learning System.md",
-    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/3. New Methods for Increasing Efficiency and Robustness of AutoML.md",
-    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/2. AutoML as a CASH Problem.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning",
     "Machine Learning/AutoML/5. Hyperopt Sklearn",
-    "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
-    "Machine Learning/AutoML/3. Neural Architecture Search",
-    "Machine Learning/AutoML/2. Meta-Learning",
-    "Deep Learning/Deep Learning Specialization/Seq modeling",
     "Pasted image 20250815115059.png",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
