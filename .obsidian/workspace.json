@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Tricks/Encoding.md",
+                "file": "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encoding"
+              "title": "2. Methods"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -336,11 +336,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7a4e83f9a54e1ef5",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Deep Learning/Deep Learning Specialization/CNN/3. Object Detection.md",
-    "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/1. Introduction.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
+    "Machine Learning/Tricks/Encoding.md",
     "Startup.md",
+    "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
+    "Deep Learning/Deep Learning Specialization/CNN/3. Object Detection.md",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/5. Conclusion.md",
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning",
     "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/4. Experiments.md",
@@ -356,7 +359,6 @@
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/2. AutoML as a CASH Problem.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/1. Introduction.md",
     "Machine Learning/Tricks/Features.md",
-    "Machine Learning/Tricks/Encoding.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/4. Transformer Network.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/2. NLP.md",
@@ -365,8 +367,6 @@
     "Machine Learning/AutoML/5. Hyperopt Sklearn/5. Experiments.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/4. Example Usage.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn/3. Scikit-Learn Model Selection as a Search Problem.md",
-    "Machine Learning/AutoML/5. Hyperopt Sklearn/2. Background Hyperopt for Optimization.md",
-    "Machine Learning/AutoML/5. Hyperopt Sklearn/1. Introduction.md",
     "Machine Learning/AutoML/5. Hyperopt Sklearn",
     "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA",
     "Pasted image 20250819220327.png",
