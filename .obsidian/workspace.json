@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AutoML/9. The Automatic Statistician/4. Other Automatic Statistician Systems.md",
+                "file": "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Other Automatic Statistician Systems"
+              "title": "2. Problem Formalization and Overview"
             }
           },
           {
@@ -338,8 +338,12 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/AutoML/9. The Automatic Statistician/3. An Automatic Statistician for Time Series Data.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/1. Introdution.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Machine Learning/AutoML/9. The Automatic Statistician/5. Conclusion.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018",
     "Machine Learning/AutoML/9. The Automatic Statistician/4. Other Automatic Statistician Systems.md",
+    "Machine Learning/AutoML/9. The Automatic Statistician/3. An Automatic Statistician for Time Series Data.md",
     "Machine Learning/AutoML/9. The Automatic Statistician/2. Basic Anatomy of an Automatic Statistician.md",
     "Machine Learning/AutoML/9. The Automatic Statistician/1. Introduction.md",
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/3. Results.md",
@@ -364,9 +368,6 @@
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/4. A Practical Automated Machine Learning System.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/3. New Methods for Increasing Efficiency and Robustness of AutoML.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/2. AutoML as a CASH Problem.md",
-    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/1. Introduction.md",
-    "Machine Learning/Tricks/Features.md",
-    "Deep Learning/Deep Learning Specialization/Seq modeling/4. Transformer Network.md",
     "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning",
     "Machine Learning/AutoML/5. Hyperopt Sklearn",
     "Machine Learning/AutoML/4. AutoWEKA Automatic Model Selection and Hyperparameter Optimization in WEKA",
@@ -375,7 +376,6 @@
     "Machine Learning/AutoML/3. Neural Architecture Search",
     "Machine Learning/AutoML/2. Meta-Learning",
     "Deep Learning/Deep Learning Specialization/Seq modeling",
-    "Machine Learning/AutoML/1. HPO",
     "Pasted image 20250815115059.png",
     "Pasted image 20250811185335.png",
     "Pasted image 20250807203936.png",
