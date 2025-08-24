@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/NLP specialization/3. NLP with sequence models/1. RNN for language modeling.md",
+                "file": "NLP/NLP specialization/3. NLP with sequence models/2. LSTM and named entity recognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. RNN for language modeling"
+              "title": "2. LSTM and named entity recognition"
             }
           }
         ],
@@ -338,8 +338,9 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/NLP specialization/2. Probabilistic Models/Word embeddings with NN.md",
     "NLP/NLP specialization/3. NLP with sequence models/1. RNN for language modeling.md",
+    "NLP/NLP specialization/3. NLP with sequence models/2. LSTM and named entity recognition.md",
+    "NLP/NLP specialization/2. Probabilistic Models/Word embeddings with NN.md",
     "NLP/NLP specialization/3. NLP with sequence models",
     "NLP/NLP specialization/2. Probabilistic Models/3. Autocomplete and language models.md",
     "NLP/NLP specialization/2. Probabilistic Models/2. Part of speech Tagging and hidden markov models.md",
@@ -373,7 +374,6 @@
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/1. Introduction.md",
     "Machine Learning/Tricks/Encoding.md",
-    "Startup.md",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
