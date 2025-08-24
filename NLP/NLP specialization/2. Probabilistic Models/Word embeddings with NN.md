@@ -199,3 +199,41 @@ Given, your predicted center word matrix, and actual center word matrix, you can
 When computing the back-prop in this model, you need to compute the following:
 ![](https://i.imgur.com/y8Zkupo.png)
 A smaller alpha allows for more gradual updates to the weights and biases, whereas a larger number allows for a faster update of the weights. If ααalpha is too large, you might not learn anything, if it is too small, your model will take forever to train.
+# Extracting Word Embedding Vectors
+
+There are two options to extract word embeddings after training the continuous bag of words model. You can use w1w1​w, start subscript, 1, end subscript as follows:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/azjmJmHaTN245iZh2hzdrw_361c5259933343a088e3ff29c6ca2aaa_Screen-Shot-2021-03-29-at-5.12.19-PM.png?expiry=1756166400000&hmac=-iJtrw4HY4joMTlHl8EsQc7ek3BXUod4rvZc4MzHH9U)
+
+If you were to use w1w1​w, start subscript, 1, end subscript, each column will correspond to the embeddings of a specific word. You can also use w2w2​w, start subscript, 2, end subscript as follows:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/zAjCoCbFS5iIwqAmxauYAg_cd348843b8a74f37aafb58ee8619f5cc_Screen-Shot-2021-03-29-at-5.15.22-PM.png?expiry=1756166400000&hmac=kJXvID_MYeCB3fBU6WtYqUwYp4LF32wZAb52S23TQks)
+
+The final option is to take an average of both matrices as follows:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/pdvDAJzeS6ebwwCc3tunfA_42ee7a09c22a4a1f9e0fb081591ac948_Screen-Shot-2021-03-29-at-5.16.12-PM.png?expiry=1756166400000&hmac=x_h3L8QzHZeemoC8QEheXMd1aJ3lLUuUlDuSy9PZIVQ)
+
+# Evaluating Word Embeddings: Intrinsic Evaluation
+
+**Intrinsic evaluation** allows you to test relationships between words. It allows you to capture semantic analogies as, _“France” is to “Paris” as “Italy” is to <?>_ and also syntactic analogies as _“seen” is to “saw” as “been” is to <?>__._
+
+_Ambiguous_ cases could be much harder to track:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/WYeHySclSXKHh8knJQlyOg_1b311a595e654d6f8c03dfc66dbc1cbd_Screen-Shot-2021-03-29-at-5.26.53-PM.png?expiry=1756166400000&hmac=jrUS5sg5-T3KPTebdyxcd0_Ri7p6INYACAYuHzocu-I)
+
+Here are a few ways that allow to use intrinsic evaluation.
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vQBs53_BSlqAbOd_wapaWg_fad8253825684cfdb89980713be06f9e_Screen-Shot-2021-03-29-at-5.28.00-PM.png?expiry=1756166400000&hmac=CjQC_7LGLhE1MNfPCQjzA-0etfRwpOtDeb5VDqdLw_0)
+
+# Evaluating Word Embeddings: Extrinsic Evaluation
+
+**Extrinsic evaluation** tests word embeddings on external tasks like named entity recognition, parts-of-speech tagging, etc.
+
+- + Evaluates actual usefulness of embeddings
+    
+- - Time Consuming
+    
+- - More difficult to trouble shoot
+    
+
+So now you know both **intrinsic** and **extrinsic** evaluation.
