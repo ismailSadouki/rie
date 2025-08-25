@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -336,10 +336,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaa18e7b9ac20640",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "NLP/NLP specialization/3. NLP with sequence models/2. LSTM and named entity recognition.md",
     "NLP/NLP specialization/3. NLP with sequence models/3. Siamese Networks.md",
+    "NLP/NLP specialization/3. NLP with sequence models/2. LSTM and named entity recognition.md",
     "NLP/NLP specialization/3. NLP with sequence models/1. RNN for language modeling.md",
     "NLP/NLP specialization/2. Probabilistic Models/Word embeddings with NN.md",
     "NLP/NLP specialization/3. NLP with sequence models",
