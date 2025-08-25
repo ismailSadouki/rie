@@ -336,10 +336,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "500db2d487d64bd2",
+  "active": "516ffee5d8d43e3b",
   "lastOpenFiles": [
-    "Python/Python for finance/2. Mastering the Basics/1. Numpy.md",
+    "Python/Python for finance/3. Financial Data Science",
+    "Python/Python for finance/2. Mastering the Basics/4. Object-Oriented Programming.md",
     "Python/Python for finance/2. Mastering the Basics/3. pandas.md",
+    "Python/Python for finance/2. Mastering the Basics/1. Numpy.md",
     "NLP/NLP specialization/3. NLP with sequence models/3. Siamese Networks.md",
     "NLP/NLP specialization/3. NLP with sequence models/2. LSTM and named entity recognition.md",
     "NLP/NLP specialization/3. NLP with sequence models/1. RNN for language modeling.md",
@@ -372,8 +374,6 @@
     "Machine Learning/AutoML/9. The Automatic Statistician/1. Introduction.md",
     "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/3. Results.md",
     "Machine Learning/AutoML/9. The Automatic Statistician",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/4. Conclusions and Future Work.md",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
