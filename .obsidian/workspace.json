@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
+                "file": "NLP/HuggingFace/1. Transformers Models/3. How 🤗 Transformers solve tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. How do Transformers work?"
+              "title": "3. How 🤗 Transformers solve tasks"
             }
           }
         ],
@@ -338,8 +338,9 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
     "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
+    "NLP/HuggingFace/1. Transformers Models/3. How 🤗 Transformers solve tasks.md",
+    "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
     "NLP/NLP specialization/4. NLP with Attention models/3. Question Answering.md",
     "NLP/HuggingFace/1. Transformers Models",
     "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
@@ -373,7 +374,6 @@
     "NLP/NLP specialization/1. Classification and vector spaces/week 1.md",
     "Deep Learning/Deep Learning Specialization/Seq modeling/3. Sequence Models and Attention Mechanism.md",
     "NLP/NLP specialization/1. Classification and vector spaces",
-    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
