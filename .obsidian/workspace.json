@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
+                "file": "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.  Transformer Architectures"
+              "title": "5. Inference with LLMs"
             }
           },
           {
@@ -350,10 +350,11 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
+    "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
+    "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
     "Startup.md",
     "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
-    "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
     "NLP/HuggingFace/1. Transformers Models/3. How 🤗 Transformers solve tasks.md",
     "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
     "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
@@ -384,7 +385,6 @@
     "NLP/NLP specialization/2. Probabilistic Models/1. Autocorrect.md",
     "NLP/NLP specialization/1. Classification and vector spaces/Machine Translation and Document Search.md",
     "NLP/NLP specialization/2. Probabilistic Models",
-    "NLP/NLP specialization/1. Classification and vector spaces/Untitled.md",
     "NLP/NLP specialization/1. Classification and vector spaces",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
