@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
+                "file": "NLP/HuggingFace/2. Using Transformers/3. Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Inference with LLMs"
+              "title": "3. Models"
             }
           },
           {
@@ -350,8 +350,14 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
+    "NLP/HuggingFace/2. Using Transformers/2.  Behind the pipeline.md",
+    "NLP/HuggingFace/2. Using Transformers/3. Models.md",
+    "NLP/HuggingFace/2. Using Transformers/1. Introduction.md",
+    "NLP/HuggingFace/1. Transformers Models/7. Summary.md",
+    "NLP/HuggingFace/2. Using Transformers",
+    "NLP/HuggingFace/1. Transformers Models/6.  Bias and limitations.md",
     "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
+    "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
     "Startup.md",
     "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
@@ -377,15 +383,9 @@
     "NLP/NLP specialization/2. Probabilistic Models/Word embeddings with NN.md",
     "NLP/NLP specialization/3. NLP with sequence models",
     "NLP/NLP specialization/2. Probabilistic Models/3. Autocomplete and language models.md",
-    "NLP/NLP specialization/2. Probabilistic Models/2. Part of speech Tagging and hidden markov models.md",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
-    "Machine Learning/AutoML/7. Towards Automatically-Tuned Deep Neural Networks/5. Conclusion.md",
     "Python/Python for finance/2. Mastering the Basics",
     "Python/Python for finance",
-    "NLP/NLP specialization/2. Probabilistic Models/1. Autocorrect.md",
-    "NLP/NLP specialization/1. Classification and vector spaces/Machine Translation and Document Search.md",
     "NLP/NLP specialization/2. Probabilistic Models",
-    "NLP/NLP specialization/1. Classification and vector spaces",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
