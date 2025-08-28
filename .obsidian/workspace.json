@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/3. Fine-tuning a pretrained model/2.  Fine-tuning a model with the Trainer API.md",
+                "file": "NLP/HuggingFace/3. Fine-tuning a pretrained model/3.  A full training loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.  Fine-tuning a model with the Trainer API"
+              "title": "3.  A full training loop"
             }
           },
           {
@@ -350,8 +350,9 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/1.  Processing the data.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/2.  Fine-tuning a model with the Trainer API.md",
+    "NLP/HuggingFace/3. Fine-tuning a pretrained model/3.  A full training loop.md",
+    "NLP/HuggingFace/3. Fine-tuning a pretrained model/1.  Processing the data.md",
     "NLP/HuggingFace/2. Using Transformers/7.  Optimized Inference Deployment.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
     "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
@@ -381,7 +382,6 @@
     "NLP/NLP specialization/4. NLP with Attention models/Untitled",
     "NLP/NLP specialization/4. NLP with Attention models",
     "Python/Python for finance/3. Financial Data Science/1. Data Visualization.md",
-    "Python/Python for finance/2. Mastering the Basics/3. pandas.md",
     "Python/Python for finance/3. Financial Data Science",
     "NLP/NLP specialization/3. NLP with sequence models",
     "Python/Python for finance/2. Mastering the Basics",
