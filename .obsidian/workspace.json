@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -348,10 +348,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaa18e7b9ac20640",
+  "active": "fa74bf9512406fd6",
   "lastOpenFiles": [
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/4.  Understanding Learning Curves.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
+    "NLP/HuggingFace/3. Fine-tuning a pretrained model/4.  Understanding Learning Curves.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/3.  A full training loop.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/2.  Fine-tuning a model with the Trainer API.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/1.  Processing the data.md",
