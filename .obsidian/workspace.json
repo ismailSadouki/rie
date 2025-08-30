@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -362,10 +362,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "500db2d487d64bd2",
   "lastOpenFiles": [
-    "Startup.md",
     "StartupVIP.md",
+    "Startup.md",
     "Python/Python for finance/3. Financial Data Science/startupVIP.md",
     "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
