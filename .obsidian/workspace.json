@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
+                "file": "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.  Fine-tuning, Check!"
+              "title": "1.  Transformers, what can they do?"
             }
           },
           {
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -362,12 +362,15 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44b25d68ea9d7a7c",
+  "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
+    "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
+    "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
+    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
@@ -378,7 +381,6 @@
     "StartupVIP.md",
     "Startup.md",
     "Python/Python for finance/3. Financial Data Science/startupVIP.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/4.  Understanding Learning Curves.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/3.  A full training loop.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/2.  Fine-tuning a model with the Trainer API.md",
@@ -389,8 +391,6 @@
     "NLP/HuggingFace/2. Using Transformers/5.  Handling multiple sequences.md",
     "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
     "NLP/HuggingFace/2. Using Transformers/3. Models.md",
-    "NLP/HuggingFace/2. Using Transformers/2.  Behind the pipeline.md",
-    "NLP/HuggingFace/2. Using Transformers/1. Introduction.md",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
     "NLP/HuggingFace",
