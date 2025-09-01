@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+                "file": "Machine Learning/Tricks/Trainnig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Problem Formalization and Overview"
+              "title": "Trainnig"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
+                "file": "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.  Transformers, what can they do?"
+              "title": "4. Tokenizers"
             }
           },
           {
@@ -240,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -364,10 +364,21 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
-    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "NLP/HuggingFace/2. Using Transformers/3. Models.md",
+    "NLP/HuggingFace/2. Using Transformers/2.  Behind the pipeline.md",
+    "NLP/HuggingFace/2. Using Transformers/1. Introduction.md",
+    "NLP/HuggingFace/1. Transformers Models/7. Summary.md",
+    "NLP/HuggingFace/1. Transformers Models/6.  Bias and limitations.md",
+    "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
+    "Machine Learning/Tricks/Trainnig.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
+    "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
+    "NLP/HuggingFace/1. Transformers Models/3. How 🤗 Transformers solve tasks.md",
+    "NLP/HuggingFace/1. Transformers Models/2. How do Transformers work?.md",
+    "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
+    "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
@@ -379,18 +390,7 @@
     "HOME/Contract.md",
     "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
     "StartupVIP.md",
-    "Startup.md",
-    "Python/Python for finance/3. Financial Data Science/startupVIP.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/4.  Understanding Learning Curves.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/3.  A full training loop.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/2.  Fine-tuning a model with the Trainer API.md",
-    "NLP/HuggingFace/3. Fine-tuning a pretrained model/1.  Processing the data.md",
-    "NLP/HuggingFace/2. Using Transformers/7.  Optimized Inference Deployment.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
-    "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
-    "NLP/HuggingFace/2. Using Transformers/5.  Handling multiple sequences.md",
-    "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
-    "NLP/HuggingFace/2. Using Transformers/3. Models.md",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
     "NLP/HuggingFace",
