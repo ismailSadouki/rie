@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Training and performance"
+              "title": "1. The architecture of BERT"
             }
           },
           {
@@ -364,10 +364,11 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models",
     "Machine Learning/Tricks/Trainnig.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer",
