@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Tricks/Trainnig.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trainnig"
+              "title": "2. The encoder stack"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/2. Using Transformers/5.  Handling multiple sequences.md",
+                "file": "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.  Handling multiple sequences"
+              "title": "6. Putting it all together"
             }
           },
           {
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -362,8 +362,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "aaa18e7b9ac20640",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
+    "Machine Learning/Tricks/Trainnig.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer",
+    "NLP/Transformers for Natural Language Processing Denis Rothman",
+    "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
+    "NLP/HuggingFace/2. Using Transformers/7.  Optimized Inference Deployment.md",
+    "NLP/HuggingFace/2. Using Transformers/5.  Handling multiple sequences.md",
     "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
     "NLP/HuggingFace/2. Using Transformers/3. Models.md",
     "NLP/HuggingFace/2. Using Transformers/2.  Behind the pipeline.md",
@@ -372,7 +380,6 @@
     "NLP/HuggingFace/1. Transformers Models/6.  Bias and limitations.md",
     "NLP/HuggingFace/1. Transformers Models/5. Inference with LLMs.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
-    "Machine Learning/Tricks/Trainnig.md",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
     "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
     "NLP/HuggingFace/1. Transformers Models/4.  Transformer Architectures.md",
@@ -385,11 +392,6 @@
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/1. Snooping on the leaderboard.md",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Optimizing evaluation metrics.md",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/The Meta Kaggle dataset.md",
-    "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
-    "HOME/Contract.md",
-    "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
@@ -398,8 +400,6 @@
     "NLP/NLP specialization/4. NLP with Attention models",
     "Python/Python for finance/3. Financial Data Science",
     "NLP/NLP specialization/3. NLP with sequence models",
-    "Python/Python for finance/2. Mastering the Basics",
-    "Python/Python for finance",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
