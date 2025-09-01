@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
+                "file": "NLP/HuggingFace/2. Using Transformers/5.  Handling multiple sequences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Tokenizers"
+              "title": "5.  Handling multiple sequences"
             }
           },
           {
@@ -364,6 +364,7 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
+    "NLP/HuggingFace/2. Using Transformers/4. Tokenizers.md",
     "NLP/HuggingFace/2. Using Transformers/3. Models.md",
     "NLP/HuggingFace/2. Using Transformers/2.  Behind the pipeline.md",
     "NLP/HuggingFace/2. Using Transformers/1. Introduction.md",
@@ -389,7 +390,6 @@
     "Machine Learning/The Kaggle Book/5. Competition Tasks and Metrics/Post-processing your predictions.md",
     "HOME/Contract.md",
     "Python/Python for finance/3. Financial Data Science/2. Financial Time Series.md",
-    "StartupVIP.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
