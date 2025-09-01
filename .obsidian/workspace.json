@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. The architecture of BERT"
+              "title": "2. Fine-tuning BERT"
             }
           },
           {
@@ -364,8 +364,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
@@ -392,7 +393,6 @@
     "NLP/HuggingFace/1. Transformers Models/1.  Transformers, what can they do?.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
