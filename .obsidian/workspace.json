@@ -120,7 +120,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
                 "mode": "source",
                 "source": false
               },
@@ -364,12 +364,13 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models",
     "Machine Learning/Tricks/Trainnig.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/Getting Started with the Model Architecture of the Transformer",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer",
     "NLP/Transformers for Natural Language Processing Denis Rothman",
     "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
     "NLP/HuggingFace/2. Using Transformers/7.  Optimized Inference Deployment.md",
@@ -391,7 +392,6 @@
     "NLP/HuggingFace/3. Fine-tuning a pretrained model/5.  Fine-tuning, Check!.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/3. Trying different splitting strategies.md",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
     "NLP/HuggingFace/2. Using Transformers",
     "NLP/HuggingFace/1. Transformers Models",
@@ -399,7 +399,6 @@
     "NLP/NLP specialization/4. NLP with Attention models/Untitled",
     "NLP/NLP specialization/4. NLP with Attention models",
     "Python/Python for finance/3. Financial Data Science",
-    "NLP/NLP specialization/3. NLP with sequence models",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
