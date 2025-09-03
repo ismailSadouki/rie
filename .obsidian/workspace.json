@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -350,10 +350,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "0ca5d41758210acb",
   "lastOpenFiles": [
-    "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/Text completion with GPT-2.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/1. Designing a universal text-to-text model.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/Text completion with GPT-2.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/3. The architecture of OpenAI GPT models.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/2. Transformers, reformers, PET, or GPT?.md",
