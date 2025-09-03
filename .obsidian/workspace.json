@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/Untitled.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/2. Word2Vec tokenization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "2. Word2Vec tokenization"
             }
           },
           {
@@ -338,8 +338,9 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/2. Matching datasets and tokenizers.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/2. Word2Vec tokenization.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/1. Introduction.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/Untitled.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/2. Text summarization with T5.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/1. Designing a universal text-to-text model.md",
@@ -368,7 +369,6 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch/2. Building KantaiBERT from scratch.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/4. Downstream NLP Tasks with Transformers",
     "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch/1. Training a tokenizer and pretraining a transformer.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer",
