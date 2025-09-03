@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/Untitled.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -338,8 +338,11 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
+    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/1. Introduction.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/Untitled.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/2. Text summarization with T5.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/1. Designing a universal text-to-text model.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/Untitled.md",
     "StartupVIP.md",
     "HOME/Contract.md",
     "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
@@ -367,13 +370,10 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch/1. Training a tokenizer and pretraining a transformer.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch",
-    "Machine Learning/Feature Engineering and Selection A Practical Approach for Predictive Models/7. Handling Missing Data/4. Encoding Missingness.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer",
     "NLP/Transformers for Natural Language Processing Denis Rothman",
     "NLP/HuggingFace/3. Fine-tuning a pretrained model",
-    "NLP/HuggingFace/2. Using Transformers",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
