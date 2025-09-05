@@ -336,8 +336,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "516ffee5d8d43e3b",
   "lastOpenFiles": [
+    "NLP/Natural Language Processing with Transformers Lewis Tunstall, Leandro von Werra, and Thomas Wolf Foreword by Aurélien Géron",
     "NLP/Transformers for Natural Language Processing Denis Rothman/12. Analyzing Fake News with Transformers/1. Emotional reactions to fake news.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/12. Analyzing Fake News with Transformers/2. A rational approach to fake news.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/11. Detecting Customer Emotions to Make Predictions/2. Predicting customer behavior withsentiment analysis.md",
@@ -369,7 +370,6 @@
     "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
     "Startup.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models",
     "NLP/Transformers for Natural Language Processing Denis Rothman/5.Machine Translation with the Transformer",
