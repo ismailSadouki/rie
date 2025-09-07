@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Natural Language Processing with Transformers/5. Text Generation/5. Top-k and Nucleus Sampling.md",
+                "file": "NLP/Natural Language Processing with Transformers/6. Summarization/3. Measuring the Quality of Generated Text.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Top-k and Nucleus Sampling"
+              "title": "3. Measuring the Quality of Generated Text"
             }
           },
           {
@@ -338,8 +338,14 @@
   },
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
-    "NLP/Natural Language Processing with Transformers/5. Text Generation/4. Sampling Methods.md",
+    "NLP/Natural Language Processing with Transformers/6. Summarization/2. Text Summarization Pipelines.md",
+    "NLP/Natural Language Processing with Transformers/6. Summarization/3. Measuring the Quality of Generated Text.md",
+    "NLP/Natural Language Processing with Transformers/6. Summarization/1. The CNN DailyMail Dataset.md",
+    "NLP/Natural Language Processing with Transformers/5. Text Generation/6. Which Decoding Method Is Best?.md",
+    "NLP/Natural Language Processing with Transformers/6. Summarization",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/5. Top-k and Nucleus Sampling.md",
+    "NLP/Natural Language Processing with Transformers/5. Text Generation/Untitled",
+    "NLP/Natural Language Processing with Transformers/5. Text Generation/4. Sampling Methods.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/3. Beam Search Decoding.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/2. Greedy Search Decoding.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/1. The Challenge with Generating Coherent Text.md",
@@ -366,14 +372,8 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/Untitled",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/3. Method 0 Trial and error.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/2. Methodology.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/1. introduction.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers/3. Running a pretrained BERT-based model.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers/2. Getting started with SRL.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers/1. Introduction.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
