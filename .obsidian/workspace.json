@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
+                "file": "NLP/Natural Language Processing with Transformers/5. Text Generation/2. Greedy Search Decoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research papers"
+              "title": "2. Greedy Search Decoding"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
+                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Applying feature engineering"
+              "title": "4. Pseudo-labeling"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -336,8 +336,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0ca5d41758210acb",
+  "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "NLP/Natural Language Processing with Transformers/5. Text Generation/1. The Challenge with Generating Coherent Text.md",
+    "NLP/Natural Language Processing with Transformers/5. Text Generation/2. Greedy Search Decoding.md",
+    "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
+    "NLP/Natural Language Processing with Transformers/5. Text Generation",
+    "NLP/Natural Language Processing with Transformers",
+    "HOME/Contract.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/6. Neural networks for tabular competitions.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/5. Denoising with autoencoders.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/1. The Tabular Playground Series.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/6. Handling leakage.md",
@@ -362,18 +372,8 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers",
     "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/2. Matching datasets and tokenizers.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets/1. Introduction.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/2. Text summarization with T5.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/8. Matching Tokenizers and Datasets",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/1. Designing a universal text-to-text model.md",
-    "StartupVIP.md",
-    "HOME/Contract.md",
-    "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
-    "NLP/HuggingFace/2. Using Transformers/6. Putting it all together.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/5.Machine Translation with the Transformer",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
