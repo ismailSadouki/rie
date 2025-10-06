@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -336,8 +336,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
+    "Machine Learning/Tricks/Features.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/12. Analyzing Fake News with Transformers/2. A rational approach to fake news.md",
     "NLP/Natural Language Processing with Transformers/7. Question Answering/1. Building a Review-Based QA System.md",
     "NLP/Natural Language Processing with Transformers/6. Summarization/3. Measuring the Quality of Generated Text.md",
@@ -372,7 +373,6 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/11. Detecting Customer Emotions to Make Predictions",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/4. Method 1 NER first.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/Untitled",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers/3. Method 0 Trial and error.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/10. Let Your Data Do the Talking Story, Questions and Answers",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
