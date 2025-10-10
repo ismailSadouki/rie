@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/1. statistical leaning/2 How Do We Estimate f ?.md",
+                "file": "Machine Learning/introduction to statistical learning/1. statistical leaning/2 Assessing Model Accuracy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 How Do We Estimate f ?"
+              "title": "2 Assessing Model Accuracy"
             }
           },
           {
@@ -325,7 +325,7 @@
   "active": "7a4e83f9a54e1ef5",
   "lastOpenFiles": [
     "Machine Learning/introduction to statistical learning/1. statistical leaning/1. What is it?.md",
-    "Machine Learning/introduction to statistical learning/1. statistical leaning/2 How Do We Estimate f ?.md",
+    "Machine Learning/introduction to statistical learning/1. statistical leaning/2 Assessing Model Accuracy.md",
     "Machine Learning/The elements of statistical learning/Overview of Supervised Learning/4 Statistical Decision Theory.md",
     "Machine Learning/introduction to statistical learning/1. statistical leaning",
     "Machine Learning/introduction to statistical learning",
