@@ -197,3 +197,8 @@ However,
 the test error exhibits a characteristic U-shape, declining at first (with a
 minimum at approximately K = 10) before increasing again when the
 method becomes excessively flexible and overfits.
+
+In both the regression and classification settings, choosing the correct
+level of flexibility is critical to the success of any statistical learning method.
+The bias-variance tradeoff, and the resulting U-shape in the test error, can
+make this a difficult task.
