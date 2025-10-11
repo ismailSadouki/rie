@@ -83,3 +83,54 @@ In contrast, the orange least squares line is relatively inflexible and has low
 variance, because moving any single observation will likely cause only a
 small shift in the position of the line.
 
+bias refers to the error that is introduced by approxi-
+mating a real-life problem, which may be extremely complicated, by a much
+simpler model.
+For example, linear regression assumes that there is a linear
+relationship between Y and X1 , X2 , . . . , Xp . It is unlikely that any real-life
+problem truly has such a simple linear relationship, and so performing lin-
+ear regression will undoubtedly result in some bias in the estimate of f.
+![](https://i.imgur.com/BtwP7Wh.png)
+In
+Figure 2.11, the true f is substantially non-linear, so no matter how many
+training observations we are given, it will not be possible to produce an
+accurate estimate using linear regression. In other words, linear regression
+results in high bias in this example. However, in Figure 2.10 the true f
+is very close to linear, and so given enough data, it should be possible for
+linear regression to produce an accurate estimate. Generally, more flexible
+methods result in less bias.
+
+<mark>As a general rule, as we use more flexible methods, the variance will
+increase and the bias will decrease.</mark>
+The relative rate of change of these
+two quantities determines whether the test MSE increases or decreases. As
+we increase the flexibility of a class of methods, the bias tends to initially
+decrease faster than the variance increases. Consequently, the expected
+test MSE declines. However, at some point increasing flexibility has little
+impact on the bias but starts to significantly increase the variance. When
+this happens the test MSE increases. Note that we observed this pattern
+of decreasing test MSE followed by increasing test MSE in the right-hand
+panels of Figures 2.9–2.11.
+In the left-hand panel of Figure 2.12, the
+bias initially decreases rapidly, resulting in an initial sharp decrease in the
+expected test MSE. On the other hand, in the center panel of Figure 2.12
+the true f is close to linear, so there is only a small decrease in bias as flex-
+ibility increases, and the test MSE only declines slightly before increasing
+rapidly as the variance increases. Finally, in the right-hand panel of Fig-
+ure 2.12, as flexibility increases, there is a dramatic decline in bias because
+the true f is very non-linear. There is also very little increase in variance
+as flexibility increases. Consequently, the test MSE declines substantially
+before experiencing a small increase as model flexibility increases.
+
+Good test set performance of a statistical learning method requires low variance as well as low squared bias. This is referred to as a trade-off because it is easy to obtain a method with extremely low bias but high variance (for instance, by drawing a curve that passes through every
+single training observation) or a method with very low variance but high
+bias (by fitting a horizontal line to the data). The challenge lies in finding
+a method for which both the variance and the squared bias are low.
+
+o take an extreme example, suppose that the true f is linear.
+In this situation linear regression will have no bias, making it very hard
+for a more flexible method to compete. In contrast, if the true f is highly
+non-linear and we have an ample number of training observations, then
+we may do better using a highly flexible approach.
+
+## 3 The Classification Setting
