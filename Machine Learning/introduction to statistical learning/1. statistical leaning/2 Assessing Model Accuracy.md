@@ -70,3 +70,16 @@ increase slowly.
 The U-shape observed in the test MSE curves (Figures 2.9–2.11) turns out
 to be the result of two competing properties of statistical learning methods.
 ![](https://i.imgur.com/xjYBOwm.png)
+e need to select a statistical learning method that simultaneously achieves
+low variance and low bias. Note that variance is inherently a nonnegative
+quantity, and squared bias is also nonnegative. Hence, we see that the
+expected test MSE can never lie below Var("), the irreducible error from
+(2.3).
+Variance refers to the amount by which fˆ would change if we
+estimated it using a different training data set.
+if a method has high variance then small changes in the training data can result in large changes in fˆ. In general, more flexible statistical methods have higher variance.
+Consider the green and orange curves in Figure 2.9. The flexible green curve is following the observations very closely. It has high variance because changing any one of these data points may cause the estimate fˆ to change considerably.
+In contrast, the orange least squares line is relatively inflexible and has low
+variance, because moving any single observation will likely cause only a
+small shift in the position of the line.
+
