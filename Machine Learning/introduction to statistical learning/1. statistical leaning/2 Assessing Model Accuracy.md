@@ -67,3 +67,6 @@ increase slowly.
 
 
 # 2 The Bias-Variance Trade-Off
+The U-shape observed in the test MSE curves (Figures 2.9–2.11) turns out
+to be the result of two competing properties of statistical learning methods.
+![](https://i.imgur.com/xjYBOwm.png)
