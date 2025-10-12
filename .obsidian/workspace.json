@@ -62,10 +62,14 @@
             "id": "7a4e83f9a54e1ef5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Simple Linear Regression"
             }
           },
           {
@@ -196,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
