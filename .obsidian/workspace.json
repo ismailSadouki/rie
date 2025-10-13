@@ -13,7 +13,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/7. Applying Transformers to Legal and Financial Documents for AI Text Summarization/1. Designing a universal text-to-text model.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "path:MT  ",
@@ -41,7 +40,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 1. Designing a universal text-to-text model"
+              "title": "Graph view"
             }
           },
           {
@@ -92,26 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Tricks/Features.md",
+                "file": "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Features"
-            }
-          },
-          {
-            "id": "0ca5d41758210acb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Pseudo-labeling"
+              "title": "1. Framework for Probability Sampling"
             }
           },
           {
@@ -141,9 +126,19 @@
               "icon": "lucide-file",
               "title": "6. Putting it all together"
             }
+          },
+          {
+            "id": "a81803d760528c6c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -322,10 +317,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
+    "Machine Learning/Tricks/Features.md",
+    "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
+    "Sampling/Untitled/1. Simple Probability Samples",
+    "Sampling/Untitled",
+    "Sampling/Simple Probability Samples.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
+    "Sampling",
     "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
@@ -344,22 +346,15 @@
     "NLP/unamed",
     "Machine Learning/Competative ML.md",
     "NLP/Natural Language Processing with Transformers/7. Question Answering/1. Building a Review-Based QA System.md",
-    "Machine Learning/Tricks/Features.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/12. Analyzing Fake News with Transformers/2. A rational approach to fake news.md",
     "NLP/Natural Language Processing with Transformers/6. Summarization/3. Measuring the Quality of Generated Text.md",
-    "NLP/Natural Language Processing with Transformers/7. Question Answering",
     "NLP/Natural Language Processing with Transformers/6. Summarization/2. Text Summarization Pipelines.md",
     "NLP/Natural Language Processing with Transformers/6. Summarization/1. The CNN DailyMail Dataset.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/6. Which Decoding Method Is Best?.md",
-    "NLP/Natural Language Processing with Transformers/6. Summarization",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/5. Top-k and Nucleus Sampling.md",
-    "NLP/Natural Language Processing with Transformers/5. Text Generation/Untitled",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/4. Sampling Methods.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/3. Beam Search Decoding.md",
     "NLP/Natural Language Processing with Transformers/5. Text Generation/2. Greedy Search Decoding.md",
-    "NLP/Natural Language Processing with Transformers/5. Text Generation/1. The Challenge with Generating Coherent Text.md",
-    "Deep Learning/Deep Learning Specialization/CNN/Research papers.md",
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
