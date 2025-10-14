@@ -50,26 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
+                "file": "Time series/Time Series Analysis and Its Applications With R Examples/1. Characteristics of Time Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Turning a linear regression model into a curve –polynomial regression"
-            }
-          },
-          {
-            "id": "7a4e83f9a54e1ef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Multiple Linear Regression"
+              "title": "1. Characteristics of Time Series"
             }
           },
           {
@@ -92,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sampling/Untitled/1. Simple Probability Samples/3. Sampling Weights.md",
+                "file": "Sampling/Untitled/1. Simple Probability Samples/4. Confidence Intervals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Sampling Weights"
+              "title": "4. Confidence Intervals"
             }
           },
           {
@@ -157,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -338,8 +324,20 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
+    "Time series/Time Series Analysis and Its Applications With R Examples/1. Characteristics of Time Series.md",
+    "Time series/INTRODUCTION TO TIME SERIES ANALYSIS AND FORECASTING.md",
+    "Time series/research.md",
+    "Time series/Introduction to Time Series and Forecasting with R/4. Basic Stochastic Models.md",
+    "Time series/Introduction to Time Series and Forecasting with R/5. Regression.md",
+    "Time series/Introduction to Time Series and Forecasting with R/7. Non-stationary Models.md",
+    "Time series/Time Series Analysis and Its Applications With R Examples/2. Time Series Regression and ExploratoryData Analysis.md",
+    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models/9.1 Stationarity and differencing.md",
+    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 7 Time series regression models.md",
+    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 2 Time series graphics.md",
+    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
+    "Sampling/Untitled/1. Simple Probability Samples/4. Confidence Intervals.md",
     "Sampling/Untitled/1. Simple Probability Samples/3. Sampling Weights.md",
+    "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
     "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
@@ -352,22 +350,10 @@
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/4. Tuning your model validation system.md",
     "MT/Idea.md",
     "MT/Readings.md",
-    "MT/Planing.md",
-    "MT/Mastering Bayesian ML.md",
-    "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
-    "Machine Learning/Tricks/Features.md",
     "Sampling/Untitled/1. Simple Probability Samples",
     "Sampling/Untitled",
-    "Sampling/Simple Probability Samples.md",
     "Sampling",
-    "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
-    "Machine Learning/The Kaggle Book/6. Designing Good Validation/2. The importance of validation in competitions.md",
-    "StartupVIP.md",
-    "Machine Learning/introduction to statistical learning/1. statistical leaning/2 Assessing Model Accuracy.md",
     "Machine Learning/introduction to statistical learning/2. Linear Regression",
-    "Machine Learning/introduction to statistical learning/1. statistical leaning/1. What is it?.md",
-    "Machine Learning/The elements of statistical learning/Overview of Supervised Learning/4 Statistical Decision Theory.md",
     "Machine Learning/introduction to statistical learning/1. statistical leaning",
     "Machine Learning/introduction to statistical learning",
     "Machine Learning/The elements of statistical learning/Overview of Supervised Learning",
