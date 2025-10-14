@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
+                "file": "Sampling/Untitled/1. Simple Probability Samples/3. Sampling Weights.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Simple Random Sampling"
+              "title": "3. Sampling Weights"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -337,10 +336,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
+    "Sampling/Untitled/1. Simple Probability Samples/3. Sampling Weights.md",
+    "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
+    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/3. Applying feature engineering.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/1. The Tabular Playground Series.md",
     "NLP/NLP specialization/3. NLP with sequence models/3. Siamese Networks.md",
@@ -353,12 +355,10 @@
     "MT/Planing.md",
     "MT/Mastering Bayesian ML.md",
     "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
-    "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
     "Machine Learning/Tricks/Features.md",
     "Sampling/Untitled/1. Simple Probability Samples",
     "Sampling/Untitled",
     "Sampling/Simple Probability Samples.md",
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Sampling",
     "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
     "Machine Learning/The Kaggle Book/6. Designing Good Validation/5. Using adversarial validation.md",
@@ -370,7 +370,6 @@
     "Machine Learning/The elements of statistical learning/Overview of Supervised Learning/4 Statistical Decision Theory.md",
     "Machine Learning/introduction to statistical learning/1. statistical leaning",
     "Machine Learning/introduction to statistical learning",
-    "NLP/unamed/5. Large Language Models (LLMs).md",
     "Machine Learning/The elements of statistical learning/Overview of Supervised Learning",
     "Machine Learning/The elements of statistical learning",
     "NLP/unamed/Large Language Models (LLMs)",
