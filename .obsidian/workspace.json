@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
+                "file": "Machine Learning/introduction to statistical learning/2. Linear Regression/3. Other Considerations in the Regression Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Multiple Linear Regression"
+              "title": "3. Other Considerations in the Regression Model"
             }
           },
           {
@@ -338,6 +338,8 @@
   },
   "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/3. Other Considerations in the Regression Model.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
     "Time series/Time Series Analysis and Its Applications With R Examples/1. Characteristics of Time Series.md",
@@ -367,8 +369,6 @@
     "Time series/Time Series Analysis and Its Applications With R Examples/2. Time Series Regression and ExploratoryData Analysis.md",
     "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models/9.1 Stationarity and differencing.md",
     "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 7 Time series regression models.md",
-    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 2 Time series graphics.md",
-    "Machine Learning/Machine Learning with PyTorch and Scikit-Learn/9. Predicting Continuous Target Variables with Regression Analysis/5. Turning a linear regression model into a curve –polynomial regression.md",
     "Sampling/Untitled/1. Simple Probability Samples",
     "Sampling/Untitled",
     "Sampling",
