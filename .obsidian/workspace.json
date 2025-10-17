@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/2. Linear Regression/3. Other Considerations in the Regression Model.md",
+                "file": "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/3. k-Fold Cross-Validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Other Considerations in the Regression Model"
+              "title": "3. k-Fold Cross-Validation"
             }
           },
           {
@@ -338,8 +338,17 @@
   },
   "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
-    "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/2. Leave-One-Out Cross-Validation.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/3. k-Fold Cross-Validation.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/1. The Validation Set Approach.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/introduction.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/6. Lab Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/5. Comparison of Linear Regressionwith K-Nearest Neighbors.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/4. The Marketing Plan.md",
     "Machine Learning/introduction to statistical learning/2. Linear Regression/3. Other Considerations in the Regression Model.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/2. The importance of EDA.md",
     "Sampling/Untitled/1. Simple Probability Samples/2. Simple Random Sampling.md",
     "Time series/Time Series Analysis and Its Applications With R Examples/1. Characteristics of Time Series.md",
@@ -362,18 +371,9 @@
     "Sampling/Untitled/1. Simple Probability Samples/3. Sampling Weights.md",
     "Sampling/Untitled/1. Simple Probability Samples/1. Framework for Probability Sampling.md",
     "Time series/INTRODUCTION TO TIME SERIES ANALYSIS AND FORECASTING.md",
-    "Time series/research.md",
-    "Time series/Introduction to Time Series and Forecasting with R/4. Basic Stochastic Models.md",
-    "Time series/Introduction to Time Series and Forecasting with R/5. Regression.md",
-    "Time series/Introduction to Time Series and Forecasting with R/7. Non-stationary Models.md",
-    "Time series/Time Series Analysis and Its Applications With R Examples/2. Time Series Regression and ExploratoryData Analysis.md",
-    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 9 ARIMA models/9.1 Stationarity and differencing.md",
-    "Time series/Forecasting Principles and Practice (3rd ed) Rob J Hyndman and George Athanasopoulos/Chapter 7 Time series regression models.md",
     "Sampling/Untitled/1. Simple Probability Samples",
     "Sampling/Untitled",
     "Sampling",
-    "Machine Learning/introduction to statistical learning/2. Linear Regression",
-    "Machine Learning/introduction to statistical learning/1. statistical leaning",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
