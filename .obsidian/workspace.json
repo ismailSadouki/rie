@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/Introduction.md",
+                "file": "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/1. Subset Selection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "1. Subset Selection"
             }
           },
           {
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -339,8 +338,9 @@
   },
   "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
-    "Machine Learning/introduction to statistical learning/5. Resampling/3. Lab Cross-Validation and the Bootstrap.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/Introduction.md",
+    "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/1. Subset Selection.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/3. Lab Cross-Validation and the Bootstrap.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
     "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
     "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/5. Cross-Validation on Classification Problems.md",
@@ -369,7 +369,6 @@
     "Model thinking/Tipping Points.md",
     "Model thinking/Peer effect.md",
     "Model thinking/Modeling ppl - thinking electrons.md",
-    "Model thinking/economic growth.md",
     "Model thinking",
     "NLP/Mastering Large Language Models Advanced techniques, applications, cutting edge/1. Fundamentals of Natural Language Processing",
     "NLP/Mastering Large Language Models Advanced techniques, applications, cutting edge",

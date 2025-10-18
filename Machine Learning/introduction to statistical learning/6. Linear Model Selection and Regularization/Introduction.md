@@ -25,3 +25,21 @@ least squares is extremely unlikely to yield any coefficient estimates
 that are exactly zero. In this chapter, we see some approaches for au-
 tomatically performing feature selection or variable selection—that is, for excluding irrelevant variables from a multiple regression model.
 
+There are many alternatives, both classical and modern, to using least selection
+squares to fit (6.1). In this chapter, we discuss three important classes of
+methods.
+- Subset Selection. This approach involves identifying a subset of the p
+predictors that we believe to be related to the response. We then fit
+a model using least squares on the reduced set of variables.
+- Shrinkage. This approach involves fitting a model involving all p pre-
+dictors. However, the estimated coefficients are shrunken towards zero
+relative to the least squares estimates. This shrinkage (also known as
+regularization) has the effect of reducing variance. Depending on what
+type of shrinkage is performed, some of the coefficients may be esti-
+mated to be exactly zero. Hence, shrinkage methods can also perform
+variable selection.
+- Dimension Reduction. This approach involves projecting the p predic-
+tors into an M -dimensional subspace, where M < p. This is achieved
+by computing M different linear combinations, or projections, of the
+variables. Then these M projections are used as predictors to fit a
+linear regression model by least squares.
