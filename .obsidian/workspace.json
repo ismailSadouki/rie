@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
+                "file": "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. The encoder stack"
+              "title": "2. Fine-tuning BERT"
             }
           },
           {
@@ -338,6 +338,10 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
+    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/9. Semantic Role Labeling with BERT-Based Transformers/2. Getting started with SRL.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/3. The architecture of OpenAI GPT models.md",
@@ -360,11 +364,7 @@
     "Time series/Introduction to Time Series and Forecasting with R/1.1 Examples of Time Series.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/1. Subset Selection.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/Introduction.md",
-    "Machine Learning/introduction to statistical learning/5. Resampling/3. Lab Cross-Validation and the Bootstrap.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
-    "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
-    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/5. Cross-Validation on Classification Problems.md",
-    "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation/4. Bias-Variance Trade-Off for k-Fold Cross-Validation.md",
     "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation",
     "Machine Learning/introduction to statistical learning/5. Resampling",
     "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver",
