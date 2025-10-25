@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
+                "file": "Research/Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. The Bootstrap"
+              "title": "Ideas"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/1. A Short Tour of the Predictive ModelingProcess.md",
+                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. A Short Tour of the Predictive ModelingProcess"
+              "title": "3. Data Pre-processing"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -336,18 +336,27 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a81803d760528c6c",
+  "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
+    "Research/Ideas.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/3. Other Considerations in the Regression Model.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/1. Simple Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/6. Lab Linear Regression.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/5. Comparison of Linear Regressionwith K-Nearest Neighbors.md",
+    "Machine Learning/introduction to statistical learning/2. Linear Regression/4. The Marketing Plan.md",
+    "Machine Learning/introduction to statistical learning/1. statistical leaning/2 Assessing Model Accuracy.md",
+    "Machine Learning/introduction to statistical learning/1. statistical leaning/1. What is it?.md",
+    "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
     "Machine Learning/Applied predactive modeling/1. Introduction/data.md",
-    "Machine Learning/Applied predactive modeling/2. General Strategies/1. A Short Tour of the Predictive ModelingProcess.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
     "MT/Idea.md",
     "Machine Learning/Applied predactive modeling/1. Introduction",
     "Machine Learning/Applied predactive modeling",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
-    "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
-    "Machine Learning/introduction to statistical learning/1. statistical leaning/1. What is it?.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/5. Lab Linear Models and RegularizationMethods.md",
     "Deep Learning/d2l/2. Preliminaries.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity",
@@ -359,16 +368,7 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/5.Machine Translation with the Transformer/1. Defining machine translation.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/4. Downstream NLP Tasks with Transformers/3.Running downstream tasks.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/4. Downstream NLP Tasks with Transformers/2. Transformer performances versusHuman Baselines.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/4. Downstream NLP Tasks with Transformers/1. Transduction and the inductive inheritance of transformers.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch/2. Building KantaiBERT from scratch.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/3. Pretraining a RoBERTa Model from Scratch/1. Training a tokenizer and pretraining a transformer.md",
-    "Time series/Time Series Analysis and Its Applications With R Examples/1. Characteristics of Time Series.md",
     "Deep Learning/d2l",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
-    "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/2. Markov chains in discrete time.md",
-    "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/1. Introduction.md",
-    "Sampling/Untitled/1. Simple Probability Samples/7. Determining the Sample Size.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
     "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation",
     "Machine Learning/introduction to statistical learning/5. Resampling",
