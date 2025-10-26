@@ -338,7 +338,9 @@
   },
   "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
+    "Time series/Introduction to Time Series and Forecasting with R/2. Correlation.md",
     "Time series/Introduction to Time Series and Forecasting with R/7. Non-stationary Models.md",
+    "Time series/Introduction to Time Series and Forecasting with R/1.1 Examples of Time Series.md",
     "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
     "Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS/3.4 Forecasting.md",
     "Research/Ideas.md",
@@ -366,8 +368,6 @@
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/4. Considerations in High Dimensions.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/3. Dimension Reduction Methods.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/2. Shrinkage Methods.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/5.Machine Translation with the Transformer/3. Evaluating machine translationwith BLEU.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/5.Machine Translation with the Transformer/2. Preprocessing a WMT dataset.md",
     "Deep Learning/d2l",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
     "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation",
