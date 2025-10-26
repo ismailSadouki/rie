@@ -1,4 +1,5 @@
 
+
 ## 🛢️ 1. **Modeling Energy Price Dynamics using Neural Difference Equations**
 
 ### 🎯 **فكرة البحث**
