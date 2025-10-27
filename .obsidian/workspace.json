@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MT/Mastering Bayesian ML.md",
+                "file": "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mastering Bayesian ML"
+              "title": "Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -336,12 +336,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "44b25d68ea9d7a7c",
+  "active": "322c6edf7e7ad300",
   "lastOpenFiles": [
+    "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
+    "MT/Mastering Bayesian ML.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
+    "Deep Learning/d2l/2. Preliminaries.md",
+    "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
     "Time series/Introduction to Time Series and Forecasting with R/2. Correlation.md",
     "Time series/Introduction to Time Series and Forecasting with R/7. Non-stationary Models.md",
     "Time series/Introduction to Time Series and Forecasting with R/1.1 Examples of Time Series.md",
-    "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
     "Time series/Time Series Analysis and Its Applications With R Examples/3 ARIMA MODELS/3.4 Forecasting.md",
     "Research/Ideas.md",
     "Machine Learning/introduction to statistical learning/2. Linear Regression/2. Multiple Linear Regression.md",
@@ -353,7 +357,6 @@
     "Machine Learning/introduction to statistical learning/1. statistical leaning/2 Assessing Model Accuracy.md",
     "Machine Learning/introduction to statistical learning/1. statistical leaning/1. What is it?.md",
     "Machine Learning/introduction to statistical learning/5. Resampling/2. The Bootstrap.md",
-    "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
     "Machine Learning/Applied predactive modeling/1. Introduction/data.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
@@ -363,11 +366,8 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/5. Lab Linear Models and RegularizationMethods.md",
-    "Deep Learning/d2l/2. Preliminaries.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/4. Considerations in High Dimensions.md",
-    "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/3. Dimension Reduction Methods.md",
-    "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization/2. Shrinkage Methods.md",
     "Deep Learning/d2l",
     "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
     "Machine Learning/introduction to statistical learning/5. Resampling/1. Cross-Validation",
