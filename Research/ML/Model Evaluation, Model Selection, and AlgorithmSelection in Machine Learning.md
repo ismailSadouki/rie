@@ -73,3 +73,51 @@ Typically, the splitting of a dataset into training and test sets is a simple pr
 # Stratification
 The degree to which subsampling without replacement affects the statistic of
 a sample is inversely proportional to the size of the sample. 
+Let us have a look at an example using
+the Iris dataset 2 , which we randomly divide into 2/3 training data and 1/3 test data
+![](https://i.imgur.com/5dompqm.png)
+When we randomly divide a labeled dataset into training and test sets, we violate the assumption of statistical independence. 
+The Iris datasets consists of 50 Setosa, 50 Versicolor, and 50 Virginica
+flowers; the flower species are distributed uniformly:
+![](https://i.imgur.com/AAeyiYu.png)
+problem of imbalanced split.
+
+
+stratification is an approach to maintain the original class proportion in resulting subsets.
+It shall be noted that random subsampling in non-stratified fashion is usually not a big concern when
+working with relatively large and balanced datasets. However, in my opinion, stratified resampling is usually beneficial in machine learning applications. Moreover, stratified sampling is incredibly easy to implement, and Ron Kohavi provides empirical evidence [Kohavi, 1995] that stratification has a positive effect on the variance and bias of the estimate in k-fold cross-validation.
+
+# 1.5 Holdout Validation
+- step 1:
+it is important that the test set is only
+used once to avoid introducing bias when we estimating the generalization performance. Typically, we assign 2/3 to the training set and 1/3 of the data to the test set. Other common training/test splits are 60/40, 70/30, or 80/20 – or even 90/10 if the dataset is relatively large. 
+- step 2:
+![](https://i.imgur.com/BSx72MS.png)
+hyperparameters are the parameters of our learning algorithm, or meta-parameters. And
+we have to specify these hyperparameter values manually – the learning algorithm does not learn
+these from the training data in contrast to the actual model parameters. Since hyperparameters are not learned during model fitting, we need some sort of "extra procedure" or "external loop" to optimize
+these separately – this holdout approach is ill-suited for the task. So, for now, we have to go with some
+fixed hyperparameter values – we could use our intuition or the default parameters of an off-the-shelf
+algorithm if we are using an existing machine learning library
+- Step 3: 
+the next question is: How "good" is the performance of the resulting model?
+Since the learning algorithm has not "seen" this test set before, it should provide a relatively unbiased estimate of its performance on new, unseen data.
+we take the predicted class labels and compare them to the
+"ground truth," the correct class labels, to estimate the models generalization accuracy or error.
+- step 4:
+Since we assume that our
+samples are i.i.d., there is no reason to assume the model would perform worse after feeding it all the
+available data. As a rule of thumb, the model will have a better generalization performance if the
+algorithms uses more informative data – assuming that it has not reached its capacity, yet.
+
+two types of problems that occur when a dataset is split into separate training and test sets. The first problem that occurs is the violation of independence and the changing class proportions upon subsampling. 
+Walking through the holdout validation method (Section 1.5) touched upon a second problem we encounter upon subsampling a dataset: Step 4 mentioned capacity of a model, and whether additional data could be useful or not. To follow up on the capacity issue: If a model has not reached its capacity, the performance estimate would be pessimistically biased.
+> [!note] “Pessimistic” means **too low**.
+> So if an estimate is _pessimistically biased_, it means your evaluation **underestimates** how well the model would actually perform in reality.
+> in other words The model probably performs **better** in general than what the holdout/test results show, but our evaluation method makes it look worse.
+> # Why would the estimate be pessimistically biased?
+> This usually happens when **the training set is too small** — which is common in the **holdout method**. Thus, your holdout test result gives a **pessimistically low estimate** of what the model could achieve if trained on more data.
+
+This assumes that the algorithm could learn a better model if it was given more data – by splitting off a portion of the dataset for testing, we withhold valuable data for estimating the generalization performance (for instance, the test dataset). To address this issue, one might fit the model to the whole dataset after estimating the generalization performancs. 
+e model to the whole dataset after
+estimating the generalization performance (see Figure 2 step 4). However, using this approach, we cannot estimate its generalization performance of the refit model, since we have now "burned" the test dataset. It is a dilemma that we cannot really avoid in real-world application, but we should be aware that our estimate of the generalization performance may be pessimistically biased if only a portion of the dataset, the training dataset, is used for model fitting (this is especially affects models fit to relatively small datasets).
