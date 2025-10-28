@@ -88,6 +88,8 @@ It shall be noted that random subsampling in non-stratified fashion is usually n
 working with relatively large and balanced datasets. However, in my opinion, stratified resampling is usually beneficial in machine learning applications. Moreover, stratified sampling is incredibly easy to implement, and Ron Kohavi provides empirical evidence [Kohavi, 1995] that stratification has a positive effect on the variance and bias of the estimate in k-fold cross-validation.
 
 # 1.5 Holdout Validation
+![](https://i.imgur.com/hz7vObi.png)
+
 - step 1:
 it is important that the test set is only
 used once to avoid introducing bias when we estimating the generalization performance. Typically, we assign 2/3 to the training set and 1/3 of the data to the test set. Other common training/test splits are 60/40, 70/30, or 80/20 – or even 90/10 if the dataset is relatively large. 
@@ -121,3 +123,136 @@ Walking through the holdout validation method (Section 1.5) touched upon a secon
 This assumes that the algorithm could learn a better model if it was given more data – by splitting off a portion of the dataset for testing, we withhold valuable data for estimating the generalization performance (for instance, the test dataset). To address this issue, one might fit the model to the whole dataset after estimating the generalization performancs. 
 e model to the whole dataset after
 estimating the generalization performance (see Figure 2 step 4). However, using this approach, we cannot estimate its generalization performance of the refit model, since we have now "burned" the test dataset. It is a dilemma that we cannot really avoid in real-world application, but we should be aware that our estimate of the generalization performance may be pessimistically biased if only a portion of the dataset, the training dataset, is used for model fitting (this is especially affects models fit to relatively small datasets).
+# 1.7 Confidence Intervals via Normal Approximation
+a confidence interval around this estimate would not
+only be more informative and desirable in certain applications, but our point estimate could be quite sensitive to the particular training/test split (for instance, suffering from high variance). A simple approach for computing confidence intervals of the predictive accuracy or error of a model is via the so-called normal approximation.
+Here, we assume that the predictions follow a normal distribution,
+to compute the confidence interval on the mean on a single training-test split under the central limit  theorem.
+we compute the prediction accuracy on a dataset S (here: test set) of size n as
+follows:
+![](https://i.imgur.com/9NrmWun.png)
+where L(·) is the 0-1 loss function.and n denotes the number of samples in the test
+dataset.
+let ŷi be the predicted class label and yi be the ground truth class label of the ith test
+example, respectively. So, we could now consider each prediction as a Bernoulli trial, and the number
+of correct predictions X is following a binomial distribution X ∼ (n, p) with n test examples, k trials, and the probability of success p, where n ∈ N and p ∈ [0, 1] :
+![](https://i.imgur.com/7fqleRo.png)
+Now, the expected number of successes is computed as µ = np, or more concretely, if the model has
+a 50% success rate, we expect 20 out of 40 predictions to be correct. The estimate has a variance of
+![](https://i.imgur.com/mASvW9W.png)
+std is 3.16.
+Since we are interested in the average number of successes, not its absolute value, we compute the variance of the accuracy estimate as
+![](https://i.imgur.com/R5QT27E.png)
+
+![](https://i.imgur.com/lD7VIiw.png)
+![](https://i.imgur.com/VtCGCmI.png)
+
+---
+## 📊 4️⃣ Why accuracy is considered as ppp
+
+Accuracy (ACC) is defined as:
+
+${ACC} = \frac{\text{Number of correct predictions}}{\text{Total number of predictions}}​$
+In the binomial model:
+
+- The **expected value** of $X/n$ (the sample proportion) is p.
+    
+- So, your observed accuracy $\hat{p}=k/n$ is an **estimate** of the true probability ppp that your model predicts correctly on unseen data.
+    
+
+That’s why we interpret **accuracy** as an **estimate of the success probability ppp** of the Bernoulli trial.
+
+---
+In practice, however, I would rather recommend repeating the training-test split multiple times to compute the confidence interval on the mean estimate (for instance, averaging the individual runs). In any case, <mark> one interesting take-away for now is that having fewer samples in the test set increases the variance (see n in th e denominator above) and thus widens the confidence interval.</mark>
+
+# 2. Bootstrapping and Uncertainties
+there are three related, yet different tasks or reasons why we care about model evaluation:
+![](https://i.imgur.com/Nbn4fnY.png)
+
+## 2.2 Resampling
+To compute the classification error or accuracy on a dataset S, we defined the following equation:
+![](https://i.imgur.com/OnWdrEQ.png)
+Here, L(·) represents the 0-1 loss.
+the classification error is simply the count of incorrect predictions divided by the number of samples in the dataset.
+Vice versa, we compute the prediction accuracy as the number of correct
+predictions divided by the number of samples.
+To use the resampling methods presented in the following sections for
+regression models, we swap the accuracy or error computation by, for example, the mean squared error (MSE):
+![](https://i.imgur.com/NTP4cpK.png)
+performance estimates may suffer from bias and variance, and we are
+interested in finding a good trade-off. For instance, the resubstitution evaluation (fitting a model to
+a training set and using the same training set for model evaluation) is heavily <mark>optimistically biased</mark>.
+Vice versa, withholding a large portion of the dataset as a test set may lead to pessimistically biased estimates. While reducing the size of the test set may decrease this pessimistic bias, the variance of a performance estimates will most likely increase. An intuitive illustration of the relationship between bias and variance is given in Figure 3.
+
+> [!note] 
+> - **Optimistic bias** → we _overestimate_ performance (too good to be true)
+   > This happens when your **evaluation method gives a model too much credit** — it looks better than it actually is.
+>- **Pessimistic bias** → we _underestimate_ performance (too harsh)
+>  This happens when your evaluation method is **too strict**, making the model seem worse than it really is.
+
+![](https://i.imgur.com/2O9DVVn.png)
+![](https://i.imgur.com/kUGm0bT.png)
+
+the training set is small, the algorithm is more likely picking up noise in the training set.This observation also explains the pessimistic bias of the holdout method: A training algorithm may benefit from more training data, data that was withheld for testing. Thus, after we evaluated a model, we may want to run the learning algorithm once again on the complete dataset before we use it in a real-world application.
+<mark> NEED ATTENTION</mark>
+
+
+Decreasing the size of the test set brings up another problem: It may result in a substantial variance of a model’s performance estimate.
+The reason is that it depends on which instances end up in training set, and which particular instances end up in test set.
+Keeping in mind that each time we resample a dataset, we alter the statistics of the
+distribution of the sample. Most supervised learning algorithms for classification and regression as well as the performance estimates operate under the assumption that a dataset is representative of the population that this dataset sample has been drawn from. As discussed in Section 1.4, stratification helps with keeping the sample proportions intact upon splitting a dataset. However, the change in the underlying sample statistics along the features axes is still a problem that becomes more pronounced if we work with small datasets, which is illustrated in Figure 5.
+> [!note] “What if we choose a small size of test data with the stratified sample — is that still have the problem of variance?”
+> ✅ **Yes — it still has the problem of variance.**  
+Even if you use **stratification**, the variance **doesn’t disappear** — it only becomes _slightly less severe_.
+>
+stratification **does not guarantee** that:
+>
+>- The **feature distributions** (the XXX’s) are still representative.
+  >  
+>- The **relationships** between features and target remain the same.
+  >  
+>- You have _enough samples_ for a stable estimate.
+If your **test set is small**, then:
+>
+>- Random fluctuations have a **large effect** on the measured performance.
+  >  
+>- The **variance** of your performance metric (e.g. accuracy, RMSE) increases.
+  >  
+>- One or two “hard” or “easy” test examples can change the result significantly.
+
+![](https://i.imgur.com/tkkCYQC.png)
+One way to obtain a more robust performance estimate that is less variant to how we split the data into training and test sets is to repeat the holdout method k times with different random seeds and compute the average performance over these k repetitions:
+![](https://i.imgur.com/E7g5sId.png)
+This repeated holdout procedure, sometimes also called Monte Carlo Cross-Validation, provides a better estimate of how well our model may perform on a random test set, compared to the standard holdout validation method. Also, it provides information about the model’s stability – how the model, produced by a learning algorithm, changes with different training set splits. Figure 6 shall illustrate how repeated holdout validation may look like for different training-test split using the Iris dataset to fit to 3-nearest neighbors classifiers.
+![](https://i.imgur.com/SRjpLD6.png)
+![](https://i.imgur.com/teCRWMe.png)
+
+# 2.4 The Bootstrap Method and Empirical Confidence Intervals
+Monte Carlo Cross-Validation may have convinced us that repeated holdout
+validation could provide us with a more robust estimate of a model’s performance on random test sets compared to an evaluation based on a single train/test split via holdout validation. In addition, the repeated holdout may give us an idea about the stability of our model. This section explores an alternative approach to model evaluation and for estimating uncertainty using the bootstrap method.
+
+
+Let us assume that we would like to compute a confidence interval around a performance estimate to judge its certainty – or uncertainty. How can we achieve this if our sample has been drawn from an unknown distribution? Maybe we could use the sample mean as a point estimate of the population mean, but how would we compute the variance or confidence intervals around the mean if its distribution is unknown? Sure, we could collect multiple, independent samples; this is a luxury we often do not have in real world applications, though. Now, the idea behind the bootstrap is to generate "new samples" by sampling from an empirical distribution.
+
+The bootstrap method is a resampling technique for estimating a sampling distribution, and in the context of this article, we are particularly interested in estimating the uncertainty of a performance estimate.
+the idea of the bootstrap method is to generate new data from a population by repeated sampling from
+the original dataset with replacement – in contrast, the repeated holdout method can be understood as
+sampling without replacement. Walking through it step by step, the bootstrap method works like this:
+![](https://i.imgur.com/pbI4vRF.png)
+As discussed previously, the resubstitution accuracy usually leads to an extremely optimistic bias,
+> [!note] What “resubstitution accuracy” means
+> **Resubstitution accuracy** = The accuracy you get when you **evaluate the model on the same data it was trained on**. So basically, you _reuse_ the training data for evaluation instead of holding out separate test data.
+
+since a model can be overly sensible to noise in a dataset. Originally, the bootstrap method aims to determine the statistical properties of an estimator when the underlying distribution was unknown and additional samples are not available. So, in order to exploit this method for the evaluation of 
+predictive, such as hypotheses for classification and regression, we may prefer a slightly different approach to bootstrapping using the so-called Leave-One-Out Bootstrap (LOOB) technique.
+Here, we use out-of-bag samples as test sets for evaluation instead of evaluating the model on the
+training data. Out-of-bag samples are the unique sets of instances that are not used for model fitting.
+<mark> Robert Tibshirani recommend drawing 50 to 200 bootstrap samples as being sufficient for producing reliable estimates [Efron and Tibshirani, 1994].</mark>
+Taking a step back, let us assume that a sample that has been drawn from a normal distribution. Using basic concepts from statistics, we use the sample mean x̄ as a point estimate of the population mean µ:
+![](https://i.imgur.com/AyFUyfJ.png)
+![](https://i.imgur.com/8SIBJij.png)
+Although the approach outlined above seems intuitive, what can we do if our samples do not follow a normal distribution? A more robust, yet computationally straight-forward approach is the percentile method as described by B. Efron [Efron, 1981]. Here, we pick the lower and upper confidence bounds as follows:
+![](https://i.imgur.com/2ZX1uGV.png)
+In practice, if the data is indeed (roughly) following a normal distribution, the "standard" confidence
+interval and percentile method typically agree as illustrated in the Figure 8.
+![](https://i.imgur.com/3cPnkws.png)
