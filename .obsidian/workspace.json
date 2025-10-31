@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
+                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ML Stratigy"
+              "title": "4. Over-Fitting and Model Tuning"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -336,15 +336,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6a6ec18a7d62dc27",
+  "active": "a81803d760528c6c",
   "lastOpenFiles": [
     "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
+    "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes/1. Representation of the System.md",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes",
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
     "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
-    "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Deep Learning/Deep Learning Specialization/Tuning Process.md",
     "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "DB/Learning SQL/Grouping and Aggregates.md",
@@ -365,7 +366,6 @@
     "DB/Database Design/Field Specification.md",
     "DB/Database Design/Establishing Table structures.md",
     "DB/Database Design/Terminology.md",
-    "DB/Database Design/Table relationship.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
     "Machine Learning/Applied predactive modeling/1. Introduction",
     "Machine Learning/Applied predactive modeling",
