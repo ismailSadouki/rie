@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/1. Polynomial Regression.md",
+                "file": "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Polynomial Regression"
+              "title": "4. Regression Splines"
             }
           },
           {
@@ -338,8 +338,11 @@
   },
   "active": "a81803d760528c6c",
   "lastOpenFiles": [
-    "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
+    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/3. Basis Functions.md",
+    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
+    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/2. Step Functions.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/1. Polynomial Regression.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes/1. Representation of the System.md",
@@ -363,9 +366,6 @@
     "DB/Learning SQL/Subqueries.md",
     "DB/Learning SQL/Views.md",
     "DB/Learning SQL/Joins.md",
-    "DB/Learning SQL/MySQL Data-Types.md",
-    "DB/Database Design/Field Specification.md",
-    "DB/Database Design/Establishing Table structures.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
     "Machine Learning/Applied predactive modeling/1. Introduction",
     "Machine Learning/Applied predactive modeling",
