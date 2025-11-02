@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes/1. Representation of the System.md",
+                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Representation of the System"
+              "title": "4. Over-Fitting and Model Tuning"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -336,16 +336,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a81803d760528c6c",
+  "active": "322c6edf7e7ad300",
   "lastOpenFiles": [
-    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/3. Basis Functions.md",
+    "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes/1. Representation of the System.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
+    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/3. Basis Functions.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/2. Step Functions.md",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/1. Polynomial Regression.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
     "Deep Learning/Deep Learning Specialization/ML Stratigy.md",
-    "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes/1. Representation of the System.md",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes",
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
