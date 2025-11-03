@@ -256,3 +256,8 @@ Although the approach outlined above seems intuitive, what can we do if our samp
 In practice, if the data is indeed (roughly) following a normal distribution, the "standard" confidence
 interval and percentile method typically agree as illustrated in the Figure 8.
 ![](https://i.imgur.com/3cPnkws.png)
+
+In 1983, Bradley Efron described the .632 Estimate, a further improvement to address the pessimistic
+bias of the bootstrap cross-validation approach described above [Efron, 1983]. The pessimistic bias
+in the "classic" bootstrap method can be attributed to the fact that the bootstrap samples only contain
+approximately 63.2% of the unique examples from the original dataset. For instance, we can compute the probability that a given example from a dataset of size n is not drawn as a bootstrap sample as follows:
