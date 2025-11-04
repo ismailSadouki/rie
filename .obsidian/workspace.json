@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
+                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning"
+              "title": "4. Over-Fitting and Model Tuning"
             }
           },
           {
@@ -338,6 +338,7 @@
   },
   "active": "84954ab13d815fe5",
   "lastOpenFiles": [
+    "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
     "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
     "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Deep Learning/d2l/2. Preliminaries.md",
@@ -352,7 +353,6 @@
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes",
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
-    "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
     "Deep Learning/Deep Learning Specialization/Tuning Process.md",
     "Deep Learning/Deep Learning Specialization/optimization Algorithms.md",
     "DB/Learning SQL/Grouping and Aggregates.md",
