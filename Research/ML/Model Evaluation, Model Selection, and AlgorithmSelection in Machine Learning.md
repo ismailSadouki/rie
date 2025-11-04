@@ -261,3 +261,65 @@ In 1983, Bradley Efron described the .632 Estimate, a further improvement to add
 bias of the bootstrap cross-validation approach described above [Efron, 1983]. The pessimistic bias
 in the "classic" bootstrap method can be attributed to the fact that the bootstrap samples only contain
 approximately 63.2% of the unique examples from the original dataset. For instance, we can compute the probability that a given example from a dataset of size n is not drawn as a bootstrap sample as follows:
+![](https://i.imgur.com/dm0RZr9.png)
+![](https://i.imgur.com/ptBzM6N.png)
+![](https://i.imgur.com/wQPUmAI.png)
+for reasonably large datasets, so that we select approximately 0.632 × n unique examples as bootstrap training sets and reserve 0.382 × n out-of-bag examples for testing in each iteration, which is illustrated in Figure 9.
+![](https://i.imgur.com/Yw1u9xT.png)
+Now, to address the bias that is due to this the sampling with replacement, Bradley Efron proposed the .632 Estimate mentioned earlier, which is computed via the following equation:
+![](https://i.imgur.com/aHUiE56.png)
+![](https://i.imgur.com/1UDgq9f.png)
+Each bootstrap iteration gives you **two accuracy estimates**:
+
+1. **Training (resubstitution) accuracy** — tends to be _too optimistic_, since the model is evaluated on data it trained on.
+    
+2. **Holdout (OOB) accuracy** — tends to be _too pessimistic_, since the model was trained on only ~63% of the data.
+    
+
+Efron’s .632 estimator **balances** these two extremes by taking a weighted average:
+
+- 63.2% weight to the **OOB accuracy** (since ~63% of data are included per bootstrap),
+    
+- 36.8% weight to the **training accuracy** (to offset pessimism).
+    
+
+Then, averaging across all bbb bootstrap iterations gives the final unbiased estimate.
+### 🔹 Why This Works
+
+The bias from bootstrap sampling with replacement arises because:
+
+- Each model is trained on less data than the original dataset,
+    
+- So OOB evaluation _underestimates_ performance.
+    
+
+By blending in some of the training accuracy (which is _too optimistic_), the .632 rule **corrects the overall bias**.
+
+Now, while the .632 Boostrap attempts to address the pessimistic bias of the estimate, an optimistic
+bias may occur with models that tend to overfit so that Bradley Efron and Robert Tibshirani proposed
+The .632+ Bootstrap Method [Efron and Tibshirani, 1997]. Instead of using a fixed weight ω = 0.632 in
+![](https://i.imgur.com/NOGEhvu.png)
+![](https://i.imgur.com/VPUEntn.png)
+![](https://i.imgur.com/LN9NylW.png)
+![](https://i.imgur.com/1zMwXnX.png)
+
+
+
+# 3. Cross-validation and Hyperparameter Optimization
+In this context, lazy learning (or instance-based learning) means that there is no training or model fitting stage: A k-nearest neighbors model literally stores or memorizes the tThus, each training instance represents a parameter in the k-nearest neighbors model. In short, nonparametric models are models that cannot be described by a fixed number of parameters that are being adjusted to the training set. The structure of parametric models is not decided by the training data rather than being set a priori; nonparamtric models do not assume that the data follows certain probability distributions unlike parametric methods (exceptions of nonparametric methods that make such assumptions are Bayesian nonparametric methods). Hence, we may say that nonparametric methods make fewer assumptions about the data than parametric methods.raining data and uses it only at prediction time.  
+In contrast to k-nearest neighbors, a simple example of a parametric method is logistic regression,
+a generalized linear model with a fixed number of model parameters: a weight coefficient for each
+feature variable in the dataset plus a bias (or intercept) unit.
+
+For fitting a model to the training data, a hyperparameter of a logistic regression
+algorithm could be the number of iterations or passes over the training set (epochs) in gradient-based optimization.
+
+The process of finding the best-performing model from a set of models that were
+produced by different hyperparameter settings is called model selection.
+
+
+### The Three-Way Holdout Method for Hyperparameter Tuning
+
+http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/2157178/cb6d23/sampling-of-populations-methods-and-applications-4th-ed.html
+
+http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/1058159/3c8de0/an-introduction-to-multivariate-statistical-analysis-wiley-series-in-probability-and-statistics.html?dsource=recommend
