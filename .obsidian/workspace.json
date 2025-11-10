@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R/1. Fundamentals.md",
+                "file": "R/2. Feature & Target Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Fundamentals"
+              "title": "2. Feature & Target Engineering"
             }
           }
         ],
@@ -352,8 +352,10 @@
   },
   "active": "3a551f8f34fa8baa",
   "lastOpenFiles": [
-    "MT/Readings.md",
+    "Pasted image 20251110123427.png",
     "R/1. Fundamentals.md",
+    "R/2. Feature & Target Engineering.md",
+    "MT/Readings.md",
     "R",
     "MT/Research papers.md",
     "MT/Idea.md",
@@ -377,8 +379,6 @@
     "Deep Learning/d2l/2. Preliminaries.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
     "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
-    "Research/ML/Toward Integrating Feature SelectionAlgorithms for Classification and Clustering.md",
-    "Machine Learning/The Kaggle Book/7. Modeling for Tabular Competitions/4. Pseudo-labeling.md",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes",
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
