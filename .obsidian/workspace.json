@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
+                "file": "Research/Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Regression Splines"
+              "title": "Ideas"
             }
           },
           {
@@ -134,12 +134,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
+                "file": "Machine Learning/Applied predactive modeling/3. Linear Regression/8. Regression Trees and Rule-Based Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Over-Fitting and Model Tuning"
+              "title": "8. Regression Trees and Rule-Based Models"
+            }
+          },
+          {
+            "id": "137ed65a855a67bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           },
           {
@@ -148,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/CPS.md",
+                "file": "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPS"
+              "title": "2. Problem Formalization and Overview"
             }
           },
           {
@@ -171,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -350,37 +362,37 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3a551f8f34fa8baa",
+  "active": "322c6edf7e7ad300",
   "lastOpenFiles": [
-    "Machine Learning/Applied predactive modeling/2. General Strategies/4. Over-Fitting and Model Tuning.md",
-    "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
-    "Machine Learning/Applied predactive modeling/3. Linear Regression",
-    "R/2. Feature & Target Engineering.md",
-    "Pasted image 20251110123427.png",
-    "R/1. Fundamentals.md",
-    "MT/Readings.md",
-    "R",
-    "MT/Research papers.md",
-    "MT/Idea.md",
-    "MT/Mastering Bayesian ML.md",
-    "MT/books.md",
-    "MT/Planing.md",
-    "note.md",
-    "README.md",
-    "Graph View.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression/7. Nonlinear Regression Models.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression/8. Regression Trees and Rule-Based Models.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression/6. Linear Regression and Its Cousins.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
     "Research/Ideas.md",
-    "Research/Research Resources.md",
-    "Deep Learning/Planning.md",
-    "Deep Learning/pytorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/2. First steps with PyTorch.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/1. PyTorch and training performance.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/3. Training an artificial neural network.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/2. Classifying handwritten digits.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/11. Implementing a Multilayer Artificial Neural Network from Scratch/1. Modeling complex functions with artificial neuralnetworks.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/4. Building an NN model in PyTorch.md",
-    "Deep Learning/d2l/2. Preliminaries.md",
-    "Research/ML/Model Evaluation, Model Selection, and AlgorithmSelection in Machine Learning.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
+    "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/30 How to Perform SVD DimensionalityReduction.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/29 How to Perform PCA DimensionalityReduction.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/28 How to Perform LDA DimensionalityReduction.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/27 What is Dimensionality Reduction.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Advanced Transforms/25 How to Transform the Target inRegression.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Advanced Transforms/24 How to Transform Numerical andCategorical Data.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/23 How to Derive New Input Variables.md",
+    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
+    "Machine Learning/AutoML/9. The Automatic Statistician/3. An Automatic Statistician for Time Series Data.md",
+    "Machine Learning/AutoML/9. The Automatic Statistician/4. Other Automatic Statistician Systems.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/3. Results.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/4. Conclusions and Future Work.md",
+    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/1. Introduction.md",
+    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/3. New Methods for Increasing Efficiency and Robustness of AutoML.md",
+    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/4. A Practical Automated Machine Learning System.md",
+    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/5. Comparing Auto-sklearn to Auto-WEKAand HYPEROPT-SKLEARN.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression",
+    "Pasted image 20251110123427.png",
+    "R",
     "Time series/Introduction to Modern Time Series Analysis/4. Vector Autoregressive Processes",
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies",

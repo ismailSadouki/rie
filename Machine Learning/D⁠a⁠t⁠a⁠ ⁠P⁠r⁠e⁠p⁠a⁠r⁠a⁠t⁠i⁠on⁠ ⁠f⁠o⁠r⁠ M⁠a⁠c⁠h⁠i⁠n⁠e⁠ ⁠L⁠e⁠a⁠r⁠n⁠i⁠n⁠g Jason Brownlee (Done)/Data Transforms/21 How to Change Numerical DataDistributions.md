@@ -6,7 +6,7 @@ The quantile transform provides an automatic way to transform a numeric input va
 
 Some algorithms, like linear regression and logistic regression, explicitly assume the real-valued variables have a Gaussian distribution. Other nonlinear algorithms may not have this assumption, yet often perform better when variables have a Gaussian distribution.
 
-# 21.3 Quantile Transforms
+# 22.3 Quantile Transforms
 
 A quantile transform will map a variable’s probability distribution to another probability distribution. Recall that a quantile function, also called a percent-point function (PPF), is the inverse of the cumulative probability distribution (CDF). The PPF is the inverse of this function and returns the value at or below a given probability.
 
