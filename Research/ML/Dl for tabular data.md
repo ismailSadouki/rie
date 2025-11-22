@@ -1,0 +1,7 @@
+- SuperTML shows performance comparable with or superior to XGBoost????
+- Wide&Deep
+- DeepFM
+- Network On Network (NON)
+- CatNN
+- DeepGBM
+- 
