@@ -64,12 +64,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R/2. Feature & Target Engineering.md",
+                "file": "R/K-Nearest Neighbors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Feature & Target Engineering"
+              "title": "K-Nearest Neighbors"
+            }
+          },
+          {
+            "id": "a4f3976860cc2c26",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           },
           {
@@ -183,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -362,8 +374,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "a4f3976860cc2c26",
   "lastOpenFiles": [
+    "R/Multivariate Adaptive Regression Splines.md",
+    "R/K-Nearest Neighbors.md",
+    "R/Regularized Regression.md",
+    "R/Logistic Reg.md",
+    "R/Linear Regression.md",
+    "R/2. Feature & Target Engineering.md",
     "Deep Learning/pytorch.md",
     "Research/ML/Dl for tabular data.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression/8. Regression Trees and Rule-Based Models.md",
@@ -384,12 +402,6 @@
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/23 How to Derive New Input Variables.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
     "Machine Learning/AutoML/9. The Automatic Statistician/3. An Automatic Statistician for Time Series Data.md",
-    "Machine Learning/AutoML/9. The Automatic Statistician/4. Other Automatic Statistician Systems.md",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/2. Methods.md",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/3. Results.md",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/4. Conclusions and Future Work.md",
-    "Machine Learning/AutoML/8. TPOT A Tree-Based Pipeline Optimization Tool for Automating Machine Learning/1. Introduction.md",
-    "Machine Learning/AutoML/6. Auto-sklearn Efficient and Robust Automated Machine Learning/3. New Methods for Increasing Efficiency and Robustness of AutoML.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
     "Pasted image 20251110123427.png",
     "R",
