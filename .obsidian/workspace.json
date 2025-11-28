@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Creating token embeddings"
+              "title": "8. Encoding word positions"
             }
           },
           {
@@ -378,8 +378,9 @@
   },
   "active": "a4f3976860cc2c26",
   "lastOpenFiles": [
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/3. Converting tokens into token IDs.md",
@@ -405,7 +406,6 @@
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/30 How to Perform SVD DimensionalityReduction.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
     "Pasted image 20251110123427.png",
     "R",
