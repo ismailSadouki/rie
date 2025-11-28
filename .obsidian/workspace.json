@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "R/K-Nearest Neighbors.md",
+                "file": "HOME/Notes in the current project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K-Nearest Neighbors"
+              "title": "Notes in the current project"
             }
           },
           {
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Encoding word positions"
+              "title": "1. The problem with modeling long sequences"
             }
           },
           {
@@ -378,8 +378,13 @@
   },
   "active": "a4f3976860cc2c26",
   "lastOpenFiles": [
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
+    "NLP/Build a Large Language Model - Sebastian/Untitled",
+    "HOME/Notes in the current project.md",
+    "R/K-Nearest Neighbors.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
@@ -390,7 +395,6 @@
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
     "NLP/Build a Large Language Model - Sebastian",
     "R/Multivariate Adaptive Regression Splines.md",
-    "R/K-Nearest Neighbors.md",
     "R/Regularized Regression.md",
     "R/Logistic Reg.md",
     "R/Linear Regression.md",
@@ -404,8 +408,6 @@
     "Research/Ideas.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/3. Data Pre-processing.md",
     "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
-    "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
-    "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
     "Pasted image 20251110123427.png",
     "R",
@@ -413,8 +415,6 @@
     "Time series/Introduction to Modern Time Series Analysis",
     "Machine Learning/Applied predactive modeling/2. General Strategies",
     "Machine Learning/Applied predactive modeling/1. Introduction",
-    "Machine Learning/Applied predactive modeling",
-    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",

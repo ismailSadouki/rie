@@ -1,0 +1,4 @@
+- is there outliers?
+- `3SsnPorch` / `LowQualFinSF` / `ScreenPorch` consider log- transform
+- `YrSold` → 5 unique years → keep numeric, or treat as categorical if you suspect year trends matter.
+- `MSSubClass` → 15 → discrete class of building → can one-hot encode or leave numeric.
