@@ -76,12 +76,14 @@
             "id": "a4f3976860cc2c26",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "7. Creating token embeddings"
             }
           },
           {
@@ -376,6 +378,16 @@
   },
   "active": "a4f3976860cc2c26",
   "lastOpenFiles": [
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/3. Converting tokens into token IDs.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/2. Tokenizing text.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/1. Understanding word embeddings.md",
+    "NLP/Build a Large Language Model - Sebastian/1. Building a large language model.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
+    "NLP/Build a Large Language Model - Sebastian",
     "R/Multivariate Adaptive Regression Splines.md",
     "R/K-Nearest Neighbors.md",
     "R/Regularized Regression.md",
@@ -394,14 +406,6 @@
     "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
     "Machine Learning/Applied predactive modeling/2. General Strategies/2. A Short Tour of the Predictive Modeling Process.md",
     "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/30 How to Perform SVD DimensionalityReduction.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/29 How to Perform PCA DimensionalityReduction.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/28 How to Perform LDA DimensionalityReduction.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Dimensionality Reduction/27 What is Dimensionality Reduction.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Advanced Transforms/25 How to Transform the Target inRegression.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Advanced Transforms/24 How to Transform Numerical andCategorical Data.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/23 How to Derive New Input Variables.md",
-    "Machine Learning/D⁠a⁠t⁠a⁠ ⁠P⁠r⁠e⁠p⁠a⁠r⁠a⁠t⁠i⁠on⁠ ⁠f⁠o⁠r⁠ M⁠a⁠c⁠h⁠i⁠n⁠e⁠ ⁠L⁠e⁠a⁠r⁠n⁠i⁠n⁠g Jason Brownlee (Done)/Data Transforms/22 How to Transform Numerical toCategorical Data.md",
-    "Machine Learning/AutoML/9. The Automatic Statistician/3. An Automatic Statistician for Time Series Data.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
     "Pasted image 20251110123427.png",
     "R",
@@ -411,8 +415,6 @@
     "Machine Learning/Applied predactive modeling/1. Introduction",
     "Machine Learning/Applied predactive modeling",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity",
-    "Deep Learning/d2l",
-    "Machine Learning/introduction to statistical learning/6. Linear Model Selection and Regularization",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
     "Pasted image 20250815115059.png",
