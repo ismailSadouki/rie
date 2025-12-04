@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -390,17 +390,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a81803d760528c6c",
+  "active": "84954ab13d815fe5",
   "lastOpenFiles": [
-    "Research/Ideas.md",
+    "Research/ML/Dl for tabular data.md",
+    "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
+    "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
+    "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/2. Markov chains in discrete time.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
+    "HOME/Notes in the current project.md",
     "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
+    "Research/Ideas.md",
     "Time series/modeling financial time series",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
     "Statistical Learning/Classification/4.6 Generalized Linear Models.md",
-    "HOME/Notes in the current project.md",
     "Statistical Learning/PCA.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4..md",
@@ -417,12 +421,8 @@
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/3. Converting tokens into token IDs.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/2. Tokenizing text.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/1. Understanding word embeddings.md",
-    "NLP/Build a Large Language Model - Sebastian/1. Building a large language model.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
     "NLP/Build a Large Language Model - Sebastian",
-    "R/Multivariate Adaptive Regression Splines.md",
-    "R/Regularized Regression.md",
-    "R/Logistic Reg.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
     "Pasted image 20251110123427.png",
     "R",
