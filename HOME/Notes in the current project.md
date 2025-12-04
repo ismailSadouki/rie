@@ -16,12 +16,12 @@
 | 2   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 3   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 4   |                                                                                                                                                                                                                                                                                                                                                                               |
-| 5   |                                                                                                                                                                                                                                                                                                                                                                               |
-| 6   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 5   | - Locally Linear Embedding (LLE)                                                                                                                                                                                                                                                                                                                                              |
+| 6   | - Robust Principal Component Analysis (RPCA)                                                                                                                                                                                                                                                                                                                                  |
 | 7   | ## [Autoencoders:](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/MLM/Autoencoders.html)                                                                                                                                                                                                                                                                                   |
-| 8   |                                                                                                                                                                                                                                                                                                                                                                               |
-| 9   |                                                                                                                                                                                                                                                                                                                                                                               |
-| 10  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 8   | ##  [Word Embeddings (e.g., Word2Vec):](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/MLM/Word2Vec.html)                                                                                                                                                                                                                                                                  |
+| 9   | ## [Self-Organizing Maps (SOM):](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/MLM/SOM.html)                                                                                                                                                                                                                                                                              |
+| 10  | ## [Boltzmann Machines:](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/MLM/Boltzmann%20Machines.html)                                                                                                                                                                                                                                                                     |
 | 11  |                                                                                                                                                                                                                                                                                                                                                                               |
 | 12  |                                                                                                                                                                                                                                                                                                                                                                               |
 | 13  | **CatBoost Regression** — gradient boosting variant, often robust and handles categorical data well ([LinkedIn](https://www.linkedin.com/pulse/types-machine-learning-models-from-basics-advanced-naresh-maddela-wsqhc?utm_source=chatgpt.com "Types of Machine Learning Models From Basics to Advanced"))                                                                    |
@@ -559,3 +559,179 @@ Because features **do not share the same distribution**, so:
 ### ✔ Feature with low skew → no transform
 
 ### ✔ Feature ordinal (quality, condition) → do NOT transform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# List of Machine Learning Models
+
+Below is a list of 150 machine learning models, algorithms, and techniques:
+
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- Decision Trees
+- Random Forest
+- Bagging
+- Boosting
+- Gradient Boosting Machines (GBM)
+- XGBoost
+- LightGBM
+- CatBoost
+- Support Vector Machines (SVM)
+- k-Nearest Neighbors (KNN)
+- Principal Component Analysis (PCA)
+- Independent Component Analysis (ICA)
+- Factor Analysis
+- Canonical Correlation Analysis (CCA)
+- Naive Bayes
+- Gaussian Mixture Model (GMM)
+- Hidden Markov Models (HMM)
+- Logistic Regression
+- Elastic Net
+- Radial Basis Function (RBF) Kernel
+- Fourier Transform
+- Wavelet Transform
+- Isomap
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Uniform Manifold Approximation and Projection (UMAP)
+- Robust Principal Component Analysis (RPCA)
+- Locally Linear Embedding (LLE)
+- Autoencoders
+- Variational Autoencoders (VAE)
+- Generative Adversarial Networks (GAN)
+- Deep Belief Networks (DBN)
+- Restricted Boltzmann Machine (RBM)
+- K-Means Clustering
+- Mini-Batch K-Means
+- DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+- Agglomerative Hierarchical Clustering
+- Mean-Shift Clustering
+- Fuzzy C-Means Clustering
+- Affinity Propagation
+- Gaussian Processes
+- Conditional Random Fields (CRF)
+- Recurrent Neural Networks (RNN)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+- Bidirectional RNN
+- Echo State Network (ESN)
+- Hopfield Network
+- Boltzmann Machine
+- Word2Vec
+- GloVe (Global Vectors for Word Representation)
+- Doc2Vec
+- FastText
+- BERT (Bidirectional Encoder Representations from Transformers)
+- GPT (Generative Pre-trained Transformer)
+- Transformer-XL
+- T5 (Text-To-Text Transfer Transformer)
+- AdaBoost
+- Multi-Adaboost
+- MARS (Multivariate Adaptive Regression Splines)
+- Isolation Forest
+- One-Class SVM
+- Word Embeddings
+- Cuckoo Search
+- Firefly Algorithm
+- Particle Swarm Optimization (PSO)
+- Genetic Algorithms
+- Ant Colony Optimization
+- Simulated Annealing
+- Differential Evolution
+- Extreme Learning Machines (ELM)
+- Self-Organizing Maps (SOM)
+- Locally Weighted Regression (LWR)
+- CART (Classification and Regression Trees)
+- SVD (Singular Value Decomposition)
+- Non-Negative Matrix Factorization (NMF)
+- Elastic Net
+- Multi-Layer Perceptron (MLP)
+- Radial Basis Function Neural Network (RBFNN)
+- Quickprop
+- Cascade Correlation
+- NeuroEvolution of Augmenting Topologies (NEAT)
+- Fuzzy Logic Systems
+- Monte Carlo Methods
+- Q-Learning
+- Deep Q Network (DQN)
+- Policy Gradient Methods
+- Actor-Critic Models
+- Proximal Policy Optimization (PPO)
+- Trust Region Policy Optimization (TRPO)
+- Asynchronous Advantage Actor-Critic (A3C)
+- Deep Deterministic Policy Gradient (DDPG)
+- Twin Delayed DDPG (TD3)
+- Soft Actor-Critic (SAC)
+- Model-Driven Reinforcement Learning
+- Bayesian Optimization
+- Hyperband
+- Successive Halving Algorithm
+- Thompson Sampling
+- Online Learning
+- K-Prototypes Clustering
+- Mixture of Experts (MoE)
+- Stacked Generalization (Stacking)
+- Bootstrapped Ensembles
+- Spatial Transformer Networks
+- Residual Networks (ResNet)
+- Inception Networks
+- DenseNet
+- MobileNet
+- EfficientNet
+- Capsule Networks
+- Siamese Networks
+- Style Transfer Networks
+- PointNet
+- Graph Neural Networks (GNN)
+- Graph Convolutional Networks (GCN)
+- Gated Graph Neural Networks (GGNN)
+- GraphSAGE
+- Attention Mechanism
+- Memory Networks
+- Capsule Networks
+- Neural Architecture Search (NAS)
+- Evolutionary Algorithms for Neural Architecture Search
+- Transfer Learning
+- Meta-Learning
+- Few-Shot Learning
+- Multi-Instance Learning
+- Zero-Shot Learning
+- Reinforcement Learning from Human Feedback (RLHF)
+- Inverse Reinforcement Learning (IRL)
+- Curriculum Learning
+- Domain Adaptation
+- Adversarial Training
+- Model Distillation
+- Contrastive Learning
+- Prototype Learning
+- Active Learning
+- Ensemble Learning
+- Federated Learning
+- Homomorphic Encryption
+- Quantum Machine Learning
+- Neuro-Fuzzy Systems
+- Online Machine Learning
+- Multi-Task Learning
+- Temporal Difference Learning
+- Temporal Convolutional Networks (TCN)
+- Word Mover's Distance
+- Successive Halving Algorithm
