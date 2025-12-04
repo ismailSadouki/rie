@@ -6,70 +6,43 @@
 
 
 
-
-Good question — there are _lots_ of models used in practice for regression tasks (predicting continuous values). Below is a **very long list (20+)** of models / algorithms you could try — from simple linear to very advanced / ensemble / hybrid ones. Some are common across research & competitions (like on Kaggle), some are more niche / academic. The point is to give you **many possible tools** when working on something like house‑price prediction (or general regression tasks).
-
 ## 🎯 Big list of regression models / methods
 
-Here are more than 20 different regression‑capable models / algorithms you can use:
 
-|#|Model / Method|
-|---|---|
-|1|**Linear Regression** — baseline simple linear model|
-|2|**Ridge Regression** — L2‑regularized linear model (good for multicollinearity)|
-|3|**Lasso Regression** — L1‑regularized linear, does feature selection|
-|4|**ElasticNet Regression** — mix of L1 & L2 regularization, generalization between Ridge & Lasso|
-|5|**Polynomial Regression** — linear regression on polynomial-expanded features|
-|6|**Support Vector Regression (SVR)** — kernel-based regression, good for non‑linearities|
-|7|**K‑Nearest Neighbors Regression (KNN)** — simple non-parametric, uses neighbor averaging|
-|8|**Decision Tree Regression** — splits data by feature thresholds (non‑linear)|
-|9|**Random Forest Regression** — ensemble of decision trees, reduces overfitting vs single tree|
-|10|**Gradient Boosting Regression / GBM** — iterative boosting of weak learners (trees) to correct error residuals ([Wikipedia](https://en.wikipedia.org/wiki/Gradient_boosting?utm_source=chatgpt.com "Gradient boosting"))|
-|11|**XGBoost Regression** — highly optimized gradient boosting, widely used in competitions ([Wikipedia](https://en.wikipedia.org/wiki/XGBoost?utm_source=chatgpt.com "XGBoost"))|
-|12|**LightGBM Regression** — another efficient boosting framework, fast and handles large data well ([Wikipedia](https://en.wikipedia.org/wiki/LightGBM?utm_source=chatgpt.com "LightGBM"))|
-|13|**CatBoost Regression** — gradient boosting variant, often robust and handles categorical data well ([LinkedIn](https://www.linkedin.com/pulse/types-machine-learning-models-from-basics-advanced-naresh-maddela-wsqhc?utm_source=chatgpt.com "Types of Machine Learning Models From Basics to Advanced"))|
-|14|**Ensemble methods: Bagging / Stacking / Blending** (e.g. bagged trees, stacking multiple regressors) — combine strengths of multiple models for better generalization ([michael-fuchs-python.netlify.app](https://michael-fuchs-python.netlify.app/2019/07/24/further-regression-algorithms/?utm_source=chatgpt.com "Further Regression Algorithms - Michael Fuchs Python"))|
-|15|**Bayesian Regression / Bayesian‑style linear models** — assume probabilistic model for coefficients (uncertainty estimation) ([LinkedIn](https://www.linkedin.com/pulse/types-machine-learning-models-from-basics-advanced-naresh-maddela-wsqhc?utm_source=chatgpt.com "Types of Machine Learning Models From Basics to Advanced"))|
-|16|**Gaussian Process Regression (GPR)** — non-parametric, flexible continuous model sometimes used when data size is small or moderate ([James D. McCaffrey](https://jamesmccaffrey.wordpress.com/2025/02/11/a-comparison-of-the-eight-most-common-machine-learning-regression-techniques/?utm_source=chatgpt.com "A Comparison of the Eight Most Common Machine Learning Regression Techniques \| James D. McCaffrey"))|
-|17|**Robust regressors: Huber Regressor, Theil-Sen Estimator, RANSAC Regressor** — useful when outliers/noisy data exist ([LinkedIn](https://www.linkedin.com/pulse/types-machine-learning-models-from-basics-advanced-naresh-maddela-wsqhc?utm_source=chatgpt.com "Types of Machine Learning Models From Basics to Advanced"))|
-|18|**Regularized/Subset‑selection methods: Least Angle Regression (LARS), subset‑selection methods (e.g. via libraries like ABESS) — good if you want sparse models or feature‑selection embedded ([Wikipedia](https://en.wikipedia.org/wiki/Least-angle_regression?utm_source=chatgpt.com "Least-angle regression"))|
-|19|**Projection Pursuit Regression (PPR)** — a flexible semi‑nonlinear regression technique using smooth functions on projected components ([Wikipedia](https://en.wikipedia.org/wiki/Projection_pursuit_regression?utm_source=chatgpt.com "Projection pursuit regression"))|
-|20|**Multivariate Adaptive Regression Splines (MARS)** — piecewise-linear regression (splines) that can capture non‑linear relationships / interactions (common in flexible regression tasks) — not always in scikit-learn but used in research/Kaggle community.|
-|21|**Neural Network Regression (MLP, Deep Learning)** — use feed‑forward networks, possibly deeper architectures; useful if you suspect complex nonlinear interactions.|
-|22|**Support Vector Regression with different kernels (linear, polynomial, RBF, sigmoid)** — allows modeling very different nonlinear patterns depending on kernel hyperparameters.|
-|23|**Quantile Regression / Tweedie Regression / Generalized Linear Models (GLMs)** — useful when you care about conditional quantiles or specific noise distributions (not just mean).|
-|24|**Ensemble hybrids & stacking / blending / model averaging** — combining many of the above to gain stability and better generalization (common winning strategy on Kaggle) ([GitHub](https://github.com/suzuran0y/house-price-regression-prediction?utm_source=chatgpt.com "GitHub - suzuran0y/house-price-regression-prediction: Predicting house prices using advanced regression techniques (Kaggle competition solution with model stacking & feature engineering)."))|
 
----
-
-## 📚 Where do these come from?
-
-- Comprehensive lists of algorithms used in machine learning and data science include **linear methods, tree-based, boosting, kernel methods, nearest‑neighbors, ensemble methods, Bayesian, non‑parametric, and neural networks**. ([Manuela Cortés Granados](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/machine%20learning%20models.html?utm_source=chatgpt.com "Comprehensive List of Machine Learning Models"))
-    
-- Many Kaggle solutions and academic papers for house‑price / regression tasks use combinations like Random Forest, XGBoost, LightGBM, SVR, linear models, ensembling, etc. ([GitHub](https://github.com/suzuran0y/house-price-regression-prediction?utm_source=chatgpt.com "GitHub - suzuran0y/house-price-regression-prediction: Predicting house prices using advanced regression techniques (Kaggle competition solution with model stacking & feature engineering)."))
-    
-- Research literature includes more advanced or less common models (Gaussian Process Regression, Projection Pursuit, subset‑selection, spline‑based regression, robust regression, etc.) as options depending on data characteristics. ([Wikipedia](https://en.wikipedia.org/wiki/Projection_pursuit_regression?utm_source=chatgpt.com "Projection pursuit regression"))
-    
+| #   | Model / Method                                                                                                                                                                                                                                                                                                                                                                |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 2   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 3   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 4   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 5   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 6   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 7   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 8   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 9   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 10  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 11  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 12  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 13  | **CatBoost Regression** — gradient boosting variant, often robust and handles categorical data well ([LinkedIn](https://www.linkedin.com/pulse/types-machine-learning-models-from-basics-advanced-naresh-maddela-wsqhc?utm_source=chatgpt.com "Types of Machine Learning Models From Basics to Advanced"))                                                                    |
+| 14  | **Ensemble methods: Bagging / Stacking / Blending** (e.g. bagged trees, stacking multiple regressors) — combine strengths of multiple models for better generalization ([michael-fuchs-python.netlify.app](https://michael-fuchs-python.netlify.app/2019/07/24/further-regression-algorithms/?utm_source=chatgpt.com "Further Regression Algorithms - Michael Fuchs Python")) |
+| 15  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 16  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 17  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 18  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 19  | **Projection Pursuit Regression (PPR)** — a flexible semi‑nonlinear regression technique using smooth functions on projected components ([Wikipedia](https://en.wikipedia.org/wiki/Projection_pursuit_regression?utm_source=chatgpt.com "Projection pursuit regression"))                                                                                                     |
+| 20  | **Multivariate Adaptive Regression Splines (MARS)** — piecewise-linear regression (splines) that can capture non‑linear relationships / interactions (common in flexible regression tasks) — not always in scikit-learn but used in research/Kaggle community.                                                                                                                |
+| 21  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 22  |                                                                                                                                                                                                                                                                                                                                                                               |
+| 23  | **Generalized Linear Models (GLMs)**                                                                                                                                                                                                                                                                                                                                          |
+| 24  |  SVR (with kernel)                                                                                                                                                                                                                                                                                                                                                            |
 
 ---
 
-## 🔍 How to pick among them (when to try what)
 
-- **Simple, interpretable, fast** → Linear, Ridge, Lasso, ElasticNet, PPR, MARS.
-    
-- **Nonlinear but robust** → Decision Tree, Random Forest, KNN, SVR (with kernel), Bagging / Bootstrap regressors.
-    
-- **High predictive power on tabular data** → Boosting methods (XGBoost, LightGBM, CatBoost), ensemble stacking.
-    
-- **When data is noisy or has outliers** → Robust regressors (Huber, Theil–Sen, RANSAC), or tree‑based ensembles.
-    
-- **If you expect complex nonlinear interactions** → Neural nets, GPR, MARS, projection‑based methods, or deep models (if data size allows).
-    
-- **When you need uncertainty estimates / probabilistic modeling** → Bayesian regression, Gaussian Process, quantile/Tweedie / GLM variants.
-    
-- **When overfitting is a concern** → Regularized linear models (Ridge, Lasso, ElasticNet), subset‑selection, ensembles with cross‑validation, stacking/blending.
-    
+---
 
+    
 ---
 
 ## ✅ My recommendation for your House Prices task (multiple tries)
@@ -290,3 +263,325 @@ If you want, I can **create a Python template** with **20+ of these models**, wi
 This way you can **quickly test 20–30 models on your dataset** without writing them manually.
 
 Do you want me to do that next?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nice! If you’re working on the **Ames Housing** dataset with **Advanced Linear Regression**, here’s a clean roadmap + what you should focus on to get strong performance and avoid common mistakes.
+
+---
+
+# ✅ **1. Core Strategy for Advanced Linear Regression**
+
+Ames has:
+
+- **37 numeric features**
+    
+- **47 categorical features**
+    
+
+Linear regression works best when features are:
+
+- scaled
+    
+- encoded correctly
+    
+- not heavily multicollinear
+    
+- reasonably linear with the target
+    
+
+So the strategy is:
+
+### **Step-by-step Pipeline**
+
+1. **Start with numeric features only**  
+    ✔ Yes, this is _good and fast_  
+    It lets you iterate quickly on modeling, transformations, feature selection, etc.
+    
+2. **Explore relationships with SalePrice**
+    
+    - Correlation heatmap
+        
+    - Scatterplots for top features
+        
+    - Check skewness → apply log1p where needed
+        
+    - SalePrice is skewed → do `y = np.log1p(SalePrice)`
+        
+3. **Transform numeric features**
+    
+    - `StandardScaler`
+        
+    - `QuantileTransformer` or `PowerTransformer` for non-normal features
+        
+    - Outlier handling: capping or Winsorizing
+        
+4. **Feature selection / regularization**
+    
+    - Ridge
+        
+    - Lasso
+        
+    - ElasticNet  
+        These are **must-use** in Ames.
+        
+5. **Then add categorical features**  
+    After your numeric pipeline is stable:
+    
+    - Use `OneHotEncoder(handle_unknown="ignore")`
+        
+    - But this creates **300–400 columns** → regularization becomes necessary.
+        
+6. **Use a full Scikit-learn Pipeline**  
+    This is the best practice:
+    
+
+```python
+preprocess = ColumnTransformer([
+    ("num", StandardScaler(), numeric_cols),
+    ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_cols)
+])
+
+model = Pipeline([
+    ("pre", preprocess),
+    ("reg", ElasticNet(alpha=0.001, l1_ratio=0.5))
+])
+```
+
+---
+
+# ✅ **2. Should you start only with numeric features?**
+
+**YES — Best strategy.**
+
+Reasons:
+
+- Much faster experiments
+    
+- Easy to check linearity, collinearity
+    
+- Helps you tune regularization (α) correctly
+    
+- Avoids exploding feature space early
+    
+
+Then add categorical features after the numeric modeling stabilizes.
+
+---
+
+# ✅ **3. Best Models for Advanced Linear Regression**
+
+Here are **30+** linear + quasi-linear models you can apply:
+
+### **Pure Linear (Baseline)**
+
+1. Ordinary Least Squares
+    
+2. Ridge Regression
+    
+3. Lasso
+    
+4. ElasticNet
+    
+5. Bayesian Ridge
+    
+6. Automatic Relevance Determination (ARD)
+    
+7. Huber Regressor
+    
+8. Theil-Sen Regressor
+    
+9. RANSAC Regressor
+    
+10. Tweedie Regressor (GLM)
+    
+11. Poisson Regressor (GLM)
+    
+12. Gamma Regressor (GLM)
+    
+
+### **Regularized Linear Variants**
+
+13. LARS (Least Angle Regression)
+    
+14. Lasso-LARS
+    
+15. Orthogonal Matching Pursuit
+    
+16. Quantile Regression
+    
+17. Polynomial Regression (degree 2)
+    
+18. Spline regression (patsy / scikit-learn)
+    
+19. RobustScaler + Ridge
+    
+20. RobustScaler + Lasso
+    
+
+### **Dimension Reduction + Linear**
+
+21. PCA + Linear Regression
+    
+22. PCA + Ridge
+    
+23. PCA + Lasso
+    
+24. ICA + Linear Regression
+    
+25. Partial Least Squares (PLSRegression)
+    
+26. Kernel PCA + Linear Regression
+    
+
+### **Sparse Techniques**
+
+27. L1-based feature selection + OLS
+    
+28. ElasticNet + SelectFromModel
+    
+
+### **High-Performance Linear-like models**
+
+(These are NOT tree models, but generalized linear methods)
+
+29. SGDRegressor (Linear model trained as SGD)
+    
+30. Passive-Aggressive Regressor
+    
+31. RidgeCV (Cross-validated automatically)
+    
+32. LassoCV
+    
+33. ElasticNetCV
+    
+34. LARS-CV
+    
+35. MultiTaskElasticNet (if using multi-target engineered features)
+    
+
+---
+
+# ✅ **4. Pipeline Strategy That Performs Best**
+
+If you want **top Kaggle-level performance with linear models**, follow this:
+
+### **A. Preprocessing**
+
+- Log-transform target
+    
+- Check multicollinearity → remove extremely correlated numeric features
+    
+- Normalize numeric features
+    
+- Encode categorical features
+    
+
+### **B. Try these models in order**
+
+1. **ElasticNetCV** → usually the best
+    
+2. **RidgeCV**
+    
+3. **LassoLarsIC** (AIC/BIC-based selection)
+    
+4. **ARDRegression**
+    
+5. **HuberRegressor** (robust to outliers)
+    
+6. **PLSRegression** (helps when many correlated features)
+    
+7. **Polynomial (degree 2) + Ridge**
+    
+
+### **C. Cross-validation**
+
+Use:
+
+```python
+KFold(n_splits=10, shuffle=True, random_state=42)
+```
+
+---
+
+# Want me to generate:
+
+🔥 A ready-to-use scikit-learn code template for your full Ames pipeline?  
+🔥 Or a full modelling notebook structure?  
+🔥 Or help optimize your current model?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+
+---
+
+
+
+
+
+
+
+
+# 🧠 **Short answer: WHY per-feature transforms?**
+
+Because features **do not share the same distribution**, so:
+
+### ✔ Feature with right-skew → log1p
+
+### ✔ Feature with heavy skew → Yeo-Johnson
+
+### ✔ Feature with mixed signs → Yeo-Johnson (log fails)
+
+### ✔ Feature with insane outliers → Quantile (normal or uniform)
+
+### ✔ Feature with low skew → no transform
+
+### ✔ Feature ordinal (quality, condition) → do NOT transform
