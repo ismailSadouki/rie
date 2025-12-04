@@ -18,7 +18,7 @@
 | 4   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 5   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 6   |                                                                                                                                                                                                                                                                                                                                                                               |
-| 7   |                                                                                                                                                                                                                                                                                                                                                                               |
+| 7   | ## [Autoencoders:](https://mcortesgranados.github.io/CV_MCG/CONCEPTS/MLM/Autoencoders.html)                                                                                                                                                                                                                                                                                   |
 | 8   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 9   |                                                                                                                                                                                                                                                                                                                                                                               |
 | 10  |                                                                                                                                                                                                                                                                                                                                                                               |
@@ -171,7 +171,81 @@ Do you want me to do that next?
 
 
 
+### Deep Learning Models
 
+These models use neural networks for feature extraction and learning.
+
+### Feedforward Neural Networks (FNN)
+
+1. Multi-Layer Perceptron (MLP)
+
+### Convolutional Neural Networks (CNN)
+
+1. LeNet
+2. AlexNet
+3. VGGNet
+4. GoogLeNet (Inception Networks)
+5. ResNet (Residual Networks)
+6. DenseNet
+7. EfficientNet
+8. MobileNet
+9. Vision Transformers (ViTs)
+
+### Recurrent Neural Networks (RNN)
+
+1. Simple RNN
+2. Long Short-Term Memory (LSTM)
+3. Gated Recurrent Unit (GRU)
+4. Bidirectional LSTM/GRU
+
+### Transformer-Based Models
+
+1. Transformer (Original by Vaswani et al.)
+2. BERT (Bidirectional Encoder Representations from Transformers)
+3. GPT (Generative Pre-trained Transformer, GPT-1, GPT-2, GPT-3, GPT-4, etc.)
+4. T5 (Text-to-Text Transfer Transformer)
+5. XLNet
+6. RoBERTa
+7. ALBERT
+8. DistilBERT
+9. BART (Bidirectional and Auto-Regressive Transformers)
+10. Whisper (Speech-to-Text by OpenAI)
+
+  
+
+### Generative Models
+
+1. Autoencoders (Vanilla, Variational, Denoising)
+2. Generative Adversarial Networks (GANs) Vanilla GAN Deep Convolutional GAN (DCGAN) Conditional GAN (cGAN) StyleGAN CycleGAN Pix2Pix
+3. Normalizing Flows
+4. Diffusion Models (DALL-E, Stable Diffusion, Imagen, etc.)
+
+### Graph Neural Networks (GNN)
+
+1. Graph Convolutional Networks (GCN)
+2. Graph Attention Networks (GAT)
+3. GraphSAGE
+4. ChebNet (Chebyshev Graph CNNs)
+5. GNN Explainers
+
+### Self-Supervised Learning Models
+
+1. SimCLR (Simple Framework for Contrastive Learning)
+2. BYOL (Bootstrap Your Own Latent)
+3. MoCo (Momentum Contrast)
+4. DINO (Self-Supervised Transformers)
+5. MAE (Masked Autoencoders for Vision Tasks)
+
+---
+
+### 6. Hybrid Models & Meta-Learning
+
+1. Stacking Models
+2. Blending Models
+3. Bayesian Optimization-Based Learning
+4. Neural Architecture Search (NAS)
+5. Few-Shot Learning Models (Siamese Networks, Prototypical Networks, Matching Networks, etc.)
+6. Federated Learning Models
 
 
 
