@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Learning/PCA.md",
-                "mode": "source",
+                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCA"
+              "title": "7. Creating token embeddings"
             }
           },
           {
@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -390,10 +390,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "06d841aeae479dc0",
   "lastOpenFiles": [
-    "Advanced Linear Regression/skeewed Features.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/3. Converting tokens into token IDs.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/2. Tokenizing text.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/1. Understanding word embeddings.md",
+    "Statistical Learning/PCA.md",
     "HOME/Notes in the current project.md",
+    "Advanced Linear Regression/skeewed Features.md",
     "Advanced Linear Regression/Outliers.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
     "Advanced Linear Regression",
@@ -406,7 +413,6 @@
     "Time series/modeling financial time series",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
     "Statistical Learning/Classification/4.6 Generalized Linear Models.md",
-    "Statistical Learning/PCA.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
@@ -415,13 +421,7 @@
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
     "NLP/Build a Large Language Model - Sebastian/Untitled",
-    "R/K-Nearest Neighbors.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/3. Converting tokens into token IDs.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
     "NLP/Build a Large Language Model - Sebastian",
     "Machine Learning/Applied predactive modeling/3. Linear Regression",
