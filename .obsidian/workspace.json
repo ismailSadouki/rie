@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
-                "mode": "preview",
+                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/6. Extending single-head attention to multi-headattention.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Implementing self-attention with trainable weights"
+              "title": "6. Extending single-head attention to multi-headattention"
             }
           },
           {
@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -390,10 +390,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "06d841aeae479dc0",
   "lastOpenFiles": [
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/6. Extending single-head attention to multi-headattention.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
+    "HOME/Notes in the current project.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/2. Capturing data dependencies with attention mechanisms.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
@@ -406,7 +408,6 @@
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/2. Tokenizing text.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/1. Understanding word embeddings.md",
     "Statistical Learning/PCA.md",
-    "HOME/Notes in the current project.md",
     "Advanced Linear Regression/skeewed Features.md",
     "Advanced Linear Regression/Outliers.md",
     "Advanced Linear Regression",
@@ -419,7 +420,6 @@
     "Time series/modeling financial time series",
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
     "Statistical Learning/Classification/4.6 Generalized Linear Models.md",
-    "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
     "NLP/Build a Large Language Model - Sebastian/Untitled",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
