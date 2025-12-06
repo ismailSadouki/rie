@@ -104,7 +104,7 @@ Absolutely — let’s expand the list **even further**, including more speciali
 | 39  |                                                             | Non-parametric, models uncertainty; good for smooth functions.                                                         |
 | 40  |                                                             | Sparse kernel-based regression; can improve generalization.                                                            |
 | 41  |                                                             | Fits locally to capture nonlinearity; small datasets.                                                                  |
-| 42  |                                                             | Ridge regression with kernels; handles nonlinearity.                                                                   |
+|     |                                                             | Ridge regression with kernels; handles nonlinearity.                                                                   |
 | 43  |                                                             | Neural networks; flexible for complex nonlinear interactions.                                                          |
 | 44  |                                                             | When spatial / structured features exist (e.g., images or grids).                                                      |
 | 45  |                                                             | For sequential/time-series regression problems.                                                                        |

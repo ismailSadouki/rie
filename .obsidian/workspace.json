@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Creating token embeddings"
+              "title": "4. Implementing self-attention with trainable weights"
             }
           },
           {
@@ -211,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -390,8 +390,15 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "06d841aeae479dc0",
+  "active": "84954ab13d815fe5",
   "lastOpenFiles": [
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/2. Capturing data dependencies with attention mechanisms.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
+    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/7. Creating token embeddings.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/6. Data sampling with a sliding window.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/5. Byte pair encoding.md",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data/4. Adding special context tokens.md",
@@ -402,7 +409,6 @@
     "HOME/Notes in the current project.md",
     "Advanced Linear Regression/skeewed Features.md",
     "Advanced Linear Regression/Outliers.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
     "Advanced Linear Regression",
     "Research/ML/Dl for tabular data.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
@@ -414,12 +420,6 @@
     "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
     "Statistical Learning/Classification/4.6 Generalized Linear Models.md",
     "Deep Learning/Machine Learning with PyTorch and Scikit-Learn/12. Parallelizing Neural Network Training with PyTorch/3. Building input pipelines in PyTorch.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4..md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/2. Capturing data dependencies with attention mechanisms.md",
-    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data/8. Encoding word positions.md",
     "NLP/Build a Large Language Model - Sebastian/Untitled",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
