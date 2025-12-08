@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/6. Extending single-head attention to multi-headattention.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/2. Normalizing activations with layer normalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Extending single-head attention to multi-headattention"
+              "title": "2. Normalizing activations with layer normalization"
             }
           },
           {
@@ -70,20 +70,6 @@
               },
               "icon": "lucide-file",
               "title": "Notes in the current project"
-            }
-          },
-          {
-            "id": "a4f3976860cc2c26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Hiding future words with causal attention"
             }
           },
           {
@@ -106,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
+                "file": "HOME/pca.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. Multivariate Models"
+              "title": "pca"
             }
           },
           {
@@ -211,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -390,12 +376,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "06d841aeae479dc0",
+  "active": "44b25d68ea9d7a7c",
   "lastOpenFiles": [
+    "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
+    "HOME/Notes in the current project.md",
+    "HOME/pca.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/5. Hiding future words with causal attention.md",
+    "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/2. Normalizing activations with layer normalization.md",
+    "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/1. Coding an LLM architecture.md",
+    "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/7. Summary.md",
+    "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/6. Extending single-head attention to multi-headattention.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/4. Implementing self-attention with trainable weights.md",
-    "HOME/Notes in the current project.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/3. Attending to different parts of the inputwith self-attention.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/2. Capturing data dependencies with attention mechanisms.md",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms/1. The problem with modeling long sequences.md",
@@ -413,14 +405,8 @@
     "Advanced Linear Regression",
     "Research/ML/Dl for tabular data.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/6. Text Generation with OpenAI GPT-2 and GPT-3 Models/1. The rise of billion-parameter transformer models.md",
-    "Time series/Introduction to Time Series and Forecasting with R/11. Multivariate Models.md",
     "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/2. Markov chains in discrete time.md",
-    "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
-    "Research/Ideas.md",
     "Time series/modeling financial time series",
-    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
-    "Statistical Learning/Classification/4.6 Generalized Linear Models.md",
-    "NLP/Build a Large Language Model - Sebastian/Untitled",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
     "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
     "NLP/Build a Large Language Model - Sebastian",
