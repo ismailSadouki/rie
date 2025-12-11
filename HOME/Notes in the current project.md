@@ -443,51 +443,7 @@ _(models, transforms, tricks, and meta strategies used by competition winners)_
 
 # 2️⃣ **Advanced Regression Models (beyond normal ML)**
 
-### **Tree-based SOTA for tabular data**
 
-- LightGBM with:
-    
-    - DART boosting
-        
-    - GOSS sampling
-        
-    - Monotonic constraints
-        
-- CatBoost Oblivious Trees
-    
-- XGBoost:
-    
-    - Tweedie objective
-        
-    - Fair loss
-        
-    - Quantile loss
-        
-    - Poisson + gamma + custom losses
-        
-
-### **Nonlinear advanced models**
-
-- Kernel Ridge Regression
-    
-- Gaussian Processes with ARD kernel
-    
-- Automatic Relevance Determination (ARD) Regression
-    
-- Relevance Vector Machine (RVM)
-    
-- Bayesian Neural Networks (VI or Laplace Approx.)
-    
-- Neural Tangent Kernel Regression
-    
-- Symbolic Regression / Genetic Programming–based Models
-    
-- Locally Weighted Regression (LOESS on steroids)
-    
-- Orthogonal Matching Pursuit (OMP)
-    
-- Random Neighborhoods Regression (RNR)
-    
 
 ### **Advanced Neural Nets for tabular**
 
@@ -506,27 +462,6 @@ _(models, transforms, tricks, and meta strategies used by competition winners)_
 - ResNet-style NNs for tabular
     
 - MONDE (Monotonic neural DE)
-    
-
-### **Other advanced models**
-
-- Spline regression / Smoothing Splines
-    
-- Thin-plate splines
-    
-- Generalized Additive Models with shape constraints
-    
-- Quantile GAMs
-    
-- Tweedie Regression
-    
-- Huber Regression
-    
-- Quantile Regression Forests
-    
-- BART (Bayesian Additive Regression Trees)
-    
-- Gradient boosting with M-estimators
     
 
 ---
@@ -556,9 +491,7 @@ _(used when data has heavy tails, skew, or noise — VERY helpful for Kaggle)_
 
 ### **Regularization**
 
-- ElasticNet with adaptive weights
     
-- Group Lasso
     
 - Sparse Group Lasso
     
@@ -2548,3 +2481,486 @@ If you want, I can **upgrade this pipeline further** to:
 This would be **as close as it gets to a “one-click Kaggle feature generator.”**
 
 Do you want me to do that next?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Kaggle ML Template — 100% Reproducible, Ready-to-Use
+
+This is a complete, minimal, production-quality Kaggle project template designed for fast iteration and reproducibility. Use it directly in a Kaggle Notebook (Kernel) or clone it locally. It includes data loading placeholders, deterministic training, cross-validation, config-driven runs, lightweight experiment logging, tests, and CI.
+
+---
+
+## File structure
+
+```
+kaggle-ml-template/
+├── README.md
+├── requirements.txt
+├── environment.yml
+├── .gitignore
+├── config.yaml
+├── data/                  # put raw datasets here on local; on Kaggle use /kaggle/input/<dataset>
+├── src/
+│   ├── __init__.py
+│   ├── seed.py
+│   ├── utils.py
+│   ├── data.py
+│   ├── model.py
+│   ├── train.py
+│   └── predict.py
+├── notebooks/
+│   └── quick_start.ipynb  # optional: show how to run on Kaggle
+├── models/                # outputs go here (saved models)
+├── outputs/               # logs, folds, submissions
+├── tests/
+│   └── test_smoke.py
+├── .github/workflows/ci.yml
+└── Dockerfile
+```
+
+---
+
+## Quick instructions (Kaggle)
+
+1. Upload/attach dataset in Kaggle (or use built-in datasets). The code expects data at `/kaggle/input/your-dataset/`.
+    
+2. Run `src/train.py --config config.yaml --run_name kaggle_run` in a Kaggle notebook cell:
+    
+
+```python
+!python src/train.py --config config.yaml --run_name kaggle_run
+```
+
+3. Output models and submission appear in `/kaggle/working/models` and `/kaggle/working/outputs` (Kaggle will save them as notebook outputs).
+    
+
+---
+
+## `requirements.txt` (pin exact versions for reproducibility)
+
+```
+python-dotenv==1.0.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==2.3.2
+matplotlib==3.8.2
+pyyaml==6.0
+tqdm==4.66.1
+joblib==1.3.2
+torch==2.2.0
+torchvision==0.18.1
+lightgbm==4.5.0
+xgboost==2.1.1
+pytest==7.4.2
+```
+
+_(Change versions if you need other hardware; pinning ensures reproducibility.)_
+
+---
+
+## `config.yaml` (example)
+
+```yaml
+seed: 42
+model:
+  type: lgb
+  params:
+    objective: regression
+    learning_rate: 0.05
+    num_leaves: 31
+    n_estimators: 1000
+data:
+  target: target
+  id_col: id
+  input_dir: /kaggle/input/your-dataset
+training:
+  n_folds: 5
+  stratify: false
+  metric: rmse
+output:
+  models_dir: models
+  outputs_dir: outputs
+```
+
+---
+
+## Core reproducibility helper — `src/seed.py`
+
+```python
+# src/seed.py
+import os
+import random
+import numpy as np
+
+def set_seed(seed: int):
+    """Set seeds for python, numpy and torch (if available) and enforce deterministic behavior."""
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    random.seed(seed)
+    np.random.seed(seed)
+
+    try:
+        import torch
+        torch.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
+        # Deterministic flags
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
+    except Exception:
+        pass
+
+    # Set environmental flags useful for reproducibility
+    os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+```
+
+---
+
+## Utilities — `src/utils.py`
+
+```python
+# src/utils.py
+import os
+import json
+from pathlib import Path
+from typing import Dict
+
+
+def makedirs(path: str):
+    Path(path).mkdir(parents=True, exist_ok=True)
+
+
+def save_json(d: Dict, path: str):
+    with open(path, 'w') as f:
+        json.dump(d, f, indent=2)
+
+
+def load_yaml(path: str):
+    import yaml
+    with open(path) as f:
+        return yaml.safe_load(f)
+```
+
+---
+
+## Data loader example — `src/data.py` (pandas + sklearn)
+
+```python
+# src/data.py
+import pandas as pd
+from sklearn.model_selection import KFold, StratifiedKFold
+from typing import Tuple
+
+
+def load_data(input_dir: str, train_file: str = 'train.csv', test_file: str = 'test.csv') -> Tuple[pd.DataFrame, pd.DataFrame]:
+    train = pd.read_csv(f"{input_dir}/{train_file}")
+    test = pd.read_csv(f"{input_dir}/{test_file}")
+    return train, test
+
+
+def make_folds(df, config):
+    n_folds = config['training']['n_folds']
+    if config['training'].get('stratify', False):
+        skf = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=config['seed'])
+        # You'll need to pass a stratify column
+        y = df[config['data']['target']]
+        for fold, (_, val_idx) in enumerate(skf.split(df, y)):
+            df.loc[val_idx, 'fold'] = fold
+    else:
+        kf = KFold(n_splits=n_folds, shuffle=True, random_state=config['seed'])
+        for fold, (_, val_idx) in enumerate(kf.split(df)):
+            df.loc[val_idx, 'fold'] = fold
+    return df
+```
+
+---
+
+## Model wrapper example — `src/model.py` (LightGBM + sklearn API)
+
+```python
+# src/model.py
+import lightgbm as lgb
+from sklearn.metrics import mean_squared_error
+import joblib
+
+class LGBWrapper:
+    def __init__(self, params):
+        self.params = params
+        self.model = None
+
+    def fit(self, X_train, y_train, X_val=None, y_val=None):
+        train_set = lgb.Dataset(X_train, label=y_train)
+        valid_sets = [train_set]
+        valid_names = ['train']
+        if X_val is not None:
+            val_set = lgb.Dataset(X_val, label=y_val)
+            valid_sets.append(val_set)
+            valid_names.append('valid')
+        self.model = lgb.train(self.params, train_set, valid_sets=valid_sets, valid_names=valid_names,
+                               num_boost_round=self.params.get('n_estimators', 1000),
+                               early_stopping_rounds=50, verbose_eval=False)
+        return self
+
+    def predict(self, X):
+        return self.model.predict(X, num_iteration=self.model.best_iteration)
+
+    def save(self, path):
+        joblib.dump(self.model, path)
+
+    def load(self, path):
+        self.model = joblib.load(path)
+        return self
+
+    @staticmethod
+    def rmse(y_true, y_pred):
+        return mean_squared_error(y_true, y_pred, squared=False)
+```
+
+---
+
+## Training orchestrator — `src/train.py`
+
+```python
+# src/train.py
+import argparse
+import os
+import pandas as pd
+from pathlib import Path
+from src.seed import set_seed
+from src.utils import makedirs, load_yaml, save_json
+from src.data import load_data, make_folds
+from src.model import LGBWrapper
+
+
+def parse_args():
+    p = argparse.ArgumentParser()
+    p.add_argument('--config', type=str, required=True)
+    p.add_argument('--run_name', type=str, default='run')
+    return p.parse_args()
+
+
+def main():
+    args = parse_args()
+    config = load_yaml(args.config)
+
+    # Set seed
+    set_seed(config['seed'])
+
+    # Create output dirs
+    makedirs(config['output']['models_dir'])
+    makedirs(config['output']['outputs_dir'])
+
+    # Load data
+    train, test = load_data(config['data']['input_dir'])
+
+    # Make folds
+    train = make_folds(train, config)
+
+    oof_preds = []
+    models = {}
+
+    for fold in range(config['training']['n_folds']):
+        print(f"Training fold {fold}")
+        tr = train[train['fold'] != fold]
+        va = train[train['fold'] == fold]
+
+        X_train = tr.drop([config['data']['target'], 'fold'], axis=1, errors='ignore')
+        y_train = tr[config['data']['target']]
+        X_val = va.drop([config['data']['target'], 'fold'], axis=1, errors='ignore')
+        y_val = va[config['data']['target']]
+
+        model = LGBWrapper(config['model']['params'])
+        model.fit(X_train, y_train, X_val, y_val)
+
+        preds = model.predict(X_val)
+        oof_preds.append((va.index, preds))
+
+        model_path = os.path.join(config['output']['models_dir'], f"model_fold_{fold}.pkl")
+        model.save(model_path)
+        models[fold] = model_path
+
+    # Aggregate OOF
+    oof = pd.Series(index=train.index, dtype=float)
+    for idxs, preds in oof_preds:
+        oof.loc[idxs] = preds
+
+    # Save OOF
+    oof_path = os.path.join(config['output']['outputs_dir'], 'oof.csv')
+    oof.to_csv(oof_path, index=True)
+
+    # Save run metadata
+    meta = {
+        'config': config,
+        'models': models
+    }
+    save_json(meta, os.path.join(config['output']['outputs_dir'], 'meta.json'))
+
+    print('Done')
+
+if __name__ == '__main__':
+    main()
+```
+
+Notes:
+
+- This is intentionally simple and uses DataFrame columns as features. In real projects, use a feature engineering pipeline and `ColumnTransformer`/`sklearn.Pipeline` to encode categorical features.
+    
+- `verbose_eval=False` used so Kaggle output remains tidy; change for debugging.
+    
+
+---
+
+## Prediction script — `src/predict.py`
+
+```python
+# src/predict.py
+import argparse
+import pandas as pd
+import joblib
+from src.utils import load_yaml
+
+
+def parse_args():
+    p = argparse.ArgumentParser()
+    p.add_argument('--config', type=str, required=True)
+    p.add_argument('--models', nargs='+', required=True)
+    return p.parse_args()
+
+
+def main():
+    args = parse_args()
+    config = load_yaml(args.config)
+    _, test = pd.read_csv(f"{config['data']['input_dir']}/train.csv"), pd.read_csv(f"{config['data']['input_dir']}/test.csv")
+
+    preds = []
+    for m in args.models:
+        mobj = joblib.load(m)
+        preds.append(mobj.predict(test.drop(columns=[config['data'].get('id_col')], errors='ignore')))
+
+    import numpy as np
+    avg = np.mean(preds, axis=0)
+
+    submission = pd.DataFrame({config['data']['id_col']: test[config['data']['id_col']], 'target': avg})
+    submission.to_csv('submission.csv', index=False)
+
+if __name__ == '__main__':
+    main()
+```
+
+---
+
+## Tests — `tests/test_smoke.py`
+
+```python
+# tests/test_smoke.py
+import os
+from src.seed import set_seed
+
+
+def test_seed():
+    set_seed(123)
+    import numpy as np
+    a = np.random.randn(3)
+    set_seed(123)
+    b = np.random.randn(3)
+    assert (a == b).all()
+```
+
+Run `pytest -q` locally or in CI.
+
+---
+
+## CI — `.github/workflows/ci.yml`
+
+```yaml
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run tests
+        run: |
+          pytest -q
+```
+
+---
+
+## Dockerfile (optional, reproducible environment)
+
+```dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . /app
+CMD ["python", "src/train.py", "--config", "config.yaml", "--run_name", "docker_run"]
+```
+
+---
+
+## README.md (example content)
+
+````markdown
+# Kaggle ML Template
+
+## Usage
+
+- Place dataset under `data/` or use Kaggle `input` path
+- Edit `config.yaml` for model and training parameters
+- Run training:
+
+```bash
+python src/train.py --config config.yaml --run_name local_run
+````
+
+## Reproducibility guarantees
+
+- Seeds are set for Python, NumPy, and PyTorch (if installed).
+    
+- Torch deterministic flags enabled when PyTorch is present.
+    
+- Exact package versions pinned in `requirements.txt`.
+    
+- Model outputs and metadata are saved for auditing.
+    
+
+```
+
+---
+
+## Final notes & next steps
+
+- Replace simple column-as-feature logic with `sklearn.pipeline.Pipeline` and proper preprocessing (imputation, encoding, scaling).
+- Add experiment tracking if you prefer (MLflow, Weights & Biases). For Kaggle, file-based logging or W&B offline mode works well.
+- Add richer model options (PyTorch Lightning, Hugging Face Transformers) depending on task.
+
+---
+
+If you want, I can:
+- generate the full repository as a zip you can download,
+- or create a Kaggle Notebook (cells) ready to paste into a Kaggle Kernel,
+- or convert the LGB example to a PyTorch classification/segmentation training loop.
+
+Tell me which one you prefer and I'll output it directly.
+
+```

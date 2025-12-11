@@ -239,3 +239,77 @@ This tells you:
 
 Finally, we represent the variables graphically on the **correlation circle**.
 
+
+
+
+# Data Adequacy
+Before performing PCA, it is essential to ensure that the data form a **coherent set** and that the variables are **correlated** with each other. Two commonly used tests are the **Bartlett’s test** and the **Kaiser-Meyer-Olkin (KMO) test**.
+
+#### Bartlett’s Test
+This test examines the correlation matrix and provides the **probability of the null hypothesis**, which assumes **no correlation** between variables.
+### **KMO Test**
+
+The KMO test measures **the proportion to which the variables form a coherent set** and **adequately represent the results**.  
+It indicates whether the data are suitable for PCA.
+![](https://i.imgur.com/xcctCQ2.png)
+
+
+
+**Notion of Distance Between Two Statistical Units**
+Two individuals are **similar** if their values are **close for all variables**.  
+The standard measure is the **squared Euclidean distance** between individuals iii and k:
+
+![](https://i.imgur.com/bjO2v6b.png)
+![](https://i.imgur.com/Xka95k3.png)
+![](https://i.imgur.com/UA3eVMw.png)
+
+
+
+**a) Notion de l’inertie**
+![](https://i.imgur.com/E9bQ8Dt.png)
+### **What is the “centre de gravité” (center of gravity) of a data cloud?**
+
+In multivariate statistics (like PCA), you have a dataset with **n individuals** (rows) and **p variables** (columns). You can imagine these individuals as points in a **p-dimensional space**.
+
+The **centre de gravité** of this cloud is simply the point whose coordinates are the **means of each variable**.
+
+![](https://i.imgur.com/GOz6JU0.png)
+
+Intuition: The center of gravity is where the cloud "balances".
+![](https://i.imgur.com/u2saV0e.png)
+
+**b. Définition de l’inertie totale** :
+![](https://i.imgur.com/SckYy5m.png)
+![](https://i.imgur.com/Jllepmk.png)
+![](https://i.imgur.com/261DcFK.png)
+![](https://i.imgur.com/MSIyw3n.png)
+
+
+# 2.2.4. Ajustement du nuage des individus
+(Adjustment (Approximation) of the Cloud of Individuals in PCA)
+![](https://i.imgur.com/PcS00Hp.png)
+
+
+To find the _best approximating image_ of the cloud of individuals, PCA follows these steps:
+1. Find the axis that distorts the cloud as little as possible
+![](https://i.imgur.com/ygjO79S.png)
+![](https://i.imgur.com/NJnpTej.png)
+![](https://i.imgur.com/RLySU5v.png)
+![](https://i.imgur.com/RoqTrjc.png)
+![](https://i.imgur.com/caQ1O6h.png)
+# 🔍 **Intuition**
+
+PCA finds axes that give the **best possible approximation** of the data cloud by:
+
+- **maximizing the variance** (inertia) along each axis,
+    
+- **minimizing the reconstruction error** when projecting points.
+    
+
+The first axis captures the **largest direction of variability**,  
+the second captures the next largest (under the constraint of orthogonality),  
+and so on.
+
+
+# 2.2.5. Matrice à diagonaliser
+
