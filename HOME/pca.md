@@ -312,4 +312,68 @@ and so on.
 
 
 # 2.2.5. Matrice à diagonaliser
+##### **Analysis of the Cloud of Individuals and the Matrix Used in PCA**
 
+When analyzing the cloud of individuals in Rp\mathbb{R}^pRp, PCA begins by applying two transformations:
+
+1. **Move the origin to the center of gravity** of the cloud  
+    → this corresponds to **centering the variables**.
+    
+2. **(In the case of standardized PCA)**  
+    Change the scales of the axes  
+    → this corresponds to **dividing each variable by its standard deviation** (normalizing).
+    
+
+After centering and possibly standardizing the data, we obtain a transformed data matrix XXX.
+
+![](https://i.imgur.com/AJVi0Hc.png)
+![](https://i.imgur.com/YVy2g7K.png)
+<mark>The matrix we must diagonalize in standardized PCA is simply the **correlation matrix**.</mark>
+
+# 2.2.6. Axes factoriels
+![](https://i.imgur.com/hqEXE2H.png)
+![](https://i.imgur.com/lxU8Ism.png)
+![](https://i.imgur.com/7sZ1fo1.png)
+![](https://i.imgur.com/xcXBfMa.png)
+![](https://i.imgur.com/E9zdjoh.png)
+![](https://i.imgur.com/WMeTN8D.png)
+![](https://i.imgur.com/IWEjUuf.png)
+
+
+
+# 2.3. Etude des variables
+ 
+ **Distance of a Variable from the Origin in Standardized PCA**
+
+In **standardized PCA (ACP normée)**:
+
+- Each **variable** is considered as a **point in an n-dimensional space** (with n individuals).
+    
+- We want to measure its distance from the **origin**.
+
+![](https://i.imgur.com/wpPzHYj.png)
+![](https://i.imgur.com/jpHIeju.png)
+![](https://i.imgur.com/px3Lx0Z.png)
+
+
+## 2.3.2. Distance entre deux points variables j et jˊ
+![](https://i.imgur.com/XRDLg8d.png)
+![](https://i.imgur.com/8ASyL8V.png)
+![](https://i.imgur.com/CzE6sLf.png)
+![](https://i.imgur.com/L2Rw8cD.png)
+![](https://i.imgur.com/E7iIk8L.png)
+![](https://i.imgur.com/35WmzKz.png)
+![](https://i.imgur.com/RawmaNR.png)
+![](https://i.imgur.com/Ud1Inm0.png)
+Alors, la distance entre deux variables s’interprète en termes de corrélation
+
+# 2.3.3. Axe factoriels ou composantes principales
+![](https://i.imgur.com/rPhTpgF.png)
+![](https://i.imgur.com/FpU8Ek2.png)
+![](https://i.imgur.com/MSyHmdo.png)
+![](https://i.imgur.com/dpoWWvc.png)
+![](https://i.imgur.com/0Iy1tmT.png)
+![](https://i.imgur.com/PzE20Uh.png)
+![](https://i.imgur.com/LSDefGI.png)
+![](https://i.imgur.com/DBCoHLJ.png)
+![](https://i.imgur.com/YC5vJae.png)
