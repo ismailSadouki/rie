@@ -44,3 +44,9 @@ model, it receives the input batches with tokens that have an embedding size of 
 ![](https://i.imgur.com/2FPfBCH.png)
 Following the example in figure 4.9, let’s initialize a new FeedForward module with a token embedding size of 768 and feed it a batch input with two samples and three tokens each:
 ![](https://i.imgur.com/GL5gZfk.png)
+The FeedForward module plays a crucial role in enhancing the model’s ability to learn from and generalize the data. Although the input and output dimensions of this module are the same, it internally expands the embedding dimension into a higherdimensional space through the first linear layer, as illustrated in figure 4.10. This expan- sion is followed by a nonlinear GELU activation and then a contraction back to the orig- inal dimension with the second linear transformation. <mark>Such a design allows for the exploration of a richer representation space</mark>.
+![](https://i.imgur.com/CCNHGwQ.png)
+Moreover, the uniformity in input and output dimensions simplifies the architecture
+by enabling the stacking of multiple layers, as we will do later, without the need to
+adjust dimensions between them, thus making the model more scalable.
+![](https://i.imgur.com/ig8NPzZ.png)
