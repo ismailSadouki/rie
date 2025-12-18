@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/3. Decoding strategies to control randomness.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/5. Loading pretrained weights from OpenAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Decoding strategies to control randomness"
+              "title": "5. Loading pretrained weights from OpenAI"
             }
           },
           {
@@ -378,8 +378,10 @@
   },
   "active": "06d841aeae479dc0",
   "lastOpenFiles": [
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Training an LLM.md",
+    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/4. Loading and saving model weights in PyTorch.md",
+    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/5. Loading pretrained weights from OpenAI.md",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/3. Decoding strategies to control randomness.md",
+    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Training an LLM.md",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/1. Evaluating generative text models.md",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Calculating the text generation loss.md",
     "Pasted image 20251217215208.png",
@@ -405,8 +407,6 @@
     "Pasted image 20251211185657.png",
     "HOME/Notes in the current project.md",
     "Machine Learning/XGBoost with python -/More resources.md",
-    "Machine Learning/XGBoost with python -/XGBoost Advanced.md",
-    "Machine Learning/XGBoost with python -/A Gentle Introduction to GradientBoosting.md",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
     "Advanced Linear Regression",
     "Time series/modeling financial time series",
