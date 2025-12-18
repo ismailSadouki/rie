@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/Untitled.md",
+                "file": "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/3. Decoding strategies to control randomness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "3. Decoding strategies to control randomness"
             }
           },
           {
@@ -378,8 +378,9 @@
   },
   "active": "06d841aeae479dc0",
   "lastOpenFiles": [
+    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Training an LLM.md",
+    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/3. Decoding strategies to control randomness.md",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/1. Evaluating generative text models.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/Untitled.md",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Calculating the text generation loss.md",
     "Pasted image 20251217215208.png",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/Intro.md",
@@ -406,7 +407,6 @@
     "Machine Learning/XGBoost with python -/More resources.md",
     "Machine Learning/XGBoost with python -/XGBoost Advanced.md",
     "Machine Learning/XGBoost with python -/A Gentle Introduction to GradientBoosting.md",
-    "Machine Learning/Introduction to Machine Learning with Python/2. Unsupervised Learning and Preprocessing.md",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
     "Advanced Linear Regression",
     "Time series/modeling financial time series",
