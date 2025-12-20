@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Ensample/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
+                "file": "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
                 "mode": "source",
                 "source": false
               },
@@ -376,10 +376,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "06d841aeae479dc0",
+  "active": "516ffee5d8d43e3b",
   "lastOpenFiles": [
     "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
-    "Machine Learning/Ensample/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
     "Machine Learning/Ensample/1. Ensemble methods Hype or hallelujah.md",
     "Machine Learning/Ensample/2. Essential ensemble methods",
     "Machine Learning/Ensample/Tricks.md",
