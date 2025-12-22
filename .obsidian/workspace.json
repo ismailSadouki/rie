@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
+                "file": "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Heterogeneous parallel ensembles Combiningstrong learners"
+              "title": "4. Sequential ensembles Adaptive boosting"
             }
           },
           {
@@ -376,10 +376,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "516ffee5d8d43e3b",
+  "active": "06d841aeae479dc0",
   "lastOpenFiles": [
-    "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
     "Machine Learning/Ensample/1. Ensemble methods Hype or hallelujah.md",
     "Machine Learning/Ensample/2. Essential ensemble methods",
     "Machine Learning/Ensample/Tricks.md",
@@ -408,7 +409,6 @@
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/6. Coding the GPT model.md",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/5. Connecting attention and linear layersin a transformer block.md",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/4. Adding shortcut connections.md",
-    "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch/3 Implementing a feed forward networkwith GELU activations.md",
     "Pasted image 20251211185657.png",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
     "Advanced Linear Regression",
