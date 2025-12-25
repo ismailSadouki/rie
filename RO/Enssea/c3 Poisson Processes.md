@@ -61,6 +61,7 @@ Law of the variable N(t)
 Let {N(t), t ≥ 0} be a Poisson process with intensity λ (λ > 0), and the duration separating the (n-1)th and the nth event.
 **Theorem:**
 ![](https://i.imgur.com/8ZBfKD2.png)
+![](https://i.imgur.com/rusDICZ.png)
 
 
 The waiting times of a Poisson process with intensity λ are independent and identically distributed random variables according to an exponential law with parameter λ. (The time between two arrivals follows an exponential law)
@@ -72,3 +73,56 @@ The waiting times of a Poisson process with intensity λ are independent and ide
 ![](https://i.imgur.com/n6xExIC.png)
 
 # 3.4.1 Law of the Date When the nth Event Occurs
+ ![](https://i.imgur.com/oDMu1kz.png)
+✔ $S_n$​ represents the **time (date)** at which the **n-th event occurs**.
+![](https://i.imgur.com/LP6Wefr.png)
+![](https://i.imgur.com/56257uN.png)
+# 3-4-2- Conditional Law of the Arrival Date of the First Event
+![](https://i.imgur.com/vgV8NQa.png)
+
+
+explanation
+![](https://i.imgur.com/049Spux.png)
+![](https://i.imgur.com/5jyTO1i.png)
+![](https://i.imgur.com/21WhSVp.png)
+![](https://i.imgur.com/hQdosDr.png)
+
+
+
+---
+
+# 3.4.3 Law of the Vector (T₁, T₂, ..., Tₙ) Conditionally on N(t)=n
+![](https://i.imgur.com/cxDCeS9.png)
+![](https://i.imgur.com/OzKWjyX.png)
+![](https://i.imgur.com/BWuTzIY.png)
+![](https://i.imgur.com/r1Is1Xc.png)
+![](https://i.imgur.com/3Rxv9Ec.png)
+![](https://i.imgur.com/L7spvLs.png)
+![](https://i.imgur.com/LpxhwWh.png)
+
+
+
+---
+
+# 3.4.4 The Poisson Law and the Binomial Law
+![](https://i.imgur.com/7Ph8eoq.png)
+In practice, this result tells us that if n is large and if p is small, then we can approximate the binomial law (n,p) by the Poisson law(np). The approximation is very good when n ≥ 50 and np < 10.
+
+
+# 3.5 Properties of a Poisson Process
+![](https://i.imgur.com/Tx2Xjoa.png)
+![](https://i.imgur.com/Jp5Ilij.png)
+![](https://i.imgur.com/lb2eqWT.png)
+![](https://i.imgur.com/OLo0AAn.png)
+
+
+# 3.6 Superposition of Poisson Processes
+When superimposing independent Poisson processes, we obtain a Poisson process by the following theorem:
+![](https://i.imgur.com/2GqvNxj.png)
+![](https://i.imgur.com/W6IHUNR.png)
+
+
+## 3-7- Decomposition of a Poisson Process
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20251225102239.png]]
+![[Pasted image 20251225102210.png]]
