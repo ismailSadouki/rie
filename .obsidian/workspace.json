@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RO/Enssea/c2.md",
+                "file": "RO/Enssea/c3 Poisson Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c2"
+              "title": "c3 Poisson Processes"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
+                "file": "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector Autoregressive Models forMultivariate Time Series"
+              "title": "4. Categorical Variables Counting Eggs in theAge of Robotic Chickens"
             }
           },
           {
@@ -378,8 +378,19 @@
   },
   "active": "368d99643999d99a",
   "lastOpenFiles": [
-    "RO/Enssea/c1.md",
+    "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
+    "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
+    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/3. Feature Scaling or Normalization.md",
+    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/2. Log Transformation.md",
+    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/1. Dealing with counts.md",
+    "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
+    "Machine Learning/XGBoost with python -/XGBoost Tuning.md",
+    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
+    "Machine Learning/Feature Engineering for Machine Learning",
+    "HOME/pca.md",
+    "RO/Enssea/c3 Poisson Processes.md",
     "RO/Enssea/c2.md",
+    "RO/Enssea/c1.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/5. Sequential ensembles Gradient boosting.md",
     "HOME/Notes in the current project.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
@@ -401,15 +412,6 @@
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/2. Fine-tuning BERT.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/2. Fine-Tuning BERT Models/1. The architecture of BERT.md",
     "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/4. Training and performance.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/3. The decoder stack.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/2. The encoder stack.md",
-    "NLP/Transformers for Natural Language Processing Denis Rothman/1. Getting Started with the Model Architecture of the Transformer/1. The rise of the Transformer Attention IsAll You Need.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/5. Loading pretrained weights from OpenAI.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/4. Loading and saving model weights in PyTorch.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/3. Decoding strategies to control randomness.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Training an LLM.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/1. Evaluating generative text models.md",
-    "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data/2. Calculating the text generation loss.md",
     "Pasted image 20251217215208.png",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data",
     "Pasted image 20251211185657.png",
@@ -417,8 +419,6 @@
     "Advanced Linear Regression",
     "Time series/modeling financial time series",
     "NLP/Build a Large Language Model - Sebastian/3. Coding attention mechanisms",
-    "NLP/Build a Large Language Model - Sebastian/2. Working with text data",
-    "NLP/Build a Large Language Model - Sebastian",
     "Pasted image 20251110123427.png",
     "Pasted image 20250819220327.png",
     "Pasted image 20250819125213.png",
