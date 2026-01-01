@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/Notes in the current project.md",
+                "file": "HOME/asri.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes in the current project"
+              "title": "asri"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/pca.md",
+                "file": "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pca"
+              "title": "Vector Autoregressive Models forMultivariate Time Series"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
+                "file": "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Categorical Variables Counting Eggs in theAge of Robotic Chickens"
+              "title": "3. Text Data Flattening Filtering and Chunking"
             }
           },
           {
@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,7 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.500732421875
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -376,34 +376,35 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "368d99643999d99a",
+  "active": "84954ab13d815fe5",
   "lastOpenFiles": [
+    "HOME/Notes in the current project.md",
+    "HOME/asri.md",
+    "RO/Enssea/c3 Poisson Processes.md",
+    "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
+    "HOME/pca.md",
+    "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
+    "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
     "Machine Learning/Applied predactive modeling/4. Classification models/14. Classiﬁcation Trees and Rule-BasedModels.md",
     "Machine Learning/Applied predactive modeling/4. Classification models/13. Nonlinear Classiﬁcation Models.md",
     "Machine Learning/Applied predactive modeling/4. Classification models/12. Discriminant Analysis and Other LinearClassiﬁcation Models.md",
     "Machine Learning/Applied predactive modeling/4. Classification models/11. Measuring Performance in ClassiﬁcationModels.md",
     "RO/Enssea/c2.md",
     "Machine Learning/Applied predactive modeling/4. Classification models",
-    "HOME/Notes in the current project.md",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/2. Learning with categorical features.md",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/1. Learning with continuousand count labels.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
     "Machine Learning/XGBoost with python -/XGBoost Tuning.md",
     "RO/Enssea/c1.md",
-    "RO/Enssea/c3 Poisson Processes.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/5. Sequential ensembles Gradient boosting.md",
     "Pasted image 20251225102239.png",
     "Pasted image 20251225102210.png",
-    "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
-    "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/3. Feature Scaling or Normalization.md",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/2. Log Transformation.md",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/1. Dealing with counts.md",
-    "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
     "Machine Learning/Feature Engineering for Machine Learning",
-    "HOME/pca.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
     "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/2. Markov chains in discrete time.md",
     "RO/Enssea",
@@ -413,7 +414,6 @@
     "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
     "Machine Learning/Ensample/1. Ensemble methods Hype or hallelujah.md",
     "Machine Learning/Ensample/2. Essential ensemble methods",
-    "Machine Learning/Ensample/Tricks.md",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/Ensample",
     "Pasted image 20251217215208.png",
