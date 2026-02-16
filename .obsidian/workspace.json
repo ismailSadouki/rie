@@ -73,17 +73,45 @@
             }
           },
           {
+            "id": "dbe8746d14a95e40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOME/report.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "report"
+            }
+          },
+          {
             "id": "368d99643999d99a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RO/Enssea/c3 Poisson Processes.md",
+                "file": "RO/Enssea/c4 Birth-Death Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c3 Poisson Processes"
+              "title": "c4 Birth-Death Processes"
+            }
+          },
+          {
+            "id": "07cf93cc033f681d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOME/report_diab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "report_diab"
             }
           },
           {
@@ -92,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
+                "file": "RO/Enssea/c1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector Autoregressive Models forMultivariate Time Series"
+              "title": "c1"
             }
           },
           {
@@ -106,12 +134,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/XGBoost with python -/XGBoost Tuning.md",
+                "file": "HOME/Untitled 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XGBoost Tuning"
+              "title": "Untitled 3"
+            }
+          },
+          {
+            "id": "697d357bc97455ff",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           },
           {
@@ -120,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
+                "file": "HOME/report_diab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Text Data Flattening Filtering and Chunking"
+              "title": "report_diab"
             }
           },
           {
@@ -174,12 +214,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
+                "file": "HOME/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Measuring Performance in Regression Models"
+              "title": "Untitled 1"
             }
           },
           {
@@ -188,16 +228,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
+                "file": "Machine Learning/Ensample/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Regression Splines"
+              "title": "note"
+            }
+          },
+          {
+            "id": "5bf896494e111539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Sequential ensembles Newton boosting"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -376,55 +430,55 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "84954ab13d815fe5",
+  "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "HOME/Notes in the current project.md",
-    "HOME/asri.md",
-    "RO/Enssea/c3 Poisson Processes.md",
-    "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
-    "HOME/pca.md",
-    "Machine Learning/Feature Engineering for Machine Learning/3. Text Data Flattening Filtering and Chunking.md",
-    "Machine Learning/Feature Engineering for Machine Learning/4. Categorical Variables Counting Eggs in theAge of Robotic Chickens.md",
-    "Machine Learning/Applied predactive modeling/4. Classification models/14. Classiﬁcation Trees and Rule-BasedModels.md",
-    "Machine Learning/Applied predactive modeling/4. Classification models/13. Nonlinear Classiﬁcation Models.md",
-    "Machine Learning/Applied predactive modeling/4. Classification models/12. Discriminant Analysis and Other LinearClassiﬁcation Models.md",
-    "Machine Learning/Applied predactive modeling/4. Classification models/11. Measuring Performance in ClassiﬁcationModels.md",
-    "RO/Enssea/c2.md",
-    "Machine Learning/Applied predactive modeling/4. Classification models",
-    "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/2. Learning with categorical features.md",
-    "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/1. Learning with continuousand count labels.md",
-    "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
-    "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
+    "HOME/Untitled 4.md",
+    "HOME/Untitled 3.md",
+    "HOME/final_report_diab.md",
+    "Pasted image 20260131160725.png",
+    "HOME/report_diab.md",
+    "HOME/diab.md",
+    "HOME/report.md",
+    "HOME/links.md",
     "Machine Learning/XGBoost with python -/XGBoost Tuning.md",
-    "RO/Enssea/c1.md",
+    "HOME/Untitled 2.md",
+    "HOME/pca.md",
+    "HOME/_report.md",
+    "RO/Enssea/c3 Poisson Processes.md",
+    "HOME/Untitled 1.md",
+    "HOME/Notes in the current project.md",
+    "HOME/Untitled.md",
+    "HOME/planning.md",
+    "HOME/asri exam.md",
+    "Machine Learning/Ensample/note.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "Pasted image 20260118204247.png",
+    "Pasted image 20260118204112.png",
+    "Pasted image 20260118203617.png",
+    "Pasted image 20260118203550.png",
+    "Pasted image 20260118203517.png",
+    "Pasted image 20260118203442.png",
+    "Pasted image 20260118203311.png",
+    "Pasted image 20260118203248.png",
+    "Pasted image 20260118203233.png",
     "Machine Learning/Ensample/2. Essential ensemble methods/5. Sequential ensembles Gradient boosting.md",
-    "Pasted image 20251225102239.png",
-    "Pasted image 20251225102210.png",
-    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/3. Feature Scaling or Normalization.md",
-    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/2. Log Transformation.md",
-    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers/1. Dealing with counts.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
+    "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
+    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
+    "Machine Learning/Applied predactive modeling/4. Classification models",
+    "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
     "Machine Learning/Feature Engineering for Machine Learning",
-    "Machine Learning/Ensample/2. Essential ensemble methods/4. Sequential ensembles Adaptive boosting.md",
-    "RO/AN INTRODUCTION TO M A R KOV C H A I N S Anders Tolver/2. Markov chains in discrete time.md",
     "RO/Enssea",
-    "Pasted image 20251223000837.png",
-    "Pasted image 20251223000455.png",
-    "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
-    "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
-    "Machine Learning/Ensample/1. Ensemble methods Hype or hallelujah.md",
     "Machine Learning/Ensample/2. Essential ensemble methods",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/Ensample",
-    "Pasted image 20251217215208.png",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data",
-    "Pasted image 20251211185657.png",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
     "Advanced Linear Regression",
-    "Pasted image 20251110123427.png",
-    "Pasted image 20250819220327.png",
-    "Pasted image 20250819125213.png",
-    "Pasted image 20250815115059.png",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",

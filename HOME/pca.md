@@ -80,9 +80,9 @@ These eigenvalues each represent variance captured by a principal component.
 
 Since total variance = P:
 
-[  
+$$
 \text{PVE of PC}_k = \frac{\lambda_k}{P}  
-]
+$$
 
 This is much cleaner than dividing by an arbitrary number.
 
@@ -257,7 +257,7 @@ It indicates whether the data are suitable for PCA.
 
 **Notion of Distance Between Two Statistical Units**
 Two individuals are **similar** if their values are **close for all variables**.  
-The standard measure is the **squared Euclidean distance** between individuals iii and k:
+The standard measure is the **squared Euclidean distance** between individuals i and k:
 
 ![](https://i.imgur.com/bjO2v6b.png)
 ![](https://i.imgur.com/Xka95k3.png)

@@ -49,12 +49,15 @@ So we can associate it with the graph given above:
 Law of the variable N(t)
 ![](https://i.imgur.com/geIt87G.png)
 ![](https://i.imgur.com/egf5wBA.png)
+
+<mark>skipped</mark>
 ![](https://i.imgur.com/KAqznRc.png)
 ![](https://i.imgur.com/YmtR4NY.png)
 ![](https://i.imgur.com/yNB1AmY.png)
 ![](https://i.imgur.com/cnFaeOV.png)
 ![](https://i.imgur.com/flYCEEv.png)
 
+<mark>until here</mark>
 
 
 # 3.4 Law of the Duration Between Two Consecutive Events
