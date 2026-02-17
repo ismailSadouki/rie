@@ -25,14 +25,11 @@ https://arxiv.org/pdf/2309.11611
 https://course17.fast.ai/?utm_source=chatgpt.com
 https://course18.fast.ai/lessonsml1/lesson2.html
 https://course18.fast.ai/index.html
-https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&sttick=0
-https://course19.fast.ai/videos/?lesson=4
-https://course.fast.ai/Lessons/lesson5.html
+
+
+
 llm uc berkeley
-https://www.law.berkeley.edu/academics/llm/exec-track/
-https://www.law.berkeley.edu/academics/llm/certificates-of-specialization/
-https://web.stanford.edu/class/cs224n/
-https://web.stanford.edu/~jurafsky/slp3/
-https://docs.pytorch.org/tutorials/
-https://d2l.ai/chapter_preface/index.html
-https://www.fast.ai/
+
+
+
+

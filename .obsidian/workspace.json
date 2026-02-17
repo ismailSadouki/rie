@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/Untitled 3.md",
+                "file": "HOME/links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 3"
+              "title": "links"
             }
           },
           {
@@ -432,8 +432,10 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "HOME/Untitled 4.md",
+    "Deep Learning/cs230/lec 2.md",
     "HOME/Untitled 3.md",
+    "Deep Learning/cs230",
+    "HOME/Untitled 4.md",
     "HOME/final_report_diab.md",
     "Pasted image 20260131160725.png",
     "HOME/report_diab.md",
@@ -467,7 +469,6 @@
     "Machine Learning/Ensample/2. Essential ensemble methods/3. Heterogeneous parallel ensembles Combiningstrong learners.md",
     "Machine Learning/Applied predactive modeling/3. Linear Regression/5. Measuring Performance in Regression Models.md",
     "Machine Learning/Ensample/2. Essential ensemble methods/2. Homogeneous parallelensembles Baggingand random forests.md",
-    "Machine Learning/introduction to statistical learning/7. Moving Beyond Linearity/4. Regression Splines.md",
     "Machine Learning/Applied predactive modeling/4. Classification models",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
@@ -478,7 +479,6 @@
     "Machine Learning/Ensample",
     "NLP/Build a Large Language Model - Sebastian/5. Pretraining on unlabeled data",
     "NLP/Build a Large Language Model - Sebastian/4. Implementing a GPT model from scratch",
-    "Advanced Linear Regression",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",
     "DNS/Untitled.canvas",
