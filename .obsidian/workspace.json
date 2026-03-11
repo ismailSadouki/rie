@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Natural Language Processing in Action/1. Wordy machines/4. Finding meaning in wordcounts (semantic analysis).md",
+                "file": "NLP/Natural Language Processing in Action/2. DL/6. Reasoning with wordvectors (Word2vec).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Finding meaning in wordcounts (semantic analysis)"
+              "title": "6. Reasoning with wordvectors (Word2vec)"
             }
           },
           {
@@ -444,8 +444,11 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "NLP/Natural Language Processing in Action/1. Wordy machines/3. Math with words(TF-IDF vectors).md",
+    "NLP/Natural Language Processing in Action/2. DL/5. Baby steps with neuralnetworks (perceptronsand backpropagation).md",
+    "NLP/Natural Language Processing in Action/2. DL/6. Reasoning with wordvectors (Word2vec).md",
     "NLP/Natural Language Processing in Action/1. Wordy machines/4. Finding meaning in wordcounts (semantic analysis).md",
+    "NLP/Natural Language Processing in Action/2. DL",
+    "NLP/Natural Language Processing in Action/1. Wordy machines/3. Math with words(TF-IDF vectors).md",
     "NLP/Natural Language Processing in Action/1. Wordy machines/2. Build your vocabulary(word tokenization).md",
     "NLP/Natural Language Processing in Action/1. Wordy machines/Untitled",
     "NLP/Natural Language Processing in Action/1. Wordy machines/1. (NLP overview).md",
@@ -474,8 +477,6 @@
     "HOME/report.md",
     "Machine Learning/XGBoost with python -/XGBoost Tuning.md",
     "HOME/pca.md",
-    "HOME/_report.md",
-    "RO/Enssea/c3 Poisson Processes.md",
     "Pasted image 20260118204247.png",
     "Pasted image 20260118204112.png",
     "Pasted image 20260118203617.png",
@@ -489,7 +490,6 @@
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
     "Machine Learning/Feature Engineering for Machine Learning",
-    "RO/Enssea",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",
