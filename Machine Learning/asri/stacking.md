@@ -454,14 +454,191 @@ print("\nTest set predictions (meta-model):", meta_preds)
 # Full algorithm
 
 ![[Pasted image 20260318012050.png]]
-
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012635.png]]
 ---
 
 **Explanation**
 ![[Pasted image 20260318012314.png]]
+![[Pasted image 20260318012424.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012454.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012517.png]]<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012606.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012656.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012803.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012847.png]]
+![[Pasted image 20260318012828.png]]
 
 
 ---
+
+### Visualization of CV-Stacking
+
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318012947.png]]
+
+
+### Number of Folds K
+
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260318013054.png]]
+
+---
+**EXP**
+![](https://i.imgur.com/embGszH.png)
+![](https://i.imgur.com/kdKb7xK.png)
+![](https://i.imgur.com/BZz92qa.png)
+
+---
+
+# Choosing Base Learners and Meta-Learner
+**Diversity of Base Learners**
+
+![](https://i.imgur.com/gjvh4XI.png)
+
+---
+
+**EXP**
+![](https://i.imgur.com/m3ep8jV.png)
+![](https://i.imgur.com/YPQ1skW.png)
+![](https://i.imgur.com/YlqO29l.png)
+![](https://i.imgur.com/YuUCT1p.png)
+![](https://i.imgur.com/0NLbyjG.png)
+![](https://i.imgur.com/9oILLNW.png)
+
+---
+
+![](https://i.imgur.com/fNqo0oY.png)
+
+### Meta-Learner Selection
+![](https://i.imgur.com/Yc3zgDG.png)
+![](https://i.imgur.com/8UOsecj.png)
+
+---
+
+**Exp**
+![](https://i.imgur.com/oQ5GrMX.png)
+![](https://i.imgur.com/PJPLhvH.png)
+![](https://i.imgur.com/RgvMr12.png)
+![](https://i.imgur.com/wvx30Lx.png)
+![](https://i.imgur.com/VDxP4XF.png)
+![](https://i.imgur.com/bpXyS8y.png)
+
+---
+
+### Including Original Features
+![](https://i.imgur.com/d47vy7M.png)
+
+---
+
+**EXP**
+![](https://i.imgur.com/qhvAAwW.png)
+![](https://i.imgur.com/u9YO9MB.png)
+![](https://i.imgur.com/X91VZCK.png)
+![](https://i.imgur.com/XnCNjrm.png)
+![](https://i.imgur.com/YurT6Wm.png)
+
+---
+
+# Theoretical Perspective
+
+### Why Does Stacking Work?
+![](https://i.imgur.com/z6FjodT.png)
+
+---
+**EXP**
+![](https://i.imgur.com/Qt6PrA8.png)
+![](https://i.imgur.com/G4fbTGH.png)
+![](https://i.imgur.com/1y07kFA.png)
+![](https://i.imgur.com/6BXODps.png)
+![](https://i.imgur.com/OMxVFXy.png)
+![](https://i.imgur.com/pvNU8On.png)
+![](https://i.imgur.com/kEkvni3.png)
+![](https://i.imgur.com/lWafcJo.png)
+
+---
+
+### Expected MSE of Ensemble
+![](https://i.imgur.com/HBE1pbb.png)
+
+---
+
+**EXP**
+![](https://i.imgur.com/gu6W2Vj.png)
+![](https://i.imgur.com/8o1CTB3.png)
+![](https://i.imgur.com/dDvN5ao.png)
+![](https://i.imgur.com/gKGUyS7.png)
+![](https://i.imgur.com/GFDv3jA.png)
+![](https://i.imgur.com/KZg4H25.png)
+![](https://i.imgur.com/DmMoa5P.png)
+![](https://i.imgur.com/8EzeMt5.png)
+![](https://i.imgur.com/xAiXbdk.png)
+
+**Ensembles work not because of many models, but because of **uncorrelated errors****
+
+---
+
+### Universal Approximation
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319001557.png]]
+![[Pasted image 20260319001550.png]]
+
+
+# Practical Consideration
+
+
+
+**Computational Cost**
+![[Pasted image 20260319001732.png]]
+
+
+**Hyperparameter Tuning**
+![[Pasted image 20260319002006.png]]
+
+---
+
+**EXP**
+![[Pasted image 20260319002048.png]]
+![[Pasted image 20260319002102.png]]
+![[Pasted image 20260319002125.png]]
+![[Pasted image 20260319002202.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002248.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002330.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002352.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002405.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002421.png]]
+
+
+---
+
+### When Does Stacking Help?
+![[Pasted image 20260319003801.png]]
+
+**Overfitting in Stacking**
+![[Pasted image 20260319003901.png]]
+
+
+# Advanced Stacking Variants
+
+### Multi-Level Stacking
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319004017.png]]
+**Stacking with Feature Selection**
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319004048.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319004123.png]]
 
 ---
 
@@ -472,3 +649,121 @@ print("\nTest set predictions (meta-model):", meta_preds)
 ![](https://i.imgur.com/gtfxt7R.png)
 ![](https://i.imgur.com/xpLI5a8.png)
 
+**🧩 How to Create Diversity**
+![](https://i.imgur.com/TL3Cq8M.png)
+![](https://i.imgur.com/IatoXuE.png)
+![](https://i.imgur.com/TWmit2U.png)
+**meta models**
+![](https://i.imgur.com/viOBxqM.png)
+![](https://i.imgur.com/vr81cRa.png)
+![](https://i.imgur.com/DdhV4KA.png)
+![](https://i.imgur.com/PpcVASM.png)
+![](https://i.imgur.com/0i8wPzT.png)
+try ![](https://i.imgur.com/DlfG4ef.png)
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319001917.png]]<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002636.png]]
+<!--⚠️Imgur upload failed, check dev console-->
+![[Pasted image 20260319002652.png]]For similar models → diversity matters MORE than optimality
+
+
+
+
+
+
+
+
+
+
+
+
+<mark>This looks like a very important method, but i didnt understand it, try it latter</mark>
+Absolutely! Here’s a **clear, concise summary** of “joint tuning everything together” in stacking that you can save and revisit later:
+
+---
+
+# **Joint Tuning in Stacking — Summary**
+
+### 1️⃣ Normal / Independent Tuning
+
+- Tune each **base model individually** for its own best performance.
+    
+- Then train the meta-model on base predictions.
+    
+- Problem: Base models may become **too similar** or **not complementary**, so the ensemble is **not optimal**.
+    
+
+---
+
+### 2️⃣ Joint Tuning (Advanced)
+
+- Treat **all hyperparameters** of all base models **and the meta-model together** as one big search space.
+    
+- Optimize for **final ensemble performance**, not individual models.
+    
+- Steps:
+    
+    1. Sample a combination of hyperparameters for **all base models + meta-model**.
+        
+    2. Train base models → get out-of-fold (OOF) predictions.
+        
+    3. Train meta-model on OOF predictions.
+        
+    4. Evaluate **ensemble performance** (objective).
+        
+    5. Optimizer (e.g., Optuna) updates hyperparameters → repeat.
+        
+
+---
+
+### 3️⃣ Why it works
+
+- Individual models may **sacrifice some solo performance** to become more **complementary** for the ensemble.
+    
+- Optimizes the **team** of models, not just solo stars.
+    
+- Reduces correlation between base models → better variance reduction.
+    
+
+---
+
+### 4️⃣ Analogy
+
+- **Independent tuning:** Each musician practices solo → sounds perfect individually.
+    
+- **Joint tuning:** Band practices together → some adjust for the team → band sounds amazing together.
+    
+
+---
+
+### 5️⃣ Trade-offs
+
+- ✅ Can improve stacking performance significantly.
+    
+- ❌ Very expensive (all models retrained per trial).
+    
+- ❌ Only feasible for small number of base models or fast models.
+    
+
+---
+
+### 6️⃣ Practical Advice
+
+- Start with **independent tuning** of diverse base models + simple meta-model.
+    
+- Use **joint tuning** only if you want **maximal ensemble performance** and can afford the computational cost.
+    
+- Meta-model usually stays simple (linear/logistic/ridge) to avoid overfitting.
+    
+
+---
+
+💡 **Takeaway:**
+
+> Joint tuning is about finding **the best combination of hyperparameters for all models as a team**, not just making each model individually perfect.
+
+---
+
+If you want, I can also make a **tiny diagram showing base models → OOF → meta-model → joint tuning**, which usually makes this concept **click instantly**.
+
+Do you want me to do that?
