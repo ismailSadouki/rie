@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/asri/stacking.md",
+                "file": "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stacking"
+              "title": "3. Dimensionality Reduction  t-SNE, LLE and UMAP"
             }
           },
           {
@@ -430,6 +430,9 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
+    "Machine Learning/asri/Unsupervised Learning and Principal ComponentAnalysis.md",
+    "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
+    "Machine Learning/asri/stacking.md",
     "Pasted image 20260319004123.png",
     "Pasted image 20260319004048.png",
     "Pasted image 20260319004017.png",
@@ -440,9 +443,7 @@
     "Pasted image 20260319002421.png",
     "Pasted image 20260319002405.png",
     "Pasted image 20260319002352.png",
-    "Pasted image 20260319002330.png",
     "NLP/Natural Language Processing in Action/2. DL/6. Reasoning with wordvectors (Word2vec).md",
-    "Machine Learning/asri/stacking.md",
     "Machine Learning/asri",
     "Machine Learning/Untitled 1.canvas",
     "RO/Enssea/c1.md",
@@ -473,7 +474,6 @@
     "HOME/Untitled 4.md",
     "HOME/final_report_diab.md",
     "HOME/report_diab.md",
-    "HOME/diab.md",
     "Machine Learning/Applied predactive modeling/4. Classification models",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
     "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
