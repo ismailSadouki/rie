@@ -115,20 +115,6 @@
             }
           },
           {
-            "id": "aaa18e7b9ac20640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/asri/Nonlinear Support Vector Machines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nonlinear Support Vector Machines"
-            }
-          },
-          {
             "id": "a0f8636574dd3135",
             "type": "leaf",
             "state": {
@@ -140,6 +126,20 @@
               },
               "icon": "lucide-file",
               "title": "6. Reasoning with wordvectors (Word2vec)"
+            }
+          },
+          {
+            "id": "aaa18e7b9ac20640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/asri/Introduction to Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to Reinforcement Learning"
             }
           },
           {
@@ -265,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -446,16 +446,25 @@
   },
   "active": "aaa18e7b9ac20640",
   "lastOpenFiles": [
-    "Machine Learning/asri/Linear Hard Margin SVM.md",
-    "Machine Learning/asri/Nonlinear Support Vector Machines.md",
-    "HOME/pca.md",
+    "HOME/asri final exam/Missing Value Analysis.md",
+    "Machine Learning/asri/Introduction to Reinforcement Learning.md",
+    "Machine Learning/asri/regularization.md",
+    "HOME/asri final exam",
     "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
+    "Machine Learning/asri/Unsupervised Learning and Principal ComponentAnalysis.md",
+    "Machine Learning/asri/Hierarchical Clustering and DBSCAN.md",
+    "Machine Learning/asri/K-means and Gaussian Mixture Models.md",
+    "Machine Learning/asri/Nonlinear Support Vector Machines.md",
+    "Machine Learning/asri/Linear Hard Margin SVM.md",
+    "Machine Learning/asri/stacking.md",
+    "HOME/asri claim.md",
+    "HOME/notes compitation.md",
+    "HOME/feature generator.md",
+    "NLP/Natural Language Processing in Action/2. DL/6. Reasoning with wordvectors (Word2vec).md",
+    "HOME/pca.md",
     "HOME/asri.md",
     "NLP/Natural Language Processing in Action/2. DL/7. Getting words in orderwith convolutionalneural networks (CNNs).md",
-    "NLP/Natural Language Processing in Action/2. DL/6. Reasoning with wordvectors (Word2vec).md",
     "HOME/report_diab.md",
-    "Machine Learning/asri/Unsupervised Learning and Principal ComponentAnalysis.md",
-    "Machine Learning/asri/stacking.md",
     "Pasted image 20260319004123.png",
     "Pasted image 20260319004048.png",
     "Pasted image 20260319004017.png",
@@ -480,19 +489,10 @@
     "NLP/Natural Language Processing in Action/1. Wordy machines",
     "NLP/Natural Language Processing in Action",
     "NLP/python for NLP/6. Section 3 NLP and Learning.md",
-    "NLP/python for NLP/5. Exploring Sentence-,Document-, and Character-Level Embeddings.md",
-    "NLP/python for NLP/3. Word Embeddings andDistance Measurements forText.md",
-    "NLP/python for NLP/3. Transforming Text into Data Structures.md",
-    "NLP/python for NLP/1. NLP using Python.md",
-    "NLP/python for NLP/2. Natural LanguageRepresentation andMathematics.md",
-    "HOME/asri exam.md",
     "NLP/python for NLP",
-    "HOME/Untitled 1.md",
-    "HOME/Untitled 2.md",
     "Deep Learning/cs230",
     "Machine Learning/Applied predactive modeling/4. Classification models",
     "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data",
-    "Machine Learning/Feature Engineering for Machine Learning/2. Fancy Tricks with Simple Numbers",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",
