@@ -1,0 +1,12 @@
+# 4. Estimation par le Ratio ou le quotient :
+![](https://i.imgur.com/INeIDJl.png)
+![](https://i.imgur.com/EhvleRR.png)
+![](https://i.imgur.com/fN3Mggk.png)
+![](https://i.imgur.com/xtw5YPj.png)
+![](https://i.imgur.com/30hrXfR.png)
+![](https://i.imgur.com/5DGULUv.png)
+![](https://i.imgur.com/TTJD3dt.png)
+![](https://i.imgur.com/iiAllAw.png)
+![](https://i.imgur.com/PzZFU1u.png)
+![](https://i.imgur.com/HAxU4vm.png)
+![](https://i.imgur.com/BlN3oVp.png)
