@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/prince/Gradients and inetializations.md",
+                "file": "Deep Learning/d2l/3. MLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gradients and inetializations"
+              "title": "3. MLP"
             }
           },
           {
@@ -446,8 +446,9 @@
   },
   "active": "a0f8636574dd3135",
   "lastOpenFiles": [
-    "Research/NLP/4. Learning Long-Term Dependencieswith Gradient Descent is Difficult.md",
     "Deep Learning/prince/Gradients and inetializations.md",
+    "Deep Learning/d2l/3. MLP.md",
+    "Research/NLP/4. Learning Long-Term Dependencieswith Gradient Descent is Difficult.md",
     "Deep Learning/prince",
     "Research/NLP/3. Improving Distributional Similaritywith Lessons Learned from Word Embedding.md",
     "Research/NLP/2. Distributed Representations of Words and Phrasesand their Compositionalit.md",
@@ -474,7 +475,6 @@
     "HOME/asri final exam/DAta reduction.md",
     "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
     "Machine Learning/asri/Unsupervised Learning and Principal ComponentAnalysis.md",
-    "HOME/economitrics.md",
     "HOME/asri final exam",
     "Pasted image 20260319004123.png",
     "Pasted image 20260319004048.png",
