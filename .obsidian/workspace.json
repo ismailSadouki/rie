@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME/report.md",
+                "file": "Research/NLP/7. Direct Preference OptimizationYour Language Model is Secretly a Reward Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report"
+              "title": "7. Direct Preference OptimizationYour Language Model is Secretly a Reward Model"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RO/Enssea/c4 Birth-Death Processes.md",
+                "file": "Deep Learning/d2l/3. MLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c4 Birth-Death Processes"
+              "title": "3. MLP"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/d2l/3. MLP.md",
+                "file": "DB/Learning SQL/Query Primer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. MLP"
+              "title": "Query Primer"
             }
           },
           {
@@ -265,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -322,7 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 392.5
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -444,10 +444,29 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a0f8636574dd3135",
+  "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "Deep Learning/prince/Gradients and inetializations.md",
+    "Research/NLP/6. Scaling Instruction-Finetuned Language Models.md",
+    "Research/NLP/7. Direct Preference OptimizationYour Language Model is Secretly a Reward Model.md",
+    "Research/NLP/5. Training language models to follow instructionswith human feedback.md",
+    "HOME/report.md",
     "Deep Learning/d2l/3. MLP.md",
+    "RO/Enssea/c4 Birth-Death Processes.md",
+    "HOME/report_diab.md",
+    "DB/Learning SQL/Query Primer.md",
+    "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
+    "NLP/Natural Language Processing in Action/2. DL/7. Getting words in orderwith convolutionalneural networks (CNNs).md",
+    "Machine Learning/Hand in ml book/Quastions.md",
+    "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
+    "HOME/Untitled 1.md",
+    "Machine Learning/Ensample/note.md",
+    "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
+    "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/2. Learning with categorical features.md",
+    "DB/Learning SQL/SQL useful statements.md",
+    "DB/Learning SQL/Analytic functions.md",
+    "DB/Learning SQL/Grouping and Aggregates.md",
+    "DB/Learning SQL/Transactions.md",
+    "Deep Learning/prince/Gradients and inetializations.md",
     "Research/NLP/4. Learning Long-Term Dependencieswith Gradient Descent is Difficult.md",
     "Deep Learning/prince",
     "Research/NLP/3. Improving Distributional Similaritywith Lessons Learned from Word Embedding.md",
@@ -455,26 +474,7 @@
     "Research/NLP/1. Efficient Estimation of Word Representations inVector Space.md",
     "HOME/2026/v1 plan..md",
     "Research/NLP",
-    "HOME/2026/some responses u said before about study aboard.md",
-    "HOME/2026/some extra goals.md",
-    "HOME/2026/some thesis got my attention from ur responses..md",
-    "HOME/2026/generic responses from u that got my intereset and worth explaining.md",
-    "HOME/2026/Instrections.md",
     "HOME/2026",
-    "HOME/asri final exam/3. RL.md",
-    "HOME/asri final exam/2. Clustering and Dimensionality Reduction Analysis.md",
-    "HOME/asri final exam/1. supervised learning.md",
-    "HOME/asri final exam/modeling.md",
-    "HOME/asri final exam/Error analysis - CatBoost.md",
-    "HOME/asri final exam/Dimensionality Reduction Analysis.md",
-    "HOME/asri final exam/Missing Value Analysis.md",
-    "HOME/asri final exam/full model.md",
-    "HOME/asri final exam/EDA Report — Insurance Claims Binary Classification.md",
-    "HOME/asri final exam/clustering graphs.md",
-    "HOME/asri final exam/more to analyse.md",
-    "HOME/asri final exam/DAta reduction.md",
-    "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
-    "Machine Learning/asri/Unsupervised Learning and Principal ComponentAnalysis.md",
     "HOME/asri final exam",
     "Pasted image 20260319004123.png",
     "Pasted image 20260319004048.png",
