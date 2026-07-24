@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/NLP/19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING.md",
+                "file": "Research/NLP/18. Fast Inference from Transformers via Speculative Decoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING"
+              "title": "18. Fast Inference from Transformers via Speculative Decoding"
             }
           },
           {
@@ -322,7 +322,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 392.5,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -446,16 +447,17 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "Research/NLP/18. Fast Inference from Transformers via Speculative Decoding.md",
-    "Research/NLP/19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING.md",
-    "Research/NLP/17. Let’s Verify Step by Step.md",
     "Research/NLP/16. DeepSeek-R1 Incentivizing Reasoning Capability in LLMs viaReinforcement Learning.md",
-    "Research/NLP/15. SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHTREASONING IN LANGUAGE MODELS.md",
     "Research/NLP/14. Toolformer Language Models Can Teach Themselves to Use Tools.md",
+    "Research/NLP/5. Training language models to follow instructionswith human feedback.md",
     "Research/NLP/13. Retrieval Augmented Generation forKnowledge Intensive NLP Tasks.md",
+    "Research/NLP/10. LORA LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS.md",
+    "Research/NLP/19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING.md",
+    "Research/NLP/18. Fast Inference from Transformers via Speculative Decoding.md",
+    "Research/NLP/17. Let’s Verify Step by Step.md",
+    "Research/NLP/15. SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHTREASONING IN LANGUAGE MODELS.md",
     "Research/NLP/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
     "Research/NLP/11. Parameter-Efficient Transfer Learning for NLP.md",
-    "Research/NLP/10. LORA LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS.md",
     "Research/NLP/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
     "Research/NLP/8. Language Models are Few-Shot Learners.md",
     "LinkedIn/PEFT.md",
@@ -463,7 +465,6 @@
     "Research/NLP/7. Direct Preference OptimizationYour Language Model is Secretly a Reward Model.md",
     "LinkedIn",
     "Research/NLP/6. Scaling Instruction-Finetuned Language Models.md",
-    "Research/NLP/5. Training language models to follow instructionswith human feedback.md",
     "HOME/report.md",
     "Deep Learning/d2l/3. MLP.md",
     "RO/Enssea/c4 Birth-Death Processes.md",
