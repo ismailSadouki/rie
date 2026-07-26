@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/NLP/quastions and posts.md",
+                "file": "Research/NLP/plan 5 claude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quastions and posts"
+              "title": "plan 5 claude"
             }
           },
           {
@@ -446,12 +446,14 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "Research/NLP/plan 4.md",
+    "Research/NLP/Untitled.md",
+    "Research/NLP/plan 5 claude.md",
+    "Research/NLP/Untitled",
     "Research/NLP/quastions and posts.md",
+    "Research/NLP/plan 4.md",
     "Research/NLP/plan 3.md",
     "Research/NLP/plan 2.md",
     "Research/NLP/Plan 1.md",
-    "Research/NLP/plan 5 claude.md",
     "Research/NLP/18. Fast Inference from Transformers via Speculative Decoding.md",
     "Research/NLP/16. DeepSeek-R1 Incentivizing Reasoning Capability in LLMs viaReinforcement Learning.md",
     "Research/NLP/14. Toolformer Language Models Can Teach Themselves to Use Tools.md",
@@ -472,7 +474,6 @@
     "Research/NLP/6. Scaling Instruction-Finetuned Language Models.md",
     "HOME/report.md",
     "Deep Learning/d2l/3. MLP.md",
-    "RO/Enssea/c4 Birth-Death Processes.md",
     "Deep Learning/prince",
     "Research/NLP",
     "HOME/2026",
@@ -492,7 +493,6 @@
     "NLP/Natural Language Processing in Action/2. DL",
     "NLP/Natural Language Processing in Action/1. Wordy machines/Untitled",
     "NLP/Natural Language Processing in Action/1. Wordy machines",
-    "NLP/Natural Language Processing in Action",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",

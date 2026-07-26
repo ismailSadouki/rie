@@ -181,6 +181,7 @@ Given your DAAD deadline, this part is not abstract — it's the immediate task.
 
 **Main objective:** move AlgerianMMLU, DziriMoE, and DziriDPO from "near-complete" to "publicly shipped, documented, evaluated."
 
+
 - **Weeks 1–2:** Finalize AlgerianMMLU. Freeze the benchmark set, run baseline evals (GPT-4-class, open Arabic models, your DPO model) on H100, write eval methodology doc, publish to HF Hub/GitHub with a clear README and leaderboard-style results table.
 - **Weeks 2–3:** Package DziriDPO as an HF dataset with a full dataset card (collection methodology: NADI/MADAR/PADIC provenance, LLM-assisted translation + correction process, Whisper transcription pipeline, dialect-classifier bootstrapping). This card _is_ a large chunk of your preprint's methods section, written early.
 - **Weeks 3–4:** Deploy DziriMoE as a live demo (FastAPI backend, HF Space or simple hosted frontend). Get it usable by a stranger with zero setup.
@@ -235,3 +236,51 @@ If I stripped away everything non-essential, here's what would remain, classifie
 - Large-scale distributed pretraining experience
 
 **The single highest-ROI move available to you right now is not learning anything new — it's shipping what you've already built.** You have more real LLM engineering evidence sitting half-finished than most people build in a year of tutorials. The roadmap above is really just: finish, document, publish, network — in that order, before starting anything new.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
