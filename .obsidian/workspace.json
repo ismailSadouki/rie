@@ -8,264 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c3906e92c7d17b42",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Time series/modeling financial time series/Vector Autoregressive Models forMultivariate Time Series.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "path:MT  ",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": true,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.1318937642655862,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Vector Autoregressive Models forMultivariate Time Series"
-            }
-          },
-          {
-            "id": "06d841aeae479dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Ensample/3. Ensembles in the wild Adapting ensemble methods to your data/2. Learning with categorical features.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Learning with categorical features"
-            }
-          },
-          {
-            "id": "84954ab13d815fe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME/asri.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "asri"
-            }
-          },
-          {
             "id": "dbe8746d14a95e40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/NLP/plan 5 claude.md",
+                "file": "LLM-lab/nano-llm-pretrain/currently doing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan 5 claude"
-            }
-          },
-          {
-            "id": "368d99643999d99a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/d2l/3. MLP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. MLP"
-            }
-          },
-          {
-            "id": "07cf93cc033f681d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME/report_diab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "report_diab"
-            }
-          },
-          {
-            "id": "a0f8636574dd3135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/Learning SQL/Query Primer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Query Primer"
-            }
-          },
-          {
-            "id": "aaa18e7b9ac20640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/asri/3. Dimensionality Reduction  t-SNE, LLE and UMAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Dimensionality Reduction  t-SNE, LLE and UMAP"
-            }
-          },
-          {
-            "id": "a0c008685f41aab7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Natural Language Processing in Action/2. DL/7. Getting words in orderwith convolutionalneural networks (CNNs).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Getting words in orderwith convolutionalneural networks (CNNs)"
-            }
-          },
-          {
-            "id": "697d357bc97455ff",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          },
-          {
-            "id": "a81803d760528c6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME/report_diab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "report_diab"
-            }
-          },
-          {
-            "id": "322c6edf7e7ad300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Hand in ml book/Quastions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quastions"
-            }
-          },
-          {
-            "id": "137ed65a855a67bb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
-          },
-          {
-            "id": "a6d6ae86743c0fec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/AutoML/10. Analysis of the AutoML Challenge Series 2015–2018/2. Problem Formalization and Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Problem Formalization and Overview"
-            }
-          },
-          {
-            "id": "3a551f8f34fa8baa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME/Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "20934779bf4b4794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Ensample/note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "note"
-            }
-          },
-          {
-            "id": "5bf896494e111539",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Ensample/2. Essential ensemble methods/6. Sequential ensembles Newton boosting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. Sequential ensembles Newton boosting"
+              "title": "currently doing"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -446,36 +202,38 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "Research/NLP/Untitled.md",
-    "Research/NLP/plan 5 claude.md",
+    "LLM-lab/nano-llm-pretrain/Choose corpus sources and write the first data statement.md",
+    "LLM-lab/nano-llm-pretrain/currently doing.md",
+    "LLM-lab/nano-llm-pretrain/good research labs.md",
+    "LLM-lab/Research Papers/algeriammlu.md",
+    "LLM-lab/nano-llm-pretrain",
+    "LLM-lab",
+    "LLM-lab/Research Papers/13. JKU Linz — M.Sc. **Artificial Intelligence** ⭐ _the sleeper pick_.md",
+    "LLM-lab/Research Papers/plan 5 claude.md",
     "Research/NLP/Untitled",
-    "Research/NLP/quastions and posts.md",
-    "Research/NLP/plan 4.md",
-    "Research/NLP/plan 3.md",
-    "Research/NLP/plan 2.md",
-    "Research/NLP/Plan 1.md",
-    "Research/NLP/18. Fast Inference from Transformers via Speculative Decoding.md",
-    "Research/NLP/16. DeepSeek-R1 Incentivizing Reasoning Capability in LLMs viaReinforcement Learning.md",
-    "Research/NLP/14. Toolformer Language Models Can Teach Themselves to Use Tools.md",
-    "Research/NLP/5. Training language models to follow instructionswith human feedback.md",
-    "Research/NLP/13. Retrieval Augmented Generation forKnowledge Intensive NLP Tasks.md",
-    "Research/NLP/10. LORA LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS.md",
-    "Research/NLP/19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING.md",
-    "Research/NLP/17. Let’s Verify Step by Step.md",
-    "Research/NLP/15. SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHTREASONING IN LANGUAGE MODELS.md",
-    "Research/NLP/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
-    "Research/NLP/11. Parameter-Efficient Transfer Learning for NLP.md",
-    "Research/NLP/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
-    "Research/NLP/8. Language Models are Few-Shot Learners.md",
+    "LLM-lab/Research Papers/quastions and posts.md",
+    "LLM-lab/Research Papers/plan 4.md",
+    "LLM-lab/Research Papers/plan 3.md",
+    "LLM-lab/Research Papers/plan 2.md",
+    "LLM-lab/Research Papers/Plan 1.md",
+    "LLM-lab/Research Papers/18. Fast Inference from Transformers via Speculative Decoding.md",
+    "LLM-lab/Research Papers/16. DeepSeek-R1 Incentivizing Reasoning Capability in LLMs viaReinforcement Learning.md",
+    "LLM-lab/Research Papers/14. Toolformer Language Models Can Teach Themselves to Use Tools.md",
+    "LLM-lab/Research Papers/5. Training language models to follow instructionswith human feedback.md",
+    "LLM-lab/Research Papers/13. Retrieval Augmented Generation forKnowledge Intensive NLP Tasks.md",
+    "LLM-lab/Research Papers/10. LORA LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS.md",
+    "LLM-lab/Research Papers/19. ROFORMER ENHANCED TRANSFORMER WITH ROTARYPOSITION EMBEDDING.md",
+    "LLM-lab/Research Papers/17. Let’s Verify Step by Step.md",
+    "LLM-lab/Research Papers/15. SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHTREASONING IN LANGUAGE MODELS.md",
+    "LLM-lab/Research Papers/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
+    "LLM-lab/Research Papers/11. Parameter-Efficient Transfer Learning for NLP.md",
+    "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
+    "LLM-lab/Research Papers/8. Language Models are Few-Shot Learners.md",
     "LinkedIn/PEFT.md",
     "LinkedIn/Mixed pricision training.md",
-    "Research/NLP/7. Direct Preference OptimizationYour Language Model is Secretly a Reward Model.md",
     "LinkedIn",
-    "Research/NLP/6. Scaling Instruction-Finetuned Language Models.md",
-    "HOME/report.md",
-    "Deep Learning/d2l/3. MLP.md",
     "Deep Learning/prince",
-    "Research/NLP",
+    "LLM-lab/Research Papers",
     "HOME/2026",
     "HOME/asri final exam",
     "Pasted image 20260319004123.png",
@@ -491,8 +249,6 @@
     "Machine Learning/asri",
     "Machine Learning/Untitled 1.canvas",
     "NLP/Natural Language Processing in Action/2. DL",
-    "NLP/Natural Language Processing in Action/1. Wordy machines/Untitled",
-    "NLP/Natural Language Processing in Action/1. Wordy machines",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
     "first/DNS/Untitled.canvas",

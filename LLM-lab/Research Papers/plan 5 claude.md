@@ -268,19 +268,3 @@ If I stripped away everything non-essential, here's what would remain, classifie
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
