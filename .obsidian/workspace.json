@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/thesis idea - Conformal Off-Policy Evaluation for Safe Offline RL Deployment.md",
+                "file": "LLM-lab/ML-AI research internships 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thesis idea - Conformal Off-Policy Evaluation for Safe Offline RL Deployment"
+              "title": "ML-AI research internships 2"
             }
           }
         ]
@@ -202,8 +202,20 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "LLM-lab/thesis idea - Trajectory-DPO — Preference Optimization for Multi-Step Agents.md",
+    "LLM-lab/ML-AI research internships.md",
+    "LLM-lab/ML-AI research internships 2.md",
+    "LLM-lab/theisis idea - low resource.md",
+    "LLM-lab/Research Papers/21. GLU Variants Improve Transformer.md",
+    "LLM-lab/Research Papers/20. Root Mean Square Layer Normalization.md",
+    "LLM-lab/nano-llm-pretrain/M3.md",
+    "LLM-lab/thesis idea - Memory-Efficient Preconditioners for LLM Training.md",
+    "LLM-lab/thesis idea - Statistical Analysis of Signed and Adaptive Optimizers for LLMs.md",
+    "LLM-lab/research and theses idea - Muon Beyond LLMs — Empirical + Theoretical Extension.md",
+    "LLM-lab/theses idea - Optimization Landscape of Preference Losses (DPO, IPO, KTO).md",
+    "LLM-lab/paper idea - Optimization Landscape Analysis of DPO IPO Losses.md",
+    "LLM-lab/nano-llm-pretrain/currently doing.md",
     "LLM-lab/thesis idea - Conformal Off-Policy Evaluation for Safe Offline RL Deployment.md",
+    "LLM-lab/thesis idea - Trajectory-DPO — Preference Optimization for Multi-Step Agents.md",
     "LLM-lab/thesis idea -  Reward Model Overoptimization Detection in RLHF via Statistical Tests.md",
     "LLM-lab/research idae - KL-Regularized RL Theory Applied to RLHF Stability.md",
     "LLM-lab/research idea - DPO RLHF Loss Landscape Analysis.md",
@@ -212,25 +224,13 @@
     "LLM-lab/Research Papers/algeriammlu.md",
     "LLM-lab/Thesis idea -Reward Model Overoptimization Detection in RLHF via Statistical Tests.md",
     "LLM-lab/research idea - diffusion and dpo.md",
-    "LLM-lab/nano-llm-pretrain/M1.4 · Near-duplicate removal with MinHash LSH.md",
     "LLM-lab/nano-llm-pretrain/M1.3 · Quality filters with saved thresholds.md",
     "LLM-lab/research idea - calibration.md",
     "LLM-lab/research idea - AlgerianMMLU.md",
     "LLM-lab/Research contacts.md",
-    "LLM-lab/nano-llm-pretrain/M1.2 · Streaming ingestion to Parquet shards.md",
-    "LLM-lab/nano-llm-pretrain/Choose corpus sources and write the first data statement.md",
-    "LLM-lab/nano-llm-pretrain/Graph u can generate.md",
-    "LLM-lab/nano-llm-pretrain/currently doing.md",
-    "LLM-lab/nano-llm-pretrain/good research labs.md",
     "LLM-lab/nano-llm-pretrain",
     "LLM-lab",
-    "LLM-lab/Research Papers/13. JKU Linz — M.Sc. **Artificial Intelligence** ⭐ _the sleeper pick_.md",
-    "LLM-lab/Research Papers/plan 5 claude.md",
     "Research/NLP/Untitled",
-    "LLM-lab/Research Papers/quastions and posts.md",
-    "LLM-lab/Research Papers/plan 4.md",
-    "LLM-lab/Research Papers/plan 3.md",
-    "LLM-lab/Research Papers/plan 2.md",
     "LinkedIn",
     "Deep Learning/prince",
     "LLM-lab/Research Papers",
