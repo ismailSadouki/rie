@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/ML-AI research internships 2.md",
+                "file": "LLM-lab/nano-llm-pretrain/M3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ML-AI research internships 2"
+              "title": "M3"
             }
           }
         ]
@@ -202,8 +202,8 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
-    "LLM-lab/ML-AI research internships.md",
     "LLM-lab/ML-AI research internships 2.md",
+    "LLM-lab/ML-AI research internships.md",
     "LLM-lab/theisis idea - low resource.md",
     "LLM-lab/Research Papers/21. GLU Variants Improve Transformer.md",
     "LLM-lab/Research Papers/20. Root Mean Square Layer Normalization.md",
