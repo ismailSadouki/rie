@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/nano-llm-pretrain/M3.md",
+                "file": "LLM-lab/DPO From Scratch and TRL Darija/m0a.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M3"
+              "title": "m0a"
+            }
+          },
+          {
+            "id": "eaca321c100098f7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.6"
             }
           }
         ]
@@ -41,7 +53,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -202,6 +216,18 @@
   },
   "active": "dbe8746d14a95e40",
   "lastOpenFiles": [
+    "LLM-lab/DPO From Scratch and TRL Darija/Initial Project architecture.md",
+    "LLM-lab/DPO From Scratch and TRL Darija/m0a.md",
+    "LLM-lab/DPO From Scratch and TRL Darija/plan.md",
+    "LLM-lab/nano-llm-pretrain/training/next new session with checkponts.md",
+    "LLM-lab/DPO From Scratch and TRL Darija",
+    "LLM-lab/nano-llm-pretrain/training/add checkpoint dataset to new notebook.md",
+    "LLM-lab/nano-llm-pretrain/training/register checkpoints.md",
+    "LLM-lab/nano-llm-pretrain/training",
+    "LLM-lab/nano-llm-pretrain/m4.1.md",
+    "LLM-lab/nano-llm-pretrain/training/next new kaggle session.md",
+    "LLM-lab/nano-llm-pretrain/Helpfull gpu commands.md",
+    "LLM-lab/nano-llm-pretrain/M4.md",
     "LLM-lab/LLM darija/resources.md",
     "LLM-lab/Untitled.md",
     "LLM-lab/LLM darija",
@@ -220,24 +246,12 @@
     "LLM-lab/github projects/Probabilistic-Forecaster LLMs for Time-Series via Text.md",
     "LLM-lab/github projects/DPO-Synthetic-Gen Self-Alignment for Low-Resource Languages.md",
     "LLM-lab/github projects/LoRA-Visualizer See What Your Adapters Are Learning.md",
-    "LLM-lab/github projects/Code-Switch-Detect An API for Maghrebi Code-Switching (Arabic-French-English).md",
-    "LLM-lab/nano-llm-pretrain/M3.md",
     "LLM-lab/github projects",
-    "LLM-lab/ML-AI research and internships/Algerian Researchers and Engineers Abroad  2.md",
-    "LLM-lab/ML-AI research and internships/Algerian Researchers and Engineers Abroad  1.md",
-    "LLM-lab/ML-AI research and internships/Inria strategy.md",
-    "LLM-lab/ML-AI research and internships/who should reach first 2.md",
-    "LLM-lab/ML-AI research and internships/who should reach first 1.md",
-    "LLM-lab/Research Papers/22. Fast Transformer Decoding - One Write-Head is All You Need.md",
     "LLM-lab/ML-AI research and internships",
-    "LLM-lab/ML-AI research and internships/ML-AI research internships 2.md",
-    "LLM-lab/ML-AI research and internships/ML-AI research internships.md",
     "LLM-lab/nano-llm-pretrain",
     "LLM-lab",
     "Research/NLP/Untitled",
     "LinkedIn",
-    "Deep Learning/prince",
-    "LLM-lab/Research Papers",
     "Pasted image 20260319004123.png",
     "Pasted image 20260319004048.png",
     "Pasted image 20260319004017.png",
