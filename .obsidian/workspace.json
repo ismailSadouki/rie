@@ -39,12 +39,14 @@
             "id": "d9ad5121df14dce8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models"
             }
           }
         ],
@@ -107,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -232,6 +233,10 @@
   },
   "active": "eaca321c100098f7",
   "lastOpenFiles": [
+    "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
+    "LLM-lab/Research Papers/8. Language Models are Few-Shot Learners.md",
+    "LLM-lab/Research Papers/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
+    "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
     "260813_10h10m39s_screenshot.png",
     "260813_00h08m34s_screenshot.png",
     "260813_00h07m54s_screenshot.png",
@@ -242,9 +247,7 @@
     "260812_23h56m11s_screenshot.png",
     "260812_23h53m55s_screenshot.png",
     "260812_23h53m15s_screenshot.png",
-    "260812_23h52m13s_screenshot.png",
     "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
-    "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
     "Fastapi/chap.3  AI Integration andModel Serving.md",
     "Fastapi/chap2.md",
     "LLM-lab/DPO From Scratch and TRL Darija/m0a.md",
@@ -271,8 +274,6 @@
     "LLM-lab/dataset",
     "LLM-lab/github projects/DPO-Inspector — Interactive Visualization of DPO Training Dynamics.md",
     "LLM-lab/github projects/SynthAlign— A Synthetic DPOPreference Data Pipeline for Low-Resource Languages.md",
-    "LLM-lab/github projects/Arabizi-Decode — A Production-Ready Arabizi↔Arabic Script Transliteration API.md",
-    "LLM-lab/github projects/LoRA-Lens— A Visual Diagnostic Tool for LoRA PEFT Adapter Analysis.md",
     "LLM-lab/github projects",
     "LLM-lab/ML-AI research and internships",
     "LLM-lab/nano-llm-pretrain",

@@ -417,6 +417,37 @@ HTML.
 prompt.
 
 
+![](https://i.imgur.com/erHN50s.png)
+you now have the utility scraper functions you need to implement the web
+scraping feature in your /generate/text endpoint.
+
+Next, upgrade the text-to-text handler to use the scraper functions via a
+dependency in an asynchronous manner, as shown in Example 5-7
+![](https://i.imgur.com/HpbALuZ.png)
+![](https://i.imgur.com/bMxbAaE.png)
+
+
+Now, run the Streamlit client in the browser and try your shiny new feature.
+Figure 5-6 shows my experiment.
+
+
+# Project: Talk to Documents (RAG)
+
+In this project, we will build a RAG module into your GenAI service to give you
+a hands-on experience interacting asynchronously with external systems such as
+a database and a filesystem.
+![](https://i.imgur.com/AqUxlgE.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
