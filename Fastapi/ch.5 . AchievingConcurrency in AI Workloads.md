@@ -438,6 +438,34 @@ a hands-on experience interacting asynchronously with external systems such as
 a database and a filesystem.
 ![](https://i.imgur.com/AqUxlgE.png)
 
+The pipeline for RAG consists of the following stages
+1. Extraction of documents from a filesystem to load the textual content in
+chunks onto memory.
+2. Transformation of the textual content by cleaning, splitting, and
+preparing them to be passed into an embedding model to produce
+embedding vectors that represent a chunk’s semantic meaning.
+3. Storage of embedding vectors alongside metadata, such as the source
+and text chunk, in a vector store such as Qdrant.
+4. Retrieval of semantically relevant embedding vectors by performing a
+semantic search on the user’s query to the LLM. The original text
+chunks—stored as metadata of the retrieved vectors—are then used to
+augment (i.e., enhance the context within) the initial prompt provided to
+the LLM.
+5. Generation of LLM response bypassing both the query and retrieved
+chunks (i.e., context) to the LLM for getting a response.
+
+![](https://i.imgur.com/vMgHv5S.png)
+ Figure 5-9 shows the system architecture of a “talk to your documents”
+service enabled with RAG.
+![](https://i.imgur.com/gdLtoTM.png)
+Using FastAPI’s UploadFile class, you can accept documents from users in
+chunks and save them into the filesystem or any other file storage solution such
+as a blob storage. The important item to note here is that this I/O operation is
+nonblocking through asynchronous programming, which FastAPI’s UploadFile
+class supports.
+
+
+![](https://i.imgur.com/1egTuz3.png)
 
 
 
@@ -445,16 +473,35 @@ a database and a filesystem.
 
 
 
+With upload functionality implemented, you can now turn your attention to
+building the RAG module. Figure 5-11 shows the detailed pipeline, which opens
+![](https://i.imgur.com/yuTD997.png)
+As you can see in Figure 5-11, you need to asynchronously fetch the stored files
+from the hard disk and pass them through a data transformation pipeline prior to
+storage via an asynchronous database client
+The data transformation pipeline consists of the following parts:
+**Extractor**
+	Extract content of PDFs and store in text files back onto the hard disk.
+**Loader**
+	Asynchronously load a text file into memory in chunks.
+**Cleaner**
+	Remove any redundant whitespace or formatting characters from text chunks
+**Embedder**
+	Use a pretrained and self-hosted embedding model to convert text into
+embedding vectors.
+
+![](https://i.imgur.com/D3YT8SG.png)
+Once users upload their PDF files onto your server’s filesystem via the process
+shown in Example 5-8, you can immediately convert them into text files via the
+pypdf library. Since there is no asynchronous library for loading binary PDF
+files, you will want to convert them into text files first
+Example 5-9 shows how to load PDFs, extract and process their content, and
+then store them as text files
+![](https://i.imgur.com/gWmQ4b4.png)
 
 
-
-
-
-
-
-
-
-
+Example 5-10 shows the implementation of the RAG data transformation
+pipeline including the async text loader, cleaner, and embedding functions
 
 
 
@@ -468,3 +515,140 @@ what is the difference between a thread and a core
 what is concurrency and parallelism in python
 multithreading, asynchronous programming, multiprocessing, workloads
 
+The text extractor will convert the PDF files into simple text files that we can
+stream into memory in chunks using an asynchronous file loader. Each chunk
+can then be cleaned and embedded into an embedding vector using an open
+source embedding model such as jinaai/jina-embeddings-v2-base-en,
+available to download from the Hugging Face model hub.
+
+![](https://i.imgur.com/DE9tnYy.png)
+
+Once the data is processed into embedding vectors, you can store them into the
+vector database.
+![](https://i.imgur.com/oHyBeYV.png)
+
+The following code examples require you to run a local instance of the qdrant
+vector database on your local machine for the RAG module. Having a local
+database setup will give you the hands-on experience of working asynchronously
+with production-grade vector databases. To run the database in a container, you
+should have Docker installed on your machine and then pull and run the qdrant
+vector database container.
+```
+$ docker pull qdrant/qdrant
+$ docker run -p 6333:6333 -p 6334:6334 \
+-v $(pwd)/qdrant_storage:/qdrant/storage:z \
+qdrant/qdrant
+```
+Since database storage and retrieval are I/O operations, you should use an
+asynchronous database client. Thankfully, qdrant provides an asynchronous
+database client to work with
+instead of writing several functions to store and retrieve data from the database,
+you can use the repository pattern mentioned in Chapter 2. With the repository
+pattern, you can abstract low-level create, read, update, and delete database
+operations with defaults that match your use case.
+
+
+Example 5-11 shows the repository pattern implementation for the Qdrant vector
+database
+![](https://i.imgur.com/RiUL0x2.png)
+![](https://i.imgur.com/ptZMIle.png)
+The VectorRepository class should now make it easier to interact with the
+database.
+
+When storing vector embeddings, you will also store some metadata including
+the name of the source document, the location of the text within source, and the
+original extracted text. RAG systems rely on this metadata to augment the LLM
+prompts and to show source information to the users.
+
+You can now extend the VectorRepository and create the VectorService that
+allow you to chain together the data processing and storage pipeline, as shown in
+![](https://i.imgur.com/KCeBhLp.png)
+The final step in the RAG data processing and storage pipeline is to run the text
+extraction and storage logic within the file_upload_controller as
+background tasks. The implementation is shown in Example 5-13 so that the
+handler can trigger both operations in the background after responding to the
+user.
+![](https://i.imgur.com/XlVX4jk.png)
+![](https://i.imgur.com/Sa5fr2F.png)
+After building the RAG data storage pipeline, you can now focus on the search-
+and-retrieval system, which will allow you to augment the user prompts to the
+LLM, with knowledge from the database. Example 5-14 integrates the RAG
+search-and-retrieval operations with the LLM handler to augment the LLM
+prompts with additional context.
+
+![](https://i.imgur.com/9DMUlYh.png)
+![](https://i.imgur.com/mgAgd1L.png)
+Congratulations! You now have a fully working RAG system enabled by open
+source models and a vector database.
+
+You can work on improving the RAG module further by implementing various
+other techniques, which I will not cover in this book:
+- Optimize text splitting, chunk sizing, cleaning and embedding
+operations.
+- Perform query transformations using the LLM to aid the retrieval and
+augmentation system via techniques such as prompt compression,
+chaining, refining, and aggregating, etc., to reduce hallucinations and
+improve LLM performance.
+- Summarize or break down large augmented prompts to feed the context
+into the models using a sliding window approach.
+- Enhance retrieval algorithms to handle ambiguous queries and
+implement fallback mechanisms for incomplete data.
+- Enhance the retrieval performance with methods such as maximal
+marginal relevance (MMR) to enrich the augmentation process with
+more diverse documents.
+- Implement other advanced RAG techniques like retrieval reranking and
+filtering, hierarchical database indices, RAG fusion, retrieval
+augmented thoughts (RAT), etc., to improve the overall generation
+performance.
+
+
+---
+
+
+
+
+
+
+# Optimizing Model Serving for Memory- and Compute-Bound AI Inference Tasks
+
+Using async tools and techniques, your service remained responsive when
+interacting with the web, the filesystem, and databases. However, if you’re self-
+hosting the model, switching to async programming techniques won’t fully
+eliminate the long waiting times. This is because the bottleneck will be model
+inference operations.
+
+### Compute-Bound Operations
+ou can speed up the inference by running models on GPUs to massively
+parallelize computations. Modern GPUs have staggering compute power
+measured by the number of floating-point operations per second (FLOPS), with
+modern GPUs reaching teraflops (NVIDIA A100) or petaflops (NVIDIA H100)
+of compute. However, despite their significant power and parallelization
+capabilities, modern GPU cores are often underutilized under concurrent
+workloads with larger models.
+
+<mark>When self-hosting models on GPUs, model parameters are loaded from disk to
+RAM (I/O bound) and then moved from RAM to the GPU high-bandwidth
+memory by the CPU (memory bound). Once model parameters are loaded on the
+GPU memory, inference is performed (compute bound).</mark>
+
+
+
+Counterintuitively, model inference for larger GenAI models such as SDXL and
+LLMs is not I/O- or compute-bound, but rather memory-bound. This means it
+takes more time to load 1 MB of data into GPU’s compute cores than it takes for
+those compute cores to process 1 MB of data. Inevitably, to maximize the
+concurrency of your service, you will need to batch the inference requests and fit
+the largest batch size you can into the GPU high-bandwidth memory.
+
+```
+larger feasible batch size  ----→  better throughput
+```
+Therefore, even when using async techniques and latest GPUs, your server can
+be blocked waiting for billions of model parameters to be loaded to the GPU
+high-bandwidth memory during each request. To avoid blocking the server, you
+can decouple the memory-bound model-serving operations from your FastAPI
+server by externalizing model serving, as we touched upon in Chapter 3.
+
+Let’s see how to delegate model serving to another process.
+
+### Externalizing Model Serving
