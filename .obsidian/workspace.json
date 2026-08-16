@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/DPO From Scratch and TRL Darija/m0a.md",
+                "file": "LLM-lab/DPO From Scratch and TRL Darija/m2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "m0a"
+              "title": "m2"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
+                "file": "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.5 . AchievingConcurrency in AI Workloads"
+              "title": "ch.6  Real-TimeCommunication with Generative Models"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
+                "file": "LLM-lab/Research Papers/23. QLORA Efficient Finetuning of Quantized LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models"
+              "title": "23. QLORA Efficient Finetuning of Quantized LLMs"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,9 +231,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eaca321c100098f7",
+  "active": "d9ad5121df14dce8",
   "lastOpenFiles": [
     "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
+    "LLM-lab/Research Papers/23. QLORA Efficient Finetuning of Quantized LLMs.md",
+    "LLM-lab/DPO From Scratch and TRL Darija/m2.md",
+    "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
+    "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
     "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
     "LLM-lab/Research Papers/8. Language Models are Few-Shot Learners.md",
     "LLM-lab/Research Papers/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
@@ -247,10 +251,8 @@
     "260812_23h56m11s_screenshot.png",
     "260812_23h53m55s_screenshot.png",
     "260812_23h53m15s_screenshot.png",
-    "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
     "Fastapi/chap.3  AI Integration andModel Serving.md",
     "Fastapi/chap2.md",
-    "LLM-lab/DPO From Scratch and TRL Darija/m0a.md",
     "Fastapi",
     "LLM-lab/LinkedIn/Mixed pricision training.md",
     "LLM-lab/LinkedIn/PEFT.md",
@@ -272,8 +274,6 @@
     "LLM-lab/dataset/dzairbench or dpo dataset building.md",
     "LLM-lab/github projects/Quant-Quality-Map — Visualizing How Quantization Affects Model Performance Across Languages.md",
     "LLM-lab/dataset",
-    "LLM-lab/github projects/DPO-Inspector — Interactive Visualization of DPO Training Dynamics.md",
-    "LLM-lab/github projects/SynthAlign— A Synthetic DPOPreference Data Pipeline for Low-Resource Languages.md",
     "LLM-lab/github projects",
     "LLM-lab/ML-AI research and internships",
     "LLM-lab/nano-llm-pretrain",

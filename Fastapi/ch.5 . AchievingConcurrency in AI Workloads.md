@@ -652,3 +652,297 @@ server by externalizing model serving, as we touched upon in Chapter 3.
 Let’s see how to delegate model serving to another process.
 
 ### Externalizing Model Serving
+You have several options available to you when externalizing your model-
+serving workloads. You can either host models on another FastAPI server or use
+specialized model inference servers.
+
+For instance, if you need to self-host LLMs, LLM-serving frameworks can perform several inference optimizations for you such as batch processing, tensor parallelism, quantization, caching, streaming outputs, GPU memory management, etc.
+![](https://i.imgur.com/Gm8P2W0.png)
+![](https://i.imgur.com/U6VPOJ6.png)
+vLLM is designed for production inference workloads on NVIDIA GPUs in Linux
+environments where the server can delegate requests to multiple GPU cores via tensor parallelism. It does also support distributed computing when scaling services beyond a single machine via its Ray Serve dependency
+
+![](https://i.imgur.com/lfq1MBO.png)
+With the vLLM FastAPI server up and running, you can now replace the model-
+serving logic in your current service with network calls to the vLLM server.
+![](https://i.imgur.com/CPLUAgL.png)
+Next, remove the code related to the FastAPI lifespan so that your current
+service won’t load the TinyLlama model. You can achieve this by following the
+code in Example 5-17.
+![](https://i.imgur.com/n5Khh6d.png)
+Congratulations, you’ve now achieved concurrency with your AI inference
+workloads. You implemented a form of multiprocessing on a single machine by
+moving your LLM inference workloads to another server. Both servers are now
+running on separate cores with your LLM server delegating work to multiple
+GPU cores, leveraging parallelism. This means your main server is now able to
+process multiple incoming requests and do other tasks than processing one LLM
+inference operation at a time.
+
+> [!note] TIP
+> Bear in mind that any concurrency you’ve achieved so far has been limited to a single
+machine.
+To support more concurrent users, you may need more machines with CPU and GPU cores. At
+that point, distributed computing frameworks like Ray Serve and Kubernetes can help to scale
+and orchestrate your services beyond a single worker machine using parallelism.
+
+Before integrating vLLM, you would experience long waiting times between
+requests because your main server was too busy running inference operations.
+With vLLM, there is now a massive reduction in latency and increase in
+throughput of your LLM service.
+
+**LATENCY AND THROUGHPUT**
+<mark>Latency in the context of LLMs refers to the time taken from when a request
+is made to the model until the first response is received. It’s a measure of the
+delay experienced during the processing of a single request. Throughput, on
+the other hand, is the number of requests that an LLM can process within a
+given time frame and indicates the server’s capacity to handle concurrent or
+sequential requests over time. Latency can be measured in delay seconds and
+throughput in tokens per minute (TPM).</mark>
+
+As a developer, you will want your service to have the lowest latency and
+the highest throughput possible. However, there is a trade-off between the
+model size and quality versus these two metrics. Normally, LLMs with
+larger number of parameters achieve higher quality but also increased
+latency and reduced throughput.
+
+Research is currently underway to use model compression techniques such
+as distillation, quantization, and pruning to keep language models small
+while maintaining high quality, throughput, and small latency in AI
+inference services.
+
+In addition to model compression mechanisms like quantization, vLLM uses
+other optimization techniques including continuous request batching, cache
+partitioning (paged attention), reduced GPU memory footprint via memory
+sharing, and streaming outputs to achieve smaller latency and high throughput.
+#### Request batching and continuous batching
+LLMs produce the next token prediction in an
+autoregressive manner.
+![](https://i.imgur.com/giToHPb.png)
+This means the LLMs must perform several inference iterations in a loop to
+produce a response, and each iteration produces a single output token. The input
+sequence grows as each iteration’s output token is appended to the end, and the
+new sequence is forwarded to the model in the next iteration step. Once the
+model generates an end-of-sequence token, the generation loop stops.
+Essentially, the LLM produces a sequence of completion tokens, stopping only
+after producing a stop token or reaching a maximum sequence length.
+
+
+The LLM must calculate several attention maps for each token in the sequence
+so that it can iteratively make the next token predictions.
+
+
+Fortunately, GPUs can parallelize the attention map calculations for each
+iteration. As you learned, these attention maps are capturing the meaning and
+context of each token within the input sequence and are expensive to calculate.
+Therefore, to optimize inference, LLMs use key-value (KV) caching to store
+calculated maps in the GPU memory.
+
+<mark>However, storing parameters on the GPU memory for reuse between iterations
+can consume huge chunks of GPU memory. For instance, a 13B-parameter
+model consumes nearly 1 MB of state for each token in a sequence on top of all
+those 13B model parameters. This means there is a limited number of tokens you
+can store in memory for reuse.
+</mark>
+
+<mark>If you’re using a higher-end GPU, such as the A100 with 40 GB RAM, you can
+only hold 14 K tokens in memory at once, while the rest of the memory is used
+up for storing 26 GB of model parameters. In short, the GPU memory consumed
+scales with the base model size plus the length of the token sequence.
+</mark>
+
+
+<mark>To make matters worse, if you need to serve multiple users concurrently by
+batching requests, your GPU memory has to be shared between multiple LLM
+inferences. As a result, you have less memory to store longer sequences, and
+your LLM is constrained to a shorter context window
+ On the other hand, if you
+want to maintain a large context window, then you can’t handle more concurrent
+users. As an example, a sequence length of 2048 means that your batch size will
+be limited to 7 concurrent requests (or 7 prompt sequences). Realistically, this is
+an upper-bound limit and doesn’t leave room for storing intermediate
+computations, which will reduce the aforementioned numbers even further.</mark>
+
+What this all means is that LLMs are failing to fully saturate the GPU’s available
+resources. The primary reason is that a significant portion of the GPU’s memory
+bandwidth is consumed in loading the model parameters instead of processing
+inputs.
+
+The first step to reduce the load on your services is to integrate the most efficient
+models. Often, smaller and more compressed models could do the job you’re
+asking of them, with a similar performance to their larger counterparts.
+
+<mark>Another suitable solution to the GPU underutilization problem is to implement
+request batching where the model processes multiple inputs in groups, reducing
+the overhead of loading model parameters for each request. This is more
+efficient in using the chip’s memory bandwidth, leading to higher compute
+utilization, higher throughput, and less expensive LLM inference. LLM
+inference servers like vLLM take advantage of batching plus fast attention, KV
+caching, and paged attention mechanisms to maximize throughput.</mark>
+
+You can see the difference of response latency and throughput with and without
+batching in Figure 5-14
+![](https://i.imgur.com/qNu51di.png)
+There are two ways to implement batching:
+**Static batching**
+	The size of the batch remains constant.
+**Dynamic or continuous batching**
+	The size of batch is determined based on demand.
+In static batching, we wait for a predetermined number of incoming requests to
+arrive before we batch and process them through the model. However, since
+requests can finish at any time in a batch, we’re effectively delaying responses to
+every request—and increasing latency—until the whole batch is processed.
+
+Releasing the GPU resource can also be tricky when processing a batch and
+adding new requests to the batch that may be at different completion states. As a
+result, the GPU remains underutilized as the generated sequences within a batch
+vary and don’t match the length of the longest sequence in that batch.
+
+Figure 5-15 illustrates static batching in the context of LLM inference.
+![](https://i.imgur.com/RcpYYJp.png)
+In Figure 5-15 you will notice the white blocks representing underutilized GPU
+computation time. Only one input sequence in the batch saturated the GPU
+across the batch’s processing timeline.
+
+Aside from adding unnecessary waiting times and not saturating the GPU
+utilization, what makes static batching problematic is that users of an LLM-
+powered chatbot service won’t be providing fixed-length prompts or expect
+fixed-length outputs. The variance in generation outputs could cause massive
+underutilization of GPUs.
+A solution is to avoid assuming fixed input or output sequences and instead set
+dynamic batch sizes during the processing of a batch. In dynamic or continuous
+batching, the size of batch can be set based on the incoming request sequence
+length and the available GPU resource. With this approach, new generation
+requests can be inserted in a batch by replacing completed requests to yield
+higher GPU utilization than static batching.
+
+Figure 5-16 shows how dynamic or continuous batching can fully saturate the
+GPU resource
+![](https://i.imgur.com/xuPMlaQ.png)
+
+While the model parameters are loaded, requests can keep flowing in, and the
+LLM inference server schedules and insert them into the batch to maximize GPU
+usage. This approach leads to higher throughput and reduced latency.
+<mark>If you’re building a LLM inference server, you will probably want to bake in the
+continuous batching mechanism into your server.</mark> However, the good news is that
+the vLLM server already provides continuous batching out of the box with its
+FastAPI server, so you don’t have to implement all of that yourself. Additionally,
+it also ships with another important GPU optimization feature, which sets it apart
+from other alternative LLM inference frameworks: paged attention.
+
+#### **Paged attention**
+Efficient memory usage is a critical challenge for systems that handle high-
+throughput serving, particularly for LLMs. For faster inference, today’s models
+rely on KV caches to store and reuse attention maps, which grow exponentially
+as input sequence lengths increase.
+Paged attention is a novel solution designed to minimize the memory demands
+of these KV caches, subsequently enhancing the memory efficiency of LLMs
+and making them more viable for use on devices with limited resources. In
+transformer-based LLMs, attention key and value tensors are generated for each
+input token to capture essential context. Instead of recalculating these tensors at
+every step, they’re saved in the GPU memory as a KV cache, which serves as the model’s memory. However, the KV cache can grow to enormous sizes, such as
+40 GB for a model with 13B parameters, posing a significant challenge for
+efficient storage and access, particularly on hardware with constrained resources.
+<mark>Paged attention introduces a method that breaks down the KV cache into
+smaller, more manageable segments called pages, each holding a KV vector for
+a set number of tokens. With this segmentation, paged attention can efficiently
+load and access KV caches during the attention computations</mark>
+ You can compare
+this technique to how the virtual memory is managed by operating systems,
+where the logical arrangement of data is separated from its physical storage.
+Essentially, a block table maps the logical blocks to physical ones, allowing for
+dynamic allocation of memory as new tokens are processed. The core idea is to
+avoid memory fragmentation by leveraging logical blocks (instead of physical
+ones) and use a mapping table to quickly access data stored in a paged physical
+memory.
+
+You can break down the paged attention mechanism into several steps:
+**Partitioning the KV cache**
+	The cache is split into fixed-size pages, with each containing a portion of the
+key-value pairs.
+**Building the lookup table**
+	A table is created to map query keys to their corresponding pages, facilitating quick allocation and retrieval.
+**Selective loading**
+	Only the necessary pages for the current input sequence are loaded during
+inference, reducing the memory footprint.
+**Attention computation**
+	The model computes attention using the key-value pairs from the loaded
+pages. This approach aims to make LLMs more accessible by addressing the
+memory bottleneck, potentially enabling their deployment on a wider range
+of devices.
+
+The aforementioned steps enable the vLLM server to maximize memory usage
+efficiency through the mapping of physical and logical memory blocks so that
+the KV cache is efficiently stored and retrieved during generation.
+
+In a blog post published on Anyscale.com, the authors have researched and
+compared the performance of various LLM-serving frameworks during
+inference. The authors concluded that leveraging both paged attention and
+continuous batching mechanisms are so powerful in optimizing GPU memory
+usage that the vLLM server was able to reduce latencies by 4 times and
+throughput by up to 23 times
+
+In the next section, we will turn our attention to GenAI workloads that can take a
+long time to process and are compute-bound. This is mostly the case with large
+non-LLM models such as SDXL where performing batch inferences (such as
+batch image generation) for multiple users may prove challenging.
+
+# Managing Long-Running AI Inference Tasks
+With the ability to host models in a separate process outside the FastAPI event
+loop, you can turn your attention to blocking operations that take a long time to
+complete.
+In the previous section, you leveraged specialized frameworks such as vLLM to
+externally host and optimize the inference workloads of your LLMs. However,
+you may still run into models that can take significant time to generate results.
+To prevent your users from waiting, you should manage tasks that generate
+models and take a long time to complete.
+
+Several GenAI models such as Stable Diffusion XL may take several minutes,
+even on a GPU, to produce results. In most cases, you can ask your users to wait
+until the generation process is complete. But if users are using a single model
+simultaneously, the server will have to queue these requests. When your users
+work with generative models, they need to interact with it several times to guide
+the model to the results they want. This usage pattern creates a large backlog of
+requests, and users at the end of the queue will have to wait a long time before
+they see any results.
+
+If there was a way to handle long-running tasks without making the users wait,
+that would be perfect. Luckily, FastAPI provides a mechanism for solving these
+kinds of problems.
+FastAPI’s background tasks is a mechanism you can leverage to respond to users
+while your models are busy processing the request. You’ve been briefly
+introduced to this feature while building the RAG module where a background
+task was populating a vector database with the content of the uploaded PDF
+documents.
+
+
+Using background tasks, your users can continue sending requests or carry on
+with their day without having to wait. You can either save the results to disk or a
+database for later retrieval or provide a polling system so that their client can
+ping for updates as the model processes the requests. Another option is to create
+a live connection between the client and the server so that their UI is updated
+with the results as soon as it becomes available. All these solutions are doable
+with FastAPI’s background tasks.
+
+Example 5-18 shows how to implement background tasks to handle long-
+running model inferences.
+![](https://i.imgur.com/CtPZohh.png)
+In Example 5-18, you’re allowing FastAPI to run inference operations in the
+background (via an external model server API) such that the event loop remains
+unblocked to process other incoming requests. You can even run multiple tasks
+in the background, such as generating images in batches (in separate processes)
+and sending notification emails. These tasks are added to a queue and processed
+sequentially without blocking the user. You can then store the generated images
+and expose an additional endpoint that clients can use to poll for status updates
+and to retrieve the inference results.
+![](https://i.imgur.com/YVo6Ckt.png)
+
+While FastAPI’s background tasks are a wonderful tool for handling simple
+batch jobs, it doesn’t scale and can’t handle exceptions or retries as well as
+specialized tools. Other ML-serving frameworks like Ray Serve, BentoML, and
+vLLM may handle model serving better at scale by providing features such as
+request batching. More sophisticated tools like Celery (a queue manager), Redis
+(a caching database), and RabbitMQ (a message broker) can also be used in
+combination to implement a more robust and reliable inference pipeline.
+
+# Summary
+![](https://i.imgur.com/ZAUgQLw.png)
