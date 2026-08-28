@@ -27,39 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
+                "file": "Fastapi/ch.7 Integrating Databases into AI Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.6  Real-TimeCommunication with Generative Models"
-            }
-          },
-          {
-            "id": "d9ad5121df14dce8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM-lab/mini-inference/right now doing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "right now doing"
+              "title": "ch.7 Integrating Databases into AI Services"
             }
           },
           {
             "id": "bcce9c3cb165df07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention"
+            }
+          },
+          {
+            "id": "62f29ba047b2d281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM-lab/mini-inference/currently doing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "currently doing"
+            }
+          },
+          {
+            "id": "14f8d77b196324de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,21 +259,30 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "dbe8746d14a95e40",
+  "active": "bcce9c3cb165df07",
   "lastOpenFiles": [
-    "LLM-lab/mini-inference/right now doing.md",
+    "LLM-lab/Research Papers/currently reading.md",
+    "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/immediate objective is the LEO → ground RF channel..md",
+    "LLM-lab/mini-inference/currently doing.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator",
+    "LLM-lab/Research Papers/24. FlashAttention Fast and Memory-Efficient Exact Attentionwith IOAwareness.md",
+    "LLM-lab/DPO From Scratch and TRL Darija/current doing.md",
+    "Fastapi/ch.7 Integrating Databases into AI Services.md",
+    "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
+    "LLM-lab/github projects/⭐⭐⭐⭐ How does tokenizer inefficiency in low-resource languages shift the optimal memory paging and batching configurations on constrained GPUs?.md",
+    "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
+    "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
     "LLM-lab/mini-inference/What we are building.md",
     "LLM-lab/mini-inference/Plan.md",
-    "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
     "LLM-lab/mini-inference",
     "LLM-lab/Untitled 1.md",
     "LLM-lab/github projects/⭐⭐⭐ AFTER the 6P's projects.md",
     "LLM-lab/github projects/⭐⭐ AFTER the 6P's projects.md",
     "LLM-lab/github projects/⭐ AFTER the 6P's projects.md",
-    "LLM-lab/DPO From Scratch and TRL Darija/current doing.md",
     "LLM-lab/nano-llm-pretrain/m4.1.md",
     "LLM-lab/nano-llm-pretrain/Learning docs/Untitled.md",
-    "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
     "LLM-lab/Research Papers/23. QLORA Efficient Finetuning of Quantized LLMs.md",
     "LLM-lab/nano-llm-pretrain/Learning docs",
     "LLM-lab/nano-llm-pretrain/Untitled.md",
@@ -262,7 +290,6 @@
     "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
     "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
     "LLM-lab/Research Papers/8. Language Models are Few-Shot Learners.md",
-    "LLM-lab/Research Papers/12. REAC T  SYNERGIZING REASONING AND ACTING INLANGUAGE MODEL.md",
     "260813_10h10m39s_screenshot.png",
     "260813_00h08m34s_screenshot.png",
     "260813_00h07m54s_screenshot.png",
@@ -273,21 +300,13 @@
     "260812_23h56m11s_screenshot.png",
     "260812_23h53m55s_screenshot.png",
     "260812_23h53m15s_screenshot.png",
-    "Fastapi/chap.3  AI Integration andModel Serving.md",
-    "Fastapi/chap2.md",
     "Fastapi",
-    "LLM-lab/LinkedIn/Mixed pricision training.md",
-    "LLM-lab/LinkedIn/PEFT.md",
-    "LLM-lab/DPO From Scratch and TRL Darija/Initial Project architecture.md",
-    "LLM-lab/DPO From Scratch and TRL Darija/plan.md",
-    "LLM-lab/nano-llm-pretrain/training/next new session with checkponts.md",
     "LLM-lab/DPO From Scratch and TRL Darija",
     "LLM-lab/nano-llm-pretrain/training",
     "LLM-lab/LLM darija",
     "LLM-lab/dataset",
     "LLM-lab/github projects",
     "LLM-lab/ML-AI research and internships",
-    "LLM-lab/nano-llm-pretrain",
     "Machine Learning/Untitled 1.canvas",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
