@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
+                "file": "LLM-lab/Research Papers/VISUALISATIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention"
+              "title": "VISUALISATIONS"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
+                "file": "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems"
+              "title": "Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations"
             }
           }
         ],
@@ -261,11 +261,13 @@
   },
   "active": "bcce9c3cb165df07",
   "lastOpenFiles": [
-    "LLM-lab/Research Papers/currently reading.md",
     "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
-    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
-    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/immediate objective is the LEO → ground RF channel..md",
+    "LLM-lab/Research Papers/VISUALISATIONS.md",
     "LLM-lab/mini-inference/currently doing.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
+    "LLM-lab/Research Papers/currently reading.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/immediate objective is the LEO → ground RF channel..md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator",
     "LLM-lab/Research Papers/24. FlashAttention Fast and Memory-Efficient Exact Attentionwith IOAwareness.md",
     "LLM-lab/DPO From Scratch and TRL Darija/current doing.md",
@@ -288,8 +290,6 @@
     "LLM-lab/nano-llm-pretrain/Untitled.md",
     "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
     "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
-    "Fastapi/ch.5 . AchievingConcurrency in AI Workloads.md",
-    "LLM-lab/Research Papers/8. Language Models are Few-Shot Learners.md",
     "260813_10h10m39s_screenshot.png",
     "260813_00h08m34s_screenshot.png",
     "260813_00h07m54s_screenshot.png",
