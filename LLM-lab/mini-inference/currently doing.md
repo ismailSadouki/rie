@@ -1,353 +1,387 @@
-Yes — **M2.4 is the next milestone**, and this one is more substantial than M2.3 because we're changing the actual decode execution from **one request at a time** to **multiple requests in one tensor operation**.
+Yes. M3.4 is the point where the allocator + block table become an actual **paged KV-cache execution path**.
 
-The important thing is: **don't start by rewriting the whole model.** We should first make the data flow correct.
+We should implement it in the simplest possible way first. **Do not optimize anything yet.**
 
-### What M2.4 means in your current engine
+## What we're building
 
-Right now M2.3 effectively does:
-
-```text
-active requests:
-    r1 → decode(r1)
-    r2 → decode(r2)
-    r3 → decode(r3)
-```
-
-Even though the scheduler is continuous, you're still calling the model separately for each request.
-
-M2.4 wants:
+You currently have:
 
 ```text
-active requests:
-    r1
-    r2
-    r3
-      ↓
-batch builder
-      ↓
-last_tokens = [token_r1, token_r2, token_r3]
-positions   = [pos_r1, pos_r2, pos_r3]
-      ↓
-one batched decode
+BlockPool
+    ↓
+physical KV blocks
+
+BlockTable
+    ↓
+logical position → (physical_block, offset)
 ```
 
-The critical issue is that:
+M3.4 adds:
 
 ```text
-r1 position = 10
-r2 position = 17
-r3 position = 6
+logical sequence
+      ↓
+BlockTable
+      ↓
+physical blocks
+      ↓
+gather K,V
+      ↓
+temporary contiguous K,V
+      ↓
+attention
 ```
 
-There is **no single global `position`**.
+For a sequence of length TT and block size B=16B=16:
+
+b=⌊p16⌋b = \left\lfloor\frac{p}{16}\right\rfloor o=p mod 16o = p\bmod16
+
+and:
+
+K[p]=Kpool[BlockTable[b],o]K[p] = K_{\text{pool}}[\text{BlockTable}[b],o] V[p]=Vpool[BlockTable[b],o].V[p] = V_{\text{pool}}[\text{BlockTable}[b],o].
+
+The crucial thing is that **logical order determines the gathered order**, not physical block order.
 
 ---
 
-## First thing we should inspect
+# Step 1 — Inspect your current `BlockPool`
 
-Your current `CachedQwen2Model.forward()` accepts:
+Before writing `paged_kv_cache.py`, we need to match your actual tensor shapes.
 
-```python
-def forward(
-    self,
-    input_ids,
-    cache,
-    position: int
-):
+Run:
+
+```bash
+sed -n '1,260p' engine/block_pool.py
 ```
 
-and your attention does:
+Send me that file.
+
+I don't want to guess the dimensions because your `BlockPool` already has:
 
 ```python
-total_length = position + T
+num_layers
+num_kv_heads
+head_dim
+dtype
+device
+```
+
+so we need to build M3.4 around the exact storage layout you implemented in M3.2.
+
+---
+
+# What `paged_kv_cache.py` will eventually do
+
+Conceptually, we'll create something like:
+
+```python
+class PagedKVCache:
+    def __init__(
+        self,
+        block_pool: BlockPool,
+        block_table: BlockTable,
+    ):
+        ...
+```
+
+Then:
+
+```python
+def gather_kv_for_sequence(
+    self,
+    seq_id: str,
+    layer: int,
+    length: int,
+):
+    ...
+```
+
+The first implementation can literally do:
+
+```python
+for position in range(length):
+    block_id, offset = self.block_table.translate(
+        seq_id,
+        position,
+    )
+
+    # read K/V from physical block
+```
+
+and construct contiguous tensors.
+
+That's intentionally not optimized.
+
+---
+
+# Example
+
+Suppose:
+
+```text
+block_size = 16
 ```
 
 and:
 
-```python
-query_positions = torch.arange(
-    position,
-    position + T,
-    ...
-)
+```text
+r1 → physical blocks [7, 2, 5]
 ```
 
-That design assumes **one position for the whole batch**.
-
-So before writing `batch_builder.py`, we need to change the model interface to support:
+Then logically:
 
 ```text
-positions = [p1, p2, p3, ...]
+positions:
+
+0 ... 15    → physical block 7
+16 ... 31   → physical block 2
+32 ... 47   → physical block 5
 ```
 
-rather than:
+If:
 
 ```text
-position = p
+length = 40
 ```
 
-But there is an even more important issue:
-
-### Your current `KVCache` is not batch-aware
-
-It currently allocates:
-
-```python
-[1, H_kv, T_max, D]
-```
-
-So each request owns its own `KVCache` object.
-
-That's actually fine for M2.4 **if we keep separate cache handles**.
-
-We do **not** need to implement a sophisticated shared paged cache yet.
-
-We can initially have:
+the gather operation must produce:
 
 ```text
-r1 → KVCache_1
-r2 → KVCache_2
-r3 → KVCache_3
+K_gathered:
+
+K[0]  ← block 7, offset 0
+K[1]  ← block 7, offset 1
+...
+K[15] ← block 7, offset 15
+
+K[16] ← block 2, offset 0
+...
+K[31] ← block 2, offset 15
+
+K[32] ← block 5, offset 0
+...
+K[39] ← block 5, offset 7
 ```
 
-and the ragged batch operation gathers the appropriate K/V from each cache.
-
-Conceptually:
-
-```text
-                 ┌── KVCache r1 ── prefix length 10
-r1 last token ───┤
-                 │
-                 ├── KVCache r2 ── prefix length 17
-r2 last token ───┤
-                 │
-                 └── KVCache r3 ── prefix length 6
-r3 last token ──┘
-```
-
-No cache data should ever be mixed between requests.
-
----
-
-# The implementation order I recommend
-
-### Step 1 — `batch_builder.py`
-
-Create something like:
-
-```python
-@dataclass
-class DecodeBatch:
-    input_ids: torch.Tensor
-    positions: torch.Tensor
-    requests: list[RequestState]
-```
-
-For active requests:
-
-```text
-r1.generated_ids[-1] = 42
-r1.current_pos = 10
-
-r2.generated_ids[-1] = 81
-r2.current_pos = 17
-
-r3.generated_ids[-1] = 12
-r3.current_pos = 6
-```
-
-the builder should produce:
-
-```python
-input_ids.shape == [3, 1]
-
-positions.shape == [3]
-```
-
-with:
-
-```text
-input_ids =
-[
-    [42],
-    [81],
-    [12],
-]
-
-positions =
-[10, 17, 6]
-```
-
-This is the first concrete thing I'd implement.
-
----
-
-### Step 2 — test the builder
-
-Before touching attention, test:
-
-```python
-assert batch.input_ids.shape == (3, 1)
-
-assert batch.positions.tolist() == [
-    r1.current_pos,
-    r2.current_pos,
-    r3.current_pos,
-]
-```
-
-Also verify that request ordering is preserved.
-
----
-
-### Step 3 — modify the model to accept per-request positions
-
-Currently:
-
-```python
-position: int
-```
-
-becomes conceptually:
-
-```python
-positions: torch.Tensor
-```
-
-with:
-
-[  
-\mathbf p \in \mathbb{N}^{B}  
-]
-
-For example:
-
-[  
-\mathbf p =  
-\begin{bmatrix}  
-10\  
-17\  
-6  
-\end{bmatrix}  
-]
-
-Then the RoPE positions need to correspond to each batch element.
-
----
-
-### Step 4 — solve the cache read
-
-This is the most important part.
-
-For request (i):
-
-[  
-K_i \in \mathbb{R}^{H_{kv}\times L_i\times D}  
-]
-
-where (L_i) is that request's valid prefix length.
-
-So if:
-
-[  
-L_1=10,\quad L_2=17,\quad L_3=6  
-]
-
-you **cannot simply concatenate the cache as if they all had length 17** without a mask.
-
-We need a representation where each request only attends to:
-
-```text
-r1 → K[0:10]
-r2 → K[0:17]
-r3 → K[0:6]
-```
-
-That is the core of M2.4.
-
----
-
-# One important point
-
-Don't try to make the entire attention implementation "fully optimized" now.
-
-For M2.4, correctness is the goal.
-
-A perfectly acceptable first implementation is something conceptually like:
-
-```text
-for each request:
-    retrieve its valid K/V prefix
-    compute its attention
-stack the outputs
-```
-
-Even if internally that still contains some Python looping.
-
-The **external decode interface** becomes ragged/batched, and the correctness test proves that the outputs are equivalent.
-
-Later, optimization can remove those loops.
+So the resulting tensor has exactly the same **logical sequence ordering** as a contiguous KV cache.
 
 ---
 
 # The most important test
 
-Eventually we want:
+We'll construct deterministic KV data.
+
+For example, conceptually:
 
 ```text
-Independent generation:
-
-r1 → token sequence A
-r2 → token sequence B
-r3 → token sequence C
+logical position 0  → identifiable K/V values
+logical position 1  → identifiable K/V values
+...
+logical position 39 → identifiable K/V values
 ```
 
-versus:
+Write those values through the paged cache.
 
-```text
-Ragged continuous batch:
-
-[r1, r2, r3]
-       ↓
-batched decode
-       ↓
-A, B, C
-```
-
-and verify:
+Then:
 
 ```python
-batched_output == independent_output
+paged_k, paged_v = ...
 ```
 
-for deterministic greedy decoding.
+must satisfy:
 
-That is the **real M2.4 unlock test**.
+```python
+torch.testing.assert_close(
+    paged_k,
+    contiguous_k,
+)
+
+torch.testing.assert_close(
+    paged_v,
+    contiguous_v,
+)
+```
+
+This is the fundamental M3.4 invariant:
+
+Kpaged=KcontiguousK_{\text{paged}} = K_{\text{contiguous}} Vpaged=Vcontiguous.V_{\text{paged}} = V_{\text{contiguous}}.
 
 ---
 
-## So don't implement the whole thing yet
+# Then decode correctness
 
-Start with exactly:
+After gather itself is correct, we'll connect it to attention.
 
-```text
-engine/batch_builder.py
+For the same query qtq_t:
+
+### Contiguous path
+
+Ot=Attention⁡(qt,K0:t,V0:t)O_t = \operatorname{Attention} \left( q_t, K_{0:t}, V_{0:t} \right)
+
+### Paged path
+
+Ot=Attention⁡(qt,Gather⁡(Kpaged,0:t),Gather⁡(Vpaged,0:t)).O_t = \operatorname{Attention} \left( q_t, \operatorname{Gather}(K_{\text{paged}},0:t), \operatorname{Gather}(V_{\text{paged}},0:t) \right).
+
+They should produce the same result within numerical tolerance:
+
+```python
+torch.testing.assert_close(
+    paged_output,
+    contiguous_output,
+    rtol=...,
+    atol=...,
+)
 ```
 
-and make it produce:
+Then we'll test **actual generation**, not just synthetic tensors.
 
-[  
-\text{input_ids}\in\mathbb{N}^{B\times1}  
-]
+---
 
-and
+## M3.4 implementation order
 
-[  
-\text{positions}\in\mathbb{N}^{B}  
-]
+We'll follow exactly this sequence:
 
-from `list[RequestState]`.
+```text
+1. Inspect BlockPool
+       ↓
+2. Implement PagedKVCache
+       ↓
+3. Implement gather_kv_for_sequence()
+       ↓
+4. Deterministic K/V gather test
+       ↓
+5. Multi-block test
+       ↓
+6. Offset/boundary tests
+       ↓
+7. Compare paged attention vs contiguous attention
+       ↓
+8. Connect paged cache to decode
+       ↓
+9. Compare generated tokens
+       ↓
+10. M3.4 validation
+```
 
-Then write the builder test.
+**Send me `engine/block_pool.py` first.** Then we'll write `engine/paged_kv_cache.py` against your actual implementation rather than inventing an incompatible interface.
 
-**That's the first step of M2.4.**
+
+
+
+---
+
+
+next:
+
+
+Exactly. Looking at your test file, **you've already completed the gather + attention correctness part of M3.4**.
+
+Your tests cover:
+
+|M3.4 requirement|Your test|
+|---|---|
+|Write K/V|`test_write_and_gather_single_position`|
+|Gather K/V|same|
+|Multi-block sequence|`test_multi_block_gather_preserves_logical_order`|
+|Non-contiguous physical blocks|`test_non_contiguous_physical_blocks_gather_correctly`|
+|Block boundary / offsets|`test_gather_across_block_boundaries`|
+|Paged vs contiguous K/V|`test_paged_attention_matches_contiguous_attention`|
+|Attention correctness|same|
+
+So **don't write more synthetic gather tests just for the sake of it.**
+
+### What remains in M3.4
+
+The task specifically says:
+
+> Modify decode path to read paged K,V.
+
+That's the important remaining part.
+
+Right now your actual model path is:
+
+```text
+ModelAdapter
+    ↓
+CachedQwen2Model
+    ↓
+CachedQwen2Attention
+    ↓
+KVCache
+    ↓
+read_prefix()
+```
+
+Your M3.4 path needs to become conceptually:
+
+```text
+ModelAdapter
+    ↓
+CachedQwen2Model
+    ↓
+CachedQwen2Attention
+    ↓
+PagedKVCache
+    ↓
+BlockTable
+    ↓
+BlockPool
+    ↓
+gather K,V
+    ↓
+attention
+```
+
+And your existing `CachedQwen2Attention` currently has this:
+
+```python
+cached_key, cached_value = cache.read_prefix(
+    layer=self.layer_idx,
+    length=total_length,
+)
+```
+
+That's the **old contiguous `KVCache` interface**.
+
+For the paged implementation, we need to replace that with something equivalent to:
+
+```python
+cached_key, cached_value = paged_cache.gather_kv_for_sequence(
+    seq_id=seq_id,
+    layer=self.layer_idx,
+    length=total_length,
+)
+```
+
+But there is an important architectural question:
+
+### `CachedQwen2Attention` currently doesn't know `seq_id`
+
+Your current API is:
+
+```python
+forward(
+    hidden_states,
+    position_embeddings,
+    cache,
+    position,
+)
+```
+
+whereas paged KV requires:
+
+```text
+seq_id
+   ↓
+BlockTable
+   ↓
+physical blocks
+```
+
+So before changing the model code, we need to decide **how the sequence ID is passed through the decode path**.
+
+I don't want you to randomly modify `model_adapter.py`, `qwen2_cached.py`, and the generation code.
+
+**Send me `engine/generation.py` next.**
+
+That's where we'll trace the current single-sequence cached generation path and make the smallest clean change to support the paged cache.
