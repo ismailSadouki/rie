@@ -1,387 +1,209 @@
-Yes. M3.4 is the point where the allocator + block table become an actual **paged KV-cache execution path**.
+Yes. **M5.3 is the right next step**, and I’d keep it tightly scoped.
 
-We should implement it in the simplest possible way first. **Do not optimize anything yet.**
-
-## What we're building
-
-You currently have:
+The goal is **not** to understand all of vLLM. It is to understand:
 
 ```text
-BlockPool
+your mini implementation
+        ↓
+corresponding vLLM mechanism
+        ↓
+what production vLLM adds
+```
+
+One important correction before we start: the file paths in your checklist are version-dependent. Since you're using **vLLM 0.28.0**, we should inspect the actual source for that version rather than blindly assuming the current `main` branch layout.
+
+### M5.3 plan
+
+We'll do this in four passes:
+
+**1. Scheduler**
+
+Map:
+
+```text
+Mini scheduler
     ↓
+vLLM scheduler
+```
+
+Especially:
+
+- waiting queue
+    
+- running requests
+    
+- admission
+    
+- completion/eviction
+    
+- scheduling outputs
+    
+- preemption
+    
+
+**2. Block/cache system**
+
+Map:
+
+```text
+Mini BlockPool
+Mini BlockTable
+        ↓
+vLLM block manager / KV cache
+```
+
+We'll understand the distinction between:
+
+```text
+logical blocks
+      ↓
+block table
+      ↓
 physical KV blocks
-
-BlockTable
-    ↓
-logical position → (physical_block, offset)
 ```
 
-M3.4 adds:
+and what vLLM adds around that.
+
+**3. Attention backend**
+
+Only enough to understand:
 
 ```text
-logical sequence
-      ↓
-BlockTable
-      ↓
-physical blocks
-      ↓
-gather K,V
-      ↓
-temporary contiguous K,V
-      ↓
-attention
+block table
+     ↓
+paged KV access
+     ↓
+GPU attention kernel
 ```
 
-For a sequence of length TT and block size B=16B=16:
+We're **not** going to read CUDA kernels line-by-line.
 
-b=⌊p16⌋b = \left\lfloor\frac{p}{16}\right\rfloor o=p mod 16o = p\bmod16
+**4. Production gap**
 
-and:
+We'll make a concrete table:
 
-K[p]=Kpool[BlockTable[b],o]K[p] = K_{\text{pool}}[\text{BlockTable}[b],o] V[p]=Vpool[BlockTable[b],o].V[p] = V_{\text{pool}}[\text{BlockTable}[b],o].
+|Feature|Mini Engine|vLLM|
+|---|---|---|
+|Continuous batching|✓|✓|
+|KV blocks|✓|✓|
+|Block table|✓|✓|
+|Preemption|—|✓|
+|KV swapping|—|✓|
+|Prefix caching|—|✓|
+|Optimized attention kernels|—|✓|
+|CUDA graphs|—|✓|
+|Speculative decoding|—|✓|
+|Multi-GPU|—|✓|
 
-The crucial thing is that **logical order determines the gathered order**, not physical block order.
+Then we produce:
+
+```text
+reports/vllm_source_mapping.md
+```
+
+with the **mini function → vLLM concept → important difference** mapping.
 
 ---
 
-# Step 1 — Inspect your current `BlockPool`
+### But I need one thing from you
 
-Before writing `paged_kv_cache.py`, we need to match your actual tensor shapes.
+Because this task depends on the **exact vLLM source you're studying**, send me the vLLM source/repository snapshot you are using (ideally the checkout containing v0.28.0), or upload the relevant source files.
+
+Once I have it, we'll start with **`scheduler.py`**, and I'll walk through it against your mini scheduler rather than giving you a generic explanation.
+
+
+
+
+---
+---
+
+---
+
+
+Yep — this confirms something important:
+
+**Your vLLM checkout is using V1.** So for M5.3, we should **not** look for the old `block_manager.py` / `cache_engine.py` architecture. Your `v0.28.0` tree has:
+
+```text
+vllm/v1/core/sched/scheduler.py
+```
+
+and the KV-cache management is organized differently. The V1 scheduler creates and uses a `KVCacheManager`, which in turn manages the block pool. ([GitHub](https://github.com/vllm-project/vllm/blob/main/vllm/v1/core/sched/scheduler.py?utm_source=chatgpt.com "vllm/vllm/v1/core/sched/scheduler.py at main · vllm-project/vllm · GitHub"))
+
+### So our M5.3 reading list becomes
+
+```text
+1. vllm/v1/core/sched/scheduler.py
+        ↓
+   map to engine/scheduler.py
+
+2. vllm/v1/core/kv_cache_manager.py
+        ↓
+   map to engine/block_pool.py
+   map to engine/block_table.py
+
+3. vllm/v1/core/block_pool.py
+        ↓
+   map to engine/block_pool.py
+
+4. vllm/v1/attention/backends/
+        ↓
+   understand how block tables reach attention kernels
+```
+
+The key conceptual mapping we're looking for is:
+
+```text
+                    YOUR MINI ENGINE
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+        Scheduler                 BlockPool
+             │                         │
+       active requests            physical blocks
+             │                         │
+       token decisions          BlockTable
+             │                         │
+             └────────────┬────────────┘
+                          │
+                          ▼
+                       Attention
+
+
+                         vLLM V1
+                          │
+             ┌────────────┴─────────────┐
+             │                          │
+         Scheduler               KVCacheManager
+             │                          │
+     num_scheduled_tokens         BlockPool
+     request admission             allocation
+     preemption                    prefix cache
+             │                          │
+             └────────────┬─────────────┘
+                          │
+                          ▼
+                    Attention backend
+```
+
+And this is exactly why we built the mini versions first: vLLM's scheduler isn't merely "a queue." V1 represents scheduling decisions in terms of **how many tokens each request gets in a step**, which supports things like chunked prefill and prefix caching. ([vLLM](https://vllm.ai/blog/2025-01-27-v1-alpha-release?utm_source=chatgpt.com "vLLM V1: A Major Upgrade to vLLM's Core Architecture | vLLM Blog"))
+
+### What I want you to do now
+
+Don't read the entire file.
 
 Run:
 
 ```bash
-sed -n '1,260p' engine/block_pool.py
+sed -n '1,220p' vllm/v1/core/sched/scheduler.py
 ```
 
-Send me that file.
+**Send me that output.**
 
-I don't want to guess the dimensions because your `BlockPool` already has:
+We'll read it together and I'll tell you:
 
-```python
-num_layers
-num_kv_heads
-head_dim
-dtype
-device
-```
+> "This vLLM code corresponds to this exact thing you built."
 
-so we need to build M3.4 around the exact storage layout you implemented in M3.2.
+Then we'll move through the scheduler in chunks.
 
----
-
-# What `paged_kv_cache.py` will eventually do
-
-Conceptually, we'll create something like:
-
-```python
-class PagedKVCache:
-    def __init__(
-        self,
-        block_pool: BlockPool,
-        block_table: BlockTable,
-    ):
-        ...
-```
-
-Then:
-
-```python
-def gather_kv_for_sequence(
-    self,
-    seq_id: str,
-    layer: int,
-    length: int,
-):
-    ...
-```
-
-The first implementation can literally do:
-
-```python
-for position in range(length):
-    block_id, offset = self.block_table.translate(
-        seq_id,
-        position,
-    )
-
-    # read K/V from physical block
-```
-
-and construct contiguous tensors.
-
-That's intentionally not optimized.
-
----
-
-# Example
-
-Suppose:
-
-```text
-block_size = 16
-```
-
-and:
-
-```text
-r1 → physical blocks [7, 2, 5]
-```
-
-Then logically:
-
-```text
-positions:
-
-0 ... 15    → physical block 7
-16 ... 31   → physical block 2
-32 ... 47   → physical block 5
-```
-
-If:
-
-```text
-length = 40
-```
-
-the gather operation must produce:
-
-```text
-K_gathered:
-
-K[0]  ← block 7, offset 0
-K[1]  ← block 7, offset 1
-...
-K[15] ← block 7, offset 15
-
-K[16] ← block 2, offset 0
-...
-K[31] ← block 2, offset 15
-
-K[32] ← block 5, offset 0
-...
-K[39] ← block 5, offset 7
-```
-
-So the resulting tensor has exactly the same **logical sequence ordering** as a contiguous KV cache.
-
----
-
-# The most important test
-
-We'll construct deterministic KV data.
-
-For example, conceptually:
-
-```text
-logical position 0  → identifiable K/V values
-logical position 1  → identifiable K/V values
-...
-logical position 39 → identifiable K/V values
-```
-
-Write those values through the paged cache.
-
-Then:
-
-```python
-paged_k, paged_v = ...
-```
-
-must satisfy:
-
-```python
-torch.testing.assert_close(
-    paged_k,
-    contiguous_k,
-)
-
-torch.testing.assert_close(
-    paged_v,
-    contiguous_v,
-)
-```
-
-This is the fundamental M3.4 invariant:
-
-Kpaged=KcontiguousK_{\text{paged}} = K_{\text{contiguous}} Vpaged=Vcontiguous.V_{\text{paged}} = V_{\text{contiguous}}.
-
----
-
-# Then decode correctness
-
-After gather itself is correct, we'll connect it to attention.
-
-For the same query qtq_t:
-
-### Contiguous path
-
-Ot=Attention⁡(qt,K0:t,V0:t)O_t = \operatorname{Attention} \left( q_t, K_{0:t}, V_{0:t} \right)
-
-### Paged path
-
-Ot=Attention⁡(qt,Gather⁡(Kpaged,0:t),Gather⁡(Vpaged,0:t)).O_t = \operatorname{Attention} \left( q_t, \operatorname{Gather}(K_{\text{paged}},0:t), \operatorname{Gather}(V_{\text{paged}},0:t) \right).
-
-They should produce the same result within numerical tolerance:
-
-```python
-torch.testing.assert_close(
-    paged_output,
-    contiguous_output,
-    rtol=...,
-    atol=...,
-)
-```
-
-Then we'll test **actual generation**, not just synthetic tensors.
-
----
-
-## M3.4 implementation order
-
-We'll follow exactly this sequence:
-
-```text
-1. Inspect BlockPool
-       ↓
-2. Implement PagedKVCache
-       ↓
-3. Implement gather_kv_for_sequence()
-       ↓
-4. Deterministic K/V gather test
-       ↓
-5. Multi-block test
-       ↓
-6. Offset/boundary tests
-       ↓
-7. Compare paged attention vs contiguous attention
-       ↓
-8. Connect paged cache to decode
-       ↓
-9. Compare generated tokens
-       ↓
-10. M3.4 validation
-```
-
-**Send me `engine/block_pool.py` first.** Then we'll write `engine/paged_kv_cache.py` against your actual implementation rather than inventing an incompatible interface.
-
-
-
-
----
-
-
-next:
-
-
-Exactly. Looking at your test file, **you've already completed the gather + attention correctness part of M3.4**.
-
-Your tests cover:
-
-|M3.4 requirement|Your test|
-|---|---|
-|Write K/V|`test_write_and_gather_single_position`|
-|Gather K/V|same|
-|Multi-block sequence|`test_multi_block_gather_preserves_logical_order`|
-|Non-contiguous physical blocks|`test_non_contiguous_physical_blocks_gather_correctly`|
-|Block boundary / offsets|`test_gather_across_block_boundaries`|
-|Paged vs contiguous K/V|`test_paged_attention_matches_contiguous_attention`|
-|Attention correctness|same|
-
-So **don't write more synthetic gather tests just for the sake of it.**
-
-### What remains in M3.4
-
-The task specifically says:
-
-> Modify decode path to read paged K,V.
-
-That's the important remaining part.
-
-Right now your actual model path is:
-
-```text
-ModelAdapter
-    ↓
-CachedQwen2Model
-    ↓
-CachedQwen2Attention
-    ↓
-KVCache
-    ↓
-read_prefix()
-```
-
-Your M3.4 path needs to become conceptually:
-
-```text
-ModelAdapter
-    ↓
-CachedQwen2Model
-    ↓
-CachedQwen2Attention
-    ↓
-PagedKVCache
-    ↓
-BlockTable
-    ↓
-BlockPool
-    ↓
-gather K,V
-    ↓
-attention
-```
-
-And your existing `CachedQwen2Attention` currently has this:
-
-```python
-cached_key, cached_value = cache.read_prefix(
-    layer=self.layer_idx,
-    length=total_length,
-)
-```
-
-That's the **old contiguous `KVCache` interface**.
-
-For the paged implementation, we need to replace that with something equivalent to:
-
-```python
-cached_key, cached_value = paged_cache.gather_kv_for_sequence(
-    seq_id=seq_id,
-    layer=self.layer_idx,
-    length=total_length,
-)
-```
-
-But there is an important architectural question:
-
-### `CachedQwen2Attention` currently doesn't know `seq_id`
-
-Your current API is:
-
-```python
-forward(
-    hidden_states,
-    position_embeddings,
-    cache,
-    position,
-)
-```
-
-whereas paged KV requires:
-
-```text
-seq_id
-   ↓
-BlockTable
-   ↓
-physical blocks
-```
-
-So before changing the model code, we need to decide **how the sequence ID is passed through the decode path**.
-
-I don't want you to randomly modify `model_adapter.py`, `qwen2_cached.py`, and the generation code.
-
-**Send me `engine/generation.py` next.**
-
-That's where we'll trace the current single-sequence cached generation path and make the smallest clean change to support the paged cache.
+At the end we'll have `reports/vllm_source_mapping.md` with the exact mapping, production extras, and OSS PR ideas.

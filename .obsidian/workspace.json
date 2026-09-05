@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/mini-inference/currently doing.md",
+                "file": "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "currently doing"
+              "title": "Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy."
             }
           },
           {
@@ -69,16 +69,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
+                "file": "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/siona RT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations"
+              "title": "siona RT"
+            }
+          },
+          {
+            "id": "77207a26147deb0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM-lab/cs336/gpu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gpu"
+            }
+          },
+          {
+            "id": "97327de9c930232e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/spelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "spelling"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,10 +287,22 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bcce9c3cb165df07",
+  "active": "62f29ba047b2d281",
   "lastOpenFiles": [
-    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/siona RT.md",
+    "english/spelling.md",
+    "LLM-lab/cs336/gpu.md",
+    "english",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/curently doing (NTN).md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/Reproduction Plan  LEO Ray-Tracing Channel Modeling.md",
+    "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
+    "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
+    "LLM-lab/LinkedIn/Mixed pricision training.md",
+    "LLM-lab/LinkedIn/PEFT.md",
     "LLM-lab/mini-inference/currently doing.md",
+    "LLM-lab/cs336",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
+    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project",
     "LLM-lab/Research Papers/VISUALISATIONS.md",
     "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
@@ -272,7 +312,6 @@
     "LLM-lab/Research Papers/24. FlashAttention Fast and Memory-Efficient Exact Attentionwith IOAwareness.md",
     "LLM-lab/DPO From Scratch and TRL Darija/current doing.md",
     "Fastapi/ch.7 Integrating Databases into AI Services.md",
-    "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ How does tokenizer inefficiency in low-resource languages shift the optimal memory paging and batching configurations on constrained GPUs?.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
     "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
@@ -281,15 +320,7 @@
     "LLM-lab/mini-inference",
     "LLM-lab/Untitled 1.md",
     "LLM-lab/github projects/⭐⭐⭐ AFTER the 6P's projects.md",
-    "LLM-lab/github projects/⭐⭐ AFTER the 6P's projects.md",
-    "LLM-lab/github projects/⭐ AFTER the 6P's projects.md",
-    "LLM-lab/nano-llm-pretrain/m4.1.md",
-    "LLM-lab/nano-llm-pretrain/Learning docs/Untitled.md",
-    "LLM-lab/Research Papers/23. QLORA Efficient Finetuning of Quantized LLMs.md",
     "LLM-lab/nano-llm-pretrain/Learning docs",
-    "LLM-lab/nano-llm-pretrain/Untitled.md",
-    "LLM-lab/Research Papers/9. Chain-of-Thought Prompting Elicits Reasoningin Large Language Models.md",
-    "Fastapi/ch.4 Implementing Type-Safe AI Services.md",
     "260813_10h10m39s_screenshot.png",
     "260813_00h08m34s_screenshot.png",
     "260813_00h07m54s_screenshot.png",
@@ -304,9 +335,6 @@
     "LLM-lab/DPO From Scratch and TRL Darija",
     "LLM-lab/nano-llm-pretrain/training",
     "LLM-lab/LLM darija",
-    "LLM-lab/dataset",
-    "LLM-lab/github projects",
-    "LLM-lab/ML-AI research and internships",
     "Machine Learning/Untitled 1.canvas",
     "Machine Learning/Untitled.canvas",
     "Machine Learning/The Kaggle Book/Untitled.canvas",
