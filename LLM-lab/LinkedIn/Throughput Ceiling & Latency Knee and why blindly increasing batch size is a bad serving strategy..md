@@ -11,6 +11,10 @@ At low concurrency, adding more users can actually improve **throughput**, becau
 
 But as concurrency keeps increasing, the system eventually approaches its capacity.
 
+
+![](https://i.imgur.com/cwT5gcT.png)
+
+
 ---
 
 ## 📈 Throughput Ceiling
