@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
+                "file": "LLM-lab/LinkedIn/roofline model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy."
+              "title": "roofline model"
             }
           },
           {
@@ -289,22 +289,23 @@
   },
   "active": "62f29ba047b2d281",
   "lastOpenFiles": [
+    "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
+    "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
+    "LLM-lab/LinkedIn/PEFT.md",
+    "LLM-lab/LinkedIn/Mixed pricision training.md",
+    "LLM-lab/LinkedIn/roofline model.md",
+    "LLM-lab/Research Papers/VISUALISATIONS.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/siona RT.md",
+    "english/spelling.md",
     "LLM-lab/cs336/gpu.md",
     "LLM-lab/DPO From Scratch and TRL Darija/current doing.md",
-    "english/spelling.md",
-    "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
     "english",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/curently doing (NTN).md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/Reproduction Plan  LEO Ray-Tracing Channel Modeling.md",
-    "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
-    "LLM-lab/LinkedIn/Mixed pricision training.md",
-    "LLM-lab/LinkedIn/PEFT.md",
     "LLM-lab/mini-inference/currently doing.md",
     "LLM-lab/cs336",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project",
-    "LLM-lab/Research Papers/VISUALISATIONS.md",
     "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
     "LLM-lab/Research Papers/currently reading.md",
@@ -319,7 +320,6 @@
     "LLM-lab/mini-inference/Plan.md",
     "LLM-lab/mini-inference",
     "LLM-lab/Untitled 1.md",
-    "LLM-lab/github projects/⭐⭐⭐ AFTER the 6P's projects.md",
     "LLM-lab/nano-llm-pretrain/Learning docs",
     "260813_10h10m39s_screenshot.png",
     "260813_00h08m34s_screenshot.png",

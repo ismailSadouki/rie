@@ -62,16 +62,33 @@ Eventually, the hardware becomes the bottleneck.
 > note: The saturation cannot be explained by batch size alone. The underlying cause is the memory behavior of decode attention, particularly as active context length increases.
 
 ```
- through-
-put plateau is fundamentally caused by DRAM-bandwidth
+ throughput plateau is fundamentally caused by DRAM-bandwidth
 saturation in the attention kernels, resulting from excessive
 memory traffic during the decode phase. Furthermore, we
 show that this limitation is governed not only by batch size
 but also by the active context, defined as the total number of
-tokens involved at each processing step
+tokens involved at each processing step...
+
+
+
+Our findings reveal that DRAM-bandwidth saturation in
+attention kernels is the primary cause of the throughput
+plateau in large active-context scenarios. We observe that their
+arithmetic intensity remains nearly constant across increasing
+input lengths, output lengths, and batch sizes. This ultimately
+leads to memory-bandwidth saturation, leaving a significant
+portion of computational resources underutilized.
 
 SLIM paper: https://arxiv.org/pdf/2607.29575
 ```
+![](https://i.imgur.com/7e799CD.png)
+
+![](https://i.imgur.com/UaCnLu3.png)
+Increasing input length generally improves throughput because a larger fraction of execution is spent in the highly parallel prefill phase. In contrast, increasing output length extends the less efficient autoregressive decode phase, in which each generated token attends to a progressively longer context, thereby reducing execution efficiency and lowering throughput.
+![](https://i.imgur.com/8RpOVqh.png)
+decode dominates total execution time across all evaluated scenarios,
+making it the primary contributor to inference latency and the
+most likely source of the observed throughput plateau.
 
 
 ---
@@ -82,7 +99,6 @@ The **latency knee** is slightly different.
 
 It is the point where latency starts increasing **much more rapidly** as the system approaches saturation.
 
-Imagine:
 
 ```text
 Latency
@@ -131,10 +147,6 @@ The results:
 |32|1520|0|471 ms|470 ms|540 ms|660 ms|50.98 req/s|
 
 And this is where it gets interesting.
-
----
-
-## 🔍 What Do The Results Tell Me?
 
 Throughput kept increasing:
 
@@ -196,7 +208,7 @@ That's exactly why a concurrency ramp is more informative than running a single 
 
 ---
 
-# 🎯 The Bigger Lesson
+# The Bigger Lesson
 
 This experiment changed how I think about LLM inference.
 
@@ -216,7 +228,7 @@ For an interactive application, that trade-off matters.
 
 ---
 
-# 🏗️ What's Actually Happening Behind The Request?
+# What's Actually Happening Behind The Request?
 
 This is also why serving systems like **vLLM** are much more interesting than simply calling:
 
