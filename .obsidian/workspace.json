@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/LinkedIn/roofline model.md",
+                "file": "LLM-lab/mini-inference/currently doing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roofline model"
+              "title": "currently doing"
             }
           },
           {
@@ -289,11 +289,12 @@
   },
   "active": "62f29ba047b2d281",
   "lastOpenFiles": [
+    "LLM-lab/mini-inference/What we are building.md",
+    "LLM-lab/LinkedIn/roofline model.md",
     "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
     "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
     "LLM-lab/LinkedIn/PEFT.md",
     "LLM-lab/LinkedIn/Mixed pricision training.md",
-    "LLM-lab/LinkedIn/roofline model.md",
     "LLM-lab/Research Papers/VISUALISATIONS.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project/siona RT.md",
     "english/spelling.md",
@@ -316,7 +317,6 @@
     "LLM-lab/github projects/⭐⭐⭐⭐ How does tokenizer inefficiency in low-resource languages shift the optimal memory paging and batching configurations on constrained GPUs?.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
     "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
-    "LLM-lab/mini-inference/What we are building.md",
     "LLM-lab/mini-inference/Plan.md",
     "LLM-lab/mini-inference",
     "LLM-lab/Untitled 1.md",
