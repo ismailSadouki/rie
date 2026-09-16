@@ -1874,7 +1874,11 @@ Objective
 
 Measure the metrics inference teams actually report: TTFT (time to first token, dominated by prefill), ITL (inter-token latency, dominated by decode), and throughput (total tokens/sec across all concurrent requests) — across batch 1 / 8 / 32.
 
-# The inference vocabulary you must speak fluently TTFT = latency from request → first output token (prefill cost, UX-critical) ITL / TPOT = time per output token after the first (decode cost) Throughput = total output tokens/sec across all requests (serving efficiency, $$) # The core tension: batch size ↑ → throughput ↑ but per-request latency ↑
+# The inference vocabulary you must speak fluently TTFT = latency from request → first output token (prefill cost, UX-critical) ITL / TPOT = time per output token after the first (decode cost) Throughput = total output tokens/sec across all requests (serving efficiency, ) 
+
+# The core tension: batch size ↑ → throughput ↑ but per-request latency ↑
+
+
 
 Deliverables
 
