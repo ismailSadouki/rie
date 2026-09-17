@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/github projects/DPO-Inspector — Interactive Visualization of DPO Training Dynamics.md",
+                "file": "LLM-lab/github projects/⭐ AFTER the 6P's projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DPO-Inspector — Interactive Visualization of DPO Training Dynamics"
+              "title": "⭐ AFTER the 6P's projects"
             }
           }
         ],
@@ -303,6 +303,7 @@
   },
   "active": "16f653d39c2c1a71",
   "lastOpenFiles": [
+    "LLM-lab/github projects/DPO-Inspector — Interactive Visualization of DPO Training Dynamics.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ How does tokenizer inefficiency in low-resource languages shift the optimal memory paging and batching configurations on constrained GPUs?.md",
     "english/spelling.md",
@@ -332,7 +333,6 @@
     "LLM-lab/Research Papers/24. FlashAttention Fast and Memory-Efficient Exact Attentionwith IOAwareness.md",
     "Fastapi/ch.7 Integrating Databases into AI Services.md",
     "Fastapi/ch.6  Real-TimeCommunication with Generative Models.md",
-    "LLM-lab/mini-inference/Plan.md",
     "LLM-lab/mini-inference",
     "LLM-lab/nano-llm-pretrain/Learning docs",
     "260813_10h10m39s_screenshot.png",
