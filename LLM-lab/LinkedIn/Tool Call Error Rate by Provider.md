@@ -43,3 +43,34 @@ A controlled benchmark that isolates quantization, decoding strategies, tool-cal
 #LLM #AgenticAI #ToolCalling #LLMInference #Inference #AIEngineering #MachineLearning 
 
 
+
+
+
+
+
+
+
+
+Same model (GLM 5.2). Tool-call error rates ranging from **0.2% to 16.7%** across providers on OpenRouter (October 2).
+
+So when we benchmark tool calling, are we measuring the model, or the stack serving it?
+
+A few possible contributors, though I haven’t verified which ones drive the gap:
+
+**1. Quantization and inference setup.** Providers may use different inference engines, configurations, model revisions, or precision formats. Speculative decoding introduces another variable worth investigating.
+
+**2. Constrained decoding.** Grammar-based structured output can help enforce valid JSON, but formatting correctness alone doesn't guarantee correct tool selection or arguments.
+
+**3. Tool-call parsing and API layer.** Differences in tool-definition serialization, argument validation, and mapping internal formats to OpenAI-compatible APIs can turn an otherwise valid generation into a failed call.
+
+**4. Infrastructure.** Timeouts, rate limits, and overloaded servers may also contribute, depending on how the benchmark defines an error.
+
+Before drawing conclusions, we need to understand exactly what OpenRouter counts as a tool-call error.
+
+For agentic systems, the model is only one component. **The serving stack can matter just as much.**
+
+A controlled benchmark isolating quantization, decoding, parsing, and infrastructure would help identify where these differences actually come from.
+
+Have you seen provider-level differences like this in production? Which layer caused the biggest problems?
+
+#LLM #AgenticAI #ToolCalling #LLMInference #AIEngineering

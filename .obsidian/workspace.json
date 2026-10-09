@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM-lab/DPO From Scratch and TRL Darija/AlgerianMMLU.md",
+                "file": "LLM-lab/LinkedIn/Tool Call Error Rate by Provider.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AlgerianMMLU"
+              "title": "Tool Call Error Rate by Provider"
             }
           }
         ],
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "242ccabff93efaf2",
@@ -303,13 +304,16 @@
   },
   "active": "16f653d39c2c1a71",
   "lastOpenFiles": [
+    "LLM-lab/LinkedIn/cs336 why it's important.md",
+    "LLM-lab/LinkedIn/Tool Call Error Rate by Provider.md",
+    "LLM-lab/Final thesis.md",
+    "LLM-lab/**Ismail Sadouki · M2 Statistics & Data Science, ENSSEA**.md",
+    "LLM-lab/DPO From Scratch and TRL Darija/AlgerianMMLU.md",
     "LLM-lab/LinkedIn/Throughput Ceiling & Latency Knee and why blindly increasing batch size is a bad serving strategy..md",
     "LLM-lab/LinkedIn/roofline model.md",
-    "LLM-lab/LinkedIn/Tool Call Error Rate by Provider.md",
     "LLM-lab/LinkedIn/Mixed pricision training.md",
     "LLM-lab/LinkedIn/PEFT.md",
     "LLM-lab/LinkedIn/Why debugging is one of the best ways to master something.md",
-    "LLM-lab/DPO From Scratch and TRL Darija/AlgerianMMLU.md",
     "LLM-lab/github projects/⭐ AFTER the 6P's projects.md",
     "LLM-lab/github projects/DPO-Inspector — Interactive Visualization of DPO Training Dynamics.md",
     "LLM-lab/github projects/⭐⭐⭐⭐ AFTER the 6P's projects.md",
@@ -329,9 +333,6 @@
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Propagation Channel Modeling for LEO SatelliteMissions Using Ray-Tracing Simulations.md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator/project",
     "LLM-lab/Research Papers/26. Efficient Memory Management for Large LanguageModel Serving with PagedAttention.md",
-    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/Ray-Tracing Channel Modeling for LEOSatellite-to-Ground Communication Systems.md",
-    "LLM-lab/Research Papers/currently reading.md",
-    "High-Fidelity Non-Terrestrial Network (NTN) Simulator/immediate objective is the LEO → ground RF channel..md",
     "High-Fidelity Non-Terrestrial Network (NTN) Simulator",
     "LLM-lab/mini-inference",
     "LLM-lab/nano-llm-pretrain/Learning docs",
